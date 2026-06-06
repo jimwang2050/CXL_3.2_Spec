@@ -654,10 +654,10 @@ CXL 协议兼容 PCIe CEM Form Factor（4.0 及更高）、与 EDSFF SSF-TA-1009
 
 | Figure | Title | Page | 渲染图 |
 |:------:|-------|:----:|:------:|
-| 1-1 | Conceptual Diagram of Device Attached to Processor via CXL ｜ 通过 CXL 连接到处理器的设备概念图 | p.62 | [📄](figures/chapter_01/page_0062.png) |
-| 1-2 | Fan-out and Pooling Enabled by Switches ｜ 由交换机实现的扇出与池化 | p.63 | [📄](figures/chapter_01/page_0063.png) |
-| 1-3 | Direct Peer-to-Peer Access to an HDM Memory without Going through the Host ｜ PCIe/CXL 设备不经主机直接访问 HDM 内存 | p.64 | [📄](figures/chapter_01/page_0064.png) |
-| 1-4 | Shared Memory across Multiple Virtual Hierarchies ｜ 跨多个虚拟层级的共享内存 | p.64 | [📄](figures/chapter_01/page_0064.png) |
+| 1-1 | Conceptual Diagram of Device Attached to Processor via CXL ｜ 通过 CXL 连接到处理器的设备概念图 | p.62 | <img src="figures/chapter_01/page_0062.png" alt="Figure 1-1" width="700"> |
+| 1-2 | Fan-out and Pooling Enabled by Switches ｜ 由交换机实现的扇出与池化 | p.63 | <img src="figures/chapter_01/page_0063.png" alt="Figure 1-2" width="700"> |
+| 1-3 | Direct Peer-to-Peer Access to an HDM Memory without Going through the Host ｜ PCIe/CXL 设备不经主机直接访问 HDM 内存 | p.64 | <img src="figures/chapter_01/page_0064.png" alt="Figure 1-3" width="700"> |
+| 1-4 | Shared Memory across Multiple Virtual Hierarchies ｜ 跨多个虚拟层级的共享内存 | p.64 | <img src="figures/chapter_01/page_0064.png" alt="Figure 1-4" width="700"> |
 
 ```mermaid
 %% Figure 1-1 概念示意 (Conceptual Diagram)
@@ -726,9 +726,9 @@ Figure 1-7 illustrates how a Flex Bus.CXL port can be used as a memory expansion
 
 | Figure | Title | Page | 渲染图 |
 |:------:|-------|:----:|:------:|
-| 1-5 | CPU Flex Bus Port Example ｜ CPU Flex Bus 端口示例 | p.65 | [📄](figures/chapter_01/page_0065.png) |
-| 1-6 | Flex Bus Usage Model Examples ｜ Flex Bus 用例示例 | p.66 | [📄](figures/chapter_01/page_0066.png) |
-| 1-7 | Remote Far Memory Usage Model Example ｜ 远端远内存用例示例 | p.66 | [📄](figures/chapter_01/page_0066.png) |
+| 1-5 | CPU Flex Bus Port Example ｜ CPU Flex Bus 端口示例 | p.65 | <img src="figures/chapter_01/page_0065.png" alt="Figure 1-5" width="700"> |
+| 1-6 | Flex Bus Usage Model Examples ｜ Flex Bus 用例示例 | p.66 | <img src="figures/chapter_01/page_0066.png" alt="Figure 1-6" width="700"> |
+| 1-7 | Remote Far Memory Usage Model Example ｜ 远端远内存用例示例 | p.66 | <img src="figures/chapter_01/page_0066.png" alt="Figure 1-7" width="700"> |
 
 [⬆️ 返回目录](#-本章目录-table-of-contents)
 
@@ -775,7 +775,10 @@ Flex Bus 提供点对点互连，可在 PCIe 物理层电气之上传输原生 P
 </table>
 
 > **Figure 1-8.** CXL Downstream Port Connections ｜ CXL 下游端口连接
-> 📄 原图：[`figures/chapter_01/page_0067.png`](figures/chapter_01/page_0067.png)
+>
+> <img src="figures/chapter_01/page_0067.png" alt="Figure 1-8: CXL Downstream Port Connections ｜ CXL 下游端口连接" width="700">
+>
+> *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_01/page_0067.png)
 
 [⬆️ 返回目录](#-本章目录-table-of-contents)
 
@@ -847,7 +850,10 @@ graph TB
 ```
 
 > **Figure 1-9.** Conceptual Diagram of Flex Bus Layering ｜ Flex Bus 分层概念图
-> 📄 原图：[`figures/chapter_01/page_0068.png`](figures/chapter_01/page_0068.png)
+>
+> <img src="figures/chapter_01/page_0068.png" alt="Figure 1-9: Conceptual Diagram of Flex Bus Layering ｜ Flex Bus 分层概念图" width="700">
+>
+> *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_01/page_0068.png)
 
 [⬆️ 返回目录](#-本章目录-table-of-contents)
 
