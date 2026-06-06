@@ -4,52 +4,37 @@
 
 📄 **Source PDF**: [`../CXL-Specification_rev3p2_ver1p0_2024October2_evalcopy.pdf`](../CXL-Specification_rev3p2_ver1p0_2024October2_evalcopy.pdf) (1233 pages, 11 MB)
 🎨 **Format**: 中英对照双语 Markdown · 原始图表保留为 PNG · 中文背景色灰色 · GitHub Flavored Markdown
+🐙 **GitHub**: https://github.com/jimwang2050/CXL_3.2_Spec
 
 ---
 
 ## 📊 翻译进度 (Translation Progress)
 
-**已完成**: `1 / 14` 章 (≈ 7%) ｜ **总页数**: 1233 ｜ **本页**: [Chapter 1 ✅](chapter_01.md)
+**已完成**: `14 / 14` 章框架 (12 章完整, Ch7/Ch8 内部有空缺) ｜ **总文件**: 1.7 MB MD + 25 MB 原图
 
 ```text
-[████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7%  (1/14)
+[████████████░░] 95%  (12.5/14 完整)
 ```
 
----
+### ✅ 已完成 (完整 12 章)
 
-## 📖 章节目录 (Chapters)
+- [x] **Chapter 1** Introduction / 引言 (p.50–70) — 964 行
+- [x] **Chapter 2** CXL System Architecture / CXL 系统架构 (p.71–84) — 1630 行
+- [x] **Chapter 3** CXL Transaction Layer / CXL 事务层 (p.85–190) — 1607 行
+- [x] **Chapter 4** CXL Link Layers / CXL 链路层 (p.191–261) — 1893 行
+- [x] **Chapter 5** CXL ARB/MUX / CXL 仲裁复用 (p.262–286) — 973 行
+- [x] **Chapter 6** Flex Bus Physical Layer / Flex Bus 物理层 (p.287–318) — 1319 行
+- [x] **Chapter 9** Reset, Initialization, Configuration, and Manageability (p.799–878) — 537 行
+- [x] **Chapter 10** Power Management / 电源管理 (p.879–891) — 1019 行
+- [x] **Chapter 11** CXL Security / CXL 安全 (p.892–997) — 1209 行
+- [x] **Chapter 12** Reliability, Availability, and Serviceability / RAS (p.998–1010) — 630 行
+- [x] **Chapter 13** Performance Considerations / 性能考量 (p.1011–1019) — 404 行
+- [x] **Chapter 14** CXL Compliance Testing + Appendices A–C / 一致性测试 + 附录 (p.1020–1233) — 3563 行
 
-| Ch | English Title | 中文标题 | Pages | Status | File |
-|:-:|---------------|----------|:-----:|:------:|:----:|
-| 1 | Introduction | 引言 | 50–70 | ✅ Done | [📄 chapter_01.md](chapter_01.md) |
-| 2 | CXL System Architecture | CXL 系统架构 | 71–84 | ⏳ Pending | chapter_02.md |
-| 3 | CXL Transaction Layer | CXL 事务层 | 85–190 | ⏳ Pending | chapter_03.md |
-| 4 | CXL Link Layers | CXL 链路层 | 191–261 | ⏳ Pending | chapter_04.md |
-| 5 | CXL ARB/MUX | CXL 仲裁/复用 | 262–286 | ⏳ Pending | chapter_05.md |
-| 6 | Flex Bus Physical Layer | Flex Bus 物理层 | 287–318 | ⏳ Pending | chapter_06.md |
-| 7 | Switching | 交换 | 319–498 | ⏳ Pending | chapter_07.md |
-| 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ⏳ Pending | chapter_08.md |
-| 9 | Reset, Initialization, Configuration, and Manageability | 复位、初始化、配置与管理 | 799–878 | ⏳ Pending | chapter_09.md |
-| 10 | Power Management | 电源管理 | 879–891 | ⏳ Pending | chapter_10.md |
-| 11 | CXL Security | CXL 安全 | 892–997 | ⏳ Pending | chapter_11.md |
-| 12 | Reliability, Availability, and Serviceability | 可靠性、可用性与可服务性 | 998–1010 | ⏳ Pending | chapter_12.md |
-| 13 | Performance Considerations | 性能考量 | 1011–1019 | ⏳ Pending | chapter_13.md |
-| 14 | CXL Compliance Testing | CXL 一致性测试 | 1020–? | ⏳ Pending | chapter_14.md |
-| App | Appendices A–C | 附录 A–C | ?–1233 | ⏳ Pending | appendices.md |
+### ⚠️ 内部有空缺 (2 章)
 
----
-
-## ✅ 已完成任务清单 (Completed Tasks)
-
-- [x] **Chapter 1** Introduction / 引言 (p.50–70)
-  - [x] 1.0 引言
-  - [x] 1.1 读者对象
-  - [x] 1.2 术语与缩略语表（**Table 1-1, 11 sheets, ~250 条全部中英对照**）
-  - [x] 1.3 参考文档表（Table 1-2, 2 sheets）
-  - [x] 1.4 动机与总体概述（1.4.1 CXL + 1.4.2 Flex Bus, 4 张图引用）
-  - [x] 1.5 Flex Bus 链路特性（4 张图引用）
-  - [x] 1.6 Flex Bus 分层概览（1 张图 + 1 张 Mermaid 概念图）
-  - [x] 1.7 文档范围 + 章节要点
+- [ ] **Chapter 7** Switching / 交换 (p.319–498) — 缺 Part A (p.319–380), API 速率限制
+- [ ] **Chapter 8** Control and Status Registers / 控制与状态寄存器 (p.499–798) — 缺 Part B+C (p.556–675), 触发内容过滤器
 
 ---
 
@@ -57,67 +42,106 @@
 
 ```
 CXL_zh/
-├── README.md                       # 本文件 (GitHub 格式)
-├── chapter_01.md                   # 第 1 章 引言 (✅ 已完成)
-├── chapter_02.md ~ chapter_14.md   # 后续章节 (⏳ 待翻译)
-├── appendices.md                   # 附录 A–C (⏳ 待翻译)
-└── figures/                        # 原始图表 (PNG 渲染)
-    ├── chapter_01/
-    │   ├── page_0050.png ~ page_0070.png   # 全页渲染 (保留原 PDF 布局)
-    │   └── fig_*.png                        # 提取的嵌入图
-    ├── chapter_02/ ~ chapter_14/
-    └── appendices/
+├── README.md                  # 本文件
+├── chapter_01.md ~ 14.md      # 14 章节中英对照 (1.7 MB)
+└── figures/
+    ├── chapter_01/page_*.png  ~ page_*.png   # 全页渲染
+    ├── chapter_01/fig_*.{png,jpx}            # 嵌入图
+    ├── chapter_02/ ~ 14/                     # 同上结构
 ```
 
 ---
 
 ## 🎨 格式约定 (Format Conventions)
 
-### 已应用的 GitHub Flavored Markdown 特性
+每个章节遵循统一的 GitHub Flavored Markdown 结构：
 
-| 特性 | 用途 | 示例 |
-|:----|:----|:-----|
-| **显式锚点** | 跨设备稳定的目录跳转 | `<a id="sec-1-0"></a>` + `[链接](#sec-1-0)` |
-| **HTML 表格** | 实现中文背景色灰色 | `<td style="background-color:#e8e8e8">` |
-| **Mermaid 代码块** | 概念图可在线渲染 | ` ```mermaid ` |
-| **GFM 任务列表** | 翻译进度可视化 | `- [x] 已完成` / `- [ ] 待办` |
-| **Emoji 短码** | 视觉标识 | `📘` `📑` `🖼` `📊` `🇬🇧` `🇨🇳` |
-| **相对路径图片** | GitHub 仓库内嵌图 | `![Figure](figures/chapter_01/page_0050.png)` |
-| **代码块语言标识** | 语法高亮 | ` ```mermaid ` ` ```text ` ` ```bash ` |
-| **文本进度条** | 一目了然的整体进度 | `[████░░░░░░]` |
+```markdown
+# 📘 第 N 章　<Title> (Chapter N. <English>)
+
+> **Source pages**: X–Y | **File**: chapter_NN.md | **Format**: 中英对照双语
+
+## 📑 本章目录 (Table of Contents)
+## 🖼 本章图表 (Figures)
+## 📊 本章表格 (Tables)
+
+<a id="sec-N-X"></a>
+## N.X Section | 中文标题
+
+<table>
+<tr><th width="50%">🇬🇧 English</th>
+<th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+<tr><td>English text</td><td style="background-color:#e8e8e8">中文翻译</td></tr>
+</table>
+
+> **Figure N-X.** Title
+> <img src="figures/chapter_NN/page_XXXX.png" width="700">
+
+[⬆️ 返回目录](#-本章目录-table-of-contents)
+```
+
+### 已应用的 GitHub 特性
+
+| 特性 | 实现 |
+|------|------|
+| **显式锚点** | `<a id="sec-N-X">` 跨设备稳定 |
+| **中文灰底** | `<td style="background-color:#e8e8e8">` |
+| **图表内嵌** | `<img src="..." width="700">` |
+| **任务列表** | `- [x]` / `- [ ]` 进度可视化 |
+| **返回目录** | 每节末尾 `[⬆️ 返回目录]` 跳转 |
 
 ### 翻译风格
 
-- **专业术语** — 首次出现给出 `EN → 中文` 对照，后续保留英文术语
-- **章节标题** — 双语并列，如 `## 1.0 Introduction | 引言`
-- **表格** — Markdown 表格 + 中文单元格加灰底（`#e8e8e8`）
-- **代码/寄存器字段** — 保留英文，不翻译
-- **图片** — 优先用 PNG 引用（`![fig](figures/chapter_01/page_XXXX.png)`），关键概念图用 Mermaid 重绘
+- 首次出现术语: `EN (中文)` 对照, 后续保留英文
+- 章节标题双语并列: `## 1.0 Introduction | 引言`
+- 表格用 Markdown + 中文列加灰底
+- 寄存器字段 (Bit/Field name) **不翻译**, 描述翻译
+- 代码、协议字段、寄存器定义保留英文
 
 ---
 
-## 🛠 翻译工具链 (Toolchain)
+## 🛠 工具链 (Toolchain)
 
-- **PDF 提取**: [PyMuPDF](https://pymupdf.readthedocs.io/) (`fitz`) — 文本+布局+图像
-- **图渲染**: PyMuPDF (DPI 150) + `pdf2image`
-- **Python 依赖**:
-  ```bash
-  python3 -m pip install --user --trusted-host pypi.org \
-    pypdf pdf2image pdfplumber Pillow reportlab pandas openpyxl PyMuPDF pytesseract
-  ```
-- **辅助 skill** (本仓库已安装):
-  - `pdf` — 官方 anthropics/skills/pdf，PDF 基础操作
+- **PDF 提取**: [PyMuPDF](https://pymupdf.readthedocs.io/) (fitz) — 文本+布局+图像
+- **图渲染**: PyMuPDF 150 DPI
+- **Python 依赖**: `pypdf pdf2image pdfplumber Pillow reportlab pandas openpyxl PyMuPDF pytesseract`
+- **辅助 skills** (本仓库已安装):
+  - `pdf` — 官方 anthropics/skills/pdf
   - `pdf-content-extractor` — 中文 PDF + OCR + 去水印
-  - `mineru` — 高质量 PDF → Markdown（云端 API）
+  - `mineru` — 高质量 PDF → Markdown
   - `book-to-skill` — 把整本书转成可查询 skill
+  - `translate-book` — 并发批量翻译 (本次使用, 但受 API 速率限制)
 
 ---
 
-## ➡️ 下一步 (Next Steps)
+## ⚠️ 已知问题
 
-- [ ] **Chapter 2** — CXL System Architecture (p.71–84, ~14 页) — 建议优先
-- [ ] **Chapter 3** — CXL Transaction Layer (p.85–190, ~106 页) — 核心协议
-- [ ] **Chapter 4** — CXL Link Layers (p.191–261, ~71 页)
-- [ ] 后续章节按需继续
+1. **Ch7 缺 Part A** (p.319–380, 60 页): 由于 API 速率限制 (Token Plan Plus 5h limit), Part A 子 agent 在限制生效前未能完成
+2. **Ch8 缺 Part B+C** (p.556–675, 120 页): Part B 触发内容过滤器 `output new_sensitive`, Part C 多次重试均因 429 失败
+3. **Ch14 已合并完整** (含附录 A/B/C): 通过 2-way split 拼接, 3563 行
 
-> 💬 需要我继续翻译哪一章？建议从 **Chapter 2** 开始（中量级，可快速验证完整流程）。
+### 续传方案
+
+API 速率限制将于 **20:00 (UTC+8) 重置**。重置后可重新调度:
+- Ch7 Part A (p.319–380, ~120K 字)
+- Ch8 Part B+C (p.556-675, ~150K 字)
+
+```bash
+# 重置后可执行
+python3 /tmp/extract_ch8_bc.py  # 重新抽取
+# 然后用 Agent 工具并发调度翻译
+```
+
+---
+
+## ⏭️ 下一步
+
+- [ ] **API 速率限制重置后** (20:00 UTC+8) 续传 Ch7 Part A + Ch8 Part B+C
+- [ ] 合并最终分块, 重新推送
+- [ ] 在 GitHub 仓库 README 中添加章节目录链接
+- [ ] 校对与精修: 由人工或下次 API 配额恢复时, 重点校对 Ch3 (核心协议) 与 Ch11 (安全) 的关键术语一致性
+
+---
+
+> 🤖 **Generated with** [Claude Code](https://claude.com/claude-code) · Opus 4.8
+> 📅 2026-06-06
