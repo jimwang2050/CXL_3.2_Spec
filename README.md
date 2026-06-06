@@ -19,7 +19,7 @@
 
 ## 📖 章节目录 (Chapters)
 
-> 文件命名格式: `CXL3.2_Spec_第N章_chNN_<EnglishTitle>_<中文Title>.md`
+> 文件命名格式: `CXL3.2_Spec_chNN_<EnglishTitle>_<中文Title>.md`
 
 | Ch | English Title | 中文标题 | Pages | Status | File |
 |:-:|---------------|----------|:-----:|:------:|:----:|
@@ -71,7 +71,7 @@ CXL_zh/
 每个章节遵循统一的 GitHub Flavored Markdown 结构：
 
 ```markdown
-# 📘 第 N 章　<Title> (Chapter N. <English>)
+# 📘 第 N 章　<Title> (Chapter N. <English>)  *(H1 标题, 文件名不含此部分)*
 
 > **Source pages**: X–Y | **File**: chapter_NN.md | **Format**: 中英对照双语
 
