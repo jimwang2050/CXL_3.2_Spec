@@ -1,0 +1,19 @@
+关键信息：
+
+CXL Consortium 在 2024-12-03 宣布发布 CXL 3.2 Specification。
+版本文件名显示为：rev3p2_ver1p0_2024October2_evalcopy.pdf
+重点增强方向：
+CXL Memory Device monitoring / management
+CHMU，CXL Hot-Page Monitoring Unit，用于 memory tiering
+Common event record
+兼容 PCIe Management Message Pass Through，MMPT
+CXL online firmware activation
+PPR，Post Package Repair 增强
+CXL Memory Device performance monitoring events
+TSP，Trusted Security Protocol
+Meta-bits Storage Feature
+IDE protection 扩展
+HDM-DB memory device 安全增强
+互操作 compliance test 增强
+官方说明 CXL 3.2 对此前 CXL 规范保持 backward compatible。来源见 CXL 官方发布稿。
+另外提醒：截至 2026-06-06，CXL 官方 specification 页面当前主推下载的是 CXL 4.0 Evaluation Copy，所以 CXL 3.2 已不是最新主版本，但仍是你要查的 3.2 公开规范版本。官方页面显示当前下载项为 CXL 4.0。
