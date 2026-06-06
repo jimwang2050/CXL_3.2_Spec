@@ -23,20 +23,20 @@
 
 | Ch | English Title | 中文标题 | Pages | Status | File |
 |:-:|---------------|----------|:-----:|:------:|:----:|
-| 1 | Introduction | 引言 | 50–70 | ✅ Done | [📄 CXL3.2_Spec_第1章_ch01_Introduction_引言.md](CXL3.2_Spec_第1章_ch01_Introduction_引言.md) |
-| 2 | CXL System Architecture | CXL 系统架构 | 71–84 | ✅ Done | [📄 CXL3.2_Spec_第2章_ch02_CXL_System_Architecture_CXL系统架构.md](CXL3.2_Spec_第2章_ch02_CXL_System_Architecture_CXL系统架构.md) |
-| 3 | CXL Transaction Layer | CXL 事务层 | 85–190 | ✅ Done | [📄 CXL3.2_Spec_第3章_ch03_CXL_Transaction_Layer_CXL事务层.md](CXL3.2_Spec_第3章_ch03_CXL_Transaction_Layer_CXL事务层.md) |
-| 4 | CXL Link Layers | CXL 链路层 | 191–261 | ✅ Done | [📄 CXL3.2_Spec_第4章_ch04_CXL_Link_Layers_CXL链路层.md](CXL3.2_Spec_第4章_ch04_CXL_Link_Layers_CXL链路层.md) |
-| 5 | CXL ARB/MUX | CXL 仲裁/复用 | 262–286 | ✅ Done | [📄 CXL3.2_Spec_第5章_ch05_CXL_ARB-MUX_CXL仲裁复用.md](CXL3.2_Spec_第5章_ch05_CXL_ARB-MUX_CXL仲裁复用.md) |
-| 6 | Flex Bus Physical Layer | Flex Bus 物理层 | 287–318 | ✅ Done | [📄 CXL3.2_Spec_第6章_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md](CXL3.2_Spec_第6章_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md) |
-| 7 | Switching | 交换 | 319–498 | ⚠️ 缺 Part A | [📄 CXL3.2_Spec_第7章_ch07_Switching_交换.md](CXL3.2_Spec_第7章_ch07_Switching_交换.md) |
-| 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ⚠️ 缺 Part B+C | [📄 CXL3.2_Spec_第8章_ch08_Control_and_Status_Registers_控制与状态寄存器.md](CXL3.2_Spec_第8章_ch08_Control_and_Status_Registers_控制与状态寄存器.md) |
-| 9 | Reset, Initialization, Configuration, and Manageability | 复位、初始化、配置与管理 | 799–878 | ✅ Done | [📄 CXL3.2_Spec_第9章_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md](CXL3.2_Spec_第9章_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md) |
-| 10 | Power Management | 电源管理 | 879–891 | ✅ Done | [📄 CXL3.2_Spec_第10章_ch10_Power_Management_电源管理.md](CXL3.2_Spec_第10章_ch10_Power_Management_电源管理.md) |
-| 11 | CXL Security | CXL 安全 | 892–997 | ✅ Done | [📄 CXL3.2_Spec_第11章_ch11_CXL_Security_CXL安全.md](CXL3.2_Spec_第11章_ch11_CXL_Security_CXL安全.md) |
-| 12 | Reliability, Availability, and Serviceability | 可靠性、可用性与可服务性 | 998–1010 | ✅ Done | [📄 CXL3.2_Spec_第12章_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md](CXL3.2_Spec_第12章_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md) |
-| 13 | Performance Considerations | 性能考量 | 1011–1019 | ✅ Done | [📄 CXL3.2_Spec_第13章_ch13_Performance_Considerations_性能考量.md](CXL3.2_Spec_第13章_ch13_Performance_Considerations_性能考量.md) |
-| 14 | CXL Compliance Testing + Appendix | CXL 一致性测试 + 附录 | 1020–1233 | ✅ Done | [📄 CXL3.2_Spec_第14章_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md](CXL3.2_Spec_第14章_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md) |
+| 1 | Introduction | 引言 | 50–70 | ✅ Done | [📄 CXL3.2_Spec_ch01_Introduction_引言.md](CXL3.2_Spec_ch01_Introduction_引言.md) |
+| 2 | CXL System Architecture | CXL 系统架构 | 71–84 | ✅ Done | [📄 CXL3.2_Spec_ch02_CXL_System_Architecture_CXL系统架构.md](CXL3.2_Spec_ch02_CXL_System_Architecture_CXL系统架构.md) |
+| 3 | CXL Transaction Layer | CXL 事务层 | 85–190 | ✅ Done | [📄 CXL3.2_Spec_ch03_CXL_Transaction_Layer_CXL事务层.md](CXL3.2_Spec_ch03_CXL_Transaction_Layer_CXL事务层.md) |
+| 4 | CXL Link Layers | CXL 链路层 | 191–261 | ✅ Done | [📄 CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md](CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md) |
+| 5 | CXL ARB/MUX | CXL 仲裁/复用 | 262–286 | ✅ Done | [📄 CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md](CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md) |
+| 6 | Flex Bus Physical Layer | Flex Bus 物理层 | 287–318 | ✅ Done | [📄 CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md](CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md) |
+| 7 | Switching | 交换 | 319–498 | ⚠️ 缺 Part A | [📄 CXL3.2_Spec_ch07_Switching_交换.md](CXL3.2_Spec_ch07_Switching_交换.md) |
+| 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ⚠️ 缺 Part B+C | [📄 CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md](CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md) |
+| 9 | Reset, Initialization, Configuration, and Manageability | 复位、初始化、配置与管理 | 799–878 | ✅ Done | [📄 CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md](CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md) |
+| 10 | Power Management | 电源管理 | 879–891 | ✅ Done | [📄 CXL3.2_Spec_ch10_Power_Management_电源管理.md](CXL3.2_Spec_ch10_Power_Management_电源管理.md) |
+| 11 | CXL Security | CXL 安全 | 892–997 | ✅ Done | [📄 CXL3.2_Spec_ch11_CXL_Security_CXL安全.md](CXL3.2_Spec_ch11_CXL_Security_CXL安全.md) |
+| 12 | Reliability, Availability, and Serviceability | 可靠性、可用性与可服务性 | 998–1010 | ✅ Done | [📄 CXL3.2_Spec_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md](CXL3.2_Spec_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md) |
+| 13 | Performance Considerations | 性能考量 | 1011–1019 | ✅ Done | [📄 CXL3.2_Spec_ch13_Performance_Considerations_性能考量.md](CXL3.2_Spec_ch13_Performance_Considerations_性能考量.md) |
+| 14 | CXL Compliance Testing + Appendix | CXL 一致性测试 + 附录 | 1020–1233 | ✅ Done | [📄 CXL3.2_Spec_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md](CXL3.2_Spec_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md) |
 
 ---
 
@@ -45,20 +45,20 @@
 ```
 CXL_zh/
 ├── README.md                                                # 本文件
-├── CXL3.2_Spec_第1章_ch01_Introduction_引言.md             # 14 章节 MD (1.7 MB)
-├── CXL3.2_Spec_第2章_ch02_CXL_System_Architecture_CXL系统架构.md
-├── CXL3.2_Spec_第3章_ch03_CXL_Transaction_Layer_CXL事务层.md
-├── CXL3.2_Spec_第4章_ch04_CXL_Link_Layers_CXL链路层.md
-├── CXL3.2_Spec_第5章_ch05_CXL_ARB-MUX_CXL仲裁复用.md
-├── CXL3.2_Spec_第6章_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md
-├── CXL3.2_Spec_第7章_ch07_Switching_交换.md                 # ⚠️ 缺 Part A
-├── CXL3.2_Spec_第8章_ch08_Control_and_Status_Registers_控制与状态寄存器.md  # ⚠️ 缺 Part B+C
-├── CXL3.2_Spec_第9章_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md
-├── CXL3.2_Spec_第10章_ch10_Power_Management_电源管理.md
-├── CXL3.2_Spec_第11章_ch11_CXL_Security_CXL安全.md
-├── CXL3.2_Spec_第12章_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md
-├── CXL3.2_Spec_第13章_ch13_Performance_Considerations_性能考量.md
-├── CXL3.2_Spec_第14章_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md
+├── CXL3.2_Spec_ch01_Introduction_引言.md             # 14 章节 MD (1.7 MB)
+├── CXL3.2_Spec_ch02_CXL_System_Architecture_CXL系统架构.md
+├── CXL3.2_Spec_ch03_CXL_Transaction_Layer_CXL事务层.md
+├── CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md
+├── CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md
+├── CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md
+├── CXL3.2_Spec_ch07_Switching_交换.md                 # ⚠️ 缺 Part A
+├── CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md  # ⚠️ 缺 Part B+C
+├── CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md
+├── CXL3.2_Spec_ch10_Power_Management_电源管理.md
+├── CXL3.2_Spec_ch11_CXL_Security_CXL安全.md
+├── CXL3.2_Spec_ch12_Reliability_Availability_Serviceability_可靠性可用性可服务性.md
+├── CXL3.2_Spec_ch13_Performance_Considerations_性能考量.md
+├── CXL3.2_Spec_ch14_CXL_Compliance_Testing_Appendix_CXL一致性测试与附录.md
 └── figures/
     ├── chapter_01/page_*.png  ~  page_*.png                  # 14 章原图 (~25 MB)
     └── chapter_01/fig_*.{png,jpx}                            # 嵌入图
