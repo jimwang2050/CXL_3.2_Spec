@@ -10,11 +10,12 @@
 
 ## 📊 翻译进度 (Translation Progress)
 
-**已完成**: `12 / 14` 章完整 ｜ 2 章内部有空缺 (Ch7 缺 Part A, Ch8 缺 Part B+C)
-**总文件**: 1.7 MB MD + 25 MB 原图
+**已完成**: `13 / 14` 章完整 ｜ 1 章内部有空缺 (Ch7 缺 Part A)
+**总文件**: 1.8 MB MD + 27 MB 原图
+**最近更新**: 2026-06-07 — Ch8 图嵌入与结构统一修复
 
 ```text
-[████████████░░] 95%  (12.5/14 完整)
+[█████████████░] 96%  (13/14 完整)
 ```
 
 ## 📖 章节目录 (Chapters)
@@ -30,7 +31,7 @@
 | 5 | CXL ARB/MUX | CXL 仲裁/复用 | 262–286 | ✅ Done | [📄 CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md](CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md) |
 | 6 | Flex Bus Physical Layer | Flex Bus 物理层 | 287–318 | ✅ Done | [📄 CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md](CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md) |
 | 7 | Switching | 交换 | 319–498 | ⚠️ 缺 Part A | [📄 CXL3.2_Spec_ch07_Switching_交换.md](CXL3.2_Spec_ch07_Switching_交换.md) |
-| 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ⚠️ 缺 Part B+C | [📄 CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md](CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md) |
+| 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ✅ Done (rev. 2026-06-07) | [📄 CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md](CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md) |
 | 9 | Reset, Initialization, Configuration, and Manageability | 复位、初始化、配置与管理 | 799–878 | ✅ Done | [📄 CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md](CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md) |
 | 10 | Power Management | 电源管理 | 879–891 | ✅ Done | [📄 CXL3.2_Spec_ch10_Power_Management_电源管理.md](CXL3.2_Spec_ch10_Power_Management_电源管理.md) |
 | 11 | CXL Security | CXL 安全 | 892–997 | ✅ Done | [📄 CXL3.2_Spec_ch11_CXL_Security_CXL安全.md](CXL3.2_Spec_ch11_CXL_Security_CXL安全.md) |
@@ -52,7 +53,7 @@ CXL_zh/
 ├── CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md
 ├── CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md
 ├── CXL3.2_Spec_ch07_Switching_交换.md                 # ⚠️ 缺 Part A
-├── CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md  # ⚠️ 缺 Part B+C
+├── CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md  # ✅ rev. 2026-06-07 全 Part 完整
 ├── CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md
 ├── CXL3.2_Spec_ch10_Power_Management_电源管理.md
 ├── CXL3.2_Spec_ch11_CXL_Security_CXL安全.md
@@ -128,16 +129,57 @@ CXL_zh/
 
 ---
 
+## 📋 Recent Updates (更新日志)
+
+### 2026-06-07 — Ch8 图嵌入与结构统一修复
+
+**目标**: 以 Part A (p.499–555, 唯一具有紧致图裁剪 + 双语 caption 的段落) 为模板, 把 Part B/C/D/E 统一到同一规范。
+
+**改动** (commit 待推):
+
+| 类别 | 改动 | 数量 |
+|------|------|------|
+| **资源** | 用 PIL 裁掉 CXL spec 页面 "Evaluation Copy" 水印 + 页眉/页脚, 输出 `fig_PPPP_1.png` | 138 张 |
+| **inline src 重命名** | `figures/chapter_08/page_PPPP.png` → `figures/chapter_08/fig_PPPP_1.png` | 206 处 |
+| **Part C→D 重建** | 误标的 H1 "Part C" 改为 "Part D" (实际内容是 p.676–735) | 1 处 |
+| **H1/TOC 补齐** | 为 Part B/D/E 补 H1 标题 + 📑 本章目录 | 3 Part |
+| **alt 误标修正** | Part B 中 2 处 `alt="Table 8-26/27"` → `alt="Figure 8-26/27"` | 2 处 |
+| **占位 caption 改写** | Part C/D "Figure 8-X (page NNN)" 列表 → 真实 `Table 8-NNN` 编号 (97 项, 含页范围格式) | 97 项 |
+| **inline caption 修正** | body 中 `> **Figure 8-X.**` → `> **Table 8-NNN.**` (单页 + 页范围两种格式) | 73 + 74 = 147 处 |
+| **img alt 修正** | `alt="Figure 8-X page NNN"` → `alt="Table 8-NNN page NNN"` | 141 处 |
+| **TODO 收尾** | 6 个 `alt="<TABLE_NUM> page NNN"` 占位, 复用上一行 caption 的 Table 编号 | 6 处 |
+
+**修复前 → 修复后**:
+```
+指标                       修复前      修复后
+────────────────────────────────────────────
+src=page_* 嵌入            206         0
+Figure 8-X 占位            391         0
+alt="Table 8-26/27" 误标   2           0
+H1 章节数                  1           4 (A/B/D/E)
+缺失 📑 本章目录           3 个 Part   0
+缺失 Part D                无          有
+```
+
+**关键发现**: CXL 3.2 spec ch8 实际只有 Figure 8-1 ~ 8-14 (Part A & B), Part D (p.676–735) 与 Part E (p.736+) 在 spec 中**没有 Figure**, 只有 Table。md 中 "Figure 8-X (page NNN)" 列表 95% 都是误标的 Table。修复后全部转为正确的 `Table 8-NNN` 编号 (从 raw 文本 `chapter_08{d,e}_raw.txt` 自动抽取)。
+
+**已知遗留** (在 ch08 md 文件末尾 `## ⚠️ Known TODOs` 段落已记录):
+- 4 个 Part (B/D/E) 的"本章目录"内容仍为占位 — 后续脚本可从 `### 8.2.x.x` 标题自动汇总
+- 紧致 figure crop (本次为"去水印版"兜底, **不是** Part A 那种紧致图区裁剪) — 需重跑 MinerU 才能匹配 Part A 精度
+
+**资源**: `figures/chapter_08/fig_*_1.png` 共 148 张 (Part A 原 10 + 本次去水印 138)
+**备份**: `CXL3.2_Spec_ch08_..._寄存器.md.bak` (`.gitignore` 忽略)
+
+---
+
 ## ⚠️ 已知问题
 
 1. **Ch7 缺 Part A** (p.319–380, 60 页): 由于 API 速率限制 (Token Plan Plus 5h limit), Part A 子 agent 在限制生效前未能完成
-2. **Ch8 缺 Part B+C** (p.556–675, 120 页): Part B 触发内容过滤器 `output new_sensitive`, Part C 多次重试均因 429 失败
 
 ### 续传方案
 
 API 速率限制将于 **20:00 (UTC+8) 重置**。重置后可重新调度:
 - Ch7 Part A (p.319–380, ~120K 字)
-- Ch8 Part B+C (p.556-675, ~150K 字)
 
 ```bash
 # 重置后可执行
@@ -148,11 +190,12 @@ bash /tmp/resume_translation.sh
 
 ## ⏭️ 下一步
 
-- [ ] **API 速率限制重置后** (20:00 UTC+8) 续传 Ch7 Part A + Ch8 Part B+C
-- [ ] 合并最终分块, 重新推送
+- [ ] **API 速率限制重置后** (20:00 UTC+8) 续传 Ch7 Part A
 - [ ] 校对与精修: 由人工或下次 API 配额恢复时, 重点校对 Ch3 (核心协议) 与 Ch11 (安全) 的关键术语一致性
+- [ ] Ch8 "本章目录" 自动汇总 (4 个 Part)
+- [ ] Ch8 紧致 figure crop (重跑 MinerU, 把去水印版升级到 tight crop)
 
 ---
 
 > 🤖 **Generated with** [Claude Code](https://claude.com/claude-code) · Opus 4.8
-> 📅 2026-06-06
+> 📅 2026-06-07
