@@ -323,7 +323,7 @@
 
 > **Figure 14-1.** Example Test Topology ｜ 示例测试拓扑
 >
-> <img src="figures/chapter_14/page_1020.png" alt="Figure 14-1" width="700">
+> <img src="figures/chapter_14/fig_1020_1.png" alt="Figure 14-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1020.png)
 
@@ -359,7 +359,7 @@
 
 > **Figure 14-2.** Example SHDA Topology ｜ 示例 SHDA 拓扑
 >
-> <img src="figures/chapter_14/page_1021.png" alt="Figure 14-2" width="700">
+> <img src="figures/chapter_14/fig_1021_1.png" alt="Figure 14-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1021.png)
 
@@ -380,7 +380,7 @@
 
 > **Figure 14-3.** Example Single Host, Switch Attached, SLD EP (SHSW) Topology ｜ 示例单主机、交换机连接 SLD EP (SHSW) 拓扑
 >
-> <img src="figures/chapter_14/page_1021.png" alt="Figure 14-3" width="700">
+> <img src="figures/chapter_14/fig_1021_1.png" alt="Figure 14-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1021.png)
 
@@ -404,7 +404,7 @@
 
 > **Figure 14-4.** Example SHSW-FM Topology ｜ 示例 SHSW-FM 拓扑
 >
-> <img src="figures/chapter_14/page_1022.png" alt="Figure 14-4" width="700">
+> <img src="figures/chapter_14/fig_1022_1.png" alt="Figure 14-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1022.png)
 
@@ -425,7 +425,7 @@
 
 > **Figure 14-5.** Example DHSW-FM Topology ｜ 示例 DHSW-FM 拓扑
 >
-> <img src="figures/chapter_14/page_1023.png" alt="Figure 14-5" width="700">
+> <img src="figures/chapter_14/fig_1023_1.png" alt="Figure 14-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1023.png)
 
@@ -446,7 +446,7 @@
 
 > **Figure 14-6.** Example DHSW-FM-MLD Topology ｜ 示例 DHSW-FM-MLD 拓扑
 >
-> <img src="figures/chapter_14/page_1024.png" alt="Figure 14-6" width="700">
+> <img src="figures/chapter_14/fig_1024_1.png" alt="Figure 14-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1024.png)
 
@@ -467,7 +467,7 @@
 
 > **Figure 14-7.** Example Topology for Two PBR Switches ｜ 两台 PBR 交换机的示例拓扑
 >
-> <img src="figures/chapter_14/page_1025.png" alt="Figure 14-7" width="700">
+> <img src="figures/chapter_14/fig_1025_1.png" alt="Figure 14-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1025.png)
 
@@ -485,7 +485,7 @@
 
 > **Figure 14-8.** Example Topology for a PBR Switch and an HBR Switch ｜ 一台 PBR 交换机和一台 HBR 交换机的示例拓扑
 >
-> <img src="figures/chapter_14/page_1026.png" alt="Figure 14-8" width="700">
+> <img src="figures/chapter_14/fig_1026_1.png" alt="Figure 14-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1026.png)
 
@@ -524,7 +524,7 @@
 
 > **Figure 14-9.** Representation of False Sharing between Cores (on Host) and CXL Devices ｜ 主机核与 CXL 设备之间伪共享的表示
 >
-> <img src="figures/chapter_14/page_1027.png" alt="Figure 14-9" width="700">
+> <img src="figures/chapter_14/fig_1027_1.png" alt="Figure 14-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1027.png)
 
@@ -562,7 +562,7 @@
 
 > **Figure 14-10.** Flow Chart of Algorithm 1a ｜ 算法 1a 的流程图
 >
-> <img src="figures/chapter_14/page_1028.png" alt="Figure 14-10" width="700">
+> <img src="figures/chapter_14/fig_1028_1.png" alt="Figure 14-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1028.png)
 
@@ -586,7 +586,7 @@
 
 > **Figure 14-11.** Flow Chart of Algorithm 1b ｜ 算法 1b 的流程图
 >
-> <img src="figures/chapter_14/page_1029.png" alt="Figure 14-11" width="700">
+> <img src="figures/chapter_14/fig_1029_1.png" alt="Figure 14-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1029.png)
 
@@ -607,7 +607,7 @@
 
 > **Figure 14-12.** Execute Phase for Algorithm 2 ｜ 算法 2 的执行阶段
 >
-> <img src="figures/chapter_14/page_1030.png" alt="Figure 14-12" width="700">
+> <img src="figures/chapter_14/fig_1030_1.png" alt="Figure 14-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1030.png)
 
@@ -2312,7 +2312,7 @@
 
 > **Figure 14-13.** Compliance Testing Topology for an HBR Switch with a Single Host ｜ 单主机下 HBR 交换机的一致性测试拓扑
 >
-> <img src="figures/chapter_14/page_1057.png" alt="Figure 14-13" width="700">
+> <img src="figures/chapter_14/fig_1057_1.png" alt="Figure 14-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1057.png)
 
@@ -2335,7 +2335,7 @@
 
 > **Figure 14-14.** Compliance Testing Topology for an HBR Switch with Two Hosts ｜ 双主机下 HBR 交换机的一致性测试拓扑
 >
-> <img src="figures/chapter_14/page_1058.png" alt="Figure 14-14" width="700">
+> <img src="figures/chapter_14/fig_1058_1.png" alt="Figure 14-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1058.png)
 
@@ -2356,7 +2356,7 @@
 
 > **Figure 14-15.** Compliance Testing Topology for Two PBR Switches ｜ 两台 PBR 交换机的一致性测试拓扑
 >
-> <img src="figures/chapter_14/page_1059.png" alt="Figure 14-15" width="700">
+> <img src="figures/chapter_14/fig_1059_1.png" alt="Figure 14-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1059.png)
 
@@ -2398,7 +2398,7 @@
 
 > **Figure 14-16.** Compliance Testing Topology for a PBR Switch and an HBR Switch ｜ 一台 PBR 交换机和一台 HBR 交换机的一致性测试拓扑
 >
-> <img src="figures/chapter_14/page_1060.png" alt="Figure 14-16" width="700">
+> <img src="figures/chapter_14/fig_1060_1.png" alt="Figure 14-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1060.png)
 
@@ -2585,7 +2585,7 @@
 
 > **Figure 14-17.** LTSSM Hot Reset Propagation to SLDs (PBR+HBR Switch) ｜ LTSSM 热复位传播到 SLD (PBR+HBR 交换机)
 >
-> <img src="figures/chapter_14/page_1063.png" alt="Figure 14-17" width="700">
+> <img src="figures/chapter_14/fig_1063_1.png" alt="Figure 14-17" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1063.png)
 
@@ -2739,7 +2739,7 @@
 
 > **Figure 14-18.** Secondary Bus Reset (SBR) Hot Reset Propagation to SLDs (PBR+HBR Switch) ｜ SBR 热复位传播到 SLD (PBR+HBR 交换机)
 >
-> <img src="figures/chapter_14/page_1066.png" alt="Figure 14-18" width="700">
+> <img src="figures/chapter_14/fig_1066_1.png" alt="Figure 14-18" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_14/page_1066.png)
 

@@ -391,7 +391,7 @@
 
 > **Figure 11-1.** 68B Flit: CXL.cachemem IDE Showing Aggregation of 5 Flits ｜ 68B Flit：CXL.cachemem IDE 展示 5 个 Flit 的聚合
 >
-> <img src="figures/chapter_11/page_0895.png" alt="Figure 11-1" width="700">
+> <img src="figures/chapter_11/fig_0895_1.png" alt="Figure 11-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0895.png)
 
@@ -410,13 +410,13 @@
 
 > **Figure 11-2.** 68B Flit: CXL.cachemem IDE Showing Aggregation across 5 Flits where One Flit Contains MAC Header in Slot 0 ｜ 68B Flit：CXL.cachemem IDE 展示 5 个 Flit 的聚合，其中一个 Flit 的 Slot 0 携带 MAC Header
 >
-> <img src="figures/chapter_11/page_0896.png" alt="Figure 11-2" width="700">
+> <img src="figures/chapter_11/fig_0896_1.png" alt="Figure 11-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0896.png)
 
 > **Figure 11-3.** 68B Flit: More-detailed View of a 5-Flit MAC Epoch Example ｜ 68B Flit：5-Flit MAC 周期示例的更详细视图
 >
-> <img src="figures/chapter_11/page_0897.png" alt="Figure 11-3" width="700">
+> <img src="figures/chapter_11/fig_0897_1.png" alt="Figure 11-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0897.png)
 
@@ -434,7 +434,7 @@
 
 > **Figure 11-4.** 68B Flit: Mapping of AAD Bytes for the Example Shown in Figure 11-3 ｜ 68B Flit：图 11-3 示例中 AAD 字节的映射
 >
-> <img src="figures/chapter_11/page_0897.png" alt="Figure 11-4" width="700">
+> <img src="figures/chapter_11/fig_0897_1.png" alt="Figure 11-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0897.png)
 
@@ -472,13 +472,13 @@
 
 > **Figure 11-5.** 256B Flit: Handling of Slot 0 when it Carries H8 ｜ 256B Flit：Slot 0 携带 H8 时的处理
 >
-> <img src="figures/chapter_11/page_0899.png" alt="Figure 11-5" width="700">
+> <img src="figures/chapter_11/fig_0899_1.png" alt="Figure 11-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0899.png)
 
 > **Figure 11-6.** 256B Flit: Handling of Slot 0 when it Does Not Carry H8 ｜ 256B Flit：Slot 0 不携带 H8 时的处理
 >
-> <img src="figures/chapter_11/page_0899.png" alt="Figure 11-6" width="700">
+> <img src="figures/chapter_11/fig_0899_1.png" alt="Figure 11-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0899.png)
 
@@ -497,19 +497,19 @@
 
 > **Figure 11-7.** 256B Flit: Handling of Slot 15 ｜ 256B Flit：Slot 15 的处理
 >
-> <img src="figures/chapter_11/page_0900.png" alt="Figure 11-7" width="700">
+> <img src="figures/chapter_11/fig_0900_1.png" alt="Figure 11-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0900.png)
 
 > **Figure 11-8.** Mapping of Integrity-only Protected Bits to AAD - Case 1 ｜ 仅完整性保护位到 AAD 的映射 — 情形 1
 >
-> <img src="figures/chapter_11/page_0900.png" alt="Figure 11-8" width="700">
+> <img src="figures/chapter_11/fig_0900_1.png" alt="Figure 11-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0900.png)
 
 > **Figure 11-9.** Mapping of Integrity-only Protected Bits to AAD - Case 2 ｜ 仅完整性保护位到 AAD 的映射 — 情形 2
 >
-> <img src="figures/chapter_11/page_0900.png" alt="Figure 11-9" width="700">
+> <img src="figures/chapter_11/fig_0900_1.png" alt="Figure 11-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0900.png)
 
@@ -531,13 +531,13 @@
 
 > **Figure 11-10.** Mapping of Integrity-only Protected Bits to AAD - Case 3 ｜ 仅完整性保护位到 AAD 的映射 — 情形 3
 >
-> <img src="figures/chapter_11/page_0901.png" alt="Figure 11-10" width="700">
+> <img src="figures/chapter_11/fig_0901_1.png" alt="Figure 11-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0901.png)
 
 > **Figure 11-11.** Standard 256B Flit - Mapping to AAD and P bits when Slot 0 carries H8 ｜ 标准 256B Flit — Slot 0 携带 H8 时到 AAD 和 P 位的映射
 >
-> <img src="figures/chapter_11/page_0901.png" alt="Figure 11-11" width="700">
+> <img src="figures/chapter_11/fig_0901_1.png" alt="Figure 11-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0901.png)
 
@@ -555,7 +555,7 @@
 
 > **Figure 11-12.** Standard 256B Flit - Mapping to AAD and P bits when Slot 0 Does Not Carry H8 ｜ 标准 256B Flit — Slot 0 不携带 H8 时到 AAD 和 P 位的映射
 >
-> <img src="figures/chapter_11/page_0902.png" alt="Figure 11-12" width="700">
+> <img src="figures/chapter_11/fig_0902_1.png" alt="Figure 11-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0902.png)
 
@@ -573,7 +573,7 @@
 
 > **Figure 11-13.** Latency-Optimized 256B Flit - Mapping to AAD and P Bits when Slot 0 Carries H8 ｜ 延迟优化 256B Flit — Slot 0 携带 H8 时到 AAD 和 P 位的映射
 >
-> <img src="figures/chapter_11/page_0903.png" alt="Figure 11-13" width="700">
+> <img src="figures/chapter_11/fig_0903_1.png" alt="Figure 11-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0903.png)
 
@@ -592,7 +592,7 @@
 
 > **Figure 11-14.** Latency-Optimized 256B Flit - Mapping to AAD and P Bits when Slot 0 Does Not Carry H8 ｜ 延迟优化 256B Flit — Slot 0 不携带 H8 时到 AAD 和 P 位的映射
 >
-> <img src="figures/chapter_11/page_0904.png" alt="Figure 11-14" width="700">
+> <img src="figures/chapter_11/fig_0904_1.png" alt="Figure 11-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0904.png)
 
@@ -616,13 +616,13 @@
 
 > **Figure 11-15.** Inclusion of the PCRC Mechanism in the AES-GCM Advanced Encryption Function ｜ AES-GCM 高级加密函数中 PCRC 机制的引入
 >
-> <img src="figures/chapter_11/page_0905.png" alt="Figure 11-15" width="700">
+> <img src="figures/chapter_11/fig_0905_1.png" alt="Figure 11-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0905.png)
 
 > **Figure 11-16.** Inclusion of the PCRC Mechanism in the AES-GCM Advanced Decryption Function ｜ AES-GCM 高级解密函数中 PCRC 机制的引入
 >
-> <img src="figures/chapter_11/page_0905.png" alt="Figure 11-16" width="700">
+> <img src="figures/chapter_11/fig_0905_1.png" alt="Figure 11-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0905.png)
 
@@ -734,13 +734,13 @@
 
 > **Figure 11-17.** MAC Epochs and MAC Transmission in Case of Back-to-Back Traffic ｜ 背靠背流量情况下的 MAC 周期与 MAC 传输
 >
-> <img src="figures/chapter_11/page_0908.png" alt="Figure 11-17" width="700">
+> <img src="figures/chapter_11/fig_0908_1.png" alt="Figure 11-17" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0908.png)
 
 > **Figure 11-18.** Example of MAC Header Being Received in the First Flit of the Current MAC Epoch ｜ 在当前 MAC 周期的第一个 Flit 中接收到 MAC Header 的示例
 >
-> <img src="figures/chapter_11/page_0909.png" alt="Figure 11-18" width="700">
+> <img src="figures/chapter_11/fig_0909_1.png" alt="Figure 11-18" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0909.png)
 
@@ -813,19 +813,19 @@
 
 > **Figure 11-19.** Early Termination and Transmission of Truncated MAC Flit ｜ 提前终止与截断 MAC Flit 的传输
 >
-> <img src="figures/chapter_11/page_0911.png" alt="Figure 11-19" width="700">
+> <img src="figures/chapter_11/fig_0911_1.png" alt="Figure 11-19" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0911.png)
 
 > **Figure 11-20.** CXL.cachemem IDE Transmission with Truncated MAC Flit ｜ 使用截断 MAC Flit 的 CXL.cachemem IDE 传输
 >
-> <img src="figures/chapter_11/page_0911.png" alt="Figure 11-20" width="700">
+> <img src="figures/chapter_11/fig_0911_1.png" alt="Figure 11-20" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0911.png)
 
 > **Figure 11-21.** Link Idle Case after Transmission of Aggregation Flit Count Number of Flits ｜ 传输完聚合 Flit 数量后的链路空闲情形
 >
-> <img src="figures/chapter_11/page_0912.png" alt="Figure 11-21" width="700">
+> <img src="figures/chapter_11/fig_0912_1.png" alt="Figure 11-21" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0912.png)
 
@@ -1010,13 +1010,13 @@
 
 > **Figure 11-22.** Containment Mode example illustrating the AAD construction for the case of two protocol flits that are part of the current MAC Epoch with an in-band LLCTRL Poison sent prior to first flit of the MAC Epoch ｜ 包含模式示例：展示属于当前 MAC 周期的两个协议 Flit 的 AAD 构造，在 MAC 周期第一个 Flit 之前发送带内 LLCTRL Poison
 >
-> <img src="figures/chapter_11/page_0917.png" alt="Figure 11-22" width="700">
+> <img src="figures/chapter_11/fig_0917_1.png" alt="Figure 11-22" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0917.png)
 
 > **Figure 11-23.** Containment Mode example illustrating the AAD construction for the case of two protocol flits that are part of the current MAC Epoch with an in-band LLCTRL Poison message sent after first flit of the MAC Epoch ｜ 包含模式示例：展示属于当前 MAC 周期的两个协议 Flit 的 AAD 构造，在 MAC 周期第一个 Flit 之后发送带内 LLCTRL Poison
 >
-> <img src="figures/chapter_11/page_0917.png" alt="Figure 11-23" width="700">
+> <img src="figures/chapter_11/fig_0917_1.png" alt="Figure 11-23" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0917.png)
 
@@ -1094,7 +1094,7 @@
 
 > **Figure 11-24.** Various Interface Standards that are Referenced by this Specification and their Lineage ｜ 本规范引用的各种接口标准及其谱系
 >
-> <img src="figures/chapter_11/page_0919.png" alt="Figure 11-24" width="700">
+> <img src="figures/chapter_11/fig_0919_1.png" alt="Figure 11-24" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_11/page_0919.png)
 

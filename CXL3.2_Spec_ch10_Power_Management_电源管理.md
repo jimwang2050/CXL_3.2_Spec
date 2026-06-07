@@ -156,7 +156,7 @@ Since native support of PCIe* is also required, support of more-simplified proto
 
 > **Table 10-1.** Runtime-Control - CXL vs. PCIe Control Methodologies ｜ 运行时控制 - CXL 与 PCIe 控制方法对比
 >
-> <img src="figures/chapter_10/page_0879.png" alt="Table 10-1" width="700">
+> <img src="figures/chapter_10/fig_0879_1.png" alt="Table 10-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_10/page_0879.png)
 
@@ -562,7 +562,7 @@ CXL PM 进入阶段 1 涉及协议特定的机制，用于协商进入所支持�
 
 > **Figure 10-5.** CXL Link PM Phase 1 for 256B Flit Mode ｜ 256B Flit 模式 CXL 链路 PM 阶段 1
 >
-> <img src="figures/chapter_10/page_0885.png" alt="Figure 10-5" width="700">
+> <img src="figures/chapter_10/fig_0885_1.png" alt="Figure 10-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_10/page_0885.png)
 
@@ -628,13 +628,13 @@ Rules for the Phase 2 entry into ASPM are as follows (summarized in Figure 10-7)
 
 > **Figure 10-6.** CXL Link PM Phase 1 for 68B Flit Mode ｜ 68B Flit 模式 CXL 链路 PM 阶段 1
 >
-> <img src="figures/chapter_10/page_0886.png" alt="Figure 10-6" width="700">
+> <img src="figures/chapter_10/fig_0886_1.png" alt="Figure 10-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_10/page_0886.png)
 
 > **Figure 10-7.** CXL Link PM Phase 2 ｜ CXL 链路 PM 阶段 2
 >
-> <img src="figures/chapter_10/page_0887.png" alt="Figure 10-7" width="700">
+> <img src="figures/chapter_10/fig_0887_1.png" alt="Figure 10-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_10/page_0887.png)
 
@@ -742,7 +742,7 @@ Phase 2 exit involves bringing the protocol interface independently out of L1 st
 
 > **Figure 10-8.** CXL PM Phase 3 ｜ CXL PM 阶段 3
 >
-> <img src="figures/chapter_10/page_0889.png" alt="Figure 10-8" width="700">
+> <img src="figures/chapter_10/fig_0889_1.png" alt="Figure 10-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_10/page_0889.png)
 

@@ -173,7 +173,7 @@
 
 > **Figure 12-1.** RCH Downstream Port Detects Error ｜ RCH 下游端口检测到错误
 >
-> <img src="figures/chapter_12/page_0999.png" alt="Figure 12-1" width="700">
+> <img src="figures/chapter_12/fig_0999_1.png" alt="Figure 12-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_12/page_0999.png)
 >
@@ -208,7 +208,7 @@
 
 > **Figure 12-2.** RCD Upstream Port Detects Error ｜ RCD 上游端口检测到错误
 >
-> <img src="figures/chapter_12/page_1000.png" alt="Figure 12-2" width="700">
+> <img src="figures/chapter_12/fig_1000_1.png" alt="Figure 12-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_12/page_1000.png)
 >
@@ -240,7 +240,7 @@
 
 > **Figure 12-3.** RCD RCiEP Detects Error ｜ RCD RCiEP 检测到错误
 >
-> <img src="figures/chapter_12/page_1001.png" alt="Figure 12-3" width="700">
+> <img src="figures/chapter_12/fig_1001_1.png" alt="Figure 12-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_12/page_1001.png)
 >
@@ -315,7 +315,7 @@
 
 > **Figure 12-4.** CXL Memory Error Reporting Enhancements ｜ CXL 内存错误报告增强
 >
-> <img src="figures/chapter_12/page_1005.png" alt="Figure 12-4" width="700">
+> <img src="figures/chapter_12/fig_1005_1.png" alt="Figure 12-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_12/page_1005.png)
 
