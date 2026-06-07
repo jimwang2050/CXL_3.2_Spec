@@ -193,7 +193,7 @@
 
 > **Figure 4-1.** Flex Bus Layers - CXL.io Link Layer Highlighted ｜ Flex Bus 分层 - CXL.io 链路层高亮
 >
-> <img src="figures/chapter_04/page_0191.png" alt="Figure 4-1" width="700">
+> <img src="figures/chapter_04/fig_0191_1.png" alt="Figure 4-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0191.png)
 
@@ -238,7 +238,7 @@
 
 > **Figure 4-2.** Flex Bus Layers - CXL.cache + CXL.mem Link Layer Highlighted ｜ Flex Bus 分层 - CXL.cache + CXL.mem 链路层高亮
 >
-> <img src="figures/chapter_04/page_0193.png" alt="Figure 4-2" width="700">
+> <img src="figures/chapter_04/fig_0193_1.png" alt="Figure 4-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0193.png)
 
@@ -275,13 +275,13 @@
 
 > **Figure 4-3.** CXL.cachemem Protocol Flit Overview ｜ CXL.cachemem 协议 Flit 概览
 >
-> <img src="figures/chapter_04/page_0194.png" alt="Figure 4-3" width="700">
+> <img src="figures/chapter_04/fig_0194_1.png" alt="Figure 4-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0194.png)
 
 > **Figure 4-4.** CXL.cachemem All Data Flit Overview ｜ CXL.cachemem 全数据 Flit 概览
 >
-> <img src="figures/chapter_04/page_0195.png" alt="Figure 4-4" width="700">
+> <img src="figures/chapter_04/fig_0195_1.png" alt="Figure 4-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0195.png)
 
@@ -300,7 +300,7 @@
 
 > **Figure 4-5.** Example of a Protocol Flit from Device to Host ｜ Device-to-Host 协议 Flit 示例
 >
-> <img src="figures/chapter_04/page_0196.png" alt="Figure 4-5" width="700">
+> <img src="figures/chapter_04/fig_0196_1.png" alt="Figure 4-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0196.png)
 
@@ -804,85 +804,85 @@
 
 > **Figure 4-6.** H0 - H2D Req + H2D Rsp ｜ H0 - H2D Req + H2D Rsp
 >
-> <img src="figures/chapter_04/page_0202.png" alt="Figure 4-6" width="700">
+> <img src="figures/chapter_04/fig_0202_1.png" alt="Figure 4-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0202.png)
 
 > **Figure 4-7.** H1 - H2D Data Header + H2D Rsp + H2D Rsp ｜ H1 - H2D Data Header + H2D Rsp + H2D Rsp
 >
-> <img src="figures/chapter_04/page_0202.png" alt="Figure 4-7" width="700">
+> <img src="figures/chapter_04/fig_0202_1.png" alt="Figure 4-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0202.png)
 
 > **Figure 4-8.** H2 - H2D Req + H2D Data Header ｜ H2 - H2D Req + H2D Data Header
 >
-> <img src="figures/chapter_04/page_0203.png" alt="Figure 4-8" width="700">
+> <img src="figures/chapter_04/fig_0203_1.png" alt="Figure 4-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0203.png)
 
 > **Figure 4-9.** H3 - 4 H2D Data Header ｜ H3 - 4 个 H2D Data Header
 >
-> <img src="figures/chapter_04/page_0203.png" alt="Figure 4-9" width="700">
+> <img src="figures/chapter_04/fig_0203_1.png" alt="Figure 4-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0203.png)
 
 > **Figure 4-10.** H4 - M2S RwD Header ｜ H4 - M2S RwD Header
 >
-> <img src="figures/chapter_04/page_0203.png" alt="Figure 4-10" width="700">
+> <img src="figures/chapter_04/fig_0203_1.png" alt="Figure 4-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0203.png)
 
 > **Figure 4-11.** H5 - M2S Req ｜ H5 - M2S Req
 >
-> <img src="figures/chapter_04/page_0204.png" alt="Figure 4-11" width="700">
+> <img src="figures/chapter_04/fig_0204_1.png" alt="Figure 4-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0204.png)
 
 > **Figure 4-12.** H6 - MAC ｜ H6 - MAC
 >
-> <img src="figures/chapter_04/page_0204.png" alt="Figure 4-12" width="700">
+> <img src="figures/chapter_04/fig_0204_1.png" alt="Figure 4-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0204.png)
 
 > **Figure 4-13.** G0 - H2D/M2S Data ｜ G0 - H2D/M2S Data
 >
-> <img src="figures/chapter_04/page_0204.png" alt="Figure 4-13" width="700">
+> <img src="figures/chapter_04/fig_0204_1.png" alt="Figure 4-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0204.png)
 
 > **Figure 4-14.** G0 - M2S Byte Enable ｜ G0 - M2S Byte Enable
 >
-> <img src="figures/chapter_04/page_0205.png" alt="Figure 4-14" width="700">
+> <img src="figures/chapter_04/fig_0205_1.png" alt="Figure 4-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0205.png)
 
 > **Figure 4-15.** G1 - 4 H2D Rsp ｜ G1 - 4 个 H2D Rsp
 >
-> <img src="figures/chapter_04/page_0205.png" alt="Figure 4-15" width="700">
+> <img src="figures/chapter_04/fig_0205_1.png" alt="Figure 4-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0205.png)
 
 > **Figure 4-16.** G2 - H2D Req + H2D Data Header + H2D Rsp ｜ G2 - H2D Req + H2D Data Header + H2D Rsp
 >
-> <img src="figures/chapter_04/page_0205.png" alt="Figure 4-16" width="700">
+> <img src="figures/chapter_04/fig_0205_1.png" alt="Figure 4-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0205.png)
 
 > **Figure 4-17.** G3 - 4 H2D Data Header + H2D Rsp ｜ G3 - 4 个 H2D Data Header + H2D Rsp
 >
-> <img src="figures/chapter_04/page_0206.png" alt="Figure 4-17" width="700">
+> <img src="figures/chapter_04/fig_0206_1.png" alt="Figure 4-17" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0206.png)
 
 > **Figure 4-18.** G4 - M2S Req + H2D Data Header ｜ G4 - M2S Req + H2D Data Header
 >
-> <img src="figures/chapter_04/page_0206.png" alt="Figure 4-18" width="700">
+> <img src="figures/chapter_04/fig_0206_1.png" alt="Figure 4-18" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0206.png)
 
 > **Figure 4-19.** G5 - M2S RwD Header + H2D Rsp ｜ G5 - M2S RwD Header + H2D Rsp
 >
-> <img src="figures/chapter_04/page_0206.png" alt="Figure 4-19" width="700">
+> <img src="figures/chapter_04/fig_0206_1.png" alt="Figure 4-19" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0206.png)
 
@@ -903,91 +903,91 @@
 
 > **Figure 4-20.** H0 - D2H Data Header + 2 D2H Rsp + S2M NDR ｜ H0 - D2H Data Header + 2 个 D2H Rsp + S2M NDR
 >
-> <img src="figures/chapter_04/page_0207.png" alt="Figure 4-20" width="700">
+> <img src="figures/chapter_04/fig_0207_1.png" alt="Figure 4-20" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0207.png)
 
 > **Figure 4-21.** H1 - D2H Req + D2H Data Header ｜ H1 - D2H Req + D2H Data Header
 >
-> <img src="figures/chapter_04/page_0207.png" alt="Figure 4-21" width="700">
+> <img src="figures/chapter_04/fig_0207_1.png" alt="Figure 4-21" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0207.png)
 
 > **Figure 4-22.** H2 - 4 D2H Data Header + D2H Rsp ｜ H2 - 4 个 D2H Data Header + D2H Rsp
 >
-> <img src="figures/chapter_04/page_0208.png" alt="Figure 4-22" width="700">
+> <img src="figures/chapter_04/fig_0208_1.png" alt="Figure 4-22" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0208.png)
 
 > **Figure 4-23.** H3 - S2M DRS Header + S2M NDR ｜ H3 - S2M DRS Header + S2M NDR
 >
-> <img src="figures/chapter_04/page_0208.png" alt="Figure 4-23" width="700">
+> <img src="figures/chapter_04/fig_0208_1.png" alt="Figure 4-23" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0208.png)
 
 > **Figure 4-24.** H4 - 2 S2M NDR ｜ H4 - 2 个 S2M NDR
 >
-> <img src="figures/chapter_04/page_0208.png" alt="Figure 4-24" width="700">
+> <img src="figures/chapter_04/fig_0208_1.png" alt="Figure 4-24" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0208.png)
 
 > **Figure 4-25.** H5 - 2 S2M DRS Header ｜ H5 - 2 个 S2M DRS Header
 >
-> <img src="figures/chapter_04/page_0209.png" alt="Figure 4-25" width="700">
+> <img src="figures/chapter_04/fig_0209_1.png" alt="Figure 4-25" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0209.png)
 
 > **Figure 4-26.** H6 - MAC ｜ H6 - MAC
 >
-> <img src="figures/chapter_04/page_0209.png" alt="Figure 4-26" width="700">
+> <img src="figures/chapter_04/fig_0209_1.png" alt="Figure 4-26" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0209.png)
 
 > **Figure 4-27.** G0 - D2H/S2M Data ｜ G0 - D2H/S2M Data
 >
-> <img src="figures/chapter_04/page_0209.png" alt="Figure 4-27" width="700">
+> <img src="figures/chapter_04/fig_0209_1.png" alt="Figure 4-27" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0209.png)
 
 > **Figure 4-28.** G0 - D2H Byte Enable ｜ G0 - D2H Byte Enable
 >
-> <img src="figures/chapter_04/page_0210.png" alt="Figure 4-28" width="700">
+> <img src="figures/chapter_04/fig_0210_1.png" alt="Figure 4-28" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0210.png)
 
 > **Figure 4-29.** G1 - D2H Req + 2 D2H Rsp ｜ G1 - D2H Req + 2 个 D2H Rsp
 >
-> <img src="figures/chapter_04/page_0210.png" alt="Figure 4-29" width="700">
+> <img src="figures/chapter_04/fig_0210_1.png" alt="Figure 4-29" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0210.png)
 
 > **Figure 4-30.** G2 - D2H Req + D2H Data Header + D2H Rsp ｜ G2 - D2H Req + D2H Data Header + D2H Rsp
 >
-> <img src="figures/chapter_04/page_0210.png" alt="Figure 4-30" width="700">
+> <img src="figures/chapter_04/fig_0210_1.png" alt="Figure 4-30" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0210.png)
 
 > **Figure 4-31.** G3 - 4 D2H Data Header ｜ G3 - 4 个 D2H Data Header
 >
-> <img src="figures/chapter_04/page_0211.png" alt="Figure 4-31" width="700">
+> <img src="figures/chapter_04/fig_0211_1.png" alt="Figure 4-31" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0211.png)
 
 > **Figure 4-32.** G4 - S2M DRS Header + 2 S2M NDR ｜ G4 - S2M DRS Header + 2 个 S2M NDR
 >
-> <img src="figures/chapter_04/page_0211.png" alt="Figure 4-32" width="700">
+> <img src="figures/chapter_04/fig_0211_1.png" alt="Figure 4-32" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0211.png)
 
 > **Figure 4-33.** G5 - 2 S2M NDR ｜ G5 - 2 个 S2M NDR
 >
-> <img src="figures/chapter_04/page_0211.png" alt="Figure 4-33" width="700">
+> <img src="figures/chapter_04/fig_0211_1.png" alt="Figure 4-33" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0211.png)
 
 > **Figure 4-34.** G6 - 3 S2M DRS Header ｜ G6 - 3 个 S2M DRS Header
 >
-> <img src="figures/chapter_04/page_0212.png" alt="Figure 4-34" width="700">
+> <img src="figures/chapter_04/fig_0212_1.png" alt="Figure 4-34" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0212.png)
 
@@ -1296,25 +1296,25 @@
 
 > **Figure 4-35.** LLCRD Flit Format (Only Slot 0 is Valid; Others are Reserved) ｜ LLCRD Flit 格式 (仅 Slot 0 有效,其他保留)
 >
-> <img src="figures/chapter_04/page_0216.png" alt="Figure 4-35" width="700">
+> <img src="figures/chapter_04/fig_0216_1.png" alt="Figure 4-35" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0216.png)
 
 > **Figure 4-36.** RETRY Flit Format (Only Slot 0 is Valid; Others are Reserved) ｜ RETRY Flit 格式 (仅 Slot 0 有效,其他保留)
 >
-> <img src="figures/chapter_04/page_0217.png" alt="Figure 4-36" width="700">
+> <img src="figures/chapter_04/fig_0217_1.png" alt="Figure 4-36" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0217.png)
 
 > **Figure 4-37.** IDE Flit Format (Only Slot 0 is Valid; Others are Reserved) ｜ IDE Flit 格式 (仅 Slot 0 有效,其他保留)
 >
-> <img src="figures/chapter_04/page_0217.png" alt="Figure 4-37" width="700">
+> <img src="figures/chapter_04/fig_0217_1.png" alt="Figure 4-37" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0217.png)
 
 > **Figure 4-38.** INIT Flit Format (Only Slot 0 is Valid; Others are Reserved) ｜ INIT Flit 格式 (仅 Slot 0 有效,其他保留)
 >
-> <img src="figures/chapter_04/page_0217.png" alt="Figure 4-38" width="700">
+> <img src="figures/chapter_04/fig_0217_1.png" alt="Figure 4-38" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0217.png)
 
@@ -1479,7 +1479,7 @@ ELSE
 
 > **Figure 4-39.** Retry Buffer and Related Pointers ｜ 重传缓冲及相关指针
 >
-> <img src="figures/chapter_04/page_0222.png" alt="Figure 4-39" width="700">
+> <img src="figures/chapter_04/fig_0222_1.png" alt="Figure 4-39" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0222.png)
 
@@ -1555,7 +1555,7 @@ ELSE
 
 > **Figure 4-40.** CXL.cachemem Replay Diagram ｜ CXL.cachemem 重放流程图
 >
-> <img src="figures/chapter_04/page_0228.png" alt="Figure 4-40" width="700">
+> <img src="figures/chapter_04/fig_0228_1.png" alt="Figure 4-40" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0228.png)
 
@@ -1828,7 +1828,7 @@ ELSE
 
 > **Figure 4-40.** CXL.cachemem Replay Diagram ｜ CXL.cachemem 重放流程图
 >
-> <img src="figures/chapter_04/page_0228.png" alt="Figure 4-40" width="700">
+> <img src="figures/chapter_04/fig_0228_1.png" alt="Figure 4-40" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_04/page_0228.png)
 

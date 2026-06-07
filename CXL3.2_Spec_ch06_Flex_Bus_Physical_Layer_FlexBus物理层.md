@@ -133,7 +133,7 @@ This chapter focuses on the details of the logical PHY. The Flex Bus logical PHY
 
 > **Figure 6-1.** Flex Bus Layers - Physical Layer Highlighted ｜ Flex Bus 分层 — 物理层高亮
 >
-> <img src="figures/chapter_06/page_0287.png" alt="Figure 6-1" width="700">
+> <img src="figures/chapter_06/fig_0287_1.png" alt="Figure 6-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0287.png)
 
@@ -448,7 +448,7 @@ Figure 6-2 shows the x16 packet layout. First, the 16 bits of Protocol ID are tr
 
 > **Figure 6-2.** Flex Bus x16 Packet Layout ｜ Flex Bus x16 包布局
 >
-> <img src="figures/chapter_06/page_0290.png" alt="Figure 6-2" width="700">
+> <img src="figures/chapter_06/fig_0290_1.png" alt="Figure 6-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0290.png)
 
@@ -474,7 +474,7 @@ Figure 6-3 provides an example where CXL.io and CXL.cachemem traffic is interlea
 
 > **Figure 6-3.** Flex Bus x16 Protocol Interleaving Example ｜ Flex Bus x16 协议交织示例
 >
-> <img src="figures/chapter_06/page_0291.png" alt="Figure 6-3" width="700">
+> <img src="figures/chapter_06/fig_0291_1.png" alt="Figure 6-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0291.png)
 
@@ -516,13 +516,13 @@ Figure 6-5 illustrates how CXL.io and CXL.cachemem traffic is interleaved on a x
 
 > **Figure 6-4.** Flex Bus x8 Packet Layout ｜ Flex Bus x8 包布局
 >
-> <img src="figures/chapter_06/page_0292.png" alt="Figure 6-4" width="700">
+> <img src="figures/chapter_06/fig_0292_1.png" alt="Figure 6-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0292.png)
 
 > **Figure 6-5.** Flex Bus x8 Protocol Interleaving Example ｜ Flex Bus x8 协议交织示例
 >
-> <img src="figures/chapter_06/page_0293.png" alt="Figure 6-5" width="700">
+> <img src="figures/chapter_06/fig_0293_1.png" alt="Figure 6-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0293.png)
 
@@ -555,7 +555,7 @@ Figure 6-6 shows the x4 packet layout. 16 bits of Protocol ID followed by a 528-
 
 > **Figure 6-6.** Flex Bus x4 Packet Layout ｜ Flex Bus x4 包布局
 >
-> <img src="figures/chapter_06/page_0295.png" alt="Figure 6-6" width="700">
+> <img src="figures/chapter_06/fig_0295_1.png" alt="Figure 6-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0295.png)
 
@@ -642,7 +642,7 @@ For CXL.io traffic, if a TLP ends on a flit boundary and there is no additional 
 
 > **Figure 6-7.** CXL.io TLP Ending on Flit Boundary Example ｜ CXL.io TLP 在 Flit 边界结束示例
 >
-> <img src="figures/chapter_06/page_0296.png" alt="Figure 6-7" width="700">
+> <img src="figures/chapter_06/fig_0296_1.png" alt="Figure 6-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0296.png)
 
@@ -836,13 +836,13 @@ The 2 bytes of Flit Header as defined in Table 6-5 are transmitted as the first 
 
 > **Figure 6-8.** Standard 256B Flit ｜ 标准 256B Flit
 >
-> <img src="figures/chapter_06/page_0298.png" alt="Figure 6-8" width="700">
+> <img src="figures/chapter_06/fig_0298_1.png" alt="Figure 6-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0298.png)
 
 > **Figure 6-9.** CXL.io Standard 256B Flit ｜ CXL.io 标准 256B Flit
 >
-> <img src="figures/chapter_06/page_0298.png" alt="Figure 6-9" width="700">
+> <img src="figures/chapter_06/fig_0298_1.png" alt="Figure 6-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0298.png)
 
@@ -985,7 +985,7 @@ Figure 6-10 shows how the flit is mapped to the physical lanes on the link. The 
 
 > **Figure 6-10.** Standard 256B Flit Applied to Physical Lanes (x16) ｜ 应用到物理 lane 的标准 256B Flit (x16)
 >
-> <img src="figures/chapter_06/page_0301.png" alt="Figure 6-10" width="700">
+> <img src="figures/chapter_06/fig_0301_1.png" alt="Figure 6-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0301.png)
 
@@ -1045,7 +1045,7 @@ Note that flits are still retried on a 256-byte granularity even with the latenc
 
 > **Figure 6-11.** Latency-Optimized 256B Flit ｜ 低延迟优化 256B Flit
 >
-> <img src="figures/chapter_06/page_0301.png" alt="Figure 6-11" width="700">
+> <img src="figures/chapter_06/fig_0301_1.png" alt="Figure 6-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0301.png)
 
@@ -1131,7 +1131,7 @@ For CXL.io, the Flit Data includes TLP and DLLP payload; the 4-bytes of DLLP are
 
 > **Figure 6-12.** CXL.io Latency-Optimized 256B Flit ｜ CXL.io 低延迟优化 256B Flit
 >
-> <img src="figures/chapter_06/page_0303.png" alt="Figure 6-12" width="700">
+> <img src="figures/chapter_06/fig_0303_1.png" alt="Figure 6-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0303.png)
 
@@ -1288,7 +1288,7 @@ The following are provided as attachments to the CXL specification:
 
 > **Figure 6-13.** Different Methods for Generating 6-Byte CRC ｜ 生成 6 字节 CRC 的不同方法
 >
-> <img src="figures/chapter_06/page_0304.png" alt="Figure 6-13" width="700">
+> <img src="figures/chapter_06/fig_0304_1.png" alt="Figure 6-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_06/page_0304.png)
 

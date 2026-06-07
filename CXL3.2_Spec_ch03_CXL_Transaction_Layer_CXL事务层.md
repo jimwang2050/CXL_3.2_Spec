@@ -236,7 +236,7 @@
 
 > **Figure 3-1.** Flex Bus Layers - CXL.io Transaction Layer Highlighted ｜ Flex Bus 分层 — CXL.io 事务层高亮
 >
-> <img src="figures/chapter_03/page_0085.png" alt="Figure 3-1" width="700">
+> <img src="figures/chapter_03/fig_0085_1.png" alt="Figure 3-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0085.png)
 
@@ -286,13 +286,13 @@
 
 > **Figure 3-2.** CXL Power Management Messages Packet Format - Non-Flit Mode ｜ CXL 电源管理消息包格式 — 非 Flit 模式
 >
-> <img src="figures/chapter_03/page_0087.png" alt="Figure 3-2" width="700">
+> <img src="figures/chapter_03/fig_0087_1.png" alt="Figure 3-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0087.png)
 
 > **Figure 3-3.** CXL Power Management Messages Packet Format - Flit Mode ｜ CXL 电源管理消息包格式 — Flit 模式
 >
-> <img src="figures/chapter_03/page_0087.png" alt="Figure 3-3" width="700">
+> <img src="figures/chapter_03/fig_0087_1.png" alt="Figure 3-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0087.png)
 
@@ -320,7 +320,7 @@
 
 > **Figure 3-4.** Power Management Credits and Initialization ｜ 电源管理信用量与初始化
 >
-> <img src="figures/chapter_03/page_0090.png" alt="Figure 3-4" width="700">
+> <img src="figures/chapter_03/fig_0090_1.png" alt="Figure 3-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0090.png)
 
@@ -373,13 +373,13 @@
 
 > **Figure 3-5.** CXL EFN Messages Packet Format - Non-Flit Mode ｜ CXL EFN 消息包格式 — 非 Flit 模式
 >
-> <img src="figures/chapter_03/page_0091.png" alt="Figure 3-5" width="700">
+> <img src="figures/chapter_03/fig_0091_1.png" alt="Figure 3-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0091.png)
 
 > **Figure 3-6.** CXL EFN Messages Packet Format - Flit Mode ｜ CXL EFN 消息包格式 — Flit 模式
 >
-> <img src="figures/chapter_03/page_0091.png" alt="Figure 3-6" width="700">
+> <img src="figures/chapter_03/fig_0091_1.png" alt="Figure 3-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0091.png)
 
@@ -448,7 +448,7 @@
 
 > **Figure 3-7.** ATS 64-bit Request with CXL Indication - Non-Flit Mode ｜ 带 CXL 指示的 ATS 64-bit 请求 — 非 Flit 模式
 >
-> <img src="figures/chapter_03/page_0093.png" alt="Figure 3-7" width="700">
+> <img src="figures/chapter_03/fig_0093_1.png" alt="Figure 3-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0093.png)
 
@@ -560,7 +560,7 @@
 
 > **Figure 3-8.** Valid .io TLP Formats on PBR Links ｜ PBR 链路上合法的 .io TLP 格式
 >
-> <img src="figures/chapter_03/page_0096.png" alt="Figure 3-8" width="700">
+> <img src="figures/chapter_03/fig_0096_1.png" alt="Figure 3-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0096.png)
 
@@ -655,7 +655,7 @@
 
 > **Figure 3-9.** Host Management Transaction Flows of GFD ｜ GFD 的主机管理事务流
 >
-> <img src="figures/chapter_03/page_0099.png" alt="Figure 3-9" width="700">
+> <img src="figures/chapter_03/fig_0099_1.png" alt="Figure 3-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0099.png)
 
@@ -859,7 +859,7 @@
 
 > **Figure 3-10.** CXL.cache Channels ｜ CXL.cache 通道
 >
-> <img src="figures/chapter_03/page_0107.png" alt="Figure 3-10" width="700">
+> <img src="figures/chapter_03/fig_0107_1.png" alt="Figure 3-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0107.png)
 
@@ -1222,13 +1222,13 @@
 
 > **Figure 3-11.** CXL.cache Read Behavior ｜ CXL.cache 读行为
 >
-> <img src="figures/chapter_03/page_0114.png" alt="Figure 3-11" width="700">
+> <img src="figures/chapter_03/fig_0114_1.png" alt="Figure 3-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0114.png)
 
 > **Figure 3-12.** CXL.cache Read0 Behavior ｜ CXL.cache Read0 行为
 >
-> <img src="figures/chapter_03/page_0115.png" alt="Figure 3-12" width="700">
+> <img src="figures/chapter_03/fig_0115_1.png" alt="Figure 3-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0115.png)
 
@@ -1260,19 +1260,19 @@
 
 > **Figure 3-13.** CXL.cache Device to Host Write Behavior ｜ CXL.cache 设备到主机的写行为
 >
-> <img src="figures/chapter_03/page_0116.png" alt="Figure 3-13" width="700">
+> <img src="figures/chapter_03/fig_0116_1.png" alt="Figure 3-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0116.png)
 
 > **Figure 3-14.** CXL.cache WrInv Transaction ｜ CXL.cache WrInv 事务
 >
-> <img src="figures/chapter_03/page_0117.png" alt="Figure 3-14" width="700">
+> <img src="figures/chapter_03/fig_0117_1.png" alt="Figure 3-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0117.png)
 
 > **Figure 3-15.** WOWrInv/F with FastGO/ExtCmp ｜ 带 FastGO/ExtCmp 的 WOWrInv/F
 >
-> <img src="figures/chapter_03/page_0118.png" alt="Figure 3-15" width="700">
+> <img src="figures/chapter_03/fig_0118_1.png" alt="Figure 3-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0118.png)
 
@@ -1300,7 +1300,7 @@
 
 > **Figure 3-16.** CXL.cache Read0-Write Semantics ｜ CXL.cache Read0-Write 语义
 >
-> <img src="figures/chapter_03/page_0119.png" alt="Figure 3-16" width="700">
+> <img src="figures/chapter_03/fig_0119_1.png" alt="Figure 3-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_03/page_0119.png)
 

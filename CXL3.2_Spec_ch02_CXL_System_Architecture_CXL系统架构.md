@@ -122,7 +122,7 @@ The following sections describe various profiles of CXL devices.
 
 > **Figure 2-1.** CXL Device Types ｜ CXL 设备类型
 >
-> <img src="figures/chapter_02/page_0071.png" alt="Figure 2-1: CXL Device Types ｜ CXL 设备类型" width="700">
+> <img src="figures/chapter_02/fig_0071_1.png" alt="Figure 2-1: CXL Device Types ｜ CXL 设备类型" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0071.png)
 
@@ -206,7 +206,7 @@ Basic cache coherency allows an accelerator to implement any ordering model it c
 
 > **Figure 2-2.** Type 1 Device — Device with Cache ｜ Type 1 设备 — 带缓存的设备
 >
-> <img src="figures/chapter_02/page_0072.png" alt="Figure 2-2: Type 1 Device — Device with Cache ｜ Type 1 设备 — 带缓存的设备" width="700">
+> <img src="figures/chapter_02/fig_0072_1.png" alt="Figure 2-2: Type 1 Device — Device with Cache ｜ Type 1 设备 — 带缓存的设备" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0072.png)
 
@@ -254,7 +254,7 @@ HDM 与传统 I/O 以及 PCIe 私有设备内存（PDM）之间存在重要区�
 
 > **Figure 2-3.** Type 2 Device — Device with Memory ｜ Type 2 设备 — 带内存的设备
 >
-> <img src="figures/chapter_02/page_0073.png" alt="Figure 2-3: Type 2 Device — Device with Memory ｜ Type 2 设备 — 带内存的设备" width="700">
+> <img src="figures/chapter_02/fig_0073_1.png" alt="Figure 2-3: Type 2 Device — Device with Memory ｜ Type 2 设备 — 带内存的设备" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0073.png)
 
@@ -698,7 +698,7 @@ Since this is not a traditional accelerator that operates on host memory, the de
 
 > **Figure 2-6.** Type 3 Device — HDM-H Memory Expander ｜ Type 3 设备 — HDM-H 内存扩展器
 >
-> <img src="figures/chapter_02/page_0076.png" alt="Figure 2-6: Type 3 Device — HDM-H Memory Expander ｜ Type 3 设备 — HDM-H 内存扩展器" width="700">
+> <img src="figures/chapter_02/fig_0076_1.png" alt="Figure 2-6: Type 3 Device — HDM-H Memory Expander ｜ Type 3 设备 — HDM-H 内存扩展器" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0076.png)
 
@@ -1231,7 +1231,7 @@ graph LR
 
 > **Figure 2-7.** Head-to-LD Mapping in MH-SLDs ｜ MH-SLD 中的头-LD 映射（1:1）
 >
-> <img src="figures/chapter_02/page_0081.png" alt="Figure 2-7: Head-to-LD Mapping in MH-SLDs ｜ MH-SLD 中的头-LD 映射（1:1）" width="700">
+> <img src="figures/chapter_02/fig_0081_1.png" alt="Figure 2-7: Head-to-LD Mapping in MH-SLDs ｜ MH-SLD 中的头-LD 映射（1:1）" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0081.png)
 
@@ -1324,7 +1324,7 @@ graph LR
 
 > **Figure 2-8.** Head-to-LD Mapping in MH-MLDs ｜ MH-MLD 中的头-LD 映射（1:N）
 >
-> <img src="figures/chapter_02/page_0082.png" alt="Figure 2-8: Head-to-LD Mapping in MH-MLDs ｜ MH-MLD 中的头-LD 映射（1:N）" width="700">
+> <img src="figures/chapter_02/fig_0082_1.png" alt="Figure 2-8: Head-to-LD Mapping in MH-MLDs ｜ MH-MLD 中的头-LD 映射（1:N）" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_02/page_0082.png)
 

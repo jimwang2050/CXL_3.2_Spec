@@ -92,7 +92,7 @@
 
 > **Figure 5-1.** Flex Bus Layers - CXL ARB/MUX Highlighted ｜ Flex Bus 分层 - CXL ARB/MUX 高亮显示
 >
-> <img src="figures/chapter_05/page_0262.png" alt="Figure 5-1" width="700">
+> <img src="figures/chapter_05/fig_0262_1.png" alt="Figure 5-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0262.png)
 
@@ -219,7 +219,7 @@
 
 > **Figure 5-2.** Entry to Active Protocol Exchange ｜ 进入 Active 状态的协议交换
 >
-> <img src="figures/chapter_05/page_0267.png" alt="Figure 5-2" width="700">
+> <img src="figures/chapter_05/fig_0267_1.png" alt="Figure 5-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0267.png)
 
@@ -246,7 +246,7 @@
 
 > **Figure 5-3.** Example Status Exchange ｜ 状态交换示例
 >
-> <img src="figures/chapter_05/page_0268.png" alt="Figure 5-3" width="700">
+> <img src="figures/chapter_05/fig_0268_1.png" alt="Figure 5-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0268.png)
 
@@ -392,7 +392,7 @@
 
 > **Figure 5-4.** CXL Entry to Active Example Flow ｜ CXL 进入 Active 状态示例流程
 >
-> <img src="figures/chapter_05/page_0270.png" alt="Figure 5-4" width="700">
+> <img src="figures/chapter_05/fig_0270_1.png" alt="Figure 5-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0270.png)
 
@@ -431,7 +431,7 @@
 
 > **Figure 5-5.** CXL Entry to PM State Example ｜ CXL 进入 PM 状态示例
 >
-> <img src="figures/chapter_05/page_0271.png" alt="Figure 5-5" width="700">
+> <img src="figures/chapter_05/fig_0271_1.png" alt="Figure 5-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0271.png)
 
@@ -456,7 +456,7 @@
 
 > **Figure 5-6.** Successful PM Entry following PM Retry ｜ PM 重试后成功进入 PM
 >
-> <img src="figures/chapter_05/page_0272.png" alt="Figure 5-6" width="700">
+> <img src="figures/chapter_05/fig_0272_1.png" alt="Figure 5-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0272.png)
 
@@ -475,7 +475,7 @@
 
 > **Figure 5-7.** PM Abort before Downstream Port PM Acceptance ｜ Downstream Port 接受 PM 之前的中止
 >
-> <img src="figures/chapter_05/page_0277.png" alt="Figure 5-7" width="700">
+> <img src="figures/chapter_05/fig_0277_1.png" alt="Figure 5-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0277.png)
 
@@ -503,7 +503,7 @@
 
 > **Figure 5-8.** PM Abort after Downstream Port PM Acceptance ｜ Downstream Port 接受 PM 之后的中止
 >
-> <img src="figures/chapter_05/page_0273.png" alt="Figure 5-8" width="700">
+> <img src="figures/chapter_05/fig_0273_1.png" alt="Figure 5-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0273.png)
 
@@ -524,7 +524,7 @@
 
 > **Figure 5-9.** Example of a PMNAK Flow ｜ PMNAK 流程示例
 >
-> <img src="figures/chapter_05/page_0274.png" alt="Figure 5-9" width="700">
+> <img src="figures/chapter_05/fig_0274_1.png" alt="Figure 5-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0274.png)
 
@@ -628,7 +628,7 @@
 
 > **Figure 5-10.** CXL Recovery Exit Example Flow ｜ CXL Recovery 退出示例流程
 >
-> <img src="figures/chapter_05/page_0276.png" alt="Figure 5-10" width="700">
+> <img src="figures/chapter_05/fig_0276_1.png" alt="Figure 5-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0276.png)
 
@@ -646,7 +646,7 @@
 
 > **Figure 5-11.** CXL Exit from PM State Example ｜ CXL 退出 PM 状态示例
 >
-> <img src="figures/chapter_05/page_0277.png" alt="Figure 5-11" width="700">
+> <img src="figures/chapter_05/fig_0277_1.png" alt="Figure 5-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0277.png)
 
@@ -707,13 +707,13 @@
 
 > **Figure 5-12.** Both Upstream Port and Downstream Port Hide Recovery Transitions from ARB/MUX ｜ Upstream Port 和 Downstream Port 都对 ARB/MUX 隐藏 Recovery 转换
 >
-> <img src="figures/chapter_05/page_0278.png" alt="Figure 5-12" width="700">
+> <img src="figures/chapter_05/fig_0278_1.png" alt="Figure 5-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0278.png)
 
 > **Figure 5-13.** Both Upstream Port and Downstream Port Notify ARB/MUX of Recovery Transitions ｜ Upstream Port 和 Downstream Port 都通知 ARB/MUX Recovery 转换
 >
-> <img src="figures/chapter_05/page_0279.png" alt="Figure 5-13" width="700">
+> <img src="figures/chapter_05/fig_0279_1.png" alt="Figure 5-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0279.png)
 
@@ -732,13 +732,13 @@
 
 > **Figure 5-14.** Downstream Port Hides Initial Recovery, Upstream Port Does Not ｜ Downstream Port 隐藏初始 Recovery,Upstream Port 不隐藏
 >
-> <img src="figures/chapter_05/page_0280.png" alt="Figure 5-14" width="700">
+> <img src="figures/chapter_05/fig_0280_1.png" alt="Figure 5-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0280.png)
 
 > **Figure 5-15.** Upstream Port Hides Initial Recovery, Downstream Port Does Not ｜ Upstream Port 隐藏初始 Recovery,Downstream Port 不隐藏
 >
-> <img src="figures/chapter_05/page_0281.png" alt="Figure 5-15" width="700">
+> <img src="figures/chapter_05/fig_0281_1.png" alt="Figure 5-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0281.png)
 
@@ -762,7 +762,7 @@
 
 > **Figure 5-16.** Snapshot Example during Status Synchronization ｜ 状态同步期间的快照示例
 >
-> <img src="figures/chapter_05/page_0282.png" alt="Figure 5-16" width="700">
+> <img src="figures/chapter_05/fig_0282_1.png" alt="Figure 5-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0282.png)
 
@@ -786,7 +786,7 @@
 
 > **Figure 5-17.** L1 Abort Example ｜ L1 中止示例
 >
-> <img src="figures/chapter_05/page_0283.png" alt="Figure 5-17" width="700">
+> <img src="figures/chapter_05/fig_0283_1.png" alt="Figure 5-17" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0283.png)
 
@@ -812,7 +812,7 @@
 
 > **Figure 5-18.** ARB/MUX Link Management Packet Format ｜ ARB/MUX 链路管理数据包格式
 >
-> <img src="figures/chapter_05/page_0283.png" alt="Figure 5-18" width="700">
+> <img src="figures/chapter_05/fig_0283_1.png" alt="Figure 5-18" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0283.png)
 
@@ -831,13 +831,13 @@
 
 > **Figure 5-19.** ALMP Byte Positions in Standard 256B Flit ｜ 标准 256B Flit 中的 ALMP 字节位置
 >
-> <img src="figures/chapter_05/page_0284.png" alt="Figure 5-19" width="700">
+> <img src="figures/chapter_05/fig_0284_1.png" alt="Figure 5-19" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0284.png)
 
 > **Figure 5-20.** ALMP Byte Positions in Latency-Optimized 256B Flit ｜ 延迟优化型 256B Flit 中的 ALMP 字节位置
 >
-> <img src="figures/chapter_05/page_0284.png" alt="Figure 5-20" width="700">
+> <img src="figures/chapter_05/fig_0284_1.png" alt="Figure 5-20" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_05/page_0284.png)
 
