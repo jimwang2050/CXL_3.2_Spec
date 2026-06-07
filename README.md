@@ -10,12 +10,12 @@
 
 ## 📊 翻译进度 (Translation Progress)
 
-**已完成**: `13 / 14` 章完整 ｜ 1 章内部有空缺 (Ch7 缺 Part A)
+**已完成**: `14 / 14` 章完整
 **总文件**: 1.8 MB MD + 27 MB 原图
-**最近更新**: 2026-06-07 — Ch8 图嵌入与结构统一修复
+**最近更新**: 2026-06-07 — Ch7 图嵌入统一修复 (Part A/B/C 三件套齐备)
 
 ```text
-[█████████████░] 96%  (13/14 完整)
+[██████████████] 100%  (14/14 完整)
 ```
 
 ## 📖 章节目录 (Chapters)
@@ -30,7 +30,7 @@
 | 4 | CXL Link Layers | CXL 链路层 | 191–261 | ✅ Done | [📄 CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md](CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md) |
 | 5 | CXL ARB/MUX | CXL 仲裁/复用 | 262–286 | ✅ Done | [📄 CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md](CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md) |
 | 6 | Flex Bus Physical Layer | Flex Bus 物理层 | 287–318 | ✅ Done | [📄 CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md](CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md) |
-| 7 | Switching | 交换 | 319–498 | ⚠️ 缺 Part A | [📄 CXL3.2_Spec_ch07_Switching_交换.md](CXL3.2_Spec_ch07_Switching_交换.md) |
+| 7 | Switching | 交换 | 319–498 | ✅ Done (rev. 2026-06-07) | [📄 CXL3.2_Spec_ch07_Switching_交换.md](CXL3.2_Spec_ch07_Switching_交换.md) |
 | 8 | Control and Status Registers | 控制与状态寄存器 | 499–798 | ✅ Done (rev. 2026-06-07) | [📄 CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md](CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md) |
 | 9 | Reset, Initialization, Configuration, and Manageability | 复位、初始化、配置与管理 | 799–878 | ✅ Done | [📄 CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md](CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md) |
 | 10 | Power Management | 电源管理 | 879–891 | ✅ Done | [📄 CXL3.2_Spec_ch10_Power_Management_电源管理.md](CXL3.2_Spec_ch10_Power_Management_电源管理.md) |
@@ -52,7 +52,7 @@ CXL_zh/
 ├── CXL3.2_Spec_ch04_CXL_Link_Layers_CXL链路层.md
 ├── CXL3.2_Spec_ch05_CXL_ARB-MUX_CXL仲裁复用.md
 ├── CXL3.2_Spec_ch06_Flex_Bus_Physical_Layer_FlexBus物理层.md
-├── CXL3.2_Spec_ch07_Switching_交换.md                 # ⚠️ 缺 Part A
+├── CXL3.2_Spec_ch07_Switching_交换.md                 # ✅ rev. 2026-06-07 Part A/B/C 齐
 ├── CXL3.2_Spec_ch08_Control_and_Status_Registers_控制与状态寄存器.md  # ✅ rev. 2026-06-07 全 Part 完整
 ├── CXL3.2_Spec_ch09_Reset_Initialization_Configuration_Manageability_复位初始化配置与管理.md
 ├── CXL3.2_Spec_ch10_Power_Management_电源管理.md
@@ -131,6 +131,33 @@ CXL_zh/
 
 ## 📋 Recent Updates (更新日志)
 
+### 2026-06-07 — Ch7 图嵌入统一 + Part B/C 补齐
+
+**发现**: 之前 README 标 "Ch7 缺 Part A" 实际是误判 — ch7 实际包含完整 Part A/B/C 内容 (p.319–498, 10,959 行), 只是 (a) `src=page_*.png` 命名未统一, (b) Part B/C 缺 H1 和"本章目录"。
+
+**改动**:
+
+| 类别 | 改动 | 数量 |
+|------|------|------|
+| **资源** | PIL 去水印版 `fig_*_1.png` (与 ch08/10/11/12/14 同样参数 150/110/1200/1580) | **80 张新增** (ch7 现 87 张 fig_) |
+| **inline src 重命名** | `figures/chapter_07/page_PPPP.png` → `figures/chapter_07/fig_PPPP_1.png` | **127 处** |
+| **H1 补齐** | 为 Part B / Part C 加 H1 标题 (Part A 已有) | 2 个 |
+| **TOC 补齐** | 为 Part B / Part C 加 `## 📑 本章目录` (Part A 已有) | 2 个 |
+| **不动** | 7 处 `figures/chapter_07/page_*.png` 残留在 Full size 链接 (有意的"原图备份") | 7 处 |
+
+**修复前 → 修复后**:
+```
+指标                            修复前       修复后
+─────────────────────────────────────────────────
+src=page_ 嵌入                  134          7 (全部为 Full size 链接)
+Part B/C 的 H1                  0           2 (B + C)
+Part B/C 的 本章目录            0           2 (B + C)
+Chapter 7 整体状态              ⚠️ 缺 Part A   ✅ Done
+全 14 章完整度                  13/14       14/14
+```
+
+**附**: ch7 用 `chapter_07_raw.txt` + `chapter_07{a,b,c}_raw.txt` 4 个 raw 文本作为翻译源, 翻译阶段从未拆 Part, 因此 Part A/B/C 内容是连贯的, 修复时无需重新切分。
+
 ### 2026-06-07 — Ch10/Ch11/Ch12/Ch14 图嵌入统一修复
 
 **目标**: 沿用 ch08 修复基准 (Part A 风格 + 去水印版 `fig_*_1.png`), 把其余章节中所有 `src=page_*.png` 统一为 `src=fig_*_1.png`。
@@ -194,26 +221,16 @@ H1 章节数                  1           4 (A/B/D/E)
 
 ## ⚠️ 已知问题
 
-1. **Ch7 缺 Part A** (p.319–380, 60 页): 由于 API 速率限制 (Token Plan Plus 5h limit), Part A 子 agent 在限制生效前未能完成
-
-### 续传方案
-
-API 速率限制将于 **20:00 (UTC+8) 重置**。重置后可重新调度:
-- Ch7 Part A (p.319–380, ~120K 字)
-
-```bash
-# 重置后可执行
-bash /tmp/resume_translation.sh
-```
+（无 — 14 章 14 Part 全部 Done）
 
 ---
 
 ## ⏭️ 下一步
 
-- [ ] **API 速率限制重置后** (20:00 UTC+8) 续传 Ch7 Part A
 - [ ] 校对与精修: 由人工或下次 API 配额恢复时, 重点校对 Ch3 (核心协议) 与 Ch11 (安全) 的关键术语一致性
 - [ ] Ch8 "本章目录" 自动汇总 (4 个 Part)
 - [ ] Ch8 紧致 figure crop (重跑 MinerU, 把去水印版升级到 tight crop)
+- [ ] Ch7/8/10/11/12/14 共 ~233 张去水印版 fig_*.png 后续可升级到紧致裁剪
 
 ---
 

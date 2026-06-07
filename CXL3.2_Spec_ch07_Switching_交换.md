@@ -270,7 +270,7 @@
 
 > **Figure 7-1.** Example of a Single VCS ｜ 单 VCS 示例
 >
-> <img src="figures/chapter_07/page_0319.png" alt="Figure 7-1" width="700">
+> <img src="figures/chapter_07/fig_0319_1.png" alt="Figure 7-1" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0319.png)
 
@@ -305,7 +305,7 @@
 
 > **Figure 7-2.** Example of a Multiple VCS with SLD Ports ｜ 使用 SLD 端口的多 VCS 示例
 >
-> <img src="figures/chapter_07/page_0320.png" alt="Figure 7-2" width="700">
+> <img src="figures/chapter_07/fig_0320_1.png" alt="Figure 7-2" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0320.png)
 
@@ -360,7 +360,7 @@
 
 > **Figure 7-3.** Example of a Multiple Root Switch Port with Pooled Memory Devices ｜ 具有池化内存设备的多根交换机端口示例
 >
-> <img src="figures/chapter_07/page_0321.png" alt="Figure 7-3" width="700">
+> <img src="figures/chapter_07/fig_0321_1.png" alt="Figure 7-3" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0321.png)
 
@@ -503,7 +503,7 @@
 
 > **Figure 7-4.** Static CXL Switch with Two VCSs ｜ 具有两个 VCS 的静态 CXL 交换机
 >
-> <img src="figures/chapter_07/page_0323.png" alt="Figure 7-4" width="700">
+> <img src="figures/chapter_07/fig_0323_1.png" alt="Figure 7-4" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0323.png)
 
@@ -531,7 +531,7 @@
 
 > **Figure 7-5.** Example of CXL Switch Initialization when FM Boots First ｜ FM 先启动时的 CXL 交换机初始化示例
 >
-> <img src="figures/chapter_07/page_0324.png" alt="Figure 7-5" width="700">
+> <img src="figures/chapter_07/fig_0324_1.png" alt="Figure 7-5" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0324.png)
 
@@ -557,7 +557,7 @@
 
 > **Figure 7-6.** Example of CXL Switch after Initialization Completes ｜ 初始化完成后的 CXL 交换机示例
 >
-> <img src="figures/chapter_07/page_0325.png" alt="Figure 7-6" width="700">
+> <img src="figures/chapter_07/fig_0325_1.png" alt="Figure 7-6" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0325.png)
 
@@ -589,7 +589,7 @@
 
 > **Figure 7-7.** Example of Switch with Fabric Manager and Host Boot Simultaneously ｜ FM 与主机同时启动的交换机示例
 >
-> <img src="figures/chapter_07/page_0326.png" alt="Figure 7-7" width="700">
+> <img src="figures/chapter_07/fig_0326_1.png" alt="Figure 7-7" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0326.png)
 
@@ -616,7 +616,7 @@
 
 > **Figure 7-8.** Example of Simultaneous Boot after Binding ｜ 绑定后同时启动示例
 >
-> <img src="figures/chapter_07/page_0327.png" alt="Figure 7-8" width="700">
+> <img src="figures/chapter_07/fig_0327_1.png" alt="Figure 7-8" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0327.png)
 
@@ -710,7 +710,7 @@
 
 > **Figure 7-9.** Example of Binding and Unbinding of an SLD Port ｜ SLD 端口的绑定与解绑示例
 >
-> <img src="figures/chapter_07/page_0328.png" alt="Figure 7-9" width="700">
+> <img src="figures/chapter_07/fig_0328_1.png" alt="Figure 7-9" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0328.png)
 
@@ -728,13 +728,13 @@
 
 > **Figure 7-10.** Example of CXL Switch Configuration after an Unbind Command ｜ 执行 Unbind 命令后的 CXL 交换机配置示例
 >
-> <img src="figures/chapter_07/page_0329.png" alt="Figure 7-10" width="700">
+> <img src="figures/chapter_07/fig_0329_1.png" alt="Figure 7-10" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0329.png)
 
 > **Figure 7-11.** Example of CXL Switch Configuration after a Bind Command ｜ 执行 Bind 命令后的 CXL 交换机配置示例
 >
-> <img src="figures/chapter_07/page_0330.png" alt="Figure 7-11" width="700">
+> <img src="figures/chapter_07/fig_0330_1.png" alt="Figure 7-11" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0330.png)
 
@@ -763,7 +763,7 @@
 
 > **Figure 7-12.** Example of a CXL Switch before Binding of LDs within Pooled Device ｜ 在池化设备中绑定 LD 之前的 CXL 交换机示例
 >
-> <img src="figures/chapter_07/page_0331.png" alt="Figure 7-12" width="700">
+> <img src="figures/chapter_07/fig_0331_1.png" alt="Figure 7-12" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0331.png)
 
@@ -781,7 +781,7 @@
 
 > **Figure 7-13.** Example of a CXL Switch after Binding of LD-ID 1 within Pooled Device ｜ 在池化设备中绑定 LD-ID 1 之后的 CXL 交换机示例
 >
-> <img src="figures/chapter_07/page_0332.png" alt="Figure 7-13" width="700">
+> <img src="figures/chapter_07/fig_0332_1.png" alt="Figure 7-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0332.png)
 
@@ -801,7 +801,7 @@
 
 > **Figure 7-14.** Example of a CXL Switch after Binding of LD-IDs 0 and 1 within Pooled Device ｜ 在池化设备中绑定 LD-ID 0 和 1 之后的 CXL 交换机示例
 >
-> <img src="figures/chapter_07/page_0333.png" alt="Figure 7-14" width="700">
+> <img src="figures/chapter_07/fig_0333_1.png" alt="Figure 7-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0333.png)
 
@@ -1387,13 +1387,13 @@
 
 > **Figure 7-15.** Multi-function Upstream vPPB ｜ 多功能上游 vPPB
 >
-> <img src="figures/chapter_07/page_0341.png" alt="Figure 7-15" width="700">
+> <img src="figures/chapter_07/fig_0341_1.png" alt="Figure 7-15" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0341.png)
 
 > **Figure 7-16.** Single-function Mailbox CCI ｜ 单功能 Mailbox CCI
 >
-> <img src="figures/chapter_07/page_0341.png" alt="Figure 7-16" width="700">
+> <img src="figures/chapter_07/fig_0341_1.png" alt="Figure 7-16" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0341.png)
 
@@ -1476,7 +1476,7 @@
 
 > **Figure 7-17.** CXL Switch with a Downstream Link Auto-negotiated to Operate in RCD Mode ｜ 下游链路自动协商为 RCD 模式的 CXL 交换机
 >
-> <img src="figures/chapter_07/page_0342.png" alt="Figure 7-17" width="700">
+> <img src="figures/chapter_07/fig_0342_1.png" alt="Figure 7-17" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0342.png)
 
@@ -1843,7 +1843,7 @@
 
 > **Figure 7-18.** Example of Fabric Management Model ｜ Fabric 管理模型示例
 >
-> <img src="figures/chapter_07/page_0346.png" alt="Figure 7-18" width="700">
+> <img src="figures/chapter_07/fig_0346_1.png" alt="Figure 7-18" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0346.png)
 
@@ -1869,7 +1869,7 @@
 
 > **Figure 7-19.** CCI Message Format ｜ CCI 消息格式
 >
-> <img src="figures/chapter_07/page_0347.png" alt="Figure 7-19" width="700">
+> <img src="figures/chapter_07/fig_0347_1.png" alt="Figure 7-19" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0347.png)
 
@@ -1984,7 +1984,7 @@
 
 > **Figure 7-20.** Tunneling Commands to an MLD through a CXL Switch ｜ 通过 CXL 交换机向 MLD 隧道传输命令
 >
-> <img src="figures/chapter_07/page_0348.png" alt="Figure 7-20" width="700">
+> <img src="figures/chapter_07/fig_0348_1.png" alt="Figure 7-20" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0348.png)
 
@@ -2053,7 +2053,7 @@
 
 > **Figure 7-21.** Example of MLD Management Requiring Tunneling ｜ 需要隧道传输的 MLD 管理示例
 >
-> <img src="figures/chapter_07/page_0349.png" alt="Figure 7-21" width="700">
+> <img src="figures/chapter_07/fig_0349_1.png" alt="Figure 7-21" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0349.png)
 
@@ -3120,13 +3120,13 @@
 
 > **Figure 7-22.** Tunneling Commands to an LD in an MLD ｜ 向 MLD 中的某个 LD 隧道传输命令
 >
-> <img src="figures/chapter_07/page_0364.png" alt="Figure 7-22" width="700">
+> <img src="figures/chapter_07/fig_0364_1.png" alt="Figure 7-22" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0364.png)
 
 > **Figure 7-23.** Tunneling Commands to an LD in an MLD through a CXL Switch ｜ 通过 CXL 交换机向 MLD 中的某个 LD 隧道传输命令
 >
-> <img src="figures/chapter_07/page_0364.png" alt="Figure 7-23" width="700">
+> <img src="figures/chapter_07/fig_0364_1.png" alt="Figure 7-23" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0364.png)
 
@@ -3155,7 +3155,7 @@
 
 > **Figure 7-24.** Tunneling Commands to the LD Pool CCI in a Multi-Headed Device ｜ 向多头设备中 LD Pool CCI 隧道传输命令
 >
-> <img src="figures/chapter_07/page_0365.png" alt="Figure 7-24" width="700">
+> <img src="figures/chapter_07/fig_0365_1.png" alt="Figure 7-24" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0365.png)
 
@@ -4396,6 +4396,16 @@
   - [7.7.7 Inter-Switch Links (ISLs)](#sec-7-7-7)
     - [7.7.7.1 .io Deadlock Avoidance on ISLs/PBR Fabric](#sec-7-7-7-1)
 
+# 📘 第 7 章　交换 (Chapter 7. Switching) — Part B
+
+> **Source pages**: 见正文 (Part B) | **Format**: 中英对照双语
+
+## 📑 本章目录 (Part B)
+
+_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
+
+---
+
 ## 🖼 本章图表 (Part B)
 
 - **Figure 7-25** — High-level CXL Fabric Diagram (page 392)
@@ -5557,7 +5567,7 @@
 
 > **Figure 7-25.** High-level CXL Fabric Diagram ｜ CXL Fabric 高层示意图
 >
-> <img src="figures/chapter_07/page_0392.png" alt="Figure 7-25" width="700">
+> <img src="figures/chapter_07/fig_0392_1.png" alt="Figure 7-25" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0392.png)
 
@@ -5638,7 +5648,7 @@
 
 > **Figure 7-28.** Sample System Topology for Composable Systems ｜ 可组合系统的示例系统拓扑
 >
-> <img src="figures/chapter_07/page_0394.png" alt="Figure 7-28" width="700">
+> <img src="figures/chapter_07/fig_0394_1.png" alt="Figure 7-28" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0394.png)
 
@@ -5670,7 +5680,7 @@
 
 > **Figure 7-28.** Sample System Topology for Composable Systems ｜ 可组合系统的示例系统拓扑
 >
-> <img src="figures/chapter_07/page_0394.png" alt="Figure 7-28" width="700">
+> <img src="figures/chapter_07/fig_0394_1.png" alt="Figure 7-28" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0394.png)
 
@@ -5707,7 +5717,7 @@
 
 > **Figure 7-29.** Example Host Physical Address View ｜ 主机物理地址视图示例
 >
-> <img src="figures/chapter_07/page_0396.png" alt="Figure 7-29" width="700">
+> <img src="figures/chapter_07/fig_0396_1.png" alt="Figure 7-29" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0396.png)
 
@@ -5741,7 +5751,7 @@
 
 > **Figure 7-30.** Example HPA Mapping to DMPs ｜ HPA 到 DMP 的映射示例
 >
-> <img src="figures/chapter_07/page_0397.png" alt="Figure 7-30" width="700">
+> <img src="figures/chapter_07/fig_0397_1.png" alt="Figure 7-30" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0397.png)
 
@@ -5859,7 +5869,7 @@
 
 > **Figure 7-31.** G-FAM Request Routing, Interleaving, and Address Translations ｜ G-FAM 请求路由、Interleaving 和地址转换
 >
-> <img src="figures/chapter_07/page_0399.png" alt="Figure 7-31" width="700">
+> <img src="figures/chapter_07/fig_0399_1.png" alt="Figure 7-31" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0399.png)
 
@@ -6086,7 +6096,7 @@
 
 > **Figure 7-32.** Memory Access Protection Levels ｜ 内存访问保护层级
 >
-> <img src="figures/chapter_07/page_0403.png" alt="Figure 7-32" width="700">
+> <img src="figures/chapter_07/fig_0403_1.png" alt="Figure 7-32" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0403.png)
 
@@ -6106,7 +6116,7 @@
 
 > **Figure 7-33.** GFD Dynamic Capacity Access Protections ｜ GFD Dynamic Capacity 访问保护
 >
-> <img src="figures/chapter_07/page_0404.png" alt="Figure 7-33" width="700">
+> <img src="figures/chapter_07/fig_0404_1.png" alt="Figure 7-33" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0404.png)
 
@@ -6296,7 +6306,7 @@
 
 > **Figure 7-41.** GIM Access Flows without FASTs ｜ 不使用 FAST 的 GIM 访问流
 >
-> <img src="figures/chapter_07/page_0410.png" alt="Figure 7-41" width="700">
+> <img src="figures/chapter_07/fig_0410_1.png" alt="Figure 7-41" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0410.png)
 
@@ -6441,7 +6451,7 @@
 
 > **Figure 7-42.** Example Supported Switch Configurations ｜ 支持的交换机配置示例
 >
-> <img src="figures/chapter_07/page_0413.png" alt="Figure 7-42" width="700">
+> <img src="figures/chapter_07/fig_0413_1.png" alt="Figure 7-42" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0413.png)
 
@@ -6461,7 +6471,7 @@
 
 > **Figure 7-43.** Example PBR Mesh Topology ｜ PBR Mesh 拓扑示例
 >
-> <img src="figures/chapter_07/page_0414.png" alt="Figure 7-43" width="700">
+> <img src="figures/chapter_07/fig_0414_1.png" alt="Figure 7-43" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0414.png)
 
@@ -6483,7 +6493,7 @@
 
 > **Figure 7-44.** Example Routing Scheme for a Mesh Topology ｜ Mesh 拓扑的路由方案示例
 >
-> <img src="figures/chapter_07/page_0415.png" alt="Figure 7-44" width="700">
+> <img src="figures/chapter_07/fig_0415_1.png" alt="Figure 7-44" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0415.png)
 
@@ -6555,7 +6565,7 @@
 
 > **Figure 7-45.** Physical Topology and Logical View ｜ 物理拓扑与逻辑视图
 >
-> <img src="figures/chapter_07/page_0417.png" alt="Figure 7-45" width="700">
+> <img src="figures/chapter_07/fig_0417_1.png" alt="Figure 7-45" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0417.png)
 
@@ -6775,7 +6785,7 @@
 
 > **Figure 7-46.** Example PBR Fabric ｜ PBR Fabric 示例
 >
-> <img src="figures/chapter_07/page_0421.png" alt="Figure 7-46" width="700">
+> <img src="figures/chapter_07/fig_0421_1.png" alt="Figure 7-46" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0421.png)
 
@@ -8393,6 +8403,16 @@
   - [7.7.15.4 Get VendPrefixL0 State (Opcode 5903h)](#sec-7-7-15-4)
   - [7.7.15.5 Set VendPrefixL0 State (Opcode 5904h)](#sec-7-7-15-5)
 
+# 📘 第 7 章　交换 (Chapter 7. Switching) — Part C
+
+> **Source pages**: 见正文 (Part C) | **Format**: 中英对照双语
+
+## 📑 本章目录 (Part C)
+
+_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
+
+---
+
 ## 🖼 本章图表 (Part C)
 
 | Figure | 标题 (EN) | 标题 (中) |
@@ -8520,7 +8540,7 @@
 
 > **Figure 7-48.** Deadlock Avoidance Mechanism on ISL ｜ ISL 上的死锁避免机制
 >
-> <img src="figures/chapter_07/page_0441.png" alt="Figure 7-48" width="700">
+> <img src="figures/chapter_07/fig_0441_1.png" alt="Figure 7-48" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0441.png)
 
@@ -8540,7 +8560,7 @@
 
 > **Figure 7-49.** Update-FC DLLP Format on ISL ｜ ISL 上 Update-FC DLLP 格式
 >
-> <img src="figures/chapter_07/page_0442.png" alt="Figure 7-49" width="700">
+> <img src="figures/chapter_07/fig_0442_1.png" alt="Figure 7-49" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0442.png)
 
@@ -8766,7 +8786,7 @@
 
 > **Figure 7-50.** Example Topology with Direct P2P CXL.mem with GFD ｜ 使用 GFD 的 Direct P2P CXL.mem 示例拓扑
 >
-> <img src="figures/chapter_07/page_0446.png" alt="Figure 7-50" width="700">
+> <img src="figures/chapter_07/fig_0446_1.png" alt="Figure 7-50" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0446.png)
 
@@ -8786,7 +8806,7 @@
 
 > **Figure 7-51.** Example Topology with Direct P2P CXL.mem with MLD ｜ 使用 MLD 的 Direct P2P CXL.mem 示例拓扑
 >
-> <img src="figures/chapter_07/page_0447.png" alt="Figure 7-51" width="700">
+> <img src="figures/chapter_07/fig_0447_1.png" alt="Figure 7-51" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0447.png)
 
@@ -8822,7 +8842,7 @@
 
 > **Table 7-109.** PBR Switch Port Processing Table for Direct P2P CXL.mem ｜ Direct P2P CXL.mem 的 PBR 交换机端口处理表
 >
-> <img src="figures/chapter_07/page_0448.png" alt="Table 7-109" width="700">
+> <img src="figures/chapter_07/fig_0448_1.png" alt="Table 7-109" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0448.png)
 
@@ -8922,7 +8942,7 @@
 
 > **Figure 7-52.** Single VH ｜ 单一虚拟层级 (Single VH)
 >
-> <img src="figures/chapter_07/page_0450.png" alt="Figure 7-52" width="700">
+> <img src="figures/chapter_07/fig_0450_1.png" alt="Figure 7-52" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0450.png)
 
@@ -9075,7 +9095,7 @@
 
 > **Figure 7-53.** Shared Link Events ｜ 共享链路事件
 >
-> <img src="figures/chapter_07/page_0454.png" alt="Figure 7-53" width="700">
+> <img src="figures/chapter_07/fig_0454_1.png" alt="Figure 7-53" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0454.png)
 
@@ -9173,7 +9193,7 @@
 
 > **Table 7-110.** Link Partner Info Payload ｜ Link Partner Info 有效载荷
 >
-> <img src="figures/chapter_07/page_0456.png" alt="Table 7-110" width="700">
+> <img src="figures/chapter_07/fig_0456_1.png" alt="Table 7-110" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0456.png)
 
@@ -9326,13 +9346,13 @@
 
 > **Table 7-111.** Far End Device Type Detection (Sheet 1 of 2) ｜ 远端设备类型检测 (1/2)
 >
-> <img src="figures/chapter_07/page_0458.png" alt="Table 7-111" width="700">
+> <img src="figures/chapter_07/fig_0458_1.png" alt="Table 7-111" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0458.png)
 
 > **Table 7-111 (cont.).** Far End Device Type Detection (Sheet 2 of 2) ｜ 远端设备类型检测 (2/2)
 >
-> <img src="figures/chapter_07/page_0459.png" alt="Table 7-111" width="700">
+> <img src="figures/chapter_07/fig_0459_1.png" alt="Table 7-111" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0459.png)
 
@@ -9526,7 +9546,7 @@
 
 > **Table 7-112.** Identify PBR Switch Response Payload ｜ Identify PBR Switch 响应 Payload
 >
-> <img src="figures/chapter_07/page_0462.png" alt="Table 7-112" width="700">
+> <img src="figures/chapter_07/fig_0462_1.png" alt="Table 7-112" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0462.png)
 
@@ -9558,13 +9578,13 @@
 
 > **Figure 7-54.** Tunneling Commands to Remote Devices ｜ 对远程设备的命令隧道传输
 >
-> <img src="figures/chapter_07/page_0463.png" alt="Figure 7-54" width="700">
+> <img src="figures/chapter_07/fig_0463_1.png" alt="Figure 7-54" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0463.png)
 
 > **Figure 7-55.** Tunneling Commands to Remote Devices with No Assigned PID ｜ 对未分配 PID 的远程设备的命令隧道传输
 >
-> <img src="figures/chapter_07/page_0463.png" alt="Figure 7-55" width="700">
+> <img src="figures/chapter_07/fig_0463_1.png" alt="Figure 7-55" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0463.png)
 
@@ -9584,13 +9604,13 @@
 
 > **Table 7-113.** Fabric Crawl Out Request Payload ｜ Fabric Crawl Out 请求 Payload
 >
-> <img src="figures/chapter_07/page_0464.png" alt="Table 7-113" width="700">
+> <img src="figures/chapter_07/fig_0464_1.png" alt="Table 7-113" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0464.png)
 
 > **Table 7-114.** Fabric Crawl Out Response Payload ｜ Fabric Crawl Out 响应 Payload
 >
-> <img src="figures/chapter_07/page_0464.png" alt="Table 7-114" width="700">
+> <img src="figures/chapter_07/fig_0464_1.png" alt="Table 7-114" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0464.png)
 
@@ -9618,19 +9638,19 @@
 
 > **Table 7-115.** Get PBR Link Partner Info Request Payload ｜ Get PBR Link Partner Info 请求 Payload
 >
-> <img src="figures/chapter_07/page_0465.png" alt="Table 7-115" width="700">
+> <img src="figures/chapter_07/fig_0465_1.png" alt="Table 7-115" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0465.png)
 
 > **Table 7-116.** Get PBR Link Partner Info Response Payload ｜ Get PBR Link Partner Info 响应 Payload
 >
-> <img src="figures/chapter_07/page_0465.png" alt="Table 7-116" width="700">
+> <img src="figures/chapter_07/fig_0465_1.png" alt="Table 7-116" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0465.png)
 
 > **Table 7-117.** Get Link Partner Info Block Format ｜ Get Link Partner Info 块格式
 >
-> <img src="figures/chapter_07/page_0465.png" alt="Table 7-117" width="700">
+> <img src="figures/chapter_07/fig_0465_1.png" alt="Table 7-117" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0465.png)
 
@@ -9659,19 +9679,19 @@
 
 > **Table 7-118.** Get PID Target List Request Payload ｜ Get PID Target List 请求 Payload
 >
-> <img src="figures/chapter_07/page_0466.png" alt="Table 7-118" width="700">
+> <img src="figures/chapter_07/fig_0466_1.png" alt="Table 7-118" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0466.png)
 
 > **Table 7-119.** Get PID Target List Response Payload ｜ Get PID Target List 响应 Payload
 >
-> <img src="figures/chapter_07/page_0466.png" alt="Table 7-119" width="700">
+> <img src="figures/chapter_07/fig_0466_1.png" alt="Table 7-119" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0466.png)
 
 > **Table 7-120.** Target List Format ｜ Target List 格式
 >
-> <img src="figures/chapter_07/page_0466.png" alt="Table 7-120" width="700">
+> <img src="figures/chapter_07/fig_0466_1.png" alt="Table 7-120" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0466.png)
 
@@ -9704,13 +9724,13 @@
 
 > **Table 7-121.** Configure PID Assignment Request Payload ｜ Configure PID Assignment 请求 Payload
 >
-> <img src="figures/chapter_07/page_0467.png" alt="Table 7-121" width="700">
+> <img src="figures/chapter_07/fig_0467_1.png" alt="Table 7-121" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0467.png)
 
 > **Table 7-122.** PID Assignment ｜ PID 分配
 >
-> <img src="figures/chapter_07/page_0467.png" alt="Table 7-122" width="700">
+> <img src="figures/chapter_07/fig_0467_1.png" alt="Table 7-122" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0467.png)
 
@@ -9738,13 +9758,13 @@
 
 > **Table 7-123.** Get PID Binding Request Payload ｜ Get PID Binding 请求 Payload
 >
-> <img src="figures/chapter_07/page_0467.png" alt="Table 7-123" width="700">
+> <img src="figures/chapter_07/fig_0467_1.png" alt="Table 7-123" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0467.png)
 
 > **Table 7-124.** Get PID Binding Response Payload ｜ Get PID Binding 响应 Payload
 >
-> <img src="figures/chapter_07/page_0468.png" alt="Table 7-124" width="700">
+> <img src="figures/chapter_07/fig_0468_1.png" alt="Table 7-124" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0468.png)
 
@@ -9776,13 +9796,13 @@
 
 > **Table 7-125 (1/2).** Configure PID Binding Request Payload (Sheet 1 of 2) ｜ Configure PID Binding 请求 Payload (1/2)
 >
-> <img src="figures/chapter_07/page_0468.png" alt="Table 7-125" width="700">
+> <img src="figures/chapter_07/fig_0468_1.png" alt="Table 7-125" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0468.png)
 
 > **Table 7-125 (2/2).** Configure PID Binding Request Payload (Sheet 2 of 2) ｜ Configure PID Binding 请求 Payload (2/2)
 >
-> <img src="figures/chapter_07/page_0469.png" alt="Table 7-125" width="700">
+> <img src="figures/chapter_07/fig_0469_1.png" alt="Table 7-125" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0469.png)
 
@@ -9810,19 +9830,19 @@
 
 > **Table 7-126.** Get Table Descriptors Request Payload ｜ Get Table Descriptors 请求 Payload
 >
-> <img src="figures/chapter_07/page_0469.png" alt="Table 7-126" width="700">
+> <img src="figures/chapter_07/fig_0469_1.png" alt="Table 7-126" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0469.png)
 
 > **Table 7-127.** Get Table Descriptors Response Payload ｜ Get Table Descriptors 响应 Payload
 >
-> <img src="figures/chapter_07/page_0469.png" alt="Table 7-127" width="700">
+> <img src="figures/chapter_07/fig_0469_1.png" alt="Table 7-127" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0469.png)
 
 > **Table 7-128.** Get Table Descriptor Format ｜ Get Table Descriptor 格式
 >
-> <img src="figures/chapter_07/page_0470.png" alt="Table 7-128" width="700">
+> <img src="figures/chapter_07/fig_0470_1.png" alt="Table 7-128" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0470.png)
 
@@ -9850,19 +9870,19 @@
 
 > **Table 7-129.** Get DRT Request Payload ｜ Get DRT 请求 Payload
 >
-> <img src="figures/chapter_07/page_0470.png" alt="Table 7-129" width="700">
+> <img src="figures/chapter_07/fig_0470_1.png" alt="Table 7-129" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0470.png)
 
 > **Table 7-130.** Get DRT Response Payload ｜ Get DRT 响应 Payload
 >
-> <img src="figures/chapter_07/page_0470.png" alt="Table 7-130" width="700">
+> <img src="figures/chapter_07/fig_0470_1.png" alt="Table 7-130" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0470.png)
 
 > **Table 7-131.** DRT Entry Format ｜ DRT 条目格式
 >
-> <img src="figures/chapter_07/page_0471.png" alt="Table 7-131" width="700">
+> <img src="figures/chapter_07/fig_0471_1.png" alt="Table 7-131" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0471.png)
 
@@ -9890,7 +9910,7 @@
 
 > **Table 7-132.** Set DRT Request Payload ｜ Set DRT 请求 Payload
 >
-> <img src="figures/chapter_07/page_0471.png" alt="Table 7-132" width="700">
+> <img src="figures/chapter_07/fig_0471_1.png" alt="Table 7-132" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0471.png)
 
@@ -9918,19 +9938,19 @@
 
 > **Table 7-133.** Get RGT Request Payload ｜ Get RGT 请求 Payload
 >
-> <img src="figures/chapter_07/page_0472.png" alt="Table 7-133" width="700">
+> <img src="figures/chapter_07/fig_0472_1.png" alt="Table 7-133" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0472.png)
 
 > **Table 7-134.** Get RGT Response Payload ｜ Get RGT 响应 Payload
 >
-> <img src="figures/chapter_07/page_0472.png" alt="Table 7-134" width="700">
+> <img src="figures/chapter_07/fig_0472_1.png" alt="Table 7-134" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0472.png)
 
 > **Table 7-135.** RGT Entry Format ｜ RGT 条目格式
 >
-> <img src="figures/chapter_07/page_0472.png" alt="Table 7-135" width="700">
+> <img src="figures/chapter_07/fig_0472_1.png" alt="Table 7-135" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0472.png)
 
@@ -9958,7 +9978,7 @@
 
 > **Table 7-136.** Set RGT Request Payload ｜ Set RGT 请求 Payload
 >
-> <img src="figures/chapter_07/page_0473.png" alt="Table 7-136" width="700">
+> <img src="figures/chapter_07/fig_0473_1.png" alt="Table 7-136" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0473.png)
 
@@ -9986,7 +10006,7 @@
 
 > **Table 7-137.** Get LDST/IDT Capabilities Request Payload ｜ Get LDST/IDT Capabilities 请求 Payload
 >
-> <img src="figures/chapter_07/page_0473.png" alt="Table 7-137" width="700">
+> <img src="figures/chapter_07/fig_0473_1.png" alt="Table 7-137" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0473.png)
 
@@ -10014,7 +10034,7 @@
 
 > **Table 7-138.** Get LDST/IDT Capabilities Response Payload ｜ Get LDST/IDT Capabilities 响应 Payload
 >
-> <img src="figures/chapter_07/page_0474.png" alt="Table 7-138" width="700">
+> <img src="figures/chapter_07/fig_0474_1.png" alt="Table 7-138" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0474.png)
 
@@ -10042,13 +10062,13 @@
 
 > **Table 7-139.** Set LDST/IDT Configuration Request Payload ｜ Set LDST/IDT Configuration 请求 Payload
 >
-> <img src="figures/chapter_07/page_0475.png" alt="Table 7-139" width="700">
+> <img src="figures/chapter_07/fig_0475_1.png" alt="Table 7-139" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0475.png)
 
 > **Table 7-140.** Get LDST Segment Entries Request Payload ｜ Get LDST Segment Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0475.png" alt="Table 7-140" width="700">
+> <img src="figures/chapter_07/fig_0475_1.png" alt="Table 7-140" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0475.png)
 
@@ -10077,13 +10097,13 @@
 
 > **Table 7-141.** Get LDST Segment Entries Response Payload ｜ Get LDST Segment Entries 响应 Payload
 >
-> <img src="figures/chapter_07/page_0476.png" alt="Table 7-141" width="700">
+> <img src="figures/chapter_07/fig_0476_1.png" alt="Table 7-141" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0476.png)
 
 > **Table 7-142.** LDST Segment Entry Format ｜ LDST Segment Entry 格式
 >
-> <img src="figures/chapter_07/page_0476.png" alt="Table 7-142" width="700">
+> <img src="figures/chapter_07/fig_0476_1.png" alt="Table 7-142" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0476.png)
 
@@ -10111,7 +10131,7 @@
 
 > **Table 7-143.** Set LDST Segment Entries Request Payload ｜ Set LDST Segment Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0477.png" alt="Table 7-143" width="700">
+> <img src="figures/chapter_07/fig_0477_1.png" alt="Table 7-143" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0477.png)
 
@@ -10139,13 +10159,13 @@
 
 > **Table 7-144.** Get LDST IDT DPID Entries Request Payload ｜ Get LDST IDT DPID Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0478.png" alt="Table 7-144" width="700">
+> <img src="figures/chapter_07/fig_0478_1.png" alt="Table 7-144" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0478.png)
 
 > **Table 7-145.** Get LDST IDT DPID Entries Response Payload ｜ Get LDST IDT DPID Entries 响应 Payload
 >
-> <img src="figures/chapter_07/page_0478.png" alt="Table 7-145" width="700">
+> <img src="figures/chapter_07/fig_0478_1.png" alt="Table 7-145" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0478.png)
 
@@ -10173,13 +10193,13 @@
 
 > **Table 7-146.** Set LDST IDT DPID Entries Request Payload ｜ Set LDST IDT DPID Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0479.png" alt="Table 7-146" width="700">
+> <img src="figures/chapter_07/fig_0479_1.png" alt="Table 7-146" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0479.png)
 
 > **Table 7-147.** Get Completer ID-Based Re-Router Entries Request Payload ｜ Get Completer ID-Based Re-Router Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0479.png" alt="Table 7-147" width="700">
+> <img src="figures/chapter_07/fig_0479_1.png" alt="Table 7-147" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0479.png)
 
@@ -10208,13 +10228,13 @@
 
 > **Table 7-148.** Get Completer ID-Based Re-Router Entries Response Payload ｜ Get Completer ID-Based Re-Router Entries 响应 Payload
 >
-> <img src="figures/chapter_07/page_0480.png" alt="Table 7-148" width="700">
+> <img src="figures/chapter_07/fig_0480_1.png" alt="Table 7-148" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0480.png)
 
 > **Table 7-149.** Completer ID-Based Re-Router Entry ｜ Completer ID-Based Re-Router 条目
 >
-> <img src="figures/chapter_07/page_0480.png" alt="Table 7-149" width="700">
+> <img src="figures/chapter_07/fig_0480_1.png" alt="Table 7-149" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0480.png)
 
@@ -10243,19 +10263,19 @@
 
 > **Table 7-150.** Set Completer ID-Based Re-Router Entries Request Payload ｜ Set Completer ID-Based Re-Router Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0481.png" alt="Table 7-150" width="700">
+> <img src="figures/chapter_07/fig_0481_1.png" alt="Table 7-150" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0481.png)
 
 > **Table 7-151.** Get LDST Access Vector Request Payload ｜ Get LDST Access Vector 请求 Payload
 >
-> <img src="figures/chapter_07/page_0481.png" alt="Table 7-151" width="700">
+> <img src="figures/chapter_07/fig_0481_1.png" alt="Table 7-151" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0481.png)
 
 > **Table 7-152.** Get LDST Access Vector Response Payload ｜ Get LDST Access Vector 响应 Payload
 >
-> <img src="figures/chapter_07/page_0481.png" alt="Table 7-152" width="700">
+> <img src="figures/chapter_07/fig_0481_1.png" alt="Table 7-152" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0481.png)
 
@@ -10307,19 +10327,19 @@
 
 > **Table 7-153.** LDST Access Vector ｜ LDST Access Vector
 >
-> <img src="figures/chapter_07/page_0482.png" alt="Table 7-153" width="700">
+> <img src="figures/chapter_07/fig_0482_1.png" alt="Table 7-153" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0482.png)
 
 > **Table 7-154.** Get VCS LDST Access Vector Request Payload ｜ Get VCS LDST Access Vector 请求 Payload
 >
-> <img src="figures/chapter_07/page_0482.png" alt="Table 7-154" width="700">
+> <img src="figures/chapter_07/fig_0482_1.png" alt="Table 7-154" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0482.png)
 
 > **Table 7-155.** Configure VCS LDST Access Request Payload ｜ Configure VCS LDST Access 请求 Payload
 >
-> <img src="figures/chapter_07/page_0483.png" alt="Table 7-155" width="700">
+> <img src="figures/chapter_07/fig_0483_1.png" alt="Table 7-155" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0483.png)
 
@@ -10366,19 +10386,19 @@
 
 > **Table 7-156.** Identify GAE Request Payload ｜ Identify GAE 请求 Payload
 >
-> <img src="figures/chapter_07/page_0483.png" alt="Table 7-156" width="700">
+> <img src="figures/chapter_07/fig_0483_1.png" alt="Table 7-156" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0483.png)
 
 > **Table 7-157.** Identify GAE Response Payload ｜ Identify GAE 响应 Payload
 >
-> <img src="figures/chapter_07/page_0484.png" alt="Table 7-157" width="700">
+> <img src="figures/chapter_07/fig_0484_1.png" alt="Table 7-157" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0484.png)
 
 > **Table 7-158.** vPPB Global Memory Support Info ｜ vPPB Global Memory Support Info
 >
-> <img src="figures/chapter_07/page_0484.png" alt="Table 7-158" width="700">
+> <img src="figures/chapter_07/fig_0484_1.png" alt="Table 7-158" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0484.png)
 
@@ -10406,19 +10426,19 @@
 
 > **Table 7-159.** Get PID Interrupt Vector Request Payload ｜ Get PID Interrupt Vector 请求 Payload
 >
-> <img src="figures/chapter_07/page_0485.png" alt="Table 7-159" width="700">
+> <img src="figures/chapter_07/fig_0485_1.png" alt="Table 7-159" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0485.png)
 
 > **Table 7-160.** Get PID Interrupt Vector Response Payload ｜ Get PID Interrupt Vector 响应 Payload
 >
-> <img src="figures/chapter_07/page_0485.png" alt="Table 7-160" width="700">
+> <img src="figures/chapter_07/fig_0485_1.png" alt="Table 7-160" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0485.png)
 
 > **Table 7-161.** PID Interrupt Vector ｜ PID Interrupt Vector
 >
-> <img src="figures/chapter_07/page_0485.png" alt="Table 7-161" width="700">
+> <img src="figures/chapter_07/fig_0485_1.png" alt="Table 7-161" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0485.png)
 
@@ -10447,19 +10467,19 @@
 
 > **Table 7-162.** Get PID Access Vectors Request Payload ｜ Get PID Access Vectors 请求 Payload
 >
-> <img src="figures/chapter_07/page_0486.png" alt="Table 7-162" width="700">
+> <img src="figures/chapter_07/fig_0486_1.png" alt="Table 7-162" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0486.png)
 
 > **Table 7-163.** Get PID Access Vectors Response Payload ｜ Get PID Access Vectors 响应 Payload
 >
-> <img src="figures/chapter_07/page_0486.png" alt="Table 7-163" width="700">
+> <img src="figures/chapter_07/fig_0486_1.png" alt="Table 7-163" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0486.png)
 
 > **Table 7-164.** PID Access Vector ｜ PID Access Vector
 >
-> <img src="figures/chapter_07/page_0486.png" alt="Table 7-164" width="700">
+> <img src="figures/chapter_07/fig_0486_1.png" alt="Table 7-164" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0486.png)
 
@@ -10488,19 +10508,19 @@
 
 > **Table 7-165.** Get FAST/IDT Capabilities Request Payload ｜ Get FAST/IDT Capabilities 请求 Payload
 >
-> <img src="figures/chapter_07/page_0487.png" alt="Table 7-165" width="700">
+> <img src="figures/chapter_07/fig_0487_1.png" alt="Table 7-165" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0487.png)
 
 > **Table 7-166.** Get FAST/IDT Capabilities Response Payload ｜ Get FAST/IDT Capabilities 响应 Payload
 >
-> <img src="figures/chapter_07/page_0487.png" alt="Table 7-166" width="700">
+> <img src="figures/chapter_07/fig_0487_1.png" alt="Table 7-166" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0487.png)
 
 > **Table 7-167.** vPPB PID List Entry Format ｜ vPPB PID List 条目格式
 >
-> <img src="figures/chapter_07/page_0487.png" alt="Table 7-167" width="700">
+> <img src="figures/chapter_07/fig_0487_1.png" alt="Table 7-167" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0487.png)
 
@@ -10528,7 +10548,7 @@
 
 > **Table 7-168.** Set FAST/IDT Configuration Request Payload ｜ Set FAST/IDT Configuration 请求 Payload
 >
-> <img src="figures/chapter_07/page_0488.png" alt="Table 7-168" width="700">
+> <img src="figures/chapter_07/fig_0488_1.png" alt="Table 7-168" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0488.png)
 
@@ -10556,19 +10576,19 @@
 
 > **Table 7-169.** Get FAST Segment Entries Request Payload ｜ Get FAST Segment Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0489.png" alt="Table 7-169" width="700">
+> <img src="figures/chapter_07/fig_0489_1.png" alt="Table 7-169" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0489.png)
 
 > **Table 7-170.** Get FAST Segment Entries Response Payload ｜ Get FAST Segment Entries 响应 Payload
 >
-> <img src="figures/chapter_07/page_0489.png" alt="Table 7-170" width="700">
+> <img src="figures/chapter_07/fig_0489_1.png" alt="Table 7-170" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0489.png)
 
 > **Table 7-171.** FAST Segment Entry Format ｜ FAST Segment Entry 格式
 >
-> <img src="figures/chapter_07/page_0489.png" alt="Table 7-171" width="700">
+> <img src="figures/chapter_07/fig_0489_1.png" alt="Table 7-171" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0489.png)
 
@@ -10598,7 +10618,7 @@
 
 > **Table 7-172.** Set FAST Segment Entries Request Payload ｜ Set FAST Segment Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0490.png" alt="Table 7-172" width="700">
+> <img src="figures/chapter_07/fig_0490_1.png" alt="Table 7-172" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0490.png)
 
@@ -10626,13 +10646,13 @@
 
 > **Table 7-173.** Get IDT DPID Entries Request Payload ｜ Get IDT DPID Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0491.png" alt="Table 7-173" width="700">
+> <img src="figures/chapter_07/fig_0491_1.png" alt="Table 7-173" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0491.png)
 
 > **Table 7-174.** Get IDT DPID Entries Response Payload ｜ Get IDT DPID Entries 响应 Payload
 >
-> <img src="figures/chapter_07/page_0491.png" alt="Table 7-174" width="700">
+> <img src="figures/chapter_07/fig_0491_1.png" alt="Table 7-174" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0491.png)
 
@@ -10660,7 +10680,7 @@
 
 > **Table 7-175.** Set IDT DPID Entries Request Payload ｜ Set IDT DPID Entries 请求 Payload
 >
-> <img src="figures/chapter_07/page_0492.png" alt="Table 7-175" width="700">
+> <img src="figures/chapter_07/fig_0492_1.png" alt="Table 7-175" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0492.png)
 
@@ -10692,13 +10712,13 @@
 
 > **Table 7-176.** Proxy GFD Management Command Request Payload ｜ Proxy GFD Management Command 请求 Payload
 >
-> <img src="figures/chapter_07/page_0493.png" alt="Table 7-176" width="700">
+> <img src="figures/chapter_07/fig_0493_1.png" alt="Table 7-176" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0493.png)
 
 > **Table 7-177.** Proxy GFD Management Command Response Payload ｜ Proxy GFD Management Command 响应 Payload
 >
-> <img src="figures/chapter_07/page_0493.png" alt="Table 7-177" width="700">
+> <img src="figures/chapter_07/fig_0493_1.png" alt="Table 7-177" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0493.png)
 
@@ -10726,13 +10746,13 @@
 
 > **Table 7-178.** Get Proxy Thread Status Request Payload ｜ Get Proxy Thread Status 请求 Payload
 >
-> <img src="figures/chapter_07/page_0493.png" alt="Table 7-178" width="700">
+> <img src="figures/chapter_07/fig_0493_1.png" alt="Table 7-178" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0493.png)
 
 > **Table 7-179.** Get Proxy Thread Status Response Payload ｜ Get Proxy Thread Status 响应 Payload
 >
-> <img src="figures/chapter_07/page_0494.png" alt="Table 7-179" width="700">
+> <img src="figures/chapter_07/fig_0494_1.png" alt="Table 7-179" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0494.png)
 
@@ -10760,13 +10780,13 @@
 
 > **Table 7-180.** Cancel Proxy Thread Request Payload ｜ Cancel Proxy Thread 请求 Payload
 >
-> <img src="figures/chapter_07/page_0494.png" alt="Table 7-180" width="700">
+> <img src="figures/chapter_07/fig_0494_1.png" alt="Table 7-180" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0494.png)
 
 > **Table 7-181.** Cancel Proxy Thread Response Payload ｜ Cancel Proxy Thread 响应 Payload
 >
-> <img src="figures/chapter_07/page_0494.png" alt="Table 7-181" width="700">
+> <img src="figures/chapter_07/fig_0494_1.png" alt="Table 7-181" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0494.png)
 
@@ -10814,7 +10834,7 @@
 
 > **Table 7-182.** Identify VCS GAE Request Payload ｜ Identify VCS GAE 请求 Payload
 >
-> <img src="figures/chapter_07/page_0495.png" alt="Table 7-182" width="700">
+> <img src="figures/chapter_07/fig_0495_1.png" alt="Table 7-182" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0495.png)
 
@@ -10845,7 +10865,7 @@
 
 > **Table 7-183.** Get VCS PID Access Vectors Request Payload ｜ Get VCS PID Access Vectors 请求 Payload
 >
-> <img src="figures/chapter_07/page_0496.png" alt="Table 7-183" width="700">
+> <img src="figures/chapter_07/fig_0496_1.png" alt="Table 7-183" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0496.png)
 
@@ -10873,7 +10893,7 @@
 
 > **Table 7-184.** Configure VCS PID Access Request Payload ｜ Configure VCS PID Access 请求 Payload
 >
-> <img src="figures/chapter_07/page_0496.png" alt="Table 7-184" width="700">
+> <img src="figures/chapter_07/fig_0496_1.png" alt="Table 7-184" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0496.png)
 
@@ -10901,13 +10921,13 @@
 
 > **Table 7-185.** Get VendPrefixL0 State Request Payload ｜ Get VendPrefixL0 State 请求 Payload
 >
-> <img src="figures/chapter_07/page_0497.png" alt="Table 7-185" width="700">
+> <img src="figures/chapter_07/fig_0497_1.png" alt="Table 7-185" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0497.png)
 
 > **Table 7-186.** Get VendPrefixL0 State Response Payload ｜ Get VendPrefixL0 State 响应 Payload
 >
-> <img src="figures/chapter_07/page_0497.png" alt="Table 7-186" width="700">
+> <img src="figures/chapter_07/fig_0497_1.png" alt="Table 7-186" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0497.png)
 
@@ -10935,7 +10955,7 @@
 
 > **Table 7-187.** Set VendPrefixL0 State Request Payload ｜ Set VendPrefixL0 State 请求 Payload
 >
-> <img src="figures/chapter_07/page_0498.png" alt="Table 7-187" width="700">
+> <img src="figures/chapter_07/fig_0498_1.png" alt="Table 7-187" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_07/page_0498.png)
 
