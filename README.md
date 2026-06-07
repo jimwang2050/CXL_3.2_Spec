@@ -176,6 +176,47 @@ CXL_zh/
 - 视觉表现已足够阅读
 - 后续如需 tight crop, 唯一可行方案是 (a) MinerU Standard API (需 MINERU_TOKEN, 200 页/批, <200MB/批)
 
+#### 🔧 紧致裁剪升级 Runbook (有 MINERU_TOKEN 时执行)
+
+**前置**: 拿到 https://mineru.net/apiManage/token 申请的 token
+
+**3 步执行**:
+```bash
+# 1. dry-run 看要处理什么 (无 API 调用, 安全)
+python3 ~/_work/ch08_fix/upgrade_tight_crops.py --dry-run
+
+# 2. 设 token
+export MINERU_TOKEN="eyJhbGciOi..."
+
+# 3. 真跑 (6 个 batch × ~5min/批 ≈ 30min)
+python3 ~/_work/ch08_fix/upgrade_tight_crops.py
+```
+
+**脚本会做的事**:
+1. 找出 296 张去水印版 `fig_*_1.png`
+2. 按章节分组, 合并为 6 个 ≤200 页 MinerU batch
+3. 从 master PDF (`CXL-Specification_rev3p2_..._evalcopy.pdf`) 切出每个 batch 的页
+4. 对每个 batch 调 MinerU Standard API, 拿到 markdown + images/ zip
+5. 解析 MinerU markdown 拿到每张图的页码 + 位置
+6. 命名按 `fig_PPPP_N.png` (N = 该页内第 N 张图) 替换去水印版
+
+**当前 batch 划分 (dry-run 已验证)**:
+| Batch | 章节 | 页范围 | 页数 |
+|-------|------|--------|------|
+| 1 | ch01+02+03+04 | p.62-228   | 167 |
+| 2 | ch05+06        | p.277-310  | 34  |
+| 3 | ch07           | p.319-498  | 180 |
+| 4 | ch08a          | p.556-677  | 122 |
+| 5 | ch08b          | p.678-798  | 121 |
+| 6 | ch10+11+12+14  | p.879-1066 | 188 |
+
+**已知局限**: 脚本 Step 6 (image-to-page 映射 + 命名替换) 是占位实现, MinerU 输出的 markdown + images/ 结构需要进一步解析才能精准映射到 fig_PPPP_N.png。如要落地, 需要:
+- 读 MinerU 输出的 `<pdf_stem>.md`, 找出 `![...](images/xxx.png)` 的位置
+- 通过位置推出图所在页
+- 命名 + 替换
+
+(此 runbook 暂为"基础设施就绪"状态, 完整落地需额外 ~1-2 小时开发 image-mapping 部分)
+
 ### 2026-06-07 — Ch7 图嵌入统一 + Part B/C 补齐
 
 **发现**: 之前 README 标 "Ch7 缺 Part A" 实际是误判 — ch7 实际包含完整 Part A/B/C 内容 (p.319–498, 10,959 行), 只是 (a) `src=page_*.png` 命名未统一, (b) Part B/C 缺 H1 和"本章目录"。
