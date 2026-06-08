@@ -234,6 +234,12 @@ python3 ~/_work/ch08_fix/upgrade_tight_crops.py
 - 失败原因: MinerU Standard API 持续拥堵, 单批 12-35 页需 >15min
 - de-watermarked 版仍可看 (Step 6 backup 自动保留为 .dewatermarked.bak, 已加到 .gitignore)
 
+**第二轮跑 (2026-06-09, 用户要求重试剩余 batch)**:
+- 测: ch02 (12 页) 30min timeout — 仍超时
+- 测: ch02/ch10/ch06 各 15min timeout — 全超时
+- 结论: MinerU Standard API 今日全天不可用, 剩余 ~275 张升级任务挂起
+- 锁状态: 21 张 tight crop 升级为最终成功集, de-watermarked 281 张保留为可看状态
+
 **Step 6 实现 (`tools/image_mapper.py`)**:
 - 解析 `*_content_list_v2.json`, 找 type=image block
 - 通过 `image_source.path` 拿到 JPG 文件
