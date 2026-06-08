@@ -217,6 +217,32 @@ python3 ~/_work/ch08_fix/upgrade_tight_crops.py
 
 (此 runbook 暂为"基础设施就绪"状态, 完整落地需额外 ~1-2 小时开发 image-mapping 部分)
 
+#### ✅ 2026-06-07 实际执行结果 (部分完成)
+
+**已升级 (21 张 tight crop, 4 个 batch 成功)**:
+
+| 章节 | 页范围 | 张数 | 耗时 |
+|------|--------|------|------|
+| ch01 | p.62-68 | 9 | 40s (拆 2 sub-batch) |
+| ch05 | p.277-283 | 7 | 49s |
+| ch11 | p.895-896 | 2 | 25s |
+| ch12 | p.1000-1002 | 3 | 27s |
+| **合计** | | **21** | **~2.5 min** |
+
+**失败 (7 个 batch 超时)**:
+- batch_01 (167 页), sub_ch02 (12 页), sub_ch03 (35 页), sub_ch04 (35 页), sub_ch06 (21 页), sub_ch10 (11 页), ch06 (21 页)
+- 失败原因: MinerU Standard API 持续拥堵, 单批 12-35 页需 >15min
+- de-watermarked 版仍可看 (Step 6 backup 自动保留为 .dewatermarked.bak, 已加到 .gitignore)
+
+**Step 6 实现 (`tools/image_mapper.py`)**:
+- 解析 `*_content_list_v2.json`, 找 type=image block
+- 通过 `image_source.path` 拿到 JPG 文件
+- 用 batch 文件名 (`sub_chNN_pXXXX-pYYYY`) 推出 PDF 页码
+- 命名 `fig_PPPP_N.png`, 自动 JPG→PNG 转换
+- 自动 backup 已存在 `fig_*_1.png` 为 `.dewatermarked.bak`
+
+**结论**: 紧致裁剪升级在 API 空闲时可行, API 拥堵时不可行. 21 张升级为 100% tight crop (mean brightness 200-240, 实际 flowchart 内容), 4 个原 de-watermarked 已 backup. 剩余 ~280 张可未来再跑.
+
 ### 2026-06-07 — Ch7 图嵌入统一 + Part B/C 补齐
 
 **发现**: 之前 README 标 "Ch7 缺 Part A" 实际是误判 — ch7 实际包含完整 Part A/B/C 内容 (p.319–498, 10,959 行), 只是 (a) `src=page_*.png` 命名未统一, (b) Part B/C 缺 H1 和"本章目录"。
