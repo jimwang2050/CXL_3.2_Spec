@@ -2421,9 +2421,65 @@ See Section 8.1.5.7, "Alternate Prefetchable Memory Base (Offset 14h)." ｜ 参�
 
 > **Source pages**: see part body (Part B) | **Format**: 中英对照双语
 
-## 📑 本章目录 (Part _)
+## 📑 本章目录 (Part B)
 
-_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
+- [8.2.4.17.6 Error Capabilities and Control Register (Offset 14h) | 错误能力与控制寄存器 (偏移量 14h)](#sec-8-2-4-17)
+- [8.2.4.18 CXL Security Capability Structure | CXL 安全能力结构](#sec-8-2-4-18)
+- [8.2.4.19 CXL Link Capability Structure | CXL 链路能力结构](#sec-8-2-4-19)
+- [8.2.4.20 CXL HDM Decoder Capability Structure | CXL HDM 解码器能力结构](#sec-8-2-4-20)
+    - IMPLEMENTATION NOTE: UIW, UIG, and ISP Examples
+    - 实现注意: UIW、UIG 和 ISP 示例
+    - IMPLEMENTATION NOTE
+    - IMPLEMENTATION NOTE: CXL Host Bridge and Upstream Switch Port Decode Flow
+    - IMPLEMENTATION NOTE: Device Decode Logic
+    - 实现注意
+    - 实现注意: CXL 主机桥和上行交换机端口解码流程
+    - 实现注意: 设备解码逻辑
+- [8.2.4.21 CXL Extended Security Capability Structure | CXL 扩展安全能力结构](#sec-8-2-4-21)
+- [8.2.4.22 CXL IDE Capability Structure | CXL IDE 能力结构](#sec-8-2-4-22)
+- [8.2.4.23 CXL Snoop Filter Capability Structure | CXL 窥探过滤器能力结构](#sec-8-2-4-23)
+- [8.2.4.24 CXL Timeout and Isolation Capability Structure | CXL 超时与隔离能力结构](#sec-8-2-4-24)
+- [8.2.4.25 CXL.cachemem Extended Register Capability | CXL.cachemem 扩展寄存器能力](#sec-8-2-4-25)
+- [8.2.4.26 CXL BI Route Table Capability Structure | CXL BI 路由表能力结构](#sec-8-2-4-26)
+- [8.2.4.27 CXL BI Decoder Capability Structure | CXL BI 解码器能力结构](#sec-8-2-4-27)
+- [8.2.4.28 CXL Cache ID Route Table Capability Structure | CXL 缓存 ID 路由表能力结构](#sec-8-2-4-28)
+- [8.2.4.29 CXL Cache ID Decoder Capability Structure | CXL 缓存 ID 解码器能力结构](#sec-8-2-4-29)
+- [8.2.4.30 CXL Extended HDM Decoder Capability Structure | CXL 扩展 HDM 解码器能力结构](#sec-8-2-4-30)
+- [8.2.4.31 CXL Extended Metadata Capability Register | CXL 扩展元数据能力寄存器](#sec-8-2-4-31)
+- [8.2.5 CXL ARB/MUX Registers | CXL ARB/MUX 寄存器](#sec-8-2-5)
+  - [8.2.5.1 ARB/MUX PM Timeout Control Register (Offset 00h) | ARB/MUX PM 超时控制寄存器 (偏移量 00h)](#sec-8-2-5-1)
+  - [8.2.5.2 ARB/MUX Uncorrectable Error Status Register (Offset 04h) | ARB/MUX 不可纠正错误状态寄存器 (偏移量 04h)](#sec-8-2-5-2)
+  - [8.2.5.3 ARB/MUX Uncorrectable Error Mask Register (Offset 08h) | ARB/MUX 不可纠正错误掩码寄存器 (偏移量 08h)](#sec-8-2-5-3)
+  - [8.2.5.4 ARB/MUX Arbitration Control Register for CXL.io (Offset 180h) | CXL.io 的 ARB/MUX 仲裁控制寄存器 (偏移量 180h)](#sec-8-2-5-4)
+  - [8.2.5.5 ARB/MUX Arbitration Control Register for CXL.cache and CXL.mem (Offset 1C0h) | CXL.cache 和 CXL.mem 的 ARB/MUX 仲裁控制寄存器 (偏移量 1C0h)](#sec-8-2-5-5)
+- [8.2.6 BAR Virtualization ACL Register Block | BAR 虚拟化 ACL 寄存器块](#sec-8-2-6)
+  - [8.2.6.1 BAR Virtualization ACL Size Register (Offset 00h) | BAR 虚拟化 ACL 大小寄存器 (偏移量 00h)](#sec-8-2-6-1)
+- [8.2.7 CPMU Register Interface | CPMU 寄存器接口](#sec-8-2-7)
+  - [8.2.7.1 Per CPMU Registers | 每个 CPMU 寄存器](#sec-8-2-7-1)
+  - [8.2.7.2 Per Counter Unit Registers | 每个 Counter Unit 寄存器](#sec-8-2-7-2)
+- [8.2.8 CHMU Register Interface | CHMU 寄存器接口](#sec-8-2-8)
+  - [8.2.8.1 CHMU Common Capability Register (Offset 00h) | CHMU 公共能力寄存器 (偏移量 00h)](#sec-8-2-8-1)
+  - [8.2.8.2 CHMU Capability Register (Offset 10h + CHMU Instance Length * i¹) | CHMU 能力寄存器 (偏移量 10h + CHMU Instance Length * i¹)](#sec-8-2-8-2)
+  - [8.2.8.3 CHMU Configuration [i] (Offset 50h + CHMU Instance Length * i) | CHMU 配置 [i] (偏移量 50h + CHMU Instance Length * i)](#sec-8-2-8-3)
+- [8.2.8.4 CHMU Status [i] (Offset 70h + CHMU Instance Length * i) | CHMU 状态寄存器 [i]（偏移 70h + CHMU Instance Length * i）](#sec-8-2-8-4)
+- [8.2.8.5 CHMU Hotlist Head Register (Offset 78h + CHMU Instance Length * i) | CHMU 热列表头寄存器（偏移 78h + CHMU Instance Length * i）](#sec-8-2-8-5)
+- [8.2.8.6 CHMU Hotlist Tail Register (Offset 7Ah + CHMU Instance Length * i) | CHMU 热列表尾寄存器（偏移 7Ah + CHMU Instance Length * i）](#sec-8-2-8-6)
+- [8.2.8.7 CHMU Range Configuration Bitmap Register (Offset 10h + CHMU Instance Length * i + CHMU Range Configuration Bitmap Offset[i]) | CHMU 范围配置位图寄存器（偏移 10h + CHMU Instance Length * i + CHMU Range Configuration Bitmap Offset[i]）](#sec-8-2-8-7)
+- [8.2.8.8 CHMU Hotlist Entry Register (Offset 10h + CHMU Instance Length * i + CHMU Hotlist Register Offset[i]) | CHMU 热列表条目寄存器（偏移 10h + CHMU Instance Length * i + CHMU Hotlist Register Offset[i]）](#sec-8-2-8-8)
+- [8.2.9 CXL Device Register Interface | CXL 设备寄存器接口](#sec-8-2-9)
+- [8.2.9.1 CXL Device Capabilities Array Register (Offset 00h) | CXL 设备能力数组寄存器（偏移 00h）](#sec-8-2-9-1)
+- [8.2.9.2 CXL Device Capability Header Register (Offset: Varies) | CXL 设备能力头寄存器（偏移：可变）](#sec-8-2-9-2)
+- [8.2.9.3 Device Status Registers (Offset: Varies) | 设备状态寄存器（偏移：可变）](#sec-8-2-9-3)
+- [8.2.9.4 Mailbox Registers (Offset: Varies) | 邮箱寄存器（偏移：可变）](#sec-8-2-9-4)
+  - [8.2.9.5 Memory Device Capabilities | 内存设备能力](#sec-8-2-9-5)
+  - [8.2.9.6 FM Mailbox CCI Capability | FM 邮箱 CCI 能力](#sec-8-2-9-6)
+  - [8.2.10 Component Command Interface | 组件命令接口](#sec-8-2-10)
+    - [8.2.10.1 Information and Status Command Set | 信息和状态命令集](#sec-8-2-10-1)
+    - [8.2.10.2 Events | 事件](#sec-8-2-10-2)
+    - [8.2.10.3 Firmware Update | 固件更新](#sec-8-2-10-3)
+    - [8.2.10.4 Timestamp | 时间戳](#sec-8-2-10-4)
+    - [8.2.10.5 Logs | 日志](#sec-8-2-10-5)
+- 📝 翻译完成说明 (Translation Notes)
 
 ---
 
@@ -2493,7 +2549,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 
 > **Figure 8-26.** Error Capabilities and Control Register layout ｜ 错误能力与控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0556_1.png" alt="Figure 8-26" width="700">
+> <img src="figures/chapter_08/page_0556.png" alt="Figure 8-26" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0556.png)
 
@@ -2534,7 +2590,7 @@ Header Log registers are accessed as a series of 32-bit wide individual register
 
 > **Figure 8-27.** Header Log Register layout ｜ 头日志寄存器布局
 >
-> <img src="figures/chapter_08/fig_0556_1.png" alt="Figure 8-27" width="700">
+> <img src="figures/chapter_08/page_0556.png" alt="Figure 8-27" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0556.png)
 
@@ -2575,7 +2631,7 @@ This capability structure applies only for RCH Downstream Ports.
 
 > **Figure 8-28.** CXL Security Capability Structure layout ｜ CXL 安全能力结构布局
 >
-> <img src="figures/chapter_08/fig_0557_1.png" alt="Figure 8-28" width="700">
+> <img src="figures/chapter_08/page_0557.png" alt="Figure 8-28" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0557.png)
 
@@ -2624,7 +2680,7 @@ This capability structure applies only for RCH Downstream Ports.
 
 > **Table 8-26.** Device Trust Level ｜ 设备信任等级
 >
-> <img src="figures/chapter_08/fig_0557_1.png" alt="Figure 8-26" width="700">
+> <img src="figures/chapter_08/page_0557.png" alt="Table 8-26" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0557.png)
 
@@ -2734,7 +2790,7 @@ This capability structure applies only for RCH Downstream Ports.
 
 > **Figure 8-29.** CXL Link Layer Capability Register layout ｜ CXL 链路层能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0557_1.png" alt="Figure 8-29" width="700">
+> <img src="figures/chapter_08/page_0557.png" alt="Figure 8-29" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0557.png)
 
@@ -2781,7 +2837,7 @@ This capability structure applies only for RCH Downstream Ports.
 
 > **Figure 8-30.** CXL Link Layer Control and Status Register layout ｜ CXL 链路层控制与状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0558_1.png" alt="Figure 8-30" width="700">
+> <img src="figures/chapter_08/page_0558.png" alt="Figure 8-30" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0558.png)
 
@@ -2838,7 +2894,7 @@ The default settings are component specific. The contents of this register repre
 
 > **Figure 8-31.** CXL Link Layer Rx Credit Control Register layout ｜ CXL 链路层 Rx 信用控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0559_1.png" alt="Figure 8-31" width="700">
+> <img src="figures/chapter_08/page_0559.png" alt="Figure 8-31" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0559.png)
 
@@ -2891,7 +2947,7 @@ The default settings are component specific. The contents of this register repre
 
 > **Figure 8-32.** CXL Link Layer Rx Credit Return Status Register layout ｜ CXL 链路层 Rx 信用返回状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0560_1.png" alt="Figure 8-32" width="700">
+> <img src="figures/chapter_08/page_0560.png" alt="Figure 8-32" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0560.png)
 
@@ -2944,7 +3000,7 @@ The default settings are component specific. The contents of this register repre
 
 > **Figure 8-33.** CXL Link Layer Tx Credit Status Register layout ｜ CXL 链路层 Tx 信用状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0561_1.png" alt="Figure 8-33" width="700">
+> <img src="figures/chapter_08/page_0561.png" alt="Figure 8-33" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0561.png)
 
@@ -2993,7 +3049,7 @@ Software may program this register and issue a hot reset to operate the componen
 
 > **Figure 8-34.** CXL Link Layer Ack Timer Control Register layout ｜ CXL 链路层 Ack 定时器控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0561_1.png" alt="Figure 8-34" width="700">
+> <img src="figures/chapter_08/page_0561.png" alt="Figure 8-34" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0561.png)
 
@@ -3032,7 +3088,7 @@ Software may program this register and issue a hot reset to operate the componen
 
 > **Figure 8-35.** CXL Link Layer Defeature Register layout ｜ CXL 链路层功能禁用寄存器布局
 >
-> <img src="figures/chapter_08/fig_0562_1.png" alt="Figure 8-35" width="700">
+> <img src="figures/chapter_08/page_0562.png" alt="Figure 8-35" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0562.png)
 
@@ -3087,7 +3143,7 @@ Software may program this register and issue a hot reset to operate the componen
 
 > **Figure 8-36.** CXL Link Layer Rx Credit Control2 Register layout ｜ CXL 链路层 Rx 信用控制 2 寄存器布局
 >
-> <img src="figures/chapter_08/fig_0562_1.png" alt="Figure 8-36" width="700">
+> <img src="figures/chapter_08/page_0562.png" alt="Figure 8-36" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0562.png)
 
@@ -3142,7 +3198,7 @@ Software may program this register and issue a hot reset to operate the componen
 
 > **Figure 8-37.** CXL Link Layer Rx Credit Return Status2 Register layout ｜ CXL 链路层 Rx 信用返回状态 2 寄存器布局
 >
-> <img src="figures/chapter_08/fig_0563_1.png" alt="Figure 8-37" width="700">
+> <img src="figures/chapter_08/page_0563.png" alt="Figure 8-37" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0563.png)
 
@@ -3197,7 +3253,7 @@ Software may program this register and issue a hot reset to operate the componen
 
 > **Figure 8-38.** CXL Link Layer Tx Credit Status2 Register layout ｜ CXL 链路层 Tx 信用状态 2 寄存器布局
 >
-> <img src="figures/chapter_08/fig_0564_1.png" alt="Figure 8-38" width="700">
+> <img src="figures/chapter_08/page_0564.png" alt="Figure 8-38" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0564.png)
 
@@ -3288,7 +3344,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-39.** CXL HDM Decoder Capability Structure layout ｜ CXL HDM 解码器能力结构布局
 >
-> <img src="figures/chapter_08/fig_0565_1.png" alt="Figure 8-39" width="700">
+> <img src="figures/chapter_08/page_0565.png" alt="Figure 8-39" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0565.png)
 
@@ -3374,7 +3430,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Table 8-27.** CXL.mem Read Response - Error Cases ｜ CXL.mem 读响应 - 错误情况
 >
-> <img src="figures/chapter_08/fig_0567_1.png" alt="Figure 8-27" width="700">
+> <img src="figures/chapter_08/page_0567.png" alt="Table 8-27" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0567.png)
 
@@ -3415,7 +3471,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-40.** CXL HDM Decoder Global Control Register layout ｜ CXL HDM 解码器全局控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0568_1.png" alt="Figure 8-40" width="700">
+> <img src="figures/chapter_08/page_0568.png" alt="Figure 8-40" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0568.png)
 
@@ -3454,7 +3510,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-41.** CXL HDM Decoder n Base Low Register layout ｜ CXL HDM 解码器 n 基地址低寄存器布局
 >
-> <img src="figures/chapter_08/fig_0568_1.png" alt="Figure 8-41" width="700">
+> <img src="figures/chapter_08/page_0568.png" alt="Figure 8-41" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0568.png)
 
@@ -3491,7 +3547,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-42.** CXL HDM Decoder n Base High Register layout ｜ CXL HDM 解码器 n 基地址高寄存器布局
 >
-> <img src="figures/chapter_08/fig_0568_1.png" alt="Figure 8-42" width="700">
+> <img src="figures/chapter_08/page_0568.png" alt="Figure 8-42" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0568.png)
 
@@ -3530,7 +3586,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-43.** CXL HDM Decoder n Size Low Register layout ｜ CXL HDM 解码器 n 大小低寄存器布局
 >
-> <img src="figures/chapter_08/fig_0568_1.png" alt="Figure 8-43" width="700">
+> <img src="figures/chapter_08/page_0568.png" alt="Figure 8-43" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0568.png)
 
@@ -3567,7 +3623,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-44.** CXL HDM Decoder n Size High Register layout ｜ CXL HDM 解码器 n 大小高寄存器布局
 >
-> <img src="figures/chapter_08/fig_0569_1.png" alt="Figure 8-44" width="700">
+> <img src="figures/chapter_08/page_0569.png" alt="Figure 8-44" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0569.png)
 
@@ -3636,7 +3692,7 @@ CXL 交换机组件可以包含一个上行交换机端口 (Upstream Switch Port
 
 > **Figure 8-45.** CXL HDM Decoder n Control Register layout ｜ CXL HDM 解码器 n 控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0569_1.png" alt="Figure 8-45" width="700">
+> <img src="figures/chapter_08/page_0569.png" alt="Figure 8-45" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0569.png)
 
@@ -3733,7 +3789,7 @@ The 8 CXL.mem devices, from left to right, are assigned ISP=0 through 7, respect
 
 > **Figure 8-46.** CXL HDM Decoder n Target List Low Register layout ｜ CXL HDM 解码器 n 目标列表低寄存器布局
 >
-> <img src="figures/chapter_08/fig_0572_1.png" alt="Figure 8-46" width="700">
+> <img src="figures/chapter_08/page_0572.png" alt="Figure 8-46" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0572.png)
 
@@ -3776,7 +3832,7 @@ This register is applicable only to devices. For non-devices, this field contain
 
 > **Figure 8-47.** CXL HDM Decoder n DPA Skip Low Register layout ｜ CXL HDM 解码器 n DPA 跳过低寄存器布局
 >
-> <img src="figures/chapter_08/fig_0572_1.png" alt="Figure 8-47" width="700">
+> <img src="figures/chapter_08/page_0572.png" alt="Figure 8-47" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0572.png)
 
@@ -3827,7 +3883,7 @@ The targets must be distinct. For example, all 8 Target Port Identifiers must be
 
 > **Figure 8-48.** CXL HDM Decoder n Target List High Register layout ｜ CXL HDM 解码器 n 目标列表高寄存器布局
 >
-> <img src="figures/chapter_08/fig_0572_1.png" alt="Figure 8-48" width="700">
+> <img src="figures/chapter_08/page_0572.png" alt="Figure 8-48" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0572.png)
 
@@ -3868,7 +3924,7 @@ This register is applicable only to devices. For non-devices, this field contain
 
 > **Figure 8-49.** CXL HDM Decoder n DPA Skip High Register layout ｜ CXL HDM 解码器 n DPA 跳过高寄存器布局
 >
-> <img src="figures/chapter_08/fig_0573_1.png" alt="Figure 8-49" width="700">
+> <img src="figures/chapter_08/page_0573.png" alt="Figure 8-49" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0573.png)
 
@@ -3947,7 +4003,7 @@ Decoder logic shall set either Committed or Error Not Committed flag within 10 m
 
 > **Figure 8-50.** Decoder Commit Flow diagram ｜ 解码器提交流程图
 >
-> <img src="figures/chapter_08/fig_0573_1.png" alt="Figure 8-50" width="700">
+> <img src="figures/chapter_08/page_0573.png" alt="Figure 8-50" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0573.png)
 
@@ -4114,7 +4170,7 @@ DPABase 不暴露给软件, 但可以由解码器逻辑在内部跟踪以加速�
 
 > **Figure 8-51.** Decoder Protection Flow ｜ 解码器保护流程
 >
-> <img src="figures/chapter_08/fig_0574_1.png" alt="Figure 8-51" width="700">
+> <img src="figures/chapter_08/page_0574.png" alt="Figure 8-51" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0574.png)
 
@@ -4211,7 +4267,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-52.** CXL Extended Security Capability Structure layout ｜ CXL 扩展安全能力结构布局
 >
-> <img src="figures/chapter_08/fig_0577_1.png" alt="Figure 8-52" width="700">
+> <img src="figures/chapter_08/page_0577.png" alt="Figure 8-52" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0577.png)
 
@@ -4313,7 +4369,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-53.** CXL IDE Capability Register layout ｜ CXL IDE 能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0578_1.png" alt="Figure 8-53" width="700">
+> <img src="figures/chapter_08/page_0578.png" alt="Figure 8-53" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0578.png)
 
@@ -4360,7 +4416,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-54.** CXL IDE Control Register layout ｜ CXL IDE 控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0579_1.png" alt="Figure 8-54" width="700">
+> <img src="figures/chapter_08/page_0579.png" alt="Figure 8-54" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0579.png)
 
@@ -4401,7 +4457,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-55.** CXL IDE Status Register layout ｜ CXL IDE 状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0579_1.png" alt="Figure 8-55" width="700">
+> <img src="figures/chapter_08/page_0579.png" alt="Figure 8-55" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0579.png)
 
@@ -4444,7 +4500,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-56.** CXL IDE Error Status Register layout ｜ CXL IDE 错误状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0580_1.png" alt="Figure 8-56" width="700">
+> <img src="figures/chapter_08/page_0580.png" alt="Figure 8-56" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0580.png)
 
@@ -4810,7 +4866,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-57.** CXL Timeout and Isolation Capability Register layout ｜ CXL 超时与隔离能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0583_1.png" alt="Figure 8-57" width="700">
+> <img src="figures/chapter_08/page_0583.png" alt="Figure 8-57" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0583.png)
 
@@ -4873,7 +4929,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-58.** CXL Timeout and Isolation Control Register layout ｜ CXL 超时与隔离控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0585_1.png" alt="Figure 8-58" width="700">
+> <img src="figures/chapter_08/page_0585.png" alt="Figure 8-58" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0585.png)
 
@@ -4930,7 +4986,7 @@ This capability structure applies only to the CXL Host Bridge and may be located
 
 > **Figure 8-59.** CXL Timeout and Isolation Status Register layout ｜ CXL 超时与隔离状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0587_1.png" alt="Figure 8-59" width="700">
+> <img src="figures/chapter_08/page_0587.png" alt="Figure 8-59" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0587.png)
 
@@ -5008,7 +5064,7 @@ This register describes which 4-KB ranges in the Component Register Space that h
 
 > **Figure 8-60.** CXL.cachemem Extended Ranges Register layout ｜ CXL.cachemem 扩展范围寄存器布局
 >
-> <img src="figures/chapter_08/fig_0589_1.png" alt="Figure 8-60" width="700">
+> <img src="figures/chapter_08/page_0589.png" alt="Figure 8-60" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0589.png)
 
@@ -5172,7 +5228,7 @@ See Section 9.14.2 for details.
 
 > **Figure 8-61.** BI RT Status Register layout ｜ BI RT 状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0591_1.png" alt="Figure 8-61" width="700">
+> <img src="figures/chapter_08/page_0591.png" alt="Figure 8-61" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0591.png)
 
@@ -5256,7 +5312,7 @@ See Section 9.14.2 for details regarding the decoding of BI messages.
 
 > **Figure 8-62.** CXL BI Decoder Capability Register layout ｜ CXL BI 解码器能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0592_1.png" alt="Figure 8-62" width="700">
+> <img src="figures/chapter_08/page_0592.png" alt="Figure 8-62" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0592.png)
 
@@ -5303,7 +5359,7 @@ See Table 9-13 and Table 9-14 for handling of BISnp and BIRsp messages by the DS
 
 > **Figure 8-63.** CXL BI Decoder Control Register layout ｜ CXL BI 解码器控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0592_1.png" alt="Figure 8-63" width="700">
+> <img src="figures/chapter_08/page_0592.png" alt="Figure 8-63" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0592.png)
 
@@ -5350,7 +5406,7 @@ See Table 9-13 and Table 9-14 for handling of BISnp and BIRsp messages by the DS
 
 > **Figure 8-64.** CXL BI Decoder Status Register layout ｜ CXL BI 解码器状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0593_1.png" alt="Figure 8-64" width="700">
+> <img src="figures/chapter_08/page_0593.png" alt="Figure 8-64" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0593.png)
 
@@ -5553,7 +5609,7 @@ This section defines the CXL Cache ID Target N register at offset 10h + 2*N. The
 
 > **Figure 8-65.** CXL Cache ID Route Table layout ｜ CXL 缓存 ID 路由表布局
 >
-> <img src="figures/chapter_08/fig_0595_1.png" alt="Figure 8-65" width="700">
+> <img src="figures/chapter_08/page_0595.png" alt="Figure 8-65" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0595.png)
 
@@ -5678,7 +5734,7 @@ This capability structure may be present in DSPs and root ports. The presence of
 
 > **Figure 8-66.** CXL Cache ID Decoder Control Register layout ｜ CXL 缓存 ID 解码器控制寄存器布局
 >
-> <img src="figures/chapter_08/fig_0596_1.png" alt="Figure 8-66" width="700">
+> <img src="figures/chapter_08/page_0596.png" alt="Figure 8-66" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0596.png)
 
@@ -5725,7 +5781,7 @@ This capability structure may be present in DSPs and root ports. The presence of
 
 > **Figure 8-67.** CXL Cache ID Decoder Status Register layout ｜ CXL 缓存 ID 解码器状态寄存器布局
 >
-> <img src="figures/chapter_08/fig_0597_1.png" alt="Figure 8-67" width="700">
+> <img src="figures/chapter_08/page_0597.png" alt="Figure 8-67" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0597.png)
 
@@ -5762,7 +5818,7 @@ CXL 扩展 HDM 解码器能力结构允许 CXL 上行交换机端口实现比 CX
 
 > **Figure 8-68.** CXL Extended HDM Decoder Capability Structure layout ｜ CXL 扩展 HDM 解码器能力结构布局
 >
-> <img src="figures/chapter_08/fig_0597_1.png" alt="Figure 8-68" width="700">
+> <img src="figures/chapter_08/page_0597.png" alt="Figure 8-68" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0597.png)
 
@@ -5901,7 +5957,7 @@ Modification to this register content shall have no impact on the Memory capacit
 
 > **Figure 8-69.** CXL Extended Metadata Register layout ｜ CXL 扩展元数据寄存器布局
 >
-> <img src="figures/chapter_08/fig_0598_1.png" alt="Figure 8-69" width="700">
+> <img src="figures/chapter_08/page_0598.png" alt="Figure 8-69" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0598.png)
 
@@ -6454,7 +6510,7 @@ CPMU 范围的能力应通过 CPMU Capability 寄存器枚举。
 
 > **Figure 8-70.** CPMU Register Layout (Version=1) (Sheet 1 of 2) ｜ CPMU 寄存器布局 (Version=1) (第 1 页, 共 2 页)
 >
-> <img src="figures/chapter_08/fig_0602_1.png" alt="Figure 8-70" width="700">
+> <img src="figures/chapter_08/page_0602.png" alt="Figure 8-70" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0602.png)
 
@@ -6671,7 +6727,7 @@ Counter Configuration 寄存器指定每个 Counter Unit 要监视的事件集�
 
 > **Figure 8-71.** Counter Configuration Register layout ｜ Counter 配置寄存器布局
 >
-> <img src="figures/chapter_08/fig_0606_1.png" alt="Figure 8-71" width="700">
+> <img src="figures/chapter_08/page_0606.png" alt="Figure 8-71" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0606.png)
 
@@ -6744,7 +6800,7 @@ When a counter is enabled, any changes to this register result in undefined beha
 
 > **Figure 8-72.** Filter Configuration Register layout ｜ 过滤器配置寄存器布局
 >
-> <img src="figures/chapter_08/fig_0607_1.png" alt="Figure 8-72" width="700">
+> <img src="figures/chapter_08/page_0607.png" alt="Figure 8-72" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0607.png)
 
@@ -6787,7 +6843,7 @@ Counter Data 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-73.** Counter Data Register layout ｜ 计数器数据寄存器布局
 >
-> <img src="figures/chapter_08/fig_0609_1.png" alt="Figure 8-73" width="700">
+> <img src="figures/chapter_08/page_0609.png" alt="Figure 8-73" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0609.png)
 
@@ -6888,7 +6944,7 @@ CHMU 接口支持 MSI/MSI-X 中断, 以在以下情况下发出警报:
 
 > **Figure 8-74.** CHMU Register Interface Block Diagram ｜ CHMU 寄存器接口框图
 >
-> <img src="figures/chapter_08/fig_0609_1.png" alt="Figure 8-74" width="700">
+> <img src="figures/chapter_08/page_0609.png" alt="Figure 8-74" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0609.png)
 
@@ -7021,7 +7077,7 @@ CHMU Common Capability 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-75.** CHMU Common Capability Register layout ｜ CHMU 公共能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0611_1.png" alt="Figure 8-75" width="700">
+> <img src="figures/chapter_08/page_0611.png" alt="Figure 8-75" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0611.png)
 
@@ -7096,7 +7152,7 @@ CHMU Capability 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-76.** CHMU Capability Register layout ｜ CHMU 能力寄存器布局
 >
-> <img src="figures/chapter_08/fig_0612_1.png" alt="Figure 8-76" width="700">
+> <img src="figures/chapter_08/page_0612.png" alt="Figure 8-76" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0612.png)
 
@@ -7145,7 +7201,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-77.** CHMU Configuration Register layout ｜ CHMU 配置寄存器布局
 >
-> <img src="figures/chapter_08/fig_0615_1.png" alt="Figure 8-77" width="700">
+> <img src="figures/chapter_08/page_0615.png" alt="Figure 8-77" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0615.png)
 
@@ -7192,7 +7248,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-13 (context).** CXL Device Registers (p.622) — referenced here for CHMU context
 >
-> <img src="figures/chapter_08/fig_0617_1.png" alt="Page 617" width="700">
+> <img src="figures/chapter_08/page_0617.png" alt="Page 617" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0617.png)
 
@@ -7304,7 +7360,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-12 (context).** Page render for CHMU register continuation (p.619)
 >
-> <img src="figures/chapter_08/fig_0619_1.png" alt="Page 619" width="700">
+> <img src="figures/chapter_08/page_0619.png" alt="Page 619" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0619.png)
 
@@ -7399,7 +7455,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-13.** CXL Device Registers ｜ CXL 设备寄存器
 >
-> <img src="figures/chapter_08/fig_0622_1.png" alt="Figure 8-13" width="700">
+> <img src="figures/chapter_08/page_0622.png" alt="Figure 8-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0622.png)
 
@@ -7550,7 +7606,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-14.** Mailbox Registers ｜ 邮箱寄存器
 >
-> <img src="figures/chapter_08/fig_0625_1.png" alt="Figure 8-14" width="700">
+> <img src="figures/chapter_08/page_0625.png" alt="Figure 8-14" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0625.png)
 
@@ -8031,7 +8087,7 @@ CHMU Configuration 寄存器必须作为 8 字节量进行访问。
 
 > **Figure 8-13.** CXL Device Registers layout
 >
-> <img src="figures/chapter_08/fig_0622_1.png" alt="Figure 8-13" width="700">
+> <img src="figures/chapter_08/page_0622.png" alt="Figure 8-13" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0622.png)
 
@@ -10122,52 +10178,56 @@ CPMU Freeze 寄存器指示与所有 Counter Unit 关联的冻结状态。
 
 > **Source pages**: see part body (Part D) | **Format**: 中英对照双语
 
-## 📑 本章目录 (Part _)
+## 📑 本章目录 (Part D)
 
-_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
+- [8.2.10.5.2 Get Log (Opcode 0401h) | 获取日志 (操作码 0401h)](#sec-8-2-10-5)
+- [8.2.10.6 Features | 特性](#sec-8-2-10-6)
+- [8.2.10.7 Maintenance | 维护](#sec-8-2-10-7)
+- [8.2.10.8 PBR Component Command Set | PBR 组件命令集](#sec-8-2-10-8)
+- [8.2.10.9 Memory Device Command Sets | 内存设备命令集](#sec-8-2-10-9)
 
 ---
 
-## 🖼 本章图表 (Part C)
+## 🖼 本章图表 (Part D)
 
-- Table 8-82, Table 8-83 (page 676): Get Supported Logs Output Payload
-- Table 8-84, Table 8-85, Table 8-86 (page 677): Command Effects Log structure
-- Table 8-87 (page 678): CEL Entry Structure
-- Table 8-90 (page 681): DDR5 Error Check Scrub (ECS) Log
-- Table 8-90, Table 8-91, Table 8-92 (page 682): Media Test Capability Log
-- Table 8-94, Table 8-95 (page 685): Media Test Results Logs
-- Table 8-100, Table 8-99 (page 688): Error Signature
-- Table 8-101, Table 8-102 (page 690): Get Log Capabilities
-- Table 8-103, Table 8-104 (page 691): Clear Log / Populate Log Input Payload
-- Table 8-105, Table 8-106 (page 692): Get Supported Logs Sub-List
-- Table 8-107, Table 8-108, Table 8-109 (page 693): Get Supported Features
-- Table 8-111, Table 8-112 (page 695): Get Feature Input/Output
-- Table 8-113 (page 697): Set Feature Input Payload
-- Table 8-114 (page 698): Metabits Storage Feature
-- Table 8-117 (page 701): PPR Maintenance Operations
-- Table 8-120 (page 704): Memory Sparing
-- Table 8-121, Table 8-122 (page 705): Device Built-in Test
-- Table 8-124, Table 8-125 (page 707): Test Parameters Entry
-- Table 8-126 (page 708): Maintenance Operation Classes
-- Table 8-129, Table 8-130 (page 711): sPPR Feature
-- Table 8-131, Table 8-132 (page 713): hPPR Feature
-- Table 8-134, Table 8-135 (page 715): Memory Sparing Features
-- Table 8-136 (page 716): PBR Component Command Set
-- Table 8-137, Table 8-138 (page 717): Claim Ownership
-- Table 8-139, Table 8-140 (page 718): Read CDAT
-- Table 8-141 (page 719): CXL Defined Memory Device Command Opcodes
-- Table 8-142 (page 722): Identify Memory Device Output Payload
-- Table 8-143 (page 724): Get Partition Info
-- Table 8-144 (page 725): Set Partition Info
-- Table 8-145, Table 8-146, Table 8-147 (page 726): Get LSA / Set LSA
-- Table 8-148 (page 727): Get Health Info Output Payload
-- Table 8-149 (page 729): Get Alert Configuration
-- Table 8-150 (page 731): Set Alert Configuration
-- Table 8-151, Table 8-152 (page 732): Get/Set Shutdown State
-- _(no Table on p.733 in raw text)_: Get Poison List
-- Table 8-155 (page 735): Media Error Record
+- Figure 8-X (page 676): Get Supported Logs Output Payload
+- Figure 8-X (page 677): Command Effects Log structure
+- Figure 8-X (page 678): CEL Entry Structure
+- Figure 8-X (page 681): DDR5 Error Check Scrub (ECS) Log
+- Figure 8-X (page 682): Media Test Capability Log
+- Figure 8-X (page 685): Media Test Results Logs
+- Figure 8-X (page 688): Error Signature
+- Figure 8-X (page 690): Get Log Capabilities
+- Figure 8-X (page 691): Clear Log / Populate Log Input Payload
+- Figure 8-X (page 692): Get Supported Logs Sub-List
+- Figure 8-X (page 693): Get Supported Features
+- Figure 8-X (page 695): Get Feature Input/Output
+- Figure 8-X (page 697): Set Feature Input Payload
+- Figure 8-X (page 698): Metabits Storage Feature
+- Figure 8-X (page 701): PPR Maintenance Operations
+- Figure 8-X (page 704): Memory Sparing
+- Figure 8-X (page 705): Device Built-in Test
+- Figure 8-X (page 707): Test Parameters Entry
+- Figure 8-X (page 708): Maintenance Operation Classes
+- Figure 8-X (page 711): sPPR Feature
+- Figure 8-X (page 713): hPPR Feature
+- Figure 8-X (page 715): Memory Sparing Features
+- Figure 8-X (page 716): PBR Component Command Set
+- Figure 8-X (page 717): Claim Ownership
+- Figure 8-X (page 718): Read CDAT
+- Figure 8-X (page 719): CXL Defined Memory Device Command Opcodes
+- Figure 8-X (page 722): Identify Memory Device Output Payload
+- Figure 8-X (page 724): Get Partition Info
+- Figure 8-X (page 725): Set Partition Info
+- Figure 8-X (page 726): Get LSA / Set LSA
+- Figure 8-X (page 727): Get Health Info Output Payload
+- Figure 8-X (page 729): Get Alert Configuration
+- Figure 8-X (page 731): Set Alert Configuration
+- Figure 8-X (page 732): Get/Set Shutdown State
+- Figure 8-X (page 733): Get Poison List
+- Figure 8-X (page 735): Media Error Record
 
-## 📊 本章表格 (Part C)
+## 📊 本章表格 (Part D)
 
 - Table 8-82: Get Supported Logs Output Payload
 - Table 8-83: Get Supported Logs Supported Log Entry
@@ -10299,9 +10359,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-82.** Get Supported Logs supported log entry structure (page 676) ｜ Get Supported Logs 支持的日志条目结构
+> **Figure 8-X.** Get Supported Logs supported log entry structure (page 676) ｜ Get Supported Logs 支持的日志条目结构
 >
-> <img src="figures/chapter_08/fig_0676_1.png" alt="Table 8-82 page 676" width="700">
+> <img src="figures/chapter_08/page_0676.png" alt="Figure 8-X page 676" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0676.png)
 
@@ -10325,9 +10385,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-87.** Vendor Debug Log (page 678) ｜ 厂商调试日志
+> **Figure 8-X.** Vendor Debug Log (page 678) ｜ 厂商调试日志
 >
-> <img src="figures/chapter_08/fig_0678_1.png" alt="Table 8-87 page 678" width="700">
+> <img src="figures/chapter_08/page_0678.png" alt="Figure 8-X page 678" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0678.png)
 
@@ -10363,9 +10423,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-87.** CEL Entry Structure (page 678) ｜ CEL 条目结构
+> **Figure 8-X.** CEL Entry Structure (page 678) ｜ CEL 条目结构
 >
-> <img src="figures/chapter_08/fig_0678_1.png" alt="Table 8-87 page 678" width="700">
+> <img src="figures/chapter_08/page_0678.png" alt="Figure 8-X page 678" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0678.png)
 
@@ -10403,9 +10463,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-88.** Component State Dump Log (page 679) ｜ Component State Dump Log
+> **Figure 8-X.** Component State Dump Log (page 679) ｜ Component State Dump Log
 >
-> <img src="figures/chapter_08/fig_0679_1.png" alt="Table 8-88 page 679" width="700">
+> <img src="figures/chapter_08/page_0679.png" alt="Figure 8-X page 679" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0679.png)
 
@@ -10428,9 +10488,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-89.** Component State Dump Log Format (page 680) ｜ Component State Dump Log 格式
+> **Figure 8-X.** Component State Dump Log Format (page 680) ｜ Component State Dump Log 格式
 >
-> <img src="figures/chapter_08/fig_0680_1.png" alt="Table 8-89 page 680" width="700">
+> <img src="figures/chapter_08/page_0680.png" alt="Figure 8-X page 680" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0680.png)
 
@@ -10471,9 +10531,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-90, Table 8-91, Table 8-92.** DDR5 ECS Log (page 681-682) ｜ DDR5 ECS 日志
+> **Figure 8-X.** DDR5 ECS Log (page 681-682) ｜ DDR5 ECS 日志
 >
-> <img src="figures/chapter_08/fig_0681_1.png" alt="Table 8-90 page 681" width="700">
+> <img src="figures/chapter_08/page_0681.png" alt="Figure 8-X page 681" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0681.png)
 
@@ -10528,9 +10588,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-90, Table 8-91, Table 8-92, Table 8-93.** Media Test Capability Log (page 682-683) ｜ Media Test Capability Log
+> **Figure 8-X.** Media Test Capability Log (page 682-683) ｜ Media Test Capability Log
 >
-> <img src="figures/chapter_08/fig_0682_1.png" alt="Table 8-90 page 682" width="700">
+> <img src="figures/chapter_08/page_0682.png" alt="Figure 8-X page 682" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0682.png)
 
@@ -10563,9 +10623,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-92, Table 8-93.** Media Test Capability Log Entry (page 683-684) ｜ Media Test Capability Log Entry
+> **Figure 8-X.** Media Test Capability Log Entry (page 683-684) ｜ Media Test Capability Log Entry
 >
-> <img src="figures/chapter_08/fig_0683_1.png" alt="Table 8-92 page 683" width="700">
+> <img src="figures/chapter_08/page_0683.png" alt="Figure 8-X page 683" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0683.png)
 
@@ -10620,9 +10680,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-94.** Media Test Results Short Log (page 685) ｜ Media Test Results Short Log
+> **Figure 8-X.** Media Test Results Short Log (page 685) ｜ Media Test Results Short Log
 >
-> <img src="figures/chapter_08/fig_0685_1.png" alt="Table 8-94 page 685" width="700">
+> <img src="figures/chapter_08/page_0685.png" alt="Figure 8-X page 685" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0685.png)
 
@@ -10658,9 +10718,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-96, Table 8-100.** Media Test Results Long Log (page 686-689) ｜ Media Test Results Long Log
+> **Figure 8-X.** Media Test Results Long Log (page 686-689) ｜ Media Test Results Long Log
 >
-> <img src="figures/chapter_08/fig_0686_1.png" alt="Table 8-96 page 686" width="700">
+> <img src="figures/chapter_08/page_0686.png" alt="Figure 8-X page 686" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0686.png)
 
@@ -10742,9 +10802,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-100, Table 8-99.** Error Signature (page 688-689) ｜ Error Signature
+> **Figure 8-X.** Error Signature (page 688-689) ｜ Error Signature
 >
-> <img src="figures/chapter_08/fig_0688_1.png" alt="Table 8-100 page 688" width="700">
+> <img src="figures/chapter_08/page_0688.png" alt="Figure 8-X page 688" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0688.png)
 
@@ -10791,9 +10851,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-101.** Get Log Capabilities (page 690) ｜ Get Log Capabilities
+> **Figure 8-X.** Get Log Capabilities (page 690) ｜ Get Log Capabilities
 >
-> <img src="figures/chapter_08/fig_0690_1.png" alt="Table 8-101 page 690" width="700">
+> <img src="figures/chapter_08/page_0690.png" alt="Figure 8-X page 690" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0690.png)
 
@@ -10830,9 +10890,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-103.** Clear Log / Populate Log (page 691) ｜ Clear Log / Populate Log
+> **Figure 8-X.** Clear Log / Populate Log (page 691) ｜ Clear Log / Populate Log
 >
-> <img src="figures/chapter_08/fig_0691_1.png" alt="Table 8-103 page 691" width="700">
+> <img src="figures/chapter_08/page_0691.png" alt="Figure 8-X page 691" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0691.png)
 
@@ -10920,9 +10980,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-105.** Get Supported Logs Sub-List (page 692) ｜ Get Supported Logs Sub-List
+> **Figure 8-X.** Get Supported Logs Sub-List (page 692) ｜ Get Supported Logs Sub-List
 >
-> <img src="figures/chapter_08/fig_0692_1.png" alt="Table 8-105 page 692" width="700">
+> <img src="figures/chapter_08/page_0692.png" alt="Figure 8-X page 692" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0692.png)
 
@@ -11015,9 +11075,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-107.** Get Supported Features (page 693) ｜ Get Supported Features
+> **Figure 8-X.** Get Supported Features (page 693) ｜ Get Supported Features
 >
-> <img src="figures/chapter_08/fig_0693_1.png" alt="Table 8-107 page 693" width="700">
+> <img src="figures/chapter_08/page_0693.png" alt="Figure 8-X page 693" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0693.png)
 
@@ -11049,9 +11109,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-110.** Feature Attribute(s) Value after Reset (page 694) ｜ 复位后 Feature 属性值
+> **Figure 8-X.** Feature Attribute(s) Value after Reset (page 694) ｜ 复位后 Feature 属性值
 >
-> <img src="figures/chapter_08/fig_0694_1.png" alt="Table 8-110 page 694" width="700">
+> <img src="figures/chapter_08/page_0694.png" alt="Figure 8-X page 694" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0694.png)
 
@@ -11101,9 +11161,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-111.** Get Feature (page 695) ｜ Get Feature
+> **Figure 8-X.** Get Feature (page 695) ｜ Get Feature
 >
-> <img src="figures/chapter_08/fig_0695_1.png" alt="Table 8-111 page 695" width="700">
+> <img src="figures/chapter_08/page_0695.png" alt="Figure 8-X page 695" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0695.png)
 
@@ -11152,9 +11212,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-113.** Set Feature (page 697) ｜ Set Feature
+> **Figure 8-X.** Set Feature (page 697) ｜ Set Feature
 >
-> <img src="figures/chapter_08/fig_0697_1.png" alt="Table 8-113 page 697" width="700">
+> <img src="figures/chapter_08/page_0697.png" alt="Figure 8-X page 697" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0697.png)
 
@@ -11249,9 +11309,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-114, Table 8-115, Table 8-116.** Metabits Storage Feature (page 698-699) ｜ Metabits Storage Feature
+> **Figure 8-X.** Metabits Storage Feature (page 698-699) ｜ Metabits Storage Feature
 >
-> <img src="figures/chapter_08/fig_0698_1.png" alt="Table 8-114 page 698" width="700">
+> <img src="figures/chapter_08/page_0698.png" alt="Figure 8-X page 698" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0698.png)
 
@@ -11312,9 +11372,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-117.** Perform Maintenance (page 700-701) ｜ Perform Maintenance
+> **Figure 8-X.** Perform Maintenance (page 700-701) ｜ Perform Maintenance
 >
-> <img src="figures/chapter_08/fig_0700_1.png" alt="Table 8-117 page 700" width="700">
+> <img src="figures/chapter_08/page_0700.png" alt="Figure 8-X page 700" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0700.png)
 
@@ -11349,9 +11409,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-117, Table 8-118.** PPR Maintenance Operations (page 701-702) ｜ PPR 维护操作
+> **Figure 8-X.** PPR Maintenance Operations (page 701-702) ｜ PPR 维护操作
 >
-> <img src="figures/chapter_08/fig_0701_1.png" alt="Table 8-117 page 701" width="700">
+> <img src="figures/chapter_08/page_0701.png" alt="Figure 8-X page 701" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0701.png)
 
@@ -11423,9 +11483,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-119.** hPPR Maintenance Operation (page 703) ｜ hPPR 维护操作
+> **Figure 8-X.** hPPR Maintenance Operation (page 703) ｜ hPPR 维护操作
 >
-> <img src="figures/chapter_08/fig_0703_1.png" alt="Table 8-119 page 703" width="700">
+> <img src="figures/chapter_08/page_0703.png" alt="Figure 8-X page 703" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0703.png)
 
@@ -11475,9 +11535,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-120.** Memory Sparing (page 704) ｜ Memory Sparing
+> **Figure 8-X.** Memory Sparing (page 704) ｜ Memory Sparing
 >
-> <img src="figures/chapter_08/fig_0704_1.png" alt="Table 8-120 page 704" width="700">
+> <img src="figures/chapter_08/page_0704.png" alt="Figure 8-X page 704" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0704.png)
 
@@ -11535,9 +11595,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-121.** Device Built-in Test (page 705) ｜ Device Built-in Test
+> **Figure 8-X.** Device Built-in Test (page 705) ｜ Device Built-in Test
 >
-> <img src="figures/chapter_08/fig_0705_1.png" alt="Table 8-121 page 705" width="700">
+> <img src="figures/chapter_08/page_0705.png" alt="Figure 8-X page 705" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0705.png)
 
@@ -11597,9 +11657,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-123, Table 8-124, Table 8-125.** Test Parameters (page 706-707) ｜ Test Parameters
+> **Figure 8-X.** Test Parameters (page 706-707) ｜ Test Parameters
 >
-> <img src="figures/chapter_08/fig_0706_1.png" alt="Table 8-123 page 706" width="700">
+> <img src="figures/chapter_08/page_0706.png" alt="Figure 8-X page 706" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0706.png)
 
@@ -11640,9 +11700,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-124.** Maintenance Operation Classes/Subclasses (page 707) ｜ 维护操作类/子类
+> **Figure 8-X.** Maintenance Operation Classes/Subclasses (page 707) ｜ 维护操作类/子类
 >
-> <img src="figures/chapter_08/fig_0707_1.png" alt="Table 8-124 page 707" width="700">
+> <img src="figures/chapter_08/page_0707.png" alt="Figure 8-X page 707" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0707.png)
 
@@ -11663,9 +11723,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-126.** Common Maintenance Operation Feature (page 708) ｜ 通用维护操作 Feature
+> **Figure 8-X.** Common Maintenance Operation Feature (page 708) ｜ 通用维护操作 Feature
 >
-> <img src="figures/chapter_08/fig_0708_1.png" alt="Table 8-126 page 708" width="700">
+> <img src="figures/chapter_08/page_0708.png" alt="Figure 8-X page 708" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0708.png)
 
@@ -11739,9 +11799,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-127, Table 8-128, Table 8-126, Table 8-129, Table 8-130.** sPPR Feature (page 709-711) ｜ sPPR Feature
+> **Figure 8-X.** sPPR Feature (page 709-711) ｜ sPPR Feature
 >
-> <img src="figures/chapter_08/fig_0709_1.png" alt="Table 8-127 page 709" width="700">
+> <img src="figures/chapter_08/page_0709.png" alt="Figure 8-X page 709" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0709.png)
 
@@ -11815,9 +11875,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-129, Table 8-130, Table 8-131, Table 8-132.** hPPR Feature (page 711-713) ｜ hPPR Feature
+> **Figure 8-X.** hPPR Feature (page 711-713) ｜ hPPR Feature
 >
-> <img src="figures/chapter_08/fig_0711_1.png" alt="Table 8-129 page 711" width="700">
+> <img src="figures/chapter_08/page_0711.png" alt="Figure 8-X page 711" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0711.png)
 
@@ -11888,9 +11948,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-133, Table 8-134, Table 8-135.** Memory Sparing Feature (page 714-715) ｜ Memory Sparing Feature
+> **Figure 8-X.** Memory Sparing Feature (page 714-715) ｜ Memory Sparing Feature
 >
-> <img src="figures/chapter_08/fig_0714_1.png" alt="Table 8-133 page 714" width="700">
+> <img src="figures/chapter_08/page_0714.png" alt="Figure 8-X page 714" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0714.png)
 
@@ -11949,9 +12009,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-136.** Identify PBR Component (page 716) ｜ Identify PBR Component
+> **Figure 8-X.** Identify PBR Component (page 716) ｜ Identify PBR Component
 >
-> <img src="figures/chapter_08/fig_0716_1.png" alt="Table 8-136 page 716" width="700">
+> <img src="figures/chapter_08/page_0716.png" alt="Figure 8-X page 716" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0716.png)
 
@@ -12011,9 +12071,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-137.** Claim Ownership (page 717) ｜ Claim Ownership
+> **Figure 8-X.** Claim Ownership (page 717) ｜ Claim Ownership
 >
-> <img src="figures/chapter_08/fig_0717_1.png" alt="Table 8-137 page 717" width="700">
+> <img src="figures/chapter_08/page_0717.png" alt="Figure 8-X page 717" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0717.png)
 
@@ -12065,9 +12125,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-139.** Read CDAT (page 718) ｜ Read CDAT
+> **Figure 8-X.** Read CDAT (page 718) ｜ Read CDAT
 >
-> <img src="figures/chapter_08/fig_0718_1.png" alt="Table 8-139 page 718" width="700">
+> <img src="figures/chapter_08/page_0718.png" alt="Figure 8-X page 718" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0718.png)
 
@@ -12092,9 +12152,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-141.** CXL Defined Memory Device Command Opcodes (page 719) ｜ CXL 定义的内存设备命令操作码
+> **Figure 8-X.** CXL Defined Memory Device Command Opcodes (page 719) ｜ CXL 定义的内存设备命令操作码
 >
-> <img src="figures/chapter_08/fig_0719_1.png" alt="Table 8-141 page 719" width="700">
+> <img src="figures/chapter_08/page_0719.png" alt="Figure 8-X page 719" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0719.png)
 
@@ -12169,9 +12229,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 > 3. "Host Interface" refers to commands issued/received via the GFD Proxying mechanism.
 > 4. Systems capable of management from Mailbox registers and an MCTP-based CCI shall ensure that these commands are not issued as MCTP messages while a device's mailboxes are operational.
 
-> **Table 8-141.** CXL Defined Memory Device Command Opcodes Sheet 2-3 (page 720-721) ｜ CXL 定义的内存设备命令操作码(续)
+> **Figure 8-X.** CXL Defined Memory Device Command Opcodes Sheet 2-3 (page 720-721) ｜ CXL 定义的内存设备命令操作码(续)
 >
-> <img src="figures/chapter_08/fig_0720_1.png" alt="Table 8-141 page 720" width="700">
+> <img src="figures/chapter_08/page_0720.png" alt="Figure 8-X page 720" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0720.png)
 
@@ -12227,9 +12287,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-142.** Identify Memory Device Output Payload (page 722-723) ｜ Identify Memory Device 输出负载
+> **Figure 8-X.** Identify Memory Device Output Payload (page 722-723) ｜ Identify Memory Device 输出负载
 >
-> <img src="figures/chapter_08/fig_0722_1.png" alt="Table 8-142 page 722" width="700">
+> <img src="figures/chapter_08/page_0722.png" alt="Figure 8-X page 722" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0722.png)
 
@@ -12269,9 +12329,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-143.** Get Partition Info (page 724) ｜ Get Partition Info
+> **Figure 8-X.** Get Partition Info (page 724) ｜ Get Partition Info
 >
-> <img src="figures/chapter_08/fig_0724_1.png" alt="Table 8-143 page 724" width="700">
+> <img src="figures/chapter_08/page_0724.png" alt="Figure 8-X page 724" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0724.png)
 
@@ -12309,9 +12369,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-144.** Set Partition Info (page 725) ｜ Set Partition Info
+> **Figure 8-X.** Set Partition Info (page 725) ｜ Set Partition Info
 >
-> <img src="figures/chapter_08/fig_0725_1.png" alt="Table 8-144 page 725" width="700">
+> <img src="figures/chapter_08/page_0725.png" alt="Figure 8-X page 725" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0725.png)
 
@@ -12393,9 +12453,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-145.** Get LSA / Set LSA (page 726) ｜ Get LSA / Set LSA
+> **Figure 8-X.** Get LSA / Set LSA (page 726) ｜ Get LSA / Set LSA
 >
-> <img src="figures/chapter_08/fig_0726_1.png" alt="Table 8-145 page 726" width="700">
+> <img src="figures/chapter_08/page_0726.png" alt="Figure 8-X page 726" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0726.png)
 
@@ -12438,9 +12498,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-148.** Get Health Info Output Payload (page 727-728) ｜ Get Health Info 输出负载
+> **Figure 8-X.** Get Health Info Output Payload (page 727-728) ｜ Get Health Info 输出负载
 >
-> <img src="figures/chapter_08/fig_0727_1.png" alt="Table 8-148 page 727" width="700">
+> <img src="figures/chapter_08/page_0727.png" alt="Figure 8-X page 727" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0727.png)
 
@@ -12485,9 +12545,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-149.** Get Alert Configuration (page 729-730) ｜ Get Alert Configuration
+> **Figure 8-X.** Get Alert Configuration (page 729-730) ｜ Get Alert Configuration
 >
-> <img src="figures/chapter_08/fig_0729_1.png" alt="Table 8-149 page 729" width="700">
+> <img src="figures/chapter_08/page_0729.png" alt="Figure 8-X page 729" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0729.png)
 
@@ -12531,9 +12591,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-150.** Set Alert Configuration (page 731) ｜ Set Alert Configuration
+> **Figure 8-X.** Set Alert Configuration (page 731) ｜ Set Alert Configuration
 >
-> <img src="figures/chapter_08/fig_0731_1.png" alt="Table 8-150 page 731" width="700">
+> <img src="figures/chapter_08/page_0731.png" alt="Figure 8-X page 731" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0731.png)
 
@@ -12599,9 +12659,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-151.** Get/Set Shutdown State (page 732) ｜ Get/Set Shutdown State
+> **Figure 8-X.** Get/Set Shutdown State (page 732) ｜ Get/Set Shutdown State
 >
-> <img src="figures/chapter_08/fig_0732_1.png" alt="Table 8-151 page 732" width="700">
+> <img src="figures/chapter_08/page_0732.png" alt="Figure 8-X page 732" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0732.png)
 
@@ -12658,9 +12718,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-153, Table 8-154.** Get Poison List (page 733-734) ｜ Get Poison List
+> **Figure 8-X.** Get Poison List (page 733-734) ｜ Get Poison List
 >
-> <img src="figures/chapter_08/fig_0733_1.png" alt="Table 8-153 page 733" width="700">
+> <img src="figures/chapter_08/page_0733.png" alt="Figure 8-X page 733" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0733.png)
 
@@ -12700,9 +12760,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-155.** Media Error Record (page 735) ｜ Media Error Record
+> **Figure 8-X.** Media Error Record (page 735) ｜ Media Error Record
 >
-> <img src="figures/chapter_08/fig_0735_1.png" alt="Table 8-155 page 735" width="700">
+> <img src="figures/chapter_08/page_0735.png" alt="Figure 8-X page 735" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0735.png)
 
@@ -12896,9 +12956,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-84.** Get Log / CEL structures (page 677) ｜ Get Log / CEL 结构
+> **Figure 8-X.** Get Log / CEL structures (page 677) ｜ Get Log / CEL 结构
 >
-> <img src="figures/chapter_08/fig_0677_1.png" alt="Table 8-84 page 677" width="700">
+> <img src="figures/chapter_08/page_0677.png" alt="Figure 8-X page 677" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0677.png)
 
@@ -12959,9 +13019,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-87.** Vendor Debug Log (page 678) ｜ 厂商调试日志
+> **Figure 8-X.** Vendor Debug Log (page 678) ｜ 厂商调试日志
 >
-> <img src="figures/chapter_08/fig_0678_1.png" alt="Table 8-87 page 678" width="700">
+> <img src="figures/chapter_08/page_0678.png" alt="Figure 8-X page 678" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0678.png)
 
@@ -12997,9 +13057,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-87.** CEL Entry Structure (page 678) ｜ CEL 条目结构
+> **Figure 8-X.** CEL Entry Structure (page 678) ｜ CEL 条目结构
 >
-> <img src="figures/chapter_08/fig_0678_1.png" alt="Table 8-87 page 678" width="700">
+> <img src="figures/chapter_08/page_0678.png" alt="Figure 8-X page 678" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0678.png)
 
@@ -13037,9 +13097,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-88.** Component State Dump Log (page 679) ｜ Component State Dump Log
+> **Figure 8-X.** Component State Dump Log (page 679) ｜ Component State Dump Log
 >
-> <img src="figures/chapter_08/fig_0679_1.png" alt="Table 8-88 page 679" width="700">
+> <img src="figures/chapter_08/page_0679.png" alt="Figure 8-X page 679" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0679.png)
 
@@ -13062,9 +13122,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-89.** Component State Dump Log Format (page 680) ｜ Component State Dump Log 格式
+> **Figure 8-X.** Component State Dump Log Format (page 680) ｜ Component State Dump Log 格式
 >
-> <img src="figures/chapter_08/fig_0680_1.png" alt="Table 8-89 page 680" width="700">
+> <img src="figures/chapter_08/page_0680.png" alt="Figure 8-X page 680" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0680.png)
 
@@ -13105,9 +13165,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-90, Table 8-91, Table 8-92.** DDR5 ECS Log (page 681-682) ｜ DDR5 ECS 日志
+> **Figure 8-X.** DDR5 ECS Log (page 681-682) ｜ DDR5 ECS 日志
 >
-> <img src="figures/chapter_08/fig_0681_1.png" alt="Table 8-90 page 681" width="700">
+> <img src="figures/chapter_08/page_0681.png" alt="Figure 8-X page 681" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0681.png)
 
@@ -13162,9 +13222,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-90, Table 8-91, Table 8-92, Table 8-93.** Media Test Capability Log (page 682-683) ｜ Media Test Capability Log
+> **Figure 8-X.** Media Test Capability Log (page 682-683) ｜ Media Test Capability Log
 >
-> <img src="figures/chapter_08/fig_0682_1.png" alt="Table 8-90 page 682" width="700">
+> <img src="figures/chapter_08/page_0682.png" alt="Figure 8-X page 682" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0682.png)
 
@@ -13197,9 +13257,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-92, Table 8-93.** Media Test Capability Log Entry (page 683-684) ｜ Media Test Capability Log Entry
+> **Figure 8-X.** Media Test Capability Log Entry (page 683-684) ｜ Media Test Capability Log Entry
 >
-> <img src="figures/chapter_08/fig_0683_1.png" alt="Table 8-92 page 683" width="700">
+> <img src="figures/chapter_08/page_0683.png" alt="Figure 8-X page 683" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0683.png)
 
@@ -13254,9 +13314,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-94.** Media Test Results Short Log (page 685) ｜ Media Test Results Short Log
+> **Figure 8-X.** Media Test Results Short Log (page 685) ｜ Media Test Results Short Log
 >
-> <img src="figures/chapter_08/fig_0685_1.png" alt="Table 8-94 page 685" width="700">
+> <img src="figures/chapter_08/page_0685.png" alt="Figure 8-X page 685" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0685.png)
 
@@ -13292,9 +13352,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-96, Table 8-100.** Media Test Results Long Log (page 686-689) ｜ Media Test Results Long Log
+> **Figure 8-X.** Media Test Results Long Log (page 686-689) ｜ Media Test Results Long Log
 >
-> <img src="figures/chapter_08/fig_0686_1.png" alt="Table 8-96 page 686" width="700">
+> <img src="figures/chapter_08/page_0686.png" alt="Figure 8-X page 686" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0686.png)
 
@@ -13376,9 +13436,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-100, Table 8-99.** Error Signature (page 688-689) ｜ Error Signature
+> **Figure 8-X.** Error Signature (page 688-689) ｜ Error Signature
 >
-> <img src="figures/chapter_08/fig_0688_1.png" alt="Table 8-100 page 688" width="700">
+> <img src="figures/chapter_08/page_0688.png" alt="Figure 8-X page 688" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0688.png)
 
@@ -13425,9 +13485,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-101.** Get Log Capabilities (page 690) ｜ Get Log Capabilities
+> **Figure 8-X.** Get Log Capabilities (page 690) ｜ Get Log Capabilities
 >
-> <img src="figures/chapter_08/fig_0690_1.png" alt="Table 8-101 page 690" width="700">
+> <img src="figures/chapter_08/page_0690.png" alt="Figure 8-X page 690" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0690.png)
 
@@ -13464,9 +13524,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-103.** Clear Log / Populate Log (page 691) ｜ Clear Log / Populate Log
+> **Figure 8-X.** Clear Log / Populate Log (page 691) ｜ Clear Log / Populate Log
 >
-> <img src="figures/chapter_08/fig_0691_1.png" alt="Table 8-103 page 691" width="700">
+> <img src="figures/chapter_08/page_0691.png" alt="Figure 8-X page 691" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0691.png)
 
@@ -13554,9 +13614,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-105.** Get Supported Logs Sub-List (page 692) ｜ Get Supported Logs Sub-List
+> **Figure 8-X.** Get Supported Logs Sub-List (page 692) ｜ Get Supported Logs Sub-List
 >
-> <img src="figures/chapter_08/fig_0692_1.png" alt="Table 8-105 page 692" width="700">
+> <img src="figures/chapter_08/page_0692.png" alt="Figure 8-X page 692" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0692.png)
 
@@ -13649,9 +13709,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-107.** Get Supported Features (page 693) ｜ Get Supported Features
+> **Figure 8-X.** Get Supported Features (page 693) ｜ Get Supported Features
 >
-> <img src="figures/chapter_08/fig_0693_1.png" alt="Table 8-107 page 693" width="700">
+> <img src="figures/chapter_08/page_0693.png" alt="Figure 8-X page 693" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0693.png)
 
@@ -13683,9 +13743,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-110.** Feature Attribute(s) Value after Reset (page 694) ｜ 复位后 Feature 属性值
+> **Figure 8-X.** Feature Attribute(s) Value after Reset (page 694) ｜ 复位后 Feature 属性值
 >
-> <img src="figures/chapter_08/fig_0694_1.png" alt="Table 8-110 page 694" width="700">
+> <img src="figures/chapter_08/page_0694.png" alt="Figure 8-X page 694" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0694.png)
 
@@ -13735,9 +13795,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-111.** Get Feature (page 695) ｜ Get Feature
+> **Figure 8-X.** Get Feature (page 695) ｜ Get Feature
 >
-> <img src="figures/chapter_08/fig_0695_1.png" alt="Table 8-111 page 695" width="700">
+> <img src="figures/chapter_08/page_0695.png" alt="Figure 8-X page 695" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0695.png)
 
@@ -13786,9 +13846,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-113.** Set Feature (page 697) ｜ Set Feature
+> **Figure 8-X.** Set Feature (page 697) ｜ Set Feature
 >
-> <img src="figures/chapter_08/fig_0697_1.png" alt="Table 8-113 page 697" width="700">
+> <img src="figures/chapter_08/page_0697.png" alt="Figure 8-X page 697" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0697.png)
 
@@ -13883,9 +13943,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-114, Table 8-115, Table 8-116.** Metabits Storage Feature (page 698-699) ｜ Metabits Storage Feature
+> **Figure 8-X.** Metabits Storage Feature (page 698-699) ｜ Metabits Storage Feature
 >
-> <img src="figures/chapter_08/fig_0698_1.png" alt="Table 8-114 page 698" width="700">
+> <img src="figures/chapter_08/page_0698.png" alt="Figure 8-X page 698" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0698.png)
 
@@ -13946,9 +14006,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-117.** Perform Maintenance (page 700-701) ｜ Perform Maintenance
+> **Figure 8-X.** Perform Maintenance (page 700-701) ｜ Perform Maintenance
 >
-> <img src="figures/chapter_08/fig_0700_1.png" alt="Table 8-117 page 700" width="700">
+> <img src="figures/chapter_08/page_0700.png" alt="Figure 8-X page 700" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0700.png)
 
@@ -13983,9 +14043,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-117, Table 8-118.** PPR Maintenance Operations (page 701-702) ｜ PPR 维护操作
+> **Figure 8-X.** PPR Maintenance Operations (page 701-702) ｜ PPR 维护操作
 >
-> <img src="figures/chapter_08/fig_0701_1.png" alt="Table 8-117 page 701" width="700">
+> <img src="figures/chapter_08/page_0701.png" alt="Figure 8-X page 701" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0701.png)
 
@@ -14057,9 +14117,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-119.** hPPR Maintenance Operation (page 703) ｜ hPPR 维护操作
+> **Figure 8-X.** hPPR Maintenance Operation (page 703) ｜ hPPR 维护操作
 >
-> <img src="figures/chapter_08/fig_0703_1.png" alt="Table 8-119 page 703" width="700">
+> <img src="figures/chapter_08/page_0703.png" alt="Figure 8-X page 703" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0703.png)
 
@@ -14109,9 +14169,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-120.** Memory Sparing (page 704) ｜ Memory Sparing
+> **Figure 8-X.** Memory Sparing (page 704) ｜ Memory Sparing
 >
-> <img src="figures/chapter_08/fig_0704_1.png" alt="Table 8-120 page 704" width="700">
+> <img src="figures/chapter_08/page_0704.png" alt="Figure 8-X page 704" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0704.png)
 
@@ -14169,9 +14229,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-121.** Device Built-in Test (page 705) ｜ Device Built-in Test
+> **Figure 8-X.** Device Built-in Test (page 705) ｜ Device Built-in Test
 >
-> <img src="figures/chapter_08/fig_0705_1.png" alt="Table 8-121 page 705" width="700">
+> <img src="figures/chapter_08/page_0705.png" alt="Figure 8-X page 705" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0705.png)
 
@@ -14231,9 +14291,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-123, Table 8-124, Table 8-125.** Test Parameters (page 706-707) ｜ Test Parameters
+> **Figure 8-X.** Test Parameters (page 706-707) ｜ Test Parameters
 >
-> <img src="figures/chapter_08/fig_0706_1.png" alt="Table 8-123 page 706" width="700">
+> <img src="figures/chapter_08/page_0706.png" alt="Figure 8-X page 706" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0706.png)
 
@@ -14274,9 +14334,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-124.** Maintenance Operation Classes/Subclasses (page 707) ｜ 维护操作类/子类
+> **Figure 8-X.** Maintenance Operation Classes/Subclasses (page 707) ｜ 维护操作类/子类
 >
-> <img src="figures/chapter_08/fig_0707_1.png" alt="Table 8-124 page 707" width="700">
+> <img src="figures/chapter_08/page_0707.png" alt="Figure 8-X page 707" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0707.png)
 
@@ -14297,9 +14357,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-126.** Common Maintenance Operation Feature (page 708) ｜ 通用维护操作 Feature
+> **Figure 8-X.** Common Maintenance Operation Feature (page 708) ｜ 通用维护操作 Feature
 >
-> <img src="figures/chapter_08/fig_0708_1.png" alt="Table 8-126 page 708" width="700">
+> <img src="figures/chapter_08/page_0708.png" alt="Figure 8-X page 708" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0708.png)
 
@@ -14373,9 +14433,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-127, Table 8-128, Table 8-126, Table 8-129, Table 8-130.** sPPR Feature (page 709-711) ｜ sPPR Feature
+> **Figure 8-X.** sPPR Feature (page 709-711) ｜ sPPR Feature
 >
-> <img src="figures/chapter_08/fig_0709_1.png" alt="Table 8-127 page 709" width="700">
+> <img src="figures/chapter_08/page_0709.png" alt="Figure 8-X page 709" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0709.png)
 
@@ -14449,9 +14509,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-129, Table 8-130, Table 8-131, Table 8-132.** hPPR Feature (page 711-713) ｜ hPPR Feature
+> **Figure 8-X.** hPPR Feature (page 711-713) ｜ hPPR Feature
 >
-> <img src="figures/chapter_08/fig_0711_1.png" alt="Table 8-129 page 711" width="700">
+> <img src="figures/chapter_08/page_0711.png" alt="Figure 8-X page 711" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0711.png)
 
@@ -14522,9 +14582,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-133, Table 8-134, Table 8-135.** Memory Sparing Feature (page 714-715) ｜ Memory Sparing Feature
+> **Figure 8-X.** Memory Sparing Feature (page 714-715) ｜ Memory Sparing Feature
 >
-> <img src="figures/chapter_08/fig_0714_1.png" alt="Table 8-133 page 714" width="700">
+> <img src="figures/chapter_08/page_0714.png" alt="Figure 8-X page 714" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0714.png)
 
@@ -14583,9 +14643,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-136.** Identify PBR Component (page 716) ｜ Identify PBR Component
+> **Figure 8-X.** Identify PBR Component (page 716) ｜ Identify PBR Component
 >
-> <img src="figures/chapter_08/fig_0716_1.png" alt="Table 8-136 page 716" width="700">
+> <img src="figures/chapter_08/page_0716.png" alt="Figure 8-X page 716" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0716.png)
 
@@ -14645,9 +14705,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-137.** Claim Ownership (page 717) ｜ Claim Ownership
+> **Figure 8-X.** Claim Ownership (page 717) ｜ Claim Ownership
 >
-> <img src="figures/chapter_08/fig_0717_1.png" alt="Table 8-137 page 717" width="700">
+> <img src="figures/chapter_08/page_0717.png" alt="Figure 8-X page 717" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0717.png)
 
@@ -14699,9 +14759,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-139.** Read CDAT (page 718) ｜ Read CDAT
+> **Figure 8-X.** Read CDAT (page 718) ｜ Read CDAT
 >
-> <img src="figures/chapter_08/fig_0718_1.png" alt="Table 8-139 page 718" width="700">
+> <img src="figures/chapter_08/page_0718.png" alt="Figure 8-X page 718" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0718.png)
 
@@ -14726,9 +14786,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-141.** CXL Defined Memory Device Command Opcodes (page 719) ｜ CXL 定义的内存设备命令操作码
+> **Figure 8-X.** CXL Defined Memory Device Command Opcodes (page 719) ｜ CXL 定义的内存设备命令操作码
 >
-> <img src="figures/chapter_08/fig_0719_1.png" alt="Table 8-141 page 719" width="700">
+> <img src="figures/chapter_08/page_0719.png" alt="Figure 8-X page 719" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0719.png)
 
@@ -14803,9 +14863,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 > 3. "Host Interface" refers to commands issued/received via the GFD Proxying mechanism.
 > 4. Systems capable of management from Mailbox registers and an MCTP-based CCI shall ensure that these commands are not issued as MCTP messages while a device's mailboxes are operational.
 
-> **Table 8-141.** CXL Defined Memory Device Command Opcodes Sheet 2-3 (page 720-721) ｜ CXL 定义的内存设备命令操作码(续)
+> **Figure 8-X.** CXL Defined Memory Device Command Opcodes Sheet 2-3 (page 720-721) ｜ CXL 定义的内存设备命令操作码(续)
 >
-> <img src="figures/chapter_08/fig_0720_1.png" alt="Table 8-141 page 720" width="700">
+> <img src="figures/chapter_08/page_0720.png" alt="Figure 8-X page 720" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0720.png)
 
@@ -14861,9 +14921,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-142.** Identify Memory Device Output Payload (page 722-723) ｜ Identify Memory Device 输出负载
+> **Figure 8-X.** Identify Memory Device Output Payload (page 722-723) ｜ Identify Memory Device 输出负载
 >
-> <img src="figures/chapter_08/fig_0722_1.png" alt="Table 8-142 page 722" width="700">
+> <img src="figures/chapter_08/page_0722.png" alt="Figure 8-X page 722" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0722.png)
 
@@ -14903,9 +14963,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-143.** Get Partition Info (page 724) ｜ Get Partition Info
+> **Figure 8-X.** Get Partition Info (page 724) ｜ Get Partition Info
 >
-> <img src="figures/chapter_08/fig_0724_1.png" alt="Table 8-143 page 724" width="700">
+> <img src="figures/chapter_08/page_0724.png" alt="Figure 8-X page 724" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0724.png)
 
@@ -14943,9 +15003,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-144.** Set Partition Info (page 725) ｜ Set Partition Info
+> **Figure 8-X.** Set Partition Info (page 725) ｜ Set Partition Info
 >
-> <img src="figures/chapter_08/fig_0725_1.png" alt="Table 8-144 page 725" width="700">
+> <img src="figures/chapter_08/page_0725.png" alt="Figure 8-X page 725" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0725.png)
 
@@ -15027,9 +15087,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-145.** Get LSA / Set LSA (page 726) ｜ Get LSA / Set LSA
+> **Figure 8-X.** Get LSA / Set LSA (page 726) ｜ Get LSA / Set LSA
 >
-> <img src="figures/chapter_08/fig_0726_1.png" alt="Table 8-145 page 726" width="700">
+> <img src="figures/chapter_08/page_0726.png" alt="Figure 8-X page 726" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0726.png)
 
@@ -15072,9 +15132,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-148.** Get Health Info Output Payload (page 727-728) ｜ Get Health Info 输出负载
+> **Figure 8-X.** Get Health Info Output Payload (page 727-728) ｜ Get Health Info 输出负载
 >
-> <img src="figures/chapter_08/fig_0727_1.png" alt="Table 8-148 page 727" width="700">
+> <img src="figures/chapter_08/page_0727.png" alt="Figure 8-X page 727" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0727.png)
 
@@ -15119,9 +15179,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-149.** Get Alert Configuration (page 729-730) ｜ Get Alert Configuration
+> **Figure 8-X.** Get Alert Configuration (page 729-730) ｜ Get Alert Configuration
 >
-> <img src="figures/chapter_08/fig_0729_1.png" alt="Table 8-149 page 729" width="700">
+> <img src="figures/chapter_08/page_0729.png" alt="Figure 8-X page 729" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0729.png)
 
@@ -15165,9 +15225,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-150.** Set Alert Configuration (page 731) ｜ Set Alert Configuration
+> **Figure 8-X.** Set Alert Configuration (page 731) ｜ Set Alert Configuration
 >
-> <img src="figures/chapter_08/fig_0731_1.png" alt="Table 8-150 page 731" width="700">
+> <img src="figures/chapter_08/page_0731.png" alt="Figure 8-X page 731" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0731.png)
 
@@ -15233,9 +15293,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-151.** Get/Set Shutdown State (page 732) ｜ Get/Set Shutdown State
+> **Figure 8-X.** Get/Set Shutdown State (page 732) ｜ Get/Set Shutdown State
 >
-> <img src="figures/chapter_08/fig_0732_1.png" alt="Table 8-151 page 732" width="700">
+> <img src="figures/chapter_08/page_0732.png" alt="Figure 8-X page 732" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0732.png)
 
@@ -15292,9 +15352,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-153, Table 8-154.** Get Poison List (page 733-734) ｜ Get Poison List
+> **Figure 8-X.** Get Poison List (page 733-734) ｜ Get Poison List
 >
-> <img src="figures/chapter_08/fig_0733_1.png" alt="Table 8-153 page 733" width="700">
+> <img src="figures/chapter_08/page_0733.png" alt="Figure 8-X page 733" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0733.png)
 
@@ -15334,9 +15394,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-155.** Media Error Record (page 735) ｜ Media Error Record
+> **Figure 8-X.** Media Error Record (page 735) ｜ Media Error Record
 >
-> <img src="figures/chapter_08/fig_0735_1.png" alt="Table 8-155 page 735" width="700">
+> <img src="figures/chapter_08/page_0735.png" alt="Figure 8-X page 735" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0735.png)
 
@@ -15571,75 +15631,76 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 
 > **Source pages**: see part body (Part E) | **Format**: 中英对照双语
 
-## 📑 本章目录 (Part _)
+## 📑 本章目录 (Part E)
 
-_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
+  - [8.2.10.9.4.3 Clear Poison (Opcode 4302h) | 清除 Poison (操作码 4302h)](#sec-8-2-10-9)
+  - [8.2.10.10 FM API Commands | FM API 命令](#sec-8-2-10-10)
 
 ---
 
 ## 🖼 本章图表 (Part E)
 
-- Table 8-156 (page 736): Clear Poison (Inject Poison Input Payload table)
-- Table 8-157, Table 8-158 (page 737): Get Scan Media Capabilities (Clear Poison Input Payload)
-- Table 8-159 (page 738): Scan Media (Get Scan Media Capabilities Output Payload)
-- Table 8-160 (page 739): Get Scan Media Results (Scan Media Input Payload)
-- Table 8-161 (page 740): Get Scan Media Results Output Payload
-- Table 8-162, Table 8-164, Table 8-163 (page 742): Media Operation (DPA Range Format)
-- Table 8-163, Table 8-164, Table 8-165, Table 8-166, Table 8-167 (page 743): Media Operations Classes and Subclasses / Discovery Arguments
-- Table 8-167, Table 8-168 (page 744): Get Security State (Supported Operations List Entries)
-- Table 8-169 (page 745): Set Passphrase (Get Security State Output Payload)
-- Table 8-170, Table 8-171 (page 746): Disable Passphrase (Set Passphrase Input Payload)
-- Table 8-172 (page 747): Passphrase Secure Erase
-- Table 8-173 (page 748): Security Send
-- Table 8-174, Table 8-175 (page 749): Security Receive (Security Send Input Payload)
-- Table 8-176 (page 750): Get SLD QoS Control / Set SLD QoS Control
-- Table 8-177, Table 8-178, Table 8-179 (page 751): Get SLD QoS Status (Get Dynamic Capacity Configuration)
-- Table 8-180, Table 8-179 (page 752): Get Dynamic Capacity Configuration (DC Region Configuration)
-- Table 8-181, Table 8-182 (page 753): Get Dynamic Capacity Extent List (Add Dynamic Capacity Response)
-- Table 8-183, Table 8-184 (page 754): Add Dynamic Capacity Response (Updated Extent)
-- _(no Table on p.755 in raw text)_: Release Dynamic Capacity
-- Table 8-185, Table 8-186 (page 756): Identify GFD (Release Dynamic Capacity Input Payload)
-- Table 8-186 (page 757): Identify GFD Response Payload (Sheet 2 of 3)
-- Table 8-186, Table 8-187 (page 758): Get GFD Status (Identify GFD Response Payload Sheet 3 of 3)
-- Table 8-187 (page 759): Get GFD Status Response Payload (Sheet 2 of 2)
-- Table 8-188, Table 8-189, Table 8-190 (page 760): Get GFD DC Region Configuration
-- Table 8-190, Table 8-191 (page 761): Set GFD DC Region Configuration
-- Table 8-191, Table 8-192, Table 8-193 (page 762): Get GFD DC Region Extent Lists
-- Table 8-193, Table 8-194, Table 8-195 (page 763): Get GFD DMP Configuration
-- Table 8-196 (page 764): Set GFD DMP Configuration
-- Table 8-197 (page 765): GFD Dynamic Capacity Add
-- _(no Table on p.766 in raw text)_: GFD Dynamic Capacity Add Request
-- Table 8-198 (page 767): GFD Dynamic Capacity Add Response
-- Table 8-199 (page 768): GFD Dynamic Capacity Release
-- Table 8-200, Table 8-201 (page 770): GFD Dynamic Capacity Add Reference
-- Table 8-202 (page 771): GFD Dynamic Capacity Remove Reference
-- Table 8-203, Table 8-204, Table 8-205, Table 8-206 (page 772): GFD Dynamic Capacity List Tags
-- Table 8-207, Table 8-208 (page 773): Get GFD SAT Entry
-- Table 8-209 (page 774): Set GFD SAT Entry
-- Table 8-210, Table 8-211 (page 775): Get GFD QoS Control
-- Table 8-212 (page 776): Set GFD QoS Control
-- Table 8-213, Table 8-214, Table 8-215 (page 777): Get GFD QoS Status / Get GFD QoS BW Limit
-- Table 8-216 (page 778): Set GFD QoS BW Limit
-- Table 8-217, Table 8-218, Table 8-219 (page 779): Get GDT Configuration
-- Table 8-219 (page 780): Set GDT Configuration
-- Table 8-220, Table 8-221 (page 781): Device Patrol Scrub Control Feature
-- Table 8-221, Table 8-222 (page 782): Device Patrol Scrub Control Feature Readable Attributes
-- Table 8-222, Table 8-223 (page 783): Device Patrol Scrub Control Feature Writable Attributes
-- Table 8-224 (page 784): DDR5 ECS Control Feature
-- Table 8-225 (page 785): DDR5 ECS Control Feature Readable Attributes
-- Table 8-226, Table 8-227 (page 786): DDR5 ECS Control Feature Writable Attributes / Advanced Programmable CVME Threshold
-- Table 8-227, Table 8-228 (page 787): Advanced Programmable CVME Threshold Feature Readable Attributes (1/4)
-- Table 8-228 (page 788): Advanced Programmable CVME Threshold Feature Readable Attributes (2/4)
-- Table 8-228 (page 789): Advanced Programmable CVME Threshold Feature Readable Attributes (3/4)
-- Table 8-228 (page 790): Advanced Programmable CVME Threshold Feature Readable Attributes (4/4)
-- Table 8-229 (page 791): Advanced Programmable CVME Threshold Feature Writable Attributes (1/3)
-- Table 8-229 (page 792): Advanced Programmable CVME Threshold Feature Writable Attributes (2/3)
-- Table 8-229 (page 793): Advanced Programmable CVME Threshold Feature Writable Attributes (3/3) / FM API Commands
-- Table 8-230 (page 794): CXL Defined FM API Command Opcodes (1/5)
-- Table 8-230 (page 795): CXL Defined FM API Command Opcodes (2/5)
-- Table 8-230 (page 796): CXL Defined FM API Command Opcodes (3/5)
-- Table 8-230 (page 797): CXL Defined FM API Command Opcodes (4/5)
-- Table 8-230 (page 798): CXL Defined FM API Command Opcodes (5/5)
+- Figure 8-X (page 736): Clear Poison (Inject Poison Input Payload table)
+- Figure 8-X (page 737): Get Scan Media Capabilities (Clear Poison Input Payload)
+- Figure 8-X (page 738): Scan Media (Get Scan Media Capabilities Output Payload)
+- Figure 8-X (page 739): Get Scan Media Results (Scan Media Input Payload)
+- Figure 8-X (page 740): Get Scan Media Results Output Payload
+- Figure 8-X (page 742): Media Operation (DPA Range Format)
+- Figure 8-X (page 743): Media Operations Classes and Subclasses / Discovery Arguments
+- Figure 8-X (page 744): Get Security State (Supported Operations List Entries)
+- Figure 8-X (page 745): Set Passphrase (Get Security State Output Payload)
+- Figure 8-X (page 746): Disable Passphrase (Set Passphrase Input Payload)
+- Figure 8-X (page 747): Passphrase Secure Erase
+- Figure 8-X (page 748): Security Send
+- Figure 8-X (page 749): Security Receive (Security Send Input Payload)
+- Figure 8-X (page 750): Get SLD QoS Control / Set SLD QoS Control
+- Figure 8-X (page 751): Get SLD QoS Status (Get Dynamic Capacity Configuration)
+- Figure 8-X (page 752): Get Dynamic Capacity Configuration (DC Region Configuration)
+- Figure 8-X (page 753): Get Dynamic Capacity Extent List (Add Dynamic Capacity Response)
+- Figure 8-X (page 754): Add Dynamic Capacity Response (Updated Extent)
+- Figure 8-X (page 755): Release Dynamic Capacity
+- Figure 8-X (page 756): Identify GFD (Release Dynamic Capacity Input Payload)
+- Figure 8-X (page 757): Identify GFD Response Payload (Sheet 2 of 3)
+- Figure 8-X (page 758): Get GFD Status (Identify GFD Response Payload Sheet 3 of 3)
+- Figure 8-X (page 759): Get GFD Status Response Payload (Sheet 2 of 2)
+- Figure 8-X (page 760): Get GFD DC Region Configuration
+- Figure 8-X (page 761): Set GFD DC Region Configuration
+- Figure 8-X (page 762): Get GFD DC Region Extent Lists
+- Figure 8-X (page 763): Get GFD DMP Configuration
+- Figure 8-X (page 764): Set GFD DMP Configuration
+- Figure 8-X (page 765): GFD Dynamic Capacity Add
+- Figure 8-X (page 766): GFD Dynamic Capacity Add Request
+- Figure 8-X (page 767): GFD Dynamic Capacity Add Response
+- Figure 8-X (page 768): GFD Dynamic Capacity Release
+- Figure 8-X (page 770): GFD Dynamic Capacity Add Reference
+- Figure 8-X (page 771): GFD Dynamic Capacity Remove Reference
+- Figure 8-X (page 772): GFD Dynamic Capacity List Tags
+- Figure 8-X (page 773): Get GFD SAT Entry
+- Figure 8-X (page 774): Set GFD SAT Entry
+- Figure 8-X (page 775): Get GFD QoS Control
+- Figure 8-X (page 776): Set GFD QoS Control
+- Figure 8-X (page 777): Get GFD QoS Status / Get GFD QoS BW Limit
+- Figure 8-X (page 778): Set GFD QoS BW Limit
+- Figure 8-X (page 779): Get GDT Configuration
+- Figure 8-X (page 780): Set GDT Configuration
+- Figure 8-X (page 781): Device Patrol Scrub Control Feature
+- Figure 8-X (page 782): Device Patrol Scrub Control Feature Readable Attributes
+- Figure 8-X (page 783): Device Patrol Scrub Control Feature Writable Attributes
+- Figure 8-X (page 784): DDR5 ECS Control Feature
+- Figure 8-X (page 785): DDR5 ECS Control Feature Readable Attributes
+- Figure 8-X (page 786): DDR5 ECS Control Feature Writable Attributes / Advanced Programmable CVME Threshold
+- Figure 8-X (page 787): Advanced Programmable CVME Threshold Feature Readable Attributes (1/4)
+- Figure 8-X (page 788): Advanced Programmable CVME Threshold Feature Readable Attributes (2/4)
+- Figure 8-X (page 789): Advanced Programmable CVME Threshold Feature Readable Attributes (3/4)
+- Figure 8-X (page 790): Advanced Programmable CVME Threshold Feature Readable Attributes (4/4)
+- Figure 8-X (page 791): Advanced Programmable CVME Threshold Feature Writable Attributes (1/3)
+- Figure 8-X (page 792): Advanced Programmable CVME Threshold Feature Writable Attributes (2/3)
+- Figure 8-X (page 793): Advanced Programmable CVME Threshold Feature Writable Attributes (3/3) / FM API Commands
+- Figure 8-X (page 794): CXL Defined FM API Command Opcodes (1/5)
+- Figure 8-X (page 795): CXL Defined FM API Command Opcodes (2/5)
+- Figure 8-X (page 796): CXL Defined FM API Command Opcodes (3/5)
+- Figure 8-X (page 797): CXL Defined FM API Command Opcodes (4/5)
+- Figure 8-X (page 798): CXL Defined FM API Command Opcodes (5/5)
 
 > 注: 每页原始 PDF 已抽取为 PNG, 嵌入位置依据各小节内容在源文档中的页码而定。
 
@@ -15766,9 +15827,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-156, Table 8-157, Table 8-158.** Clear Poison (page 736-737) ｜ Clear Poison
+> **Figure 8-X.** Clear Poison (page 736-737) ｜ Clear Poison
 >
-> <img src="figures/chapter_08/fig_0736_1.png" alt="Table 8-156 page 736" width="700">
+> <img src="figures/chapter_08/page_0736.png" alt="Figure 8-X page 736" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0736.png)
 
@@ -15805,9 +15866,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-157.** Get Scan Media Capabilities (page 737) ｜ Get Scan Media Capabilities
+> **Figure 8-X.** Get Scan Media Capabilities (page 737) ｜ Get Scan Media Capabilities
 >
-> <img src="figures/chapter_08/fig_0737_1.png" alt="Table 8-157 page 737" width="700">
+> <img src="figures/chapter_08/page_0737.png" alt="Figure 8-X page 737" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0737.png)
 
@@ -15858,9 +15919,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-159, Table 8-160.** Scan Media (page 738-739) ｜ Scan Media
+> **Figure 8-X.** Scan Media (page 738-739) ｜ Scan Media
 >
-> <img src="figures/chapter_08/fig_0738_1.png" alt="Table 8-159 page 738" width="700">
+> <img src="figures/chapter_08/page_0738.png" alt="Figure 8-X page 738" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0738.png)
 
@@ -15905,9 +15966,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-160, Table 8-161.** Get Scan Media Results (page 739-740) ｜ Get Scan Media Results
+> **Figure 8-X.** Get Scan Media Results (page 739-740) ｜ Get Scan Media Results
 >
-> <img src="figures/chapter_08/fig_0739_1.png" alt="Table 8-160 page 739" width="700">
+> <img src="figures/chapter_08/page_0739.png" alt="Figure 8-X page 739" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0739.png)
 
@@ -15941,9 +16002,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-161.** Sanitize (page 740-741) ｜ Sanitize
+> **Figure 8-X.** Sanitize (page 740-741) ｜ Sanitize
 >
-> <img src="figures/chapter_08/fig_0740_1.png" alt="Table 8-161 page 740" width="700">
+> <img src="figures/chapter_08/page_0740.png" alt="Figure 8-X page 740" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0740.png)
 
@@ -15971,9 +16032,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-162, Table 8-164, Table 8-163.** Secure Erase (page 741-742) ｜ Secure Erase
+> **Figure 8-X.** Secure Erase (page 741-742) ｜ Secure Erase
 >
-> <img src="figures/chapter_08/fig_0741_1.png" alt="Table 8-162 page 741" width="700">
+> <img src="figures/chapter_08/page_0741.png" alt="Figure 8-X page 741" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0741.png)
 
@@ -16067,9 +16128,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-162, Table 8-164, Table 8-163, Table 8-167, Table 8-168.** Media Operation (page 742-744) ｜ Media Operation
+> **Figure 8-X.** Media Operation (page 742-744) ｜ Media Operation
 >
-> <img src="figures/chapter_08/fig_0742_1.png" alt="Table 8-162 page 742" width="700">
+> <img src="figures/chapter_08/page_0742.png" alt="Figure 8-X page 742" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0742.png)
 
@@ -16135,9 +16196,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-167, Table 8-168, Table 8-169.** Get Security State (page 744-745) ｜ Get Security State
+> **Figure 8-X.** Get Security State (page 744-745) ｜ Get Security State
 >
-> <img src="figures/chapter_08/fig_0744_1.png" alt="Table 8-167 page 744" width="700">
+> <img src="figures/chapter_08/page_0744.png" alt="Figure 8-X page 744" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0744.png)
 
@@ -16176,9 +16237,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-169.** Set Passphrase (page 745) ｜ Set Passphrase
+> **Figure 8-X.** Set Passphrase (page 745) ｜ Set Passphrase
 >
-> <img src="figures/chapter_08/fig_0745_1.png" alt="Table 8-169 page 745" width="700">
+> <img src="figures/chapter_08/page_0745.png" alt="Figure 8-X page 745" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0745.png)
 
@@ -16216,9 +16277,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-169, Table 8-170, Table 8-171.** Disable Passphrase (page 745-746) ｜ Disable Passphrase
+> **Figure 8-X.** Disable Passphrase (page 745-746) ｜ Disable Passphrase
 >
-> <img src="figures/chapter_08/fig_0745_1.png" alt="Table 8-169 page 745" width="700">
+> <img src="figures/chapter_08/page_0745.png" alt="Figure 8-X page 745" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0745.png)
 
@@ -16254,9 +16315,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-170.** Unlock (page 746) ｜ Unlock
+> **Figure 8-X.** Unlock (page 746) ｜ Unlock
 >
-> <img src="figures/chapter_08/fig_0746_1.png" alt="Table 8-170 page 746" width="700">
+> <img src="figures/chapter_08/page_0746.png" alt="Figure 8-X page 746" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0746.png)
 
@@ -16281,9 +16342,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-170, Table 8-171, Table 8-172.** Freeze Security State (page 746-747) ｜ Freeze Security State
+> **Figure 8-X.** Freeze Security State (page 746-747) ｜ Freeze Security State
 >
-> <img src="figures/chapter_08/fig_0746_1.png" alt="Table 8-170 page 746" width="700">
+> <img src="figures/chapter_08/page_0746.png" alt="Figure 8-X page 746" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0746.png)
 
@@ -16322,9 +16383,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-172.** Passphrase Secure Erase (page 747) ｜ Passphrase Secure Erase
+> **Figure 8-X.** Passphrase Secure Erase (page 747) ｜ Passphrase Secure Erase
 >
-> <img src="figures/chapter_08/fig_0747_1.png" alt="Table 8-172 page 747" width="700">
+> <img src="figures/chapter_08/page_0747.png" alt="Figure 8-X page 747" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0747.png)
 
@@ -16382,9 +16443,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-173.** Security Send (page 748) ｜ Security Send
+> **Figure 8-X.** Security Send (page 748) ｜ Security Send
 >
-> <img src="figures/chapter_08/fig_0748_1.png" alt="Table 8-173 page 748" width="700">
+> <img src="figures/chapter_08/page_0748.png" alt="Figure 8-X page 748" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0748.png)
 
@@ -16435,9 +16496,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-173, Table 8-174, Table 8-175.** Security Receive (page 748-749) ｜ Security Receive
+> **Figure 8-X.** Security Receive (page 748-749) ｜ Security Receive
 >
-> <img src="figures/chapter_08/fig_0748_1.png" alt="Table 8-173 page 748" width="700">
+> <img src="figures/chapter_08/page_0748.png" alt="Figure 8-X page 748" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0748.png)
 
@@ -16479,9 +16540,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-174, Table 8-175, Table 8-176.** Get SLD QoS Control (page 749-750) ｜ Get SLD QoS Control
+> **Figure 8-X.** Get SLD QoS Control (page 749-750) ｜ Get SLD QoS Control
 >
-> <img src="figures/chapter_08/fig_0749_1.png" alt="Table 8-174 page 749" width="700">
+> <img src="figures/chapter_08/page_0749.png" alt="Figure 8-X page 749" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0749.png)
 
@@ -16521,9 +16582,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-176.** Set SLD QoS Control (page 750) ｜ Set SLD QoS Control
+> **Figure 8-X.** Set SLD QoS Control (page 750) ｜ Set SLD QoS Control
 >
-> <img src="figures/chapter_08/fig_0750_1.png" alt="Table 8-176 page 750" width="700">
+> <img src="figures/chapter_08/page_0750.png" alt="Figure 8-X page 750" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0750.png)
 
@@ -16560,9 +16621,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-176, Table 8-177, Table 8-178, Table 8-179.** Get SLD QoS Status (page 750-751) ｜ Get SLD QoS Status
+> **Figure 8-X.** Get SLD QoS Status (page 750-751) ｜ Get SLD QoS Status
 >
-> <img src="figures/chapter_08/fig_0750_1.png" alt="Table 8-176 page 750" width="700">
+> <img src="figures/chapter_08/page_0750.png" alt="Figure 8-X page 750" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0750.png)
 
@@ -16651,9 +16712,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-177, Table 8-178, Table 8-179, Table 8-180.** Get Dynamic Capacity Configuration (page 751-752) ｜ Get Dynamic Capacity Configuration
+> **Figure 8-X.** Get Dynamic Capacity Configuration (page 751-752) ｜ Get Dynamic Capacity Configuration
 >
-> <img src="figures/chapter_08/fig_0751_1.png" alt="Table 8-177 page 751" width="700">
+> <img src="figures/chapter_08/page_0751.png" alt="Figure 8-X page 751" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0751.png)
 
@@ -16705,9 +16766,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-180, Table 8-179, Table 8-181, Table 8-182.** Get Dynamic Capacity Extent List (page 752-753) ｜ Get Dynamic Capacity Extent List
+> **Figure 8-X.** Get Dynamic Capacity Extent List (page 752-753) ｜ Get Dynamic Capacity Extent List
 >
-> <img src="figures/chapter_08/fig_0752_1.png" alt="Table 8-180 page 752" width="700">
+> <img src="figures/chapter_08/page_0752.png" alt="Figure 8-X page 752" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0752.png)
 
@@ -16763,9 +16824,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-181, Table 8-182.** Add Dynamic Capacity Response (page 753-755) ｜ Add Dynamic Capacity Response
+> **Figure 8-X.** Add Dynamic Capacity Response (page 753-755) ｜ Add Dynamic Capacity Response
 >
-> <img src="figures/chapter_08/fig_0753_1.png" alt="Table 8-181 page 753" width="700">
+> <img src="figures/chapter_08/page_0753.png" alt="Figure 8-X page 753" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0753.png)
 
@@ -16808,9 +16869,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-185, Table 8-186.** Release Dynamic Capacity (page 755-756) ｜ Release Dynamic Capacity
+> **Figure 8-X.** Release Dynamic Capacity (page 755-756) ｜ Release Dynamic Capacity
 >
-> <img src="figures/chapter_08/fig_0755_1.png" alt="Table 8-185 page 755" width="700">
+> <img src="figures/chapter_08/page_0755.png" alt="Figure 8-X page 755" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0755.png)
 
@@ -16875,9 +16936,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-185, Table 8-186, Table 8-187.** Identify GFD (page 756-758) ｜ Identify GFD
+> **Figure 8-X.** Identify GFD (page 756-758) ｜ Identify GFD
 >
-> <img src="figures/chapter_08/fig_0756_1.png" alt="Table 8-185 page 756" width="700">
+> <img src="figures/chapter_08/page_0756.png" alt="Figure 8-X page 756" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0756.png)
 
@@ -16922,9 +16983,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-186, Table 8-187, Table 8-188, Table 8-189, Table 8-190.** Get GFD Status (page 758-760) ｜ Get GFD Status
+> **Figure 8-X.** Get GFD Status (page 758-760) ｜ Get GFD Status
 >
-> <img src="figures/chapter_08/fig_0758_1.png" alt="Table 8-186 page 758" width="700">
+> <img src="figures/chapter_08/page_0758.png" alt="Figure 8-X page 758" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0758.png)
 
@@ -16998,9 +17059,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-188, Table 8-189, Table 8-190, Table 8-191.** Get GFD DC Region Configuration (page 760-761) ｜ Get GFD DC Region Configuration
+> **Figure 8-X.** Get GFD DC Region Configuration (page 760-761) ｜ Get GFD DC Region Configuration
 >
-> <img src="figures/chapter_08/fig_0760_1.png" alt="Table 8-188 page 760" width="700">
+> <img src="figures/chapter_08/page_0760.png" alt="Figure 8-X page 760" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0760.png)
 
@@ -17039,9 +17100,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-190, Table 8-191, Table 8-192, Table 8-193.** Set GFD DC Region Configuration (page 761-762) ｜ Set GFD DC Region Configuration
+> **Figure 8-X.** Set GFD DC Region Configuration (page 761-762) ｜ Set GFD DC Region Configuration
 >
-> <img src="figures/chapter_08/fig_0761_1.png" alt="Table 8-190 page 761" width="700">
+> <img src="figures/chapter_08/page_0761.png" alt="Figure 8-X page 761" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0761.png)
 
@@ -17098,9 +17159,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-191, Table 8-192, Table 8-193, Table 8-194, Table 8-195.** Get GFD DC Region Extent Lists (page 762-763) ｜ Get GFD DC Region Extent Lists
+> **Figure 8-X.** Get GFD DC Region Extent Lists (page 762-763) ｜ Get GFD DC Region Extent Lists
 >
-> <img src="figures/chapter_08/fig_0762_1.png" alt="Table 8-191 page 762" width="700">
+> <img src="figures/chapter_08/page_0762.png" alt="Figure 8-X page 762" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0762.png)
 
@@ -17153,9 +17214,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-193, Table 8-194, Table 8-195, Table 8-196.** Get GFD DMP Configuration (page 763-764) ｜ Get GFD DMP Configuration
+> **Figure 8-X.** Get GFD DMP Configuration (page 763-764) ｜ Get GFD DMP Configuration
 >
-> <img src="figures/chapter_08/fig_0763_1.png" alt="Table 8-193 page 763" width="700">
+> <img src="figures/chapter_08/page_0763.png" alt="Figure 8-X page 763" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0763.png)
 
@@ -17214,9 +17275,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-196, Table 8-197.** Set GFD DMP Configuration (page 764-765) ｜ Set GFD DMP Configuration
+> **Figure 8-X.** Set GFD DMP Configuration (page 764-765) ｜ Set GFD DMP Configuration
 >
-> <img src="figures/chapter_08/fig_0764_1.png" alt="Table 8-196 page 764" width="700">
+> <img src="figures/chapter_08/page_0764.png" alt="Figure 8-X page 764" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0764.png)
 
@@ -17287,9 +17348,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-197, Table 8-199.** GFD Dynamic Capacity Add (page 765-768) ｜ GFD Dynamic Capacity Add
+> **Figure 8-X.** GFD Dynamic Capacity Add (page 765-768) ｜ GFD Dynamic Capacity Add
 >
-> <img src="figures/chapter_08/fig_0765_1.png" alt="Table 8-197 page 765" width="700">
+> <img src="figures/chapter_08/page_0765.png" alt="Figure 8-X page 765" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0765.png)
 
@@ -17357,9 +17418,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-199, Table 8-200, Table 8-201.** GFD Dynamic Capacity Release (page 768-770) ｜ GFD Dynamic Capacity Release
+> **Figure 8-X.** GFD Dynamic Capacity Release (page 768-770) ｜ GFD Dynamic Capacity Release
 >
-> <img src="figures/chapter_08/fig_0768_1.png" alt="Table 8-199 page 768" width="700">
+> <img src="figures/chapter_08/page_0768.png" alt="Figure 8-X page 768" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0768.png)
 
@@ -17397,9 +17458,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-200, Table 8-201, Table 8-202.** GFD Dynamic Capacity Add Reference (page 770-771) ｜ GFD Dynamic Capacity Add Reference
+> **Figure 8-X.** GFD Dynamic Capacity Add Reference (page 770-771) ｜ GFD Dynamic Capacity Add Reference
 >
-> <img src="figures/chapter_08/fig_0770_1.png" alt="Table 8-200 page 770" width="700">
+> <img src="figures/chapter_08/page_0770.png" alt="Figure 8-X page 770" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0770.png)
 
@@ -17436,9 +17497,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-202, Table 8-203, Table 8-204, Table 8-205, Table 8-206.** GFD Dynamic Capacity Remove Reference (page 771-772) ｜ GFD Dynamic Capacity Remove Reference
+> **Figure 8-X.** GFD Dynamic Capacity Remove Reference (page 771-772) ｜ GFD Dynamic Capacity Remove Reference
 >
-> <img src="figures/chapter_08/fig_0771_1.png" alt="Table 8-202 page 771" width="700">
+> <img src="figures/chapter_08/page_0771.png" alt="Figure 8-X page 771" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0771.png)
 
@@ -17502,9 +17563,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-203, Table 8-204, Table 8-205, Table 8-206, Table 8-207, Table 8-208.** GFD Dynamic Capacity List Tags (page 772-773) ｜ GFD Dynamic Capacity List Tags
+> **Figure 8-X.** GFD Dynamic Capacity List Tags (page 772-773) ｜ GFD Dynamic Capacity List Tags
 >
-> <img src="figures/chapter_08/fig_0772_1.png" alt="Table 8-203 page 772" width="700">
+> <img src="figures/chapter_08/page_0772.png" alt="Figure 8-X page 772" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0772.png)
 
@@ -17569,9 +17630,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-207, Table 8-208, Table 8-209.** Get GFD SAT Entry (page 773-774) ｜ Get GFD SAT Entry
+> **Figure 8-X.** Get GFD SAT Entry (page 773-774) ｜ Get GFD SAT Entry
 >
-> <img src="figures/chapter_08/fig_0773_1.png" alt="Table 8-207 page 773" width="700">
+> <img src="figures/chapter_08/page_0773.png" alt="Figure 8-X page 773" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0773.png)
 
@@ -17626,9 +17687,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-209, Table 8-210, Table 8-211.** Set GFD SAT Entry (page 774-775) ｜ Set GFD SAT Entry
+> **Figure 8-X.** Set GFD SAT Entry (page 774-775) ｜ Set GFD SAT Entry
 >
-> <img src="figures/chapter_08/fig_0774_1.png" alt="Table 8-209 page 774" width="700">
+> <img src="figures/chapter_08/page_0774.png" alt="Figure 8-X page 774" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0774.png)
 
@@ -17653,9 +17714,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-210, Table 8-211, Table 8-212.** Get GFD QoS Control (page 775-776) ｜ Get GFD QoS Control
+> **Figure 8-X.** Get GFD QoS Control (page 775-776) ｜ Get GFD QoS Control
 >
-> <img src="figures/chapter_08/fig_0775_1.png" alt="Table 8-210 page 775" width="700">
+> <img src="figures/chapter_08/page_0775.png" alt="Figure 8-X page 775" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0775.png)
 
@@ -17697,9 +17758,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-212.** Set GFD QoS Control (page 776) ｜ Set GFD QoS Control
+> **Figure 8-X.** Set GFD QoS Control (page 776) ｜ Set GFD QoS Control
 >
-> <img src="figures/chapter_08/fig_0776_1.png" alt="Table 8-212 page 776" width="700">
+> <img src="figures/chapter_08/page_0776.png" alt="Figure 8-X page 776" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0776.png)
 
@@ -17735,9 +17796,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-212, Table 8-213, Table 8-214, Table 8-215.** Get GFD QoS Status (page 776-777) ｜ Get GFD QoS Status
+> **Figure 8-X.** Get GFD QoS Status (page 776-777) ｜ Get GFD QoS Status
 >
-> <img src="figures/chapter_08/fig_0776_1.png" alt="Table 8-212 page 776" width="700">
+> <img src="figures/chapter_08/page_0776.png" alt="Figure 8-X page 776" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0776.png)
 
@@ -17787,9 +17848,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-213.** Get GFD QoS BW Limit (page 777) ｜ Get GFD QoS BW Limit
+> **Figure 8-X.** Get GFD QoS BW Limit (page 777) ｜ Get GFD QoS BW Limit
 >
-> <img src="figures/chapter_08/fig_0777_1.png" alt="Table 8-213 page 777" width="700">
+> <img src="figures/chapter_08/page_0777.png" alt="Figure 8-X page 777" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0777.png)
 
@@ -17827,9 +17888,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-213, Table 8-214, Table 8-215, Table 8-216.** Set GFD QoS BW Limit (page 777-778) ｜ Set GFD QoS BW Limit
+> **Figure 8-X.** Set GFD QoS BW Limit (page 777-778) ｜ Set GFD QoS BW Limit
 >
-> <img src="figures/chapter_08/fig_0777_1.png" alt="Table 8-213 page 777" width="700">
+> <img src="figures/chapter_08/page_0777.png" alt="Figure 8-X page 777" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0777.png)
 
@@ -17907,9 +17968,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-217, Table 8-218, Table 8-219.** Get GDT Configuration (page 779-780) ｜ Get GDT Configuration
+> **Figure 8-X.** Get GDT Configuration (page 779-780) ｜ Get GDT Configuration
 >
-> <img src="figures/chapter_08/fig_0779_1.png" alt="Table 8-217 page 779" width="700">
+> <img src="figures/chapter_08/page_0779.png" alt="Figure 8-X page 779" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0779.png)
 
@@ -17952,9 +18013,9 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </tbody>
 </table>
 
-> **Table 8-219, Table 8-220, Table 8-221.** Set GDT Configuration (page 780-781) ｜ Set GDT Configuration
+> **Figure 8-X.** Set GDT Configuration (page 780-781) ｜ Set GDT Configuration
 >
-> <img src="figures/chapter_08/fig_0780_1.png" alt="Table 8-219 page 780" width="700">
+> <img src="figures/chapter_08/page_0780.png" alt="Figure 8-X page 780" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0780.png)
 
@@ -18034,9 +18095,9 @@ Table 8-223 shows the Feature Data for Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-220, Table 8-221, Table 8-222, Table 8-223.** Device Patrol Scrub Control Feature (page 781-783) ｜ Device Patrol Scrub Control Feature
+> **Figure 8-X.** Device Patrol Scrub Control Feature (page 781-783) ｜ Device Patrol Scrub Control Feature
 >
-> <img src="figures/chapter_08/fig_0781_1.png" alt="Table 8-220 page 781" width="700">
+> <img src="figures/chapter_08/page_0781.png" alt="Figure 8-X page 781" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0781.png)
 
@@ -18118,9 +18179,9 @@ Table 8-226 shows the Feature Data for Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-224, Table 8-226, Table 8-227.** DDR5 ECS Control Feature (page 784-786) ｜ DDR5 ECS Control Feature
+> **Figure 8-X.** DDR5 ECS Control Feature (page 784-786) ｜ DDR5 ECS Control Feature
 >
-> <img src="figures/chapter_08/fig_0784_1.png" alt="Table 8-224 page 784" width="700">
+> <img src="figures/chapter_08/page_0784.png" alt="Figure 8-X page 784" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0784.png)
 
@@ -18177,9 +18238,9 @@ Table 8-228 shows the output payload returned by a Get Feature command with Sele
 </tbody>
 </table>
 
-> **Table 8-226, Table 8-227, Table 8-228.** Advanced Programmable CVME Threshold Feature (page 786-787) ｜ Advanced Programmable CVME Threshold Feature
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature (page 786-787) ｜ Advanced Programmable CVME Threshold Feature
 >
-> <img src="figures/chapter_08/fig_0786_1.png" alt="Table 8-226 page 786" width="700">
+> <img src="figures/chapter_08/page_0786.png" alt="Figure 8-X page 786" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0786.png)
 
@@ -18200,9 +18261,9 @@ Table 8-228 shows the output payload returned by a Get Feature command with Sele
 </tbody>
 </table>
 
-> **Table 8-227, Table 8-228.** Advanced Programmable CVME Threshold Feature Sheet 2 (page 787-788) ｜ Advanced Programmable CVME Threshold Feature 第 2 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Sheet 2 (page 787-788) ｜ Advanced Programmable CVME Threshold Feature 第 2 张
 >
-> <img src="figures/chapter_08/fig_0787_1.png" alt="Table 8-227 page 787" width="700">
+> <img src="figures/chapter_08/page_0787.png" alt="Figure 8-X page 787" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0787.png)
 
@@ -18224,9 +18285,9 @@ Table 8-228 shows the output payload returned by a Get Feature command with Sele
 </tbody>
 </table>
 
-> **Table 8-228.** Advanced Programmable CVME Threshold Feature Sheet 3 (page 788-790) ｜ Advanced Programmable CVME Threshold Feature 第 3 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Sheet 3 (page 788-790) ｜ Advanced Programmable CVME Threshold Feature 第 3 张
 >
-> <img src="figures/chapter_08/fig_0788_1.png" alt="Table 8-228 page 788" width="700">
+> <img src="figures/chapter_08/page_0788.png" alt="Figure 8-X page 788" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0788.png)
 
@@ -18249,9 +18310,9 @@ Table 8-228 shows the output payload returned by a Get Feature command with Sele
 </tbody>
 </table>
 
-> **Table 8-228.** Advanced Programmable CVME Threshold Feature Sheet 4 (page 790) ｜ Advanced Programmable CVME Threshold Feature 第 4 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Sheet 4 (page 790) ｜ Advanced Programmable CVME Threshold Feature 第 4 张
 >
-> <img src="figures/chapter_08/fig_0790_1.png" alt="Table 8-228 page 790" width="700">
+> <img src="figures/chapter_08/page_0790.png" alt="Figure 8-X page 790" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0790.png)
 
@@ -18274,9 +18335,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-229.** Advanced Programmable CVME Threshold Feature Writable Sheet 1 (page 791) ｜ Advanced Programmable CVME Threshold Feature 可写第 1 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Writable Sheet 1 (page 791) ｜ Advanced Programmable CVME Threshold Feature 可写第 1 张
 >
-> <img src="figures/chapter_08/fig_0791_1.png" alt="Table 8-229 page 791" width="700">
+> <img src="figures/chapter_08/page_0791.png" alt="Figure 8-X page 791" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0791.png)
 
@@ -18298,9 +18359,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-229.** Advanced Programmable CVME Threshold Feature Writable Sheet 2 (page 792) ｜ Advanced Programmable CVME Threshold Feature 可写第 2 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Writable Sheet 2 (page 792) ｜ Advanced Programmable CVME Threshold Feature 可写第 2 张
 >
-> <img src="figures/chapter_08/fig_0792_1.png" alt="Table 8-229 page 792" width="700">
+> <img src="figures/chapter_08/page_0792.png" alt="Figure 8-X page 792" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0792.png)
 
@@ -18323,9 +18384,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-229.** Advanced Programmable CVME Threshold Feature Writable Sheet 3 (page 793) ｜ Advanced Programmable CVME Threshold Feature 可写第 3 张
+> **Figure 8-X.** Advanced Programmable CVME Threshold Feature Writable Sheet 3 (page 793) ｜ Advanced Programmable CVME Threshold Feature 可写第 3 张
 >
-> <img src="figures/chapter_08/fig_0793_1.png" alt="Table 8-229 page 793" width="700">
+> <img src="figures/chapter_08/page_0793.png" alt="Figure 8-X page 793" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0793.png)
 
@@ -18373,9 +18434,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-230.** CXL Defined FM API Command Opcodes (1/5) (page 794) ｜ CXL 定义的 FM API 命令操作码 (1/5)
+> **Figure 8-X.** CXL Defined FM API Command Opcodes (1/5) (page 794) ｜ CXL 定义的 FM API 命令操作码 (1/5)
 >
-> <img src="figures/chapter_08/fig_0794_1.png" alt="Table 8-230 page 794" width="700">
+> <img src="figures/chapter_08/page_0794.png" alt="Figure 8-X page 794" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0794.png)
 
@@ -18414,9 +18475,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-230.** CXL Defined FM API Command Opcodes (2/5) (page 795) ｜ CXL 定义的 FM API 命令操作码 (2/5)
+> **Figure 8-X.** CXL Defined FM API Command Opcodes (2/5) (page 795) ｜ CXL 定义的 FM API 命令操作码 (2/5)
 >
-> <img src="figures/chapter_08/fig_0795_1.png" alt="Table 8-230 page 795" width="700">
+> <img src="figures/chapter_08/page_0795.png" alt="Figure 8-X page 795" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0795.png)
 
@@ -18455,9 +18516,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-230.** CXL Defined FM API Command Opcodes (3/5) (page 796) ｜ CXL 定义的 FM API 命令操作码 (3/5)
+> **Figure 8-X.** CXL Defined FM API Command Opcodes (3/5) (page 796) ｜ CXL 定义的 FM API 命令操作码 (3/5)
 >
-> <img src="figures/chapter_08/fig_0796_1.png" alt="Table 8-230 page 796" width="700">
+> <img src="figures/chapter_08/page_0796.png" alt="Figure 8-X page 796" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0796.png)
 
@@ -18489,9 +18550,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 </tbody>
 </table>
 
-> **Table 8-230.** CXL Defined FM API Command Opcodes (4/5) (page 797) ｜ CXL 定义的 FM API 命令操作码 (4/5)
+> **Figure 8-X.** CXL Defined FM API Command Opcodes (4/5) (page 797) ｜ CXL 定义的 FM API 命令操作码 (4/5)
 >
-> <img src="figures/chapter_08/fig_0797_1.png" alt="Table 8-230 page 797" width="700">
+> <img src="figures/chapter_08/page_0797.png" alt="Figure 8-X page 797" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0797.png)
 
@@ -18533,9 +18594,9 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 > **实现说明:**
 > CXL 组件应使用 CXL 定义的命令解释 PCIe MMB 命令操作码 Vendor ID = 1E98h 或 0000h。0000h 是 PCI-SIG 为传统 CXL 兼容性保留的值。但是,强烈建议调用方使用 CXL Vendor ID (1E98h) 来标识 CXL 定义的命令。
 
-> **Table 8-230.** CXL Defined FM API Command Opcodes (5/5) (page 798) ｜ CXL 定义的 FM API 命令操作码 (5/5)
+> **Figure 8-X.** CXL Defined FM API Command Opcodes (5/5) (page 798) ｜ CXL 定义的 FM API 命令操作码 (5/5)
 >
-> <img src="figures/chapter_08/fig_0798_1.png" alt="Table 8-230 page 798" width="700">
+> <img src="figures/chapter_08/page_0798.png" alt="Figure 8-X page 798" width="700">
 >
 > *Original page render @ 150 DPI* — [📄 Full size](figures/chapter_08/page_0798.png)
 
@@ -18543,21 +18604,3 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 
 ---
 
-
-
----
-
-## ⚠️ Known TODOs (待人工收尾)
-
-本节由 `mark_todo.py` 自动生成，最后更新: 2026-06-07 — TODO #1 已收尾，列出本次修复中标记为 TODO 的位置，便于后续人工补齐：
-
-### 1) ✅ 6 个原 `alt="<TABLE_NUM> page NNN"` 占位 (Part D/E body) — 已收尾
-修复方式: 从 img 行的上一行 caption 中复用 Table 编号 (如 "Table 8-117" / "Table 8-153" / "Table 8-162" / "Table 8-185")。
-
-### 2) 4 个 Part (B/D/E) 的"本章目录"为占位
-模板行 `_(本目录由本部分正文小节自动汇总 — 见下方章节内容)_`：
-- 后续可写脚本从 `### 8.2.x.x` 标题抽取自动生成目录
-
-### 3) 真实 tight figure crop (去水印版的局限)
-本次生成的 `fig_*_1.png` 仅去除水印/页眉/页脚，**不是 Part A 那种紧致图区裁剪**。
-若需匹配 Part A 的紧致度，需要重跑 MinerU 或类似 figure detection 工具。
