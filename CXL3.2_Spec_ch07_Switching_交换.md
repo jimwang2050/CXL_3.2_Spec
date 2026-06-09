@@ -10976,4 +10976,49 @@ Part C (p.441-498) 涵盖了 CXL 3.2 规范第 7 章中关于 PBR (Port-Based Ro
 
 所有图表均链接到 `figures/chapter_07/page_04XX.png`,所有表格 Payload 均以中英对照双语表格呈现。
 
+## 🖼 图补遗 (Figure Supplement)
+
+> 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
+
+> **Figure p.0393.** Figure 7-26. ML Accelerator Use Case
+>
+> <img src="figures/chapter_07/fig_0393_1.png" alt="Figure 7-26. ML Accelerator Use Case" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0393 of CXL 3.2 spec)
+
+> **Figure p.0405.** Figure 7-34. PBR Fabric Providing LD-FAM and G-FAM Resources
+>
+> <img src="figures/chapter_07/fig_0405_1.png" alt="Figure 7-34. PBR Fabric Providing LD-FAM and G-FAM" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0405 of CXL 3.2 spec)
+
+> **Figure p.0407.** Figure 7-36. CXL Fabric Example with Multiple Host Domains and Memory Types
+>
+> <img src="figures/chapter_07/fig_0407_1.png" alt="Figure 7-36. CXL Fabric Example with Multiple Host" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0407 of CXL 3.2 spec)
+
+> **Figure p.0408.** Figure 7-38. Example Multi-host CXL Cluster with Memory on Host and Device Exposed as GIM
+>
+> <img src="figures/chapter_07/fig_0408_1.png" alt="Figure 7-38. Example Multi-host CXL Cluster with M" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0408 of CXL 3.2 spec)
+
+> **Figure p.0409.** Figure 7-39. Example ML Cluster Supporting Cross-domain Access through GIM
+>
+> <img src="figures/chapter_07/fig_0409_1.png" alt="Figure 7-39. Example ML Cluster Supporting Cross-d" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0409 of CXL 3.2 spec)
+
+> **Figure p.0430.** (p.0430 图, MinerU 未提取标题, 见 fig_0430_1.png)
+>
+> <img src="figures/chapter_07/fig_0430_1.png" alt="(p.0430 图, MinerU 未提取标题, 见 fig_0430_1.png)" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0430 of CXL 3.2 spec)
+
+> **Figure p.0451.** Figure 7-52. Single VH
+>
+> <img src="figures/chapter_07/fig_0451_1.png" alt="Figure 7-52. Single VH" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0451 of CXL 3.2 spec)
 

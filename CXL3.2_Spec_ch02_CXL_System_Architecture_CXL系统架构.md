@@ -1629,3 +1629,20 @@ Given CXL's use of multiple manageability standards and interconnects, it is imp
 4. 重新 commit & push
 
 是否现在执行"图表内嵌化"改造？预计会修改 2 个文件（Ch1: 9 张图，Ch2: 8 张图），完成后一并推送。
+
+## 🖼 图补遗 (Figure Supplement)
+
+> 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
+
+> **Figure p.0074.** Figure 2-4. Type 2 Device - Host Bias
+>
+> <img src="figures/chapter_02/fig_0074_1.png" alt="Figure 2-4. Type 2 Device - Host Bias" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0074 of CXL 3.2 spec)
+
+> **Figure p.0075.** Figure 2-5. Type 2 Device - Device Bias
+>
+> <img src="figures/chapter_02/fig_0075_1.png" alt="Figure 2-5. Type 2 Device - Device Bias" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0075 of CXL 3.2 spec)
+

@@ -1316,4 +1316,13 @@ The following are provided as attachments to the CXL specification:
 
 ---
 
+## 🖼 图补遗 (Figure Supplement)
+
+> 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
+
+> **Figure p.0310.** Figure 6-14. Flex Bus Mode Negotiation during Link Training (Sample Flow)
+>
+> <img src="figures/chapter_06/fig_0310_1.png" alt="Figure 6-14. Flex Bus Mode Negotiation during Link" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0310 of CXL 3.2 spec)
 

@@ -1602,6 +1602,13 @@
 
 [⬆️ 返回目录](#-本章目录)
 
+## 🖼 图补遗 (Figure Supplement)
 
+> 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
 
+> **Figure p.0092.** Figure 3-5. CXL EFN Messages Packet Format - Non-Flit Mode
+>
+> <img src="figures/chapter_03/fig_0092_1.png" alt="Figure 3-5. CXL EFN Messages Packet Format - Non-F" width="700">
+>
+> *Source*: MinerU tight crop extraction (page 0092 of CXL 3.2 spec)
 
