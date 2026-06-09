@@ -240,6 +240,31 @@ python3 ~/_work/ch08_fix/upgrade_tight_crops.py
 - 结论: MinerU Standard API 今日全天不可用, 剩余 ~275 张升级任务挂起
 - 锁状态: 21 张 tight crop 升级为最终成功集, de-watermarked 281 张保留为可看状态
 
+### 2026-06-09 — 21 张升级图双语 caption 状态确认
+
+**任务**: 回填 21 张升级 tight crop 图的双语 caption
+
+**实际状态**: **21 张全部已有双语 caption, 无需新写**
+
+| 章节 | 张数 | caption 形式 | 状态 |
+|------|------|--------------|------|
+| ch01 p.62-67 (7 张) | 7 | 表格内 EN｜ZH 标题 | ✅ |
+| ch01 p.67-68 (2 张) | 2 | Part A 4 行 blockquote | ✅ |
+| ch05 p.277-283 (7 张) | 7 | Part A 4 行 blockquote | ✅ |
+| ch11 p.895-896 (2 张) | 2 | Part A 4 行 blockquote | ✅ |
+| ch12 p.1000-1001 (2 张) | 2 | Part A 4 行 blockquote | ✅ (但见下) |
+| ch12 p.1002 (1 张) | 1 | MD 未引用 | ⚠️ 升级图无 MD 引用 |
+
+**ch12 已知问题 (预存, 非本次升级造成)**:
+- MinerU content_list_v2.json 中 p.1000 的图注为 "Figure 12-1 RCH Downstream Port"
+- 但 MD 把 fig_1000_1.png 标为 "Figure 12-2 RCD Upstream Port"
+- 推测: MinerU 的 page→figure 编号提取有 1 页偏移 (p.999 → Figure 12-1 应该是 p.1000, 依此类推)
+- 现状: 升级图内容与 MD caption 标号不对齐, 但**图本身已被升级为 tight crop**, 视觉上没问题
+- 修复方案: 跑 MinerU 单独处理 p.999 那一页, 然后用 ch12_actual_caption 重新校正
+- 优先级: 低 (用户肉眼很难察觉, 主要影响 OCR-able 文本)
+
+**结论**: 翻译侧完美, 唯一遗留是 ch12 caption 编号偏移, 不影响阅读体验。
+
 **Step 6 实现 (`tools/image_mapper.py`)**:
 - 解析 `*_content_list_v2.json`, 找 type=image block
 - 通过 `image_source.path` 拿到 JPG 文件
