@@ -370,9 +370,9 @@ These diagrams represent sequences, but do not imply any timing requirements. A 
 
 > **Figure 10-1.** PkgC Entry Flow Initiated by Device - Example ｜ 由设备发起的 PkgC 进入流程 — 示例
 >
-> <img src="figures/chapter_10/fig_0881_1.jpx" alt="Figure 10-1" width="700">
+> <img src="figures/chapter_10/fig_0881_1.png" alt="Figure 10-1" width="700">
 >
-> *Original figure extract* — [📄 Full size](figures/chapter_10/fig_0881_1.jpx)
+> *Original figure extract* — [📄 Full size](figures/chapter_10/fig_0881_1.png)
 
 > **Figure 10-2.** PkgC Entry Flows for CXL Type 3 Device - Example ｜ CXL Type 3 设备的 PkgC 进入流程 — 示例
 >
@@ -1022,9 +1022,11 @@ CXL.cache 和 CXL.mem 都仅支持 ASPM。与 CXL.io 不同，链路层之间没
 
 > 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
 
-> **Figure p.0881.** Figure 10-1. PkgC Entry Flow Initiated by Device - Example Figure 10-1 illustrates the PkgC entry flow. When a Device needs to enter a higherlatency Idle state, in which the CPU is not active, the Device will issue a PMReq.Req with the LTR field marking the memory-access tolerance of the entity. As specified in Section 10.2.2.1, a device may unilaterally generate PMReq.Req to communicate any changes to its latency, without any dependency on receipt of a prior PMReq.Rsp or PMReq.Go. Specifically, a device may transmit two PMReq.Req messages without an intervening PMReq.Rsp from the host. The LTR value communicated by the device is labeled MEM_LTR, and represents the Device’s latency tolerance regarding CXL.cache accesses and it could be different from what is communicated via LTR messages over CXL.io
+> **Figure p.0881.** (见正文 Figure 10-1, 此处为重复条目已删)
 >
-> <img src="figures/chapter_10/fig_0881_1.png" alt="Figure 10-1. PkgC Entry Flow Initiated by Device -" width="700">
+> _(此条目与正文 Figure 10-1 重复, 主体改用 .png 后已统一, 删此占位)_
 >
-> *Source*: MinerU tight crop extraction (page 0881 of CXL 3.2 spec)
+> ~~<img src="figures/chapter_10/fig_0881_1.png" alt="Figure 10-1. PkgC Entry Flow Initiated by Device -" width="700">~~
+>
+> *Source*: 已合并到正文 Figure 10-1
 
