@@ -18684,837 +18684,837 @@ Table 8-229 shows the Feature Data for the Set Feature command.
 
 > 本节为 MinerU Standard API 在原始 markdown 之外额外提取的 figures, 已用 Part A 风格 4 行 blockquote 补齐双语 caption, 但未插入正文具体节 (内容可能与正文有重复, 仅供参考)。
 
-> **Figure p.0556.** (p.0556 图, MinerU 未提取标题, 见 fig_0556_1.png)
+> **Figure p.0556.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0556_1.png)
 >
-> <img src="figures/chapter_08/fig_0556_1.png" alt="(p.0556 图, MinerU 未提取标题, 见 fig_0556_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0556_1.png" alt="(spec Table/sequence diagram, see fig_0556_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0556 of CXL 3.2 spec)
 
-> **Figure p.0557.** (p.0557 图, MinerU 未提取标题, 见 fig_0557_1.png)
+> **Figure p.0557.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0557_1.png)
 >
-> <img src="figures/chapter_08/fig_0557_1.png" alt="(p.0557 图, MinerU 未提取标题, 见 fig_0557_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0557_1.png" alt="(spec Table/sequence diagram, see fig_0557_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0557 of CXL 3.2 spec)
 
-> **Figure p.0558.** (p.0558 图, MinerU 未提取标题, 见 fig_0558_1.png)
+> **Figure p.0558.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0558_1.png)
 >
-> <img src="figures/chapter_08/fig_0558_1.png" alt="(p.0558 图, MinerU 未提取标题, 见 fig_0558_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0558_1.png" alt="(spec Table/sequence diagram, see fig_0558_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0558 of CXL 3.2 spec)
 
-> **Figure p.0559.** (p.0559 图, MinerU 未提取标题, 见 fig_0559_1.png)
+> **Figure p.0559.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0559_1.png)
 >
-> <img src="figures/chapter_08/fig_0559_1.png" alt="(p.0559 图, MinerU 未提取标题, 见 fig_0559_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0559_1.png" alt="(spec Table/sequence diagram, see fig_0559_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0559 of CXL 3.2 spec)
 
-> **Figure p.0560.** (p.0560 图, MinerU 未提取标题, 见 fig_0560_1.png)
+> **Figure p.0560.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0560_1.png)
 >
-> <img src="figures/chapter_08/fig_0560_1.png" alt="(p.0560 图, MinerU 未提取标题, 见 fig_0560_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0560_1.png" alt="(spec Table/sequence diagram, see fig_0560_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0560 of CXL 3.2 spec)
 
-> **Figure p.0561.** (p.0561 图, MinerU 未提取标题, 见 fig_0561_1.png)
+> **Figure p.0561.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0561_1.png)
 >
-> <img src="figures/chapter_08/fig_0561_1.png" alt="(p.0561 图, MinerU 未提取标题, 见 fig_0561_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0561_1.png" alt="(spec Table/sequence diagram, see fig_0561_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0561 of CXL 3.2 spec)
 
-> **Figure p.0562.** (p.0562 图, MinerU 未提取标题, 见 fig_0562_1.png)
+> **Figure p.0562.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0562_1.png)
 >
-> <img src="figures/chapter_08/fig_0562_1.png" alt="(p.0562 图, MinerU 未提取标题, 见 fig_0562_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0562_1.png" alt="(spec Table/sequence diagram, see fig_0562_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0562 of CXL 3.2 spec)
 
-> **Figure p.0563.** (p.0563 图, MinerU 未提取标题, 见 fig_0563_1.png)
+> **Figure p.0563.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0563_1.png)
 >
-> <img src="figures/chapter_08/fig_0563_1.png" alt="(p.0563 图, MinerU 未提取标题, 见 fig_0563_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0563_1.png" alt="(spec Table/sequence diagram, see fig_0563_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0563 of CXL 3.2 spec)
 
-> **Figure p.0564.** (p.0564 图, MinerU 未提取标题, 见 fig_0564_1.png)
+> **Figure p.0564.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0564_1.png)
 >
-> <img src="figures/chapter_08/fig_0564_1.png" alt="(p.0564 图, MinerU 未提取标题, 见 fig_0564_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0564_1.png" alt="(spec Table/sequence diagram, see fig_0564_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0564 of CXL 3.2 spec)
 
-> **Figure p.0565.** (p.0565 图, MinerU 未提取标题, 见 fig_0565_1.png)
+> **Figure p.0565.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0565_1.png)
 >
-> <img src="figures/chapter_08/fig_0565_1.png" alt="(p.0565 图, MinerU 未提取标题, 见 fig_0565_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0565_1.png" alt="(spec Table/sequence diagram, see fig_0565_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0565 of CXL 3.2 spec)
 
-> **Figure p.0567.** (p.0567 图, MinerU 未提取标题, 见 fig_0567_1.png)
+> **Figure p.0567.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0567_1.png)
 >
-> <img src="figures/chapter_08/fig_0567_1.png" alt="(p.0567 图, MinerU 未提取标题, 见 fig_0567_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0567_1.png" alt="(spec Table/sequence diagram, see fig_0567_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0567 of CXL 3.2 spec)
 
-> **Figure p.0568.** (p.0568 图, MinerU 未提取标题, 见 fig_0568_1.png)
+> **Figure p.0568.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0568_1.png)
 >
-> <img src="figures/chapter_08/fig_0568_1.png" alt="(p.0568 图, MinerU 未提取标题, 见 fig_0568_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0568_1.png" alt="(spec Table/sequence diagram, see fig_0568_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0568 of CXL 3.2 spec)
 
-> **Figure p.0569.** (p.0569 图, MinerU 未提取标题, 见 fig_0569_1.png)
+> **Figure p.0569.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0569_1.png)
 >
-> <img src="figures/chapter_08/fig_0569_1.png" alt="(p.0569 图, MinerU 未提取标题, 见 fig_0569_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0569_1.png" alt="(spec Table/sequence diagram, see fig_0569_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0569 of CXL 3.2 spec)
 
-> **Figure p.0572.** (p.0572 图, MinerU 未提取标题, 见 fig_0572_1.png)
+> **Figure p.0572.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0572_1.png)
 >
-> <img src="figures/chapter_08/fig_0572_1.png" alt="(p.0572 图, MinerU 未提取标题, 见 fig_0572_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0572_1.png" alt="(spec Table/sequence diagram, see fig_0572_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0572 of CXL 3.2 spec)
 
-> **Figure p.0573.** (p.0573 图, MinerU 未提取标题, 见 fig_0573_1.png)
+> **Figure p.0573.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0573_1.png)
 >
-> <img src="figures/chapter_08/fig_0573_1.png" alt="(p.0573 图, MinerU 未提取标题, 见 fig_0573_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0573_1.png" alt="(spec Table/sequence diagram, see fig_0573_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0573 of CXL 3.2 spec)
 
-> **Figure p.0574.** (p.0574 图, MinerU 未提取标题, 见 fig_0574_1.png)
+> **Figure p.0574.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0574_1.png)
 >
-> <img src="figures/chapter_08/fig_0574_1.png" alt="(p.0574 图, MinerU 未提取标题, 见 fig_0574_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0574_1.png" alt="(spec Table/sequence diagram, see fig_0574_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0574 of CXL 3.2 spec)
 
-> **Figure p.0577.** (p.0577 图, MinerU 未提取标题, 见 fig_0577_1.png)
+> **Figure p.0577.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0577_1.png)
 >
-> <img src="figures/chapter_08/fig_0577_1.png" alt="(p.0577 图, MinerU 未提取标题, 见 fig_0577_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0577_1.png" alt="(spec Table/sequence diagram, see fig_0577_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0577 of CXL 3.2 spec)
 
-> **Figure p.0578.** (p.0578 图, MinerU 未提取标题, 见 fig_0578_1.png)
+> **Figure p.0578.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0578_1.png)
 >
-> <img src="figures/chapter_08/fig_0578_1.png" alt="(p.0578 图, MinerU 未提取标题, 见 fig_0578_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0578_1.png" alt="(spec Table/sequence diagram, see fig_0578_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0578 of CXL 3.2 spec)
 
-> **Figure p.0579.** (p.0579 图, MinerU 未提取标题, 见 fig_0579_1.png)
+> **Figure p.0579.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0579_1.png)
 >
-> <img src="figures/chapter_08/fig_0579_1.png" alt="(p.0579 图, MinerU 未提取标题, 见 fig_0579_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0579_1.png" alt="(spec Table/sequence diagram, see fig_0579_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0579 of CXL 3.2 spec)
 
-> **Figure p.0580.** (p.0580 图, MinerU 未提取标题, 见 fig_0580_1.png)
+> **Figure p.0580.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0580_1.png)
 >
-> <img src="figures/chapter_08/fig_0580_1.png" alt="(p.0580 图, MinerU 未提取标题, 见 fig_0580_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0580_1.png" alt="(spec Table/sequence diagram, see fig_0580_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0580 of CXL 3.2 spec)
 
-> **Figure p.0583.** (p.0583 图, MinerU 未提取标题, 见 fig_0583_1.png)
+> **Figure p.0583.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0583_1.png)
 >
-> <img src="figures/chapter_08/fig_0583_1.png" alt="(p.0583 图, MinerU 未提取标题, 见 fig_0583_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0583_1.png" alt="(spec Table/sequence diagram, see fig_0583_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0583 of CXL 3.2 spec)
 
-> **Figure p.0585.** (p.0585 图, MinerU 未提取标题, 见 fig_0585_1.png)
+> **Figure p.0585.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0585_1.png)
 >
-> <img src="figures/chapter_08/fig_0585_1.png" alt="(p.0585 图, MinerU 未提取标题, 见 fig_0585_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0585_1.png" alt="(spec Table/sequence diagram, see fig_0585_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0585 of CXL 3.2 spec)
 
-> **Figure p.0587.** (p.0587 图, MinerU 未提取标题, 见 fig_0587_1.png)
+> **Figure p.0587.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0587_1.png)
 >
-> <img src="figures/chapter_08/fig_0587_1.png" alt="(p.0587 图, MinerU 未提取标题, 见 fig_0587_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0587_1.png" alt="(spec Table/sequence diagram, see fig_0587_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0587 of CXL 3.2 spec)
 
-> **Figure p.0589.** (p.0589 图, MinerU 未提取标题, 见 fig_0589_1.png)
+> **Figure p.0589.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0589_1.png)
 >
-> <img src="figures/chapter_08/fig_0589_1.png" alt="(p.0589 图, MinerU 未提取标题, 见 fig_0589_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0589_1.png" alt="(spec Table/sequence diagram, see fig_0589_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0589 of CXL 3.2 spec)
 
-> **Figure p.0591.** (p.0591 图, MinerU 未提取标题, 见 fig_0591_1.png)
+> **Figure p.0591.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0591_1.png)
 >
-> <img src="figures/chapter_08/fig_0591_1.png" alt="(p.0591 图, MinerU 未提取标题, 见 fig_0591_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0591_1.png" alt="(spec Table/sequence diagram, see fig_0591_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0591 of CXL 3.2 spec)
 
-> **Figure p.0592.** (p.0592 图, MinerU 未提取标题, 见 fig_0592_1.png)
+> **Figure p.0592.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0592_1.png)
 >
-> <img src="figures/chapter_08/fig_0592_1.png" alt="(p.0592 图, MinerU 未提取标题, 见 fig_0592_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0592_1.png" alt="(spec Table/sequence diagram, see fig_0592_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0592 of CXL 3.2 spec)
 
-> **Figure p.0593.** (p.0593 图, MinerU 未提取标题, 见 fig_0593_1.png)
+> **Figure p.0593.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0593_1.png)
 >
-> <img src="figures/chapter_08/fig_0593_1.png" alt="(p.0593 图, MinerU 未提取标题, 见 fig_0593_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0593_1.png" alt="(spec Table/sequence diagram, see fig_0593_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0593 of CXL 3.2 spec)
 
-> **Figure p.0595.** (p.0595 图, MinerU 未提取标题, 见 fig_0595_1.png)
+> **Figure p.0595.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0595_1.png)
 >
-> <img src="figures/chapter_08/fig_0595_1.png" alt="(p.0595 图, MinerU 未提取标题, 见 fig_0595_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0595_1.png" alt="(spec Table/sequence diagram, see fig_0595_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0595 of CXL 3.2 spec)
 
-> **Figure p.0596.** (p.0596 图, MinerU 未提取标题, 见 fig_0596_1.png)
+> **Figure p.0596.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0596_1.png)
 >
-> <img src="figures/chapter_08/fig_0596_1.png" alt="(p.0596 图, MinerU 未提取标题, 见 fig_0596_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0596_1.png" alt="(spec Table/sequence diagram, see fig_0596_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0596 of CXL 3.2 spec)
 
-> **Figure p.0597.** (p.0597 图, MinerU 未提取标题, 见 fig_0597_1.png)
+> **Figure p.0597.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0597_1.png)
 >
-> <img src="figures/chapter_08/fig_0597_1.png" alt="(p.0597 图, MinerU 未提取标题, 见 fig_0597_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0597_1.png" alt="(spec Table/sequence diagram, see fig_0597_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0597 of CXL 3.2 spec)
 
-> **Figure p.0598.** (p.0598 图, MinerU 未提取标题, 见 fig_0598_1.png)
+> **Figure p.0598.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0598_1.png)
 >
-> <img src="figures/chapter_08/fig_0598_1.png" alt="(p.0598 图, MinerU 未提取标题, 见 fig_0598_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0598_1.png" alt="(spec Table/sequence diagram, see fig_0598_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0598 of CXL 3.2 spec)
 
-> **Figure p.0602.** (p.0602 图, MinerU 未提取标题, 见 fig_0602_1.png)
+> **Figure p.0602.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0602_1.png)
 >
-> <img src="figures/chapter_08/fig_0602_1.png" alt="(p.0602 图, MinerU 未提取标题, 见 fig_0602_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0602_1.png" alt="(spec Table/sequence diagram, see fig_0602_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0602 of CXL 3.2 spec)
 
-> **Figure p.0606.** (p.0606 图, MinerU 未提取标题, 见 fig_0606_1.png)
+> **Figure p.0606.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0606_1.png)
 >
-> <img src="figures/chapter_08/fig_0606_1.png" alt="(p.0606 图, MinerU 未提取标题, 见 fig_0606_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0606_1.png" alt="(spec Table/sequence diagram, see fig_0606_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0606 of CXL 3.2 spec)
 
-> **Figure p.0607.** (p.0607 图, MinerU 未提取标题, 见 fig_0607_1.png)
+> **Figure p.0607.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0607_1.png)
 >
-> <img src="figures/chapter_08/fig_0607_1.png" alt="(p.0607 图, MinerU 未提取标题, 见 fig_0607_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0607_1.png" alt="(spec Table/sequence diagram, see fig_0607_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0607 of CXL 3.2 spec)
 
-> **Figure p.0609.** (p.0609 图, MinerU 未提取标题, 见 fig_0609_1.png)
+> **Figure p.0609.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0609_1.png)
 >
-> <img src="figures/chapter_08/fig_0609_1.png" alt="(p.0609 图, MinerU 未提取标题, 见 fig_0609_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0609_1.png" alt="(spec Table/sequence diagram, see fig_0609_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0609 of CXL 3.2 spec)
 
-> **Figure p.0611.** (p.0611 图, MinerU 未提取标题, 见 fig_0611_1.png)
+> **Figure p.0611.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0611_1.png)
 >
-> <img src="figures/chapter_08/fig_0611_1.png" alt="(p.0611 图, MinerU 未提取标题, 见 fig_0611_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0611_1.png" alt="(spec Table/sequence diagram, see fig_0611_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0611 of CXL 3.2 spec)
 
-> **Figure p.0612.** (p.0612 图, MinerU 未提取标题, 见 fig_0612_1.png)
+> **Figure p.0612.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0612_1.png)
 >
-> <img src="figures/chapter_08/fig_0612_1.png" alt="(p.0612 图, MinerU 未提取标题, 见 fig_0612_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0612_1.png" alt="(spec Table/sequence diagram, see fig_0612_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0612 of CXL 3.2 spec)
 
-> **Figure p.0615.** (p.0615 图, MinerU 未提取标题, 见 fig_0615_1.png)
+> **Figure p.0615.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0615_1.png)
 >
-> <img src="figures/chapter_08/fig_0615_1.png" alt="(p.0615 图, MinerU 未提取标题, 见 fig_0615_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0615_1.png" alt="(spec Table/sequence diagram, see fig_0615_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0615 of CXL 3.2 spec)
 
-> **Figure p.0617.** (p.0617 图, MinerU 未提取标题, 见 fig_0617_1.png)
+> **Figure p.0617.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0617_1.png)
 >
-> <img src="figures/chapter_08/fig_0617_1.png" alt="(p.0617 图, MinerU 未提取标题, 见 fig_0617_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0617_1.png" alt="(spec Table/sequence diagram, see fig_0617_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0617 of CXL 3.2 spec)
 
-> **Figure p.0619.** (p.0619 图, MinerU 未提取标题, 见 fig_0619_1.png)
+> **Figure p.0619.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0619_1.png)
 >
-> <img src="figures/chapter_08/fig_0619_1.png" alt="(p.0619 图, MinerU 未提取标题, 见 fig_0619_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0619_1.png" alt="(spec Table/sequence diagram, see fig_0619_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0619 of CXL 3.2 spec)
 
-> **Figure p.0622.** (p.0622 图, MinerU 未提取标题, 见 fig_0622_1.png)
+> **Figure 8-13.** CXL Device Registers (extracted from p.0622 via MinerU)
 >
-> <img src="figures/chapter_08/fig_0622_1.png" alt="(p.0622 图, MinerU 未提取标题, 见 fig_0622_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0622_1.png" alt="Figure 8-13: CXL Device Registers (p.0622 via MinerU)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0622 of CXL 3.2 spec)
 
-> **Figure p.0625.** (p.0625 图, MinerU 未提取标题, 见 fig_0625_1.png)
+> **Figure 8-14.** Mailbox Registers (extracted from p.0625 via MinerU)
 >
-> <img src="figures/chapter_08/fig_0625_1.png" alt="(p.0625 图, MinerU 未提取标题, 见 fig_0625_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0625_1.png" alt="Figure 8-14: Mailbox Registers (p.0625 via MinerU)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0625 of CXL 3.2 spec)
 
-> **Figure p.0650.** (p.0650 图, MinerU 未提取标题, 见 fig_0650_1.png)
+> **Figure p.0650.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0650_1.png)
 >
-> <img src="figures/chapter_08/fig_0650_1.png" alt="(p.0650 图, MinerU 未提取标题, 见 fig_0650_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0650_1.png" alt="(spec Table/sequence diagram, see fig_0650_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0650 of CXL 3.2 spec)
 
-> **Figure p.0676.** (p.0676 图, MinerU 未提取标题, 见 fig_0676_1.png)
+> **Figure p.0676.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0676_1.png)
 >
-> <img src="figures/chapter_08/fig_0676_1.png" alt="(p.0676 图, MinerU 未提取标题, 见 fig_0676_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0676_1.png" alt="(spec Table/sequence diagram, see fig_0676_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0676 of CXL 3.2 spec)
 
-> **Figure p.0677.** (p.0677 图, MinerU 未提取标题, 见 fig_0677_1.png)
+> **Figure p.0677.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0677_1.png)
 >
-> <img src="figures/chapter_08/fig_0677_1.png" alt="(p.0677 图, MinerU 未提取标题, 见 fig_0677_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0677_1.png" alt="(spec Table/sequence diagram, see fig_0677_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0677 of CXL 3.2 spec)
 
-> **Figure p.0678.** (p.0678 图, MinerU 未提取标题, 见 fig_0678_1.png)
+> **Figure p.0678.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0678_1.png)
 >
-> <img src="figures/chapter_08/fig_0678_1.png" alt="(p.0678 图, MinerU 未提取标题, 见 fig_0678_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0678_1.png" alt="(spec Table/sequence diagram, see fig_0678_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0678 of CXL 3.2 spec)
 
-> **Figure p.0679.** (p.0679 图, MinerU 未提取标题, 见 fig_0679_1.png)
+> **Figure p.0679.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0679_1.png)
 >
-> <img src="figures/chapter_08/fig_0679_1.png" alt="(p.0679 图, MinerU 未提取标题, 见 fig_0679_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0679_1.png" alt="(spec Table/sequence diagram, see fig_0679_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0679 of CXL 3.2 spec)
 
-> **Figure p.0680.** (p.0680 图, MinerU 未提取标题, 见 fig_0680_1.png)
+> **Figure p.0680.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0680_1.png)
 >
-> <img src="figures/chapter_08/fig_0680_1.png" alt="(p.0680 图, MinerU 未提取标题, 见 fig_0680_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0680_1.png" alt="(spec Table/sequence diagram, see fig_0680_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0680 of CXL 3.2 spec)
 
-> **Figure p.0681.** (p.0681 图, MinerU 未提取标题, 见 fig_0681_1.png)
+> **Figure p.0681.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0681_1.png)
 >
-> <img src="figures/chapter_08/fig_0681_1.png" alt="(p.0681 图, MinerU 未提取标题, 见 fig_0681_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0681_1.png" alt="(spec Table/sequence diagram, see fig_0681_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0681 of CXL 3.2 spec)
 
-> **Figure p.0682.** (p.0682 图, MinerU 未提取标题, 见 fig_0682_1.png)
+> **Figure p.0682.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0682_1.png)
 >
-> <img src="figures/chapter_08/fig_0682_1.png" alt="(p.0682 图, MinerU 未提取标题, 见 fig_0682_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0682_1.png" alt="(spec Table/sequence diagram, see fig_0682_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0682 of CXL 3.2 spec)
 
-> **Figure p.0683.** (p.0683 图, MinerU 未提取标题, 见 fig_0683_1.png)
+> **Figure p.0683.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0683_1.png)
 >
-> <img src="figures/chapter_08/fig_0683_1.png" alt="(p.0683 图, MinerU 未提取标题, 见 fig_0683_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0683_1.png" alt="(spec Table/sequence diagram, see fig_0683_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0683 of CXL 3.2 spec)
 
-> **Figure p.0685.** (p.0685 图, MinerU 未提取标题, 见 fig_0685_1.png)
+> **Figure p.0685.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0685_1.png)
 >
-> <img src="figures/chapter_08/fig_0685_1.png" alt="(p.0685 图, MinerU 未提取标题, 见 fig_0685_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0685_1.png" alt="(spec Table/sequence diagram, see fig_0685_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0685 of CXL 3.2 spec)
 
-> **Figure p.0686.** (p.0686 图, MinerU 未提取标题, 见 fig_0686_1.png)
+> **Figure p.0686.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0686_1.png)
 >
-> <img src="figures/chapter_08/fig_0686_1.png" alt="(p.0686 图, MinerU 未提取标题, 见 fig_0686_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0686_1.png" alt="(spec Table/sequence diagram, see fig_0686_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0686 of CXL 3.2 spec)
 
-> **Figure p.0688.** (p.0688 图, MinerU 未提取标题, 见 fig_0688_1.png)
+> **Figure p.0688.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0688_1.png)
 >
-> <img src="figures/chapter_08/fig_0688_1.png" alt="(p.0688 图, MinerU 未提取标题, 见 fig_0688_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0688_1.png" alt="(spec Table/sequence diagram, see fig_0688_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0688 of CXL 3.2 spec)
 
-> **Figure p.0690.** (p.0690 图, MinerU 未提取标题, 见 fig_0690_1.png)
+> **Figure p.0690.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0690_1.png)
 >
-> <img src="figures/chapter_08/fig_0690_1.png" alt="(p.0690 图, MinerU 未提取标题, 见 fig_0690_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0690_1.png" alt="(spec Table/sequence diagram, see fig_0690_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0690 of CXL 3.2 spec)
 
-> **Figure p.0691.** (p.0691 图, MinerU 未提取标题, 见 fig_0691_1.png)
+> **Figure p.0691.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0691_1.png)
 >
-> <img src="figures/chapter_08/fig_0691_1.png" alt="(p.0691 图, MinerU 未提取标题, 见 fig_0691_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0691_1.png" alt="(spec Table/sequence diagram, see fig_0691_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0691 of CXL 3.2 spec)
 
-> **Figure p.0692.** (p.0692 图, MinerU 未提取标题, 见 fig_0692_1.png)
+> **Figure p.0692.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0692_1.png)
 >
-> <img src="figures/chapter_08/fig_0692_1.png" alt="(p.0692 图, MinerU 未提取标题, 见 fig_0692_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0692_1.png" alt="(spec Table/sequence diagram, see fig_0692_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0692 of CXL 3.2 spec)
 
-> **Figure p.0693.** (p.0693 图, MinerU 未提取标题, 见 fig_0693_1.png)
+> **Figure p.0693.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0693_1.png)
 >
-> <img src="figures/chapter_08/fig_0693_1.png" alt="(p.0693 图, MinerU 未提取标题, 见 fig_0693_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0693_1.png" alt="(spec Table/sequence diagram, see fig_0693_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0693 of CXL 3.2 spec)
 
-> **Figure p.0694.** (p.0694 图, MinerU 未提取标题, 见 fig_0694_1.png)
+> **Figure p.0694.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0694_1.png)
 >
-> <img src="figures/chapter_08/fig_0694_1.png" alt="(p.0694 图, MinerU 未提取标题, 见 fig_0694_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0694_1.png" alt="(spec Table/sequence diagram, see fig_0694_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0694 of CXL 3.2 spec)
 
-> **Figure p.0695.** (p.0695 图, MinerU 未提取标题, 见 fig_0695_1.png)
+> **Figure p.0695.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0695_1.png)
 >
-> <img src="figures/chapter_08/fig_0695_1.png" alt="(p.0695 图, MinerU 未提取标题, 见 fig_0695_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0695_1.png" alt="(spec Table/sequence diagram, see fig_0695_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0695 of CXL 3.2 spec)
 
-> **Figure p.0697.** (p.0697 图, MinerU 未提取标题, 见 fig_0697_1.png)
+> **Figure p.0697.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0697_1.png)
 >
-> <img src="figures/chapter_08/fig_0697_1.png" alt="(p.0697 图, MinerU 未提取标题, 见 fig_0697_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0697_1.png" alt="(spec Table/sequence diagram, see fig_0697_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0697 of CXL 3.2 spec)
 
-> **Figure p.0698.** (p.0698 图, MinerU 未提取标题, 见 fig_0698_1.png)
+> **Figure p.0698.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0698_1.png)
 >
-> <img src="figures/chapter_08/fig_0698_1.png" alt="(p.0698 图, MinerU 未提取标题, 见 fig_0698_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0698_1.png" alt="(spec Table/sequence diagram, see fig_0698_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0698 of CXL 3.2 spec)
 
-> **Figure p.0700.** (p.0700 图, MinerU 未提取标题, 见 fig_0700_1.png)
+> **Figure p.0700.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0700_1.png)
 >
-> <img src="figures/chapter_08/fig_0700_1.png" alt="(p.0700 图, MinerU 未提取标题, 见 fig_0700_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0700_1.png" alt="(spec Table/sequence diagram, see fig_0700_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0700 of CXL 3.2 spec)
 
-> **Figure p.0701.** (p.0701 图, MinerU 未提取标题, 见 fig_0701_1.png)
+> **Figure p.0701.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0701_1.png)
 >
-> <img src="figures/chapter_08/fig_0701_1.png" alt="(p.0701 图, MinerU 未提取标题, 见 fig_0701_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0701_1.png" alt="(spec Table/sequence diagram, see fig_0701_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0701 of CXL 3.2 spec)
 
-> **Figure p.0703.** (p.0703 图, MinerU 未提取标题, 见 fig_0703_1.png)
+> **Figure p.0703.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0703_1.png)
 >
-> <img src="figures/chapter_08/fig_0703_1.png" alt="(p.0703 图, MinerU 未提取标题, 见 fig_0703_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0703_1.png" alt="(spec Table/sequence diagram, see fig_0703_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0703 of CXL 3.2 spec)
 
-> **Figure p.0704.** (p.0704 图, MinerU 未提取标题, 见 fig_0704_1.png)
+> **Figure p.0704.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0704_1.png)
 >
-> <img src="figures/chapter_08/fig_0704_1.png" alt="(p.0704 图, MinerU 未提取标题, 见 fig_0704_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0704_1.png" alt="(spec Table/sequence diagram, see fig_0704_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0704 of CXL 3.2 spec)
 
-> **Figure p.0705.** (p.0705 图, MinerU 未提取标题, 见 fig_0705_1.png)
+> **Figure p.0705.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0705_1.png)
 >
-> <img src="figures/chapter_08/fig_0705_1.png" alt="(p.0705 图, MinerU 未提取标题, 见 fig_0705_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0705_1.png" alt="(spec Table/sequence diagram, see fig_0705_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0705 of CXL 3.2 spec)
 
-> **Figure p.0706.** (p.0706 图, MinerU 未提取标题, 见 fig_0706_1.png)
+> **Figure p.0706.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0706_1.png)
 >
-> <img src="figures/chapter_08/fig_0706_1.png" alt="(p.0706 图, MinerU 未提取标题, 见 fig_0706_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0706_1.png" alt="(spec Table/sequence diagram, see fig_0706_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0706 of CXL 3.2 spec)
 
-> **Figure p.0707.** (p.0707 图, MinerU 未提取标题, 见 fig_0707_1.png)
+> **Figure p.0707.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0707_1.png)
 >
-> <img src="figures/chapter_08/fig_0707_1.png" alt="(p.0707 图, MinerU 未提取标题, 见 fig_0707_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0707_1.png" alt="(spec Table/sequence diagram, see fig_0707_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0707 of CXL 3.2 spec)
 
-> **Figure p.0708.** (p.0708 图, MinerU 未提取标题, 见 fig_0708_1.png)
+> **Figure p.0708.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0708_1.png)
 >
-> <img src="figures/chapter_08/fig_0708_1.png" alt="(p.0708 图, MinerU 未提取标题, 见 fig_0708_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0708_1.png" alt="(spec Table/sequence diagram, see fig_0708_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0708 of CXL 3.2 spec)
 
-> **Figure p.0709.** (p.0709 图, MinerU 未提取标题, 见 fig_0709_1.png)
+> **Figure p.0709.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0709_1.png)
 >
-> <img src="figures/chapter_08/fig_0709_1.png" alt="(p.0709 图, MinerU 未提取标题, 见 fig_0709_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0709_1.png" alt="(spec Table/sequence diagram, see fig_0709_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0709 of CXL 3.2 spec)
 
-> **Figure p.0711.** (p.0711 图, MinerU 未提取标题, 见 fig_0711_1.png)
+> **Figure p.0711.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0711_1.png)
 >
-> <img src="figures/chapter_08/fig_0711_1.png" alt="(p.0711 图, MinerU 未提取标题, 见 fig_0711_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0711_1.png" alt="(spec Table/sequence diagram, see fig_0711_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0711 of CXL 3.2 spec)
 
-> **Figure p.0714.** (p.0714 图, MinerU 未提取标题, 见 fig_0714_1.png)
+> **Figure p.0714.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0714_1.png)
 >
-> <img src="figures/chapter_08/fig_0714_1.png" alt="(p.0714 图, MinerU 未提取标题, 见 fig_0714_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0714_1.png" alt="(spec Table/sequence diagram, see fig_0714_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0714 of CXL 3.2 spec)
 
-> **Figure p.0716.** (p.0716 图, MinerU 未提取标题, 见 fig_0716_1.png)
+> **Figure p.0716.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0716_1.png)
 >
-> <img src="figures/chapter_08/fig_0716_1.png" alt="(p.0716 图, MinerU 未提取标题, 见 fig_0716_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0716_1.png" alt="(spec Table/sequence diagram, see fig_0716_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0716 of CXL 3.2 spec)
 
-> **Figure p.0717.** (p.0717 图, MinerU 未提取标题, 见 fig_0717_1.png)
+> **Figure p.0717.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0717_1.png)
 >
-> <img src="figures/chapter_08/fig_0717_1.png" alt="(p.0717 图, MinerU 未提取标题, 见 fig_0717_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0717_1.png" alt="(spec Table/sequence diagram, see fig_0717_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0717 of CXL 3.2 spec)
 
-> **Figure p.0718.** (p.0718 图, MinerU 未提取标题, 见 fig_0718_1.png)
+> **Figure p.0718.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0718_1.png)
 >
-> <img src="figures/chapter_08/fig_0718_1.png" alt="(p.0718 图, MinerU 未提取标题, 见 fig_0718_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0718_1.png" alt="(spec Table/sequence diagram, see fig_0718_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0718 of CXL 3.2 spec)
 
-> **Figure p.0719.** (p.0719 图, MinerU 未提取标题, 见 fig_0719_1.png)
+> **Figure p.0719.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0719_1.png)
 >
-> <img src="figures/chapter_08/fig_0719_1.png" alt="(p.0719 图, MinerU 未提取标题, 见 fig_0719_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0719_1.png" alt="(spec Table/sequence diagram, see fig_0719_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0719 of CXL 3.2 spec)
 
-> **Figure p.0720.** (p.0720 图, MinerU 未提取标题, 见 fig_0720_1.png)
+> **Figure p.0720.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0720_1.png)
 >
-> <img src="figures/chapter_08/fig_0720_1.png" alt="(p.0720 图, MinerU 未提取标题, 见 fig_0720_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0720_1.png" alt="(spec Table/sequence diagram, see fig_0720_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0720 of CXL 3.2 spec)
 
-> **Figure p.0722.** (p.0722 图, MinerU 未提取标题, 见 fig_0722_1.png)
+> **Figure p.0722.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0722_1.png)
 >
-> <img src="figures/chapter_08/fig_0722_1.png" alt="(p.0722 图, MinerU 未提取标题, 见 fig_0722_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0722_1.png" alt="(spec Table/sequence diagram, see fig_0722_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0722 of CXL 3.2 spec)
 
-> **Figure p.0724.** (p.0724 图, MinerU 未提取标题, 见 fig_0724_1.png)
+> **Figure p.0724.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0724_1.png)
 >
-> <img src="figures/chapter_08/fig_0724_1.png" alt="(p.0724 图, MinerU 未提取标题, 见 fig_0724_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0724_1.png" alt="(spec Table/sequence diagram, see fig_0724_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0724 of CXL 3.2 spec)
 
-> **Figure p.0725.** (p.0725 图, MinerU 未提取标题, 见 fig_0725_1.png)
+> **Figure p.0725.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0725_1.png)
 >
-> <img src="figures/chapter_08/fig_0725_1.png" alt="(p.0725 图, MinerU 未提取标题, 见 fig_0725_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0725_1.png" alt="(spec Table/sequence diagram, see fig_0725_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0725 of CXL 3.2 spec)
 
-> **Figure p.0726.** (p.0726 图, MinerU 未提取标题, 见 fig_0726_1.png)
+> **Figure p.0726.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0726_1.png)
 >
-> <img src="figures/chapter_08/fig_0726_1.png" alt="(p.0726 图, MinerU 未提取标题, 见 fig_0726_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0726_1.png" alt="(spec Table/sequence diagram, see fig_0726_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0726 of CXL 3.2 spec)
 
-> **Figure p.0727.** (p.0727 图, MinerU 未提取标题, 见 fig_0727_1.png)
+> **Figure p.0727.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0727_1.png)
 >
-> <img src="figures/chapter_08/fig_0727_1.png" alt="(p.0727 图, MinerU 未提取标题, 见 fig_0727_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0727_1.png" alt="(spec Table/sequence diagram, see fig_0727_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0727 of CXL 3.2 spec)
 
-> **Figure p.0729.** (p.0729 图, MinerU 未提取标题, 见 fig_0729_1.png)
+> **Figure p.0729.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0729_1.png)
 >
-> <img src="figures/chapter_08/fig_0729_1.png" alt="(p.0729 图, MinerU 未提取标题, 见 fig_0729_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0729_1.png" alt="(spec Table/sequence diagram, see fig_0729_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0729 of CXL 3.2 spec)
 
-> **Figure p.0731.** (p.0731 图, MinerU 未提取标题, 见 fig_0731_1.png)
+> **Figure p.0731.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0731_1.png)
 >
-> <img src="figures/chapter_08/fig_0731_1.png" alt="(p.0731 图, MinerU 未提取标题, 见 fig_0731_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0731_1.png" alt="(spec Table/sequence diagram, see fig_0731_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0731 of CXL 3.2 spec)
 
-> **Figure p.0732.** (p.0732 图, MinerU 未提取标题, 见 fig_0732_1.png)
+> **Figure p.0732.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0732_1.png)
 >
-> <img src="figures/chapter_08/fig_0732_1.png" alt="(p.0732 图, MinerU 未提取标题, 见 fig_0732_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0732_1.png" alt="(spec Table/sequence diagram, see fig_0732_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0732 of CXL 3.2 spec)
 
-> **Figure p.0733.** (p.0733 图, MinerU 未提取标题, 见 fig_0733_1.png)
+> **Figure p.0733.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0733_1.png)
 >
-> <img src="figures/chapter_08/fig_0733_1.png" alt="(p.0733 图, MinerU 未提取标题, 见 fig_0733_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0733_1.png" alt="(spec Table/sequence diagram, see fig_0733_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0733 of CXL 3.2 spec)
 
-> **Figure p.0735.** (p.0735 图, MinerU 未提取标题, 见 fig_0735_1.png)
+> **Figure p.0735.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0735_1.png)
 >
-> <img src="figures/chapter_08/fig_0735_1.png" alt="(p.0735 图, MinerU 未提取标题, 见 fig_0735_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0735_1.png" alt="(spec Table/sequence diagram, see fig_0735_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0735 of CXL 3.2 spec)
 
-> **Figure p.0736.** (p.0736 图, MinerU 未提取标题, 见 fig_0736_1.png)
+> **Figure p.0736.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0736_1.png)
 >
-> <img src="figures/chapter_08/fig_0736_1.png" alt="(p.0736 图, MinerU 未提取标题, 见 fig_0736_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0736_1.png" alt="(spec Table/sequence diagram, see fig_0736_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0736 of CXL 3.2 spec)
 
-> **Figure p.0737.** (p.0737 图, MinerU 未提取标题, 见 fig_0737_1.png)
+> **Figure p.0737.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0737_1.png)
 >
-> <img src="figures/chapter_08/fig_0737_1.png" alt="(p.0737 图, MinerU 未提取标题, 见 fig_0737_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0737_1.png" alt="(spec Table/sequence diagram, see fig_0737_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0737 of CXL 3.2 spec)
 
-> **Figure p.0738.** (p.0738 图, MinerU 未提取标题, 见 fig_0738_1.png)
+> **Figure p.0738.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0738_1.png)
 >
-> <img src="figures/chapter_08/fig_0738_1.png" alt="(p.0738 图, MinerU 未提取标题, 见 fig_0738_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0738_1.png" alt="(spec Table/sequence diagram, see fig_0738_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0738 of CXL 3.2 spec)
 
-> **Figure p.0739.** (p.0739 图, MinerU 未提取标题, 见 fig_0739_1.png)
+> **Figure p.0739.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0739_1.png)
 >
-> <img src="figures/chapter_08/fig_0739_1.png" alt="(p.0739 图, MinerU 未提取标题, 见 fig_0739_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0739_1.png" alt="(spec Table/sequence diagram, see fig_0739_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0739 of CXL 3.2 spec)
 
-> **Figure p.0740.** (p.0740 图, MinerU 未提取标题, 见 fig_0740_1.png)
+> **Figure p.0740.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0740_1.png)
 >
-> <img src="figures/chapter_08/fig_0740_1.png" alt="(p.0740 图, MinerU 未提取标题, 见 fig_0740_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0740_1.png" alt="(spec Table/sequence diagram, see fig_0740_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0740 of CXL 3.2 spec)
 
-> **Figure p.0741.** (p.0741 图, MinerU 未提取标题, 见 fig_0741_1.png)
+> **Figure p.0741.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0741_1.png)
 >
-> <img src="figures/chapter_08/fig_0741_1.png" alt="(p.0741 图, MinerU 未提取标题, 见 fig_0741_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0741_1.png" alt="(spec Table/sequence diagram, see fig_0741_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0741 of CXL 3.2 spec)
 
-> **Figure p.0742.** (p.0742 图, MinerU 未提取标题, 见 fig_0742_1.png)
+> **Figure p.0742.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0742_1.png)
 >
-> <img src="figures/chapter_08/fig_0742_1.png" alt="(p.0742 图, MinerU 未提取标题, 见 fig_0742_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0742_1.png" alt="(spec Table/sequence diagram, see fig_0742_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0742 of CXL 3.2 spec)
 
-> **Figure p.0744.** (p.0744 图, MinerU 未提取标题, 见 fig_0744_1.png)
+> **Figure p.0744.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0744_1.png)
 >
-> <img src="figures/chapter_08/fig_0744_1.png" alt="(p.0744 图, MinerU 未提取标题, 见 fig_0744_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0744_1.png" alt="(spec Table/sequence diagram, see fig_0744_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0744 of CXL 3.2 spec)
 
-> **Figure p.0745.** (p.0745 图, MinerU 未提取标题, 见 fig_0745_1.png)
+> **Figure p.0745.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0745_1.png)
 >
-> <img src="figures/chapter_08/fig_0745_1.png" alt="(p.0745 图, MinerU 未提取标题, 见 fig_0745_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0745_1.png" alt="(spec Table/sequence diagram, see fig_0745_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0745 of CXL 3.2 spec)
 
-> **Figure p.0746.** (p.0746 图, MinerU 未提取标题, 见 fig_0746_1.png)
+> **Figure p.0746.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0746_1.png)
 >
-> <img src="figures/chapter_08/fig_0746_1.png" alt="(p.0746 图, MinerU 未提取标题, 见 fig_0746_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0746_1.png" alt="(spec Table/sequence diagram, see fig_0746_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0746 of CXL 3.2 spec)
 
-> **Figure p.0747.** (p.0747 图, MinerU 未提取标题, 见 fig_0747_1.png)
+> **Figure p.0747.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0747_1.png)
 >
-> <img src="figures/chapter_08/fig_0747_1.png" alt="(p.0747 图, MinerU 未提取标题, 见 fig_0747_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0747_1.png" alt="(spec Table/sequence diagram, see fig_0747_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0747 of CXL 3.2 spec)
 
-> **Figure p.0748.** (p.0748 图, MinerU 未提取标题, 见 fig_0748_1.png)
+> **Figure p.0748.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0748_1.png)
 >
-> <img src="figures/chapter_08/fig_0748_1.png" alt="(p.0748 图, MinerU 未提取标题, 见 fig_0748_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0748_1.png" alt="(spec Table/sequence diagram, see fig_0748_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0748 of CXL 3.2 spec)
 
-> **Figure p.0749.** (p.0749 图, MinerU 未提取标题, 见 fig_0749_1.png)
+> **Figure p.0749.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0749_1.png)
 >
-> <img src="figures/chapter_08/fig_0749_1.png" alt="(p.0749 图, MinerU 未提取标题, 见 fig_0749_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0749_1.png" alt="(spec Table/sequence diagram, see fig_0749_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0749 of CXL 3.2 spec)
 
-> **Figure p.0750.** (p.0750 图, MinerU 未提取标题, 见 fig_0750_1.png)
+> **Figure p.0750.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0750_1.png)
 >
-> <img src="figures/chapter_08/fig_0750_1.png" alt="(p.0750 图, MinerU 未提取标题, 见 fig_0750_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0750_1.png" alt="(spec Table/sequence diagram, see fig_0750_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0750 of CXL 3.2 spec)
 
-> **Figure p.0751.** (p.0751 图, MinerU 未提取标题, 见 fig_0751_1.png)
+> **Figure p.0751.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0751_1.png)
 >
-> <img src="figures/chapter_08/fig_0751_1.png" alt="(p.0751 图, MinerU 未提取标题, 见 fig_0751_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0751_1.png" alt="(spec Table/sequence diagram, see fig_0751_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0751 of CXL 3.2 spec)
 
-> **Figure p.0752.** (p.0752 图, MinerU 未提取标题, 见 fig_0752_1.png)
+> **Figure p.0752.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0752_1.png)
 >
-> <img src="figures/chapter_08/fig_0752_1.png" alt="(p.0752 图, MinerU 未提取标题, 见 fig_0752_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0752_1.png" alt="(spec Table/sequence diagram, see fig_0752_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0752 of CXL 3.2 spec)
 
-> **Figure p.0753.** (p.0753 图, MinerU 未提取标题, 见 fig_0753_1.png)
+> **Figure p.0753.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0753_1.png)
 >
-> <img src="figures/chapter_08/fig_0753_1.png" alt="(p.0753 图, MinerU 未提取标题, 见 fig_0753_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0753_1.png" alt="(spec Table/sequence diagram, see fig_0753_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0753 of CXL 3.2 spec)
 
-> **Figure p.0755.** (p.0755 图, MinerU 未提取标题, 见 fig_0755_1.png)
+> **Figure p.0755.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0755_1.png)
 >
-> <img src="figures/chapter_08/fig_0755_1.png" alt="(p.0755 图, MinerU 未提取标题, 见 fig_0755_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0755_1.png" alt="(spec Table/sequence diagram, see fig_0755_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0755 of CXL 3.2 spec)
 
-> **Figure p.0756.** (p.0756 图, MinerU 未提取标题, 见 fig_0756_1.png)
+> **Figure p.0756.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0756_1.png)
 >
-> <img src="figures/chapter_08/fig_0756_1.png" alt="(p.0756 图, MinerU 未提取标题, 见 fig_0756_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0756_1.png" alt="(spec Table/sequence diagram, see fig_0756_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0756 of CXL 3.2 spec)
 
-> **Figure p.0758.** (p.0758 图, MinerU 未提取标题, 见 fig_0758_1.png)
+> **Figure p.0758.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0758_1.png)
 >
-> <img src="figures/chapter_08/fig_0758_1.png" alt="(p.0758 图, MinerU 未提取标题, 见 fig_0758_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0758_1.png" alt="(spec Table/sequence diagram, see fig_0758_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0758 of CXL 3.2 spec)
 
-> **Figure p.0760.** (p.0760 图, MinerU 未提取标题, 见 fig_0760_1.png)
+> **Figure p.0760.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0760_1.png)
 >
-> <img src="figures/chapter_08/fig_0760_1.png" alt="(p.0760 图, MinerU 未提取标题, 见 fig_0760_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0760_1.png" alt="(spec Table/sequence diagram, see fig_0760_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0760 of CXL 3.2 spec)
 
-> **Figure p.0761.** (p.0761 图, MinerU 未提取标题, 见 fig_0761_1.png)
+> **Figure p.0761.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0761_1.png)
 >
-> <img src="figures/chapter_08/fig_0761_1.png" alt="(p.0761 图, MinerU 未提取标题, 见 fig_0761_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0761_1.png" alt="(spec Table/sequence diagram, see fig_0761_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0761 of CXL 3.2 spec)
 
-> **Figure p.0762.** (p.0762 图, MinerU 未提取标题, 见 fig_0762_1.png)
+> **Figure p.0762.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0762_1.png)
 >
-> <img src="figures/chapter_08/fig_0762_1.png" alt="(p.0762 图, MinerU 未提取标题, 见 fig_0762_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0762_1.png" alt="(spec Table/sequence diagram, see fig_0762_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0762 of CXL 3.2 spec)
 
-> **Figure p.0763.** (p.0763 图, MinerU 未提取标题, 见 fig_0763_1.png)
+> **Figure p.0763.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0763_1.png)
 >
-> <img src="figures/chapter_08/fig_0763_1.png" alt="(p.0763 图, MinerU 未提取标题, 见 fig_0763_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0763_1.png" alt="(spec Table/sequence diagram, see fig_0763_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0763 of CXL 3.2 spec)
 
-> **Figure p.0764.** (p.0764 图, MinerU 未提取标题, 见 fig_0764_1.png)
+> **Figure p.0764.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0764_1.png)
 >
-> <img src="figures/chapter_08/fig_0764_1.png" alt="(p.0764 图, MinerU 未提取标题, 见 fig_0764_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0764_1.png" alt="(spec Table/sequence diagram, see fig_0764_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0764 of CXL 3.2 spec)
 
-> **Figure p.0765.** (p.0765 图, MinerU 未提取标题, 见 fig_0765_1.png)
+> **Figure p.0765.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0765_1.png)
 >
-> <img src="figures/chapter_08/fig_0765_1.png" alt="(p.0765 图, MinerU 未提取标题, 见 fig_0765_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0765_1.png" alt="(spec Table/sequence diagram, see fig_0765_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0765 of CXL 3.2 spec)
 
-> **Figure p.0768.** (p.0768 图, MinerU 未提取标题, 见 fig_0768_1.png)
+> **Figure p.0768.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0768_1.png)
 >
-> <img src="figures/chapter_08/fig_0768_1.png" alt="(p.0768 图, MinerU 未提取标题, 见 fig_0768_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0768_1.png" alt="(spec Table/sequence diagram, see fig_0768_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0768 of CXL 3.2 spec)
 
-> **Figure p.0770.** (p.0770 图, MinerU 未提取标题, 见 fig_0770_1.png)
+> **Figure p.0770.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0770_1.png)
 >
-> <img src="figures/chapter_08/fig_0770_1.png" alt="(p.0770 图, MinerU 未提取标题, 见 fig_0770_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0770_1.png" alt="(spec Table/sequence diagram, see fig_0770_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0770 of CXL 3.2 spec)
 
-> **Figure p.0771.** (p.0771 图, MinerU 未提取标题, 见 fig_0771_1.png)
+> **Figure p.0771.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0771_1.png)
 >
-> <img src="figures/chapter_08/fig_0771_1.png" alt="(p.0771 图, MinerU 未提取标题, 见 fig_0771_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0771_1.png" alt="(spec Table/sequence diagram, see fig_0771_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0771 of CXL 3.2 spec)
 
-> **Figure p.0772.** (p.0772 图, MinerU 未提取标题, 见 fig_0772_1.png)
+> **Figure p.0772.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0772_1.png)
 >
-> <img src="figures/chapter_08/fig_0772_1.png" alt="(p.0772 图, MinerU 未提取标题, 见 fig_0772_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0772_1.png" alt="(spec Table/sequence diagram, see fig_0772_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0772 of CXL 3.2 spec)
 
-> **Figure p.0773.** (p.0773 图, MinerU 未提取标题, 见 fig_0773_1.png)
+> **Figure p.0773.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0773_1.png)
 >
-> <img src="figures/chapter_08/fig_0773_1.png" alt="(p.0773 图, MinerU 未提取标题, 见 fig_0773_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0773_1.png" alt="(spec Table/sequence diagram, see fig_0773_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0773 of CXL 3.2 spec)
 
-> **Figure p.0774.** (p.0774 图, MinerU 未提取标题, 见 fig_0774_1.png)
+> **Figure p.0774.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0774_1.png)
 >
-> <img src="figures/chapter_08/fig_0774_1.png" alt="(p.0774 图, MinerU 未提取标题, 见 fig_0774_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0774_1.png" alt="(spec Table/sequence diagram, see fig_0774_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0774 of CXL 3.2 spec)
 
-> **Figure p.0775.** (p.0775 图, MinerU 未提取标题, 见 fig_0775_1.png)
+> **Figure p.0775.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0775_1.png)
 >
-> <img src="figures/chapter_08/fig_0775_1.png" alt="(p.0775 图, MinerU 未提取标题, 见 fig_0775_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0775_1.png" alt="(spec Table/sequence diagram, see fig_0775_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0775 of CXL 3.2 spec)
 
-> **Figure p.0776.** (p.0776 图, MinerU 未提取标题, 见 fig_0776_1.png)
+> **Figure p.0776.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0776_1.png)
 >
-> <img src="figures/chapter_08/fig_0776_1.png" alt="(p.0776 图, MinerU 未提取标题, 见 fig_0776_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0776_1.png" alt="(spec Table/sequence diagram, see fig_0776_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0776 of CXL 3.2 spec)
 
-> **Figure p.0777.** (p.0777 图, MinerU 未提取标题, 见 fig_0777_1.png)
+> **Figure p.0777.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0777_1.png)
 >
-> <img src="figures/chapter_08/fig_0777_1.png" alt="(p.0777 图, MinerU 未提取标题, 见 fig_0777_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0777_1.png" alt="(spec Table/sequence diagram, see fig_0777_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0777 of CXL 3.2 spec)
 
-> **Figure p.0779.** (p.0779 图, MinerU 未提取标题, 见 fig_0779_1.png)
+> **Figure p.0779.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0779_1.png)
 >
-> <img src="figures/chapter_08/fig_0779_1.png" alt="(p.0779 图, MinerU 未提取标题, 见 fig_0779_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0779_1.png" alt="(spec Table/sequence diagram, see fig_0779_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0779 of CXL 3.2 spec)
 
-> **Figure p.0780.** (p.0780 图, MinerU 未提取标题, 见 fig_0780_1.png)
+> **Figure p.0780.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0780_1.png)
 >
-> <img src="figures/chapter_08/fig_0780_1.png" alt="(p.0780 图, MinerU 未提取标题, 见 fig_0780_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0780_1.png" alt="(spec Table/sequence diagram, see fig_0780_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0780 of CXL 3.2 spec)
 
-> **Figure p.0781.** (p.0781 图, MinerU 未提取标题, 见 fig_0781_1.png)
+> **Figure p.0781.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0781_1.png)
 >
-> <img src="figures/chapter_08/fig_0781_1.png" alt="(p.0781 图, MinerU 未提取标题, 见 fig_0781_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0781_1.png" alt="(spec Table/sequence diagram, see fig_0781_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0781 of CXL 3.2 spec)
 
-> **Figure p.0784.** (p.0784 图, MinerU 未提取标题, 见 fig_0784_1.png)
+> **Figure p.0784.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0784_1.png)
 >
-> <img src="figures/chapter_08/fig_0784_1.png" alt="(p.0784 图, MinerU 未提取标题, 见 fig_0784_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0784_1.png" alt="(spec Table/sequence diagram, see fig_0784_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0784 of CXL 3.2 spec)
 
-> **Figure p.0786.** (p.0786 图, MinerU 未提取标题, 见 fig_0786_1.png)
+> **Figure p.0786.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0786_1.png)
 >
-> <img src="figures/chapter_08/fig_0786_1.png" alt="(p.0786 图, MinerU 未提取标题, 见 fig_0786_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0786_1.png" alt="(spec Table/sequence diagram, see fig_0786_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0786 of CXL 3.2 spec)
 
-> **Figure p.0787.** (p.0787 图, MinerU 未提取标题, 见 fig_0787_1.png)
+> **Figure p.0787.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0787_1.png)
 >
-> <img src="figures/chapter_08/fig_0787_1.png" alt="(p.0787 图, MinerU 未提取标题, 见 fig_0787_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0787_1.png" alt="(spec Table/sequence diagram, see fig_0787_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0787 of CXL 3.2 spec)
 
-> **Figure p.0788.** (p.0788 图, MinerU 未提取标题, 见 fig_0788_1.png)
+> **Figure p.0788.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0788_1.png)
 >
-> <img src="figures/chapter_08/fig_0788_1.png" alt="(p.0788 图, MinerU 未提取标题, 见 fig_0788_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0788_1.png" alt="(spec Table/sequence diagram, see fig_0788_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0788 of CXL 3.2 spec)
 
-> **Figure p.0790.** (p.0790 图, MinerU 未提取标题, 见 fig_0790_1.png)
+> **Figure p.0790.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0790_1.png)
 >
-> <img src="figures/chapter_08/fig_0790_1.png" alt="(p.0790 图, MinerU 未提取标题, 见 fig_0790_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0790_1.png" alt="(spec Table/sequence diagram, see fig_0790_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0790 of CXL 3.2 spec)
 
-> **Figure p.0791.** (p.0791 图, MinerU 未提取标题, 见 fig_0791_1.png)
+> **Figure p.0791.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0791_1.png)
 >
-> <img src="figures/chapter_08/fig_0791_1.png" alt="(p.0791 图, MinerU 未提取标题, 见 fig_0791_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0791_1.png" alt="(spec Table/sequence diagram, see fig_0791_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0791 of CXL 3.2 spec)
 
-> **Figure p.0792.** (p.0792 图, MinerU 未提取标题, 见 fig_0792_1.png)
+> **Figure p.0792.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0792_1.png)
 >
-> <img src="figures/chapter_08/fig_0792_1.png" alt="(p.0792 图, MinerU 未提取标题, 见 fig_0792_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0792_1.png" alt="(spec Table/sequence diagram, see fig_0792_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0792 of CXL 3.2 spec)
 
-> **Figure p.0793.** (p.0793 图, MinerU 未提取标题, 见 fig_0793_1.png)
+> **Figure p.0793.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0793_1.png)
 >
-> <img src="figures/chapter_08/fig_0793_1.png" alt="(p.0793 图, MinerU 未提取标题, 见 fig_0793_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0793_1.png" alt="(spec Table/sequence diagram, see fig_0793_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0793 of CXL 3.2 spec)
 
-> **Figure p.0794.** (p.0794 图, MinerU 未提取标题, 见 fig_0794_1.png)
+> **Figure p.0794.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0794_1.png)
 >
-> <img src="figures/chapter_08/fig_0794_1.png" alt="(p.0794 图, MinerU 未提取标题, 见 fig_0794_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0794_1.png" alt="(spec Table/sequence diagram, see fig_0794_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0794 of CXL 3.2 spec)
 
-> **Figure p.0795.** (p.0795 图, MinerU 未提取标题, 见 fig_0795_1.png)
+> **Figure p.0795.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0795_1.png)
 >
-> <img src="figures/chapter_08/fig_0795_1.png" alt="(p.0795 图, MinerU 未提取标题, 见 fig_0795_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0795_1.png" alt="(spec Table/sequence diagram, see fig_0795_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0795 of CXL 3.2 spec)
 
-> **Figure p.0796.** (p.0796 图, MinerU 未提取标题, 见 fig_0796_1.png)
+> **Figure p.0796.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0796_1.png)
 >
-> <img src="figures/chapter_08/fig_0796_1.png" alt="(p.0796 图, MinerU 未提取标题, 见 fig_0796_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0796_1.png" alt="(spec Table/sequence diagram, see fig_0796_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0796 of CXL 3.2 spec)
 
-> **Figure p.0797.** (p.0797 图, MinerU 未提取标题, 见 fig_0797_1.png)
+> **Figure p.0797.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0797_1.png)
 >
-> <img src="figures/chapter_08/fig_0797_1.png" alt="(p.0797 图, MinerU 未提取标题, 见 fig_0797_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0797_1.png" alt="(spec Table/sequence diagram, see fig_0797_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0797 of CXL 3.2 spec)
 
-> **Figure p.0798.** (p.0798 图, MinerU 未提取标题, 见 fig_0798_1.png)
+> **Figure p.0798.** (spec 内容为 Table 或 sequence diagram, MinerU 未提取 Figure 8-NN 标题, 见 fig_0798_1.png)
 >
-> <img src="figures/chapter_08/fig_0798_1.png" alt="(p.0798 图, MinerU 未提取标题, 见 fig_0798_1.png)" width="700">
+> <img src="figures/chapter_08/fig_0798_1.png" alt="(spec Table/sequence diagram, see fig_0798_1.png)" width="700">
 >
 > *Source*: MinerU tight crop extraction (page 0798 of CXL 3.2 spec)
 
