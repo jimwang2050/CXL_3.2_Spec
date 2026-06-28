@@ -6660,11 +6660,6 @@ Each CPMU Event Capabilities register corresponds to an Event group and reports 
 </tr>
 </thead>
 <tbody>
-<tr><td>
-
-</td><td style="background-color:#e8e8e8">
-
-</td></tr>
 </tbody>
 </table>
 

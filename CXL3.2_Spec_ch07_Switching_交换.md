@@ -1412,7 +1412,6 @@
 </tr>
 </thead>
 <tbody>
-<tr><td></td><td style="background-color:#e8e8e8"></td></tr>
 </tbody>
 </table>
 
@@ -1421,7 +1420,7 @@
 ---
 
 <a id="sec-7-3-1"></a>
-### 7.3.1 CXL.io
+### 7.3.1 CXL.io | CXL.io
 
 <table>
 <thead>
@@ -1485,7 +1484,7 @@
 ---
 
 <a id="sec-7-3-2"></a>
-### 7.3.2 CXL.cache
+### 7.3.2 CXL.cache | CXL.cache
 
 <table>
 <thead>
@@ -1527,7 +1526,7 @@
 ---
 
 <a id="sec-7-3-3"></a>
-### 7.3.3 CXL.mem
+### 7.3.3 CXL.mem | CXL.mem
 
 <table>
 <thead>
@@ -1633,7 +1632,6 @@
 </tr>
 </thead>
 <tbody>
-<tr><td></td><td style="background-color:#e8e8e8"></td></tr>
 </tbody>
 </table>
 
