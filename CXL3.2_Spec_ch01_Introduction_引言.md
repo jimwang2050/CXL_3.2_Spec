@@ -197,7 +197,7 @@ Refer to PCIe Base Specification for additional terminology and acronym definiti
 <tr><td>CIKMA</td><td style="background-color:#e8e8e8">CXL.cachemem IDE Key Management Agent ｜ CXL.cachemem 完整性数据加密密钥管理代理</td></tr>
 <tr><td>CKID</td><td style="background-color:#e8e8e8">Context Key IDentifier passed in the protocol flit for identifying security keys utilized for memory encryption using TSP. ｜ 上下文密钥标识 — 通过协议 flit 传递、用于在 TSP 内存加密中识别安全密钥</td></tr>
 <tr><td>CMA</td><td style="background-color:#e8e8e8">Component Measurement and Authentication as defined in PCIe Base Specification ｜ 组件度量与认证（见《PCI Express Base Specification》）</td></tr>
-<tr><td>Coh</td><td style="background-color:#e8e8e8">Coherency ｜ 一致性</td></tr>
+<tr><td>Coh</td><td style="background-color:#e8e8e8">Coherency ｜ 一致性（缓存一致性，CXL.cache/CXL.mem 协议核心概念）</td></tr>
 <tr><td>Cold reset</td><td style="background-color:#e8e8e8">As defined in PCIe Base Specification ｜ 冷复位（见《PCI Express Base Specification》）</td></tr>
 <tr><td>Comprehensive Trust</td><td style="background-color:#e8e8e8">Security model in which every device available to the TEE is presumed to be trusted by all TEEs in the system. ｜ 全面信任安全模型 — 系统中所有 TEE 都默认信任所有对 TEE 可用的设备</td></tr>
 <tr><td>CPMU</td><td style="background-color:#e8e8e8">CXL Performance Monitoring Unit ｜ CXL 性能监测单元</td></tr>
