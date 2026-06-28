@@ -118,16 +118,60 @@
 
 ---
 
-## ⏭ 未列入本次计划的后续项
+---
 
-如未来有第二次提升，可考虑：
+## ✅ 执行记录
 
-| 优先级 | 项 | 说明 |
-|--------|----|------|
-| P3 | `coherent` → `一致性` 术语表 | ch01 Glossary 表中已有 EN\|CN，实际歧义有限 |
-| P3 | ch07 正文"硬件一致性不是必需的" → "硬件一致性（coherency）不是必需的" | 括号加注 EN 术语可消除歧义 |
+### Commit `99da602` (2026-06-28) — P4 级 14 处精确修改
+
+| # | 文件 | 类型 | 修改内容 | 验证 |
+|---|------|------|----------|------|
+| S1 | ch06 | 空 cell 填充 | `Fail/Fail` 行末尾 3 个 `<td></td>` → `N/A（此 case 无需动作）` | ✅ |
+| S2 | ch07 | 空行删除 | `<tr><td></td><td style="..."></td></tr>` (line ~1415) | ✅ |
+| S3 | ch07 | 空行删除 | `<tr><td></td><td style="..."></td></tr>` (line ~1636) | ✅ |
+| S4 | ch08 | 空行删除 | 同上 (Part B, line ~6663) | ✅ |
+| H1 | ch07 | 标题补全 | `### 7.3.1 CXL.io` → `### 7.3.1 CXL.io \| CXL.io` | ✅ |
+| H2 | ch07 | 标题补全 | `### 7.3.2 CXL.cache` → `### 7.3.2 CXL.cache \| CXL.cache` | ✅ |
+| H3 | ch07 | 标题补全 | `### 7.3.3 CXL.mem` → `### 7.3.3 CXL.mem \| CXL.mem` | ✅ |
+| P1 | ch14 | 大小写修正 | `poisoned received error` → `Poisoned received error` | ✅ |
+| P2 | ch14 | 大小写修正 | `inject poison:` → `inject Poison:` | ✅ |
+| P3 | ch14 | 大小写修正 | `inject poison viral.` → `inject Poison viral.` | ✅ |
+| P4 | ch14 | 大小写修正 | `poisoned received error` → `Poisoned received error` | ✅ |
+| P5 | ch14 | 大小写修正 | `inject poison viral:` → `inject Poison viral:` | ✅ |
+| P6 | ch14 | 大小写修正 | `poisoned received error` → `Poisoned received error` | ✅ |
+| P7 | ch14 | 大小写修正 | (ZH cell `poison 错误` 不变，EN cell 已修正) | ✅ |
+
+### Commit `1e08ded` (2026-06-28) — P3 级 2 处修后执行
+
+| # | 文件 | 修改内容 | 说明 |
+|---|------|----------|------|
+| P3-A | ch07 | `硬件一致性不是必需的` → `硬件一致性（coherency）不是必需的` | 消除 CXL Fabric 跨域场景 hardware coherency 术语歧义 |
+| P3-B | ch01 | `Coh: Coherency ｜ 一致性` → `Coh: Coherency ｜ 一致性（缓存一致性,CXL.cache/CXL.mem 协议核心概念）` | 为 Glossary 提供 CXL 上下文解释 |
+
+> 注: ch07 line ~5601 `hardware-cache coherent` → "与主机保持硬件缓存一致性" 翻译已正确，未修改。
+
+### 执行统计
+
+| 批次 | Commit | 修改数 | 文件数 |
+|------|--------|--------|--------|
+| 第一批 P4 | `99da602` | 14 处 | ch06, ch07, ch08, ch14 + 计划文档 |
+| 第二批 P3 | `1e08ded` | 2 处 | ch07, ch01 |
+| **合计** | — | **16 处** | 5 个 MD 文件 |
+
+---
+
+## 📋 本计划范围外（不修改）
+
+| 项 | 说明 | 决定原因 |
+|----|------|----------|
+| `VendPrefixL0` (ch03) | 纯协议名，EN-only 标题 | 可接受 |
+| `CXL.io` / `CXL.cache` / `CXL.mem` | 协议名保留 EN | 全书统一，正确 |
+| `mux` → `复用` | 全 14 章完全一致 | 良好，无需改 |
+| 寄存器字段 Bit/Field name | 不翻译，仅描述翻译 | 正确，无需改 |
+| HDM-D / HDM-DB / HDM-H | 保留 EN | 正确，无需改 |
+| ch07 `hardware-cache coherent` | "与主机保持硬件缓存一致性" | 翻译正确，无歧义 |
 
 ---
 
 > 🤖 Generated with [Claude Code](https://claude.com/claude-code)
-> 📅 2026-06-28
+> 📅 2026-06-28 | 最后更新 2026-06-28（执行完毕）
