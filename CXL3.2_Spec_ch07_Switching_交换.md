@@ -4503,7 +4503,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Unsupported
 - Invalid Input
@@ -4521,7 +4521,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Unsupported (不支持)
 - Invalid Input (无效输入)
@@ -4552,7 +4552,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-67. Set DC Region Configuration Request and Response Payload**
+<strong>Table 7-67. Set DC Region Configuration Request and Response Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -4565,7 +4565,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-67. Set DC Region Configuration 请求与响应负载**
+<strong>表 7-67. Set DC Region Configuration 请求与响应负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -4616,7 +4616,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-68. Get DC Region Extent Lists Request Payload**
+<strong>Table 7-68. Get DC Region Extent Lists Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -4628,7 +4628,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-68. Get DC Region Extent Lists 请求负载**
+<strong>表 7-68. Get DC Region Extent Lists 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -4637,7 +4637,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 4h | 4 | Extent Count (范围数量): 输出响应中返回的最大 extent 数量。设备返回的 extent 数量不会超过请求数量,但可能少于请求数量。0 是有效的,允许 FM 仅获取 Total Extent Count 和 Extent List Generation Number,而不获取任何 extent 数据。 |
 | 8h | 4 | Starting Extent Index (起始 Extent 索引): 第一个被请求 extent 的索引。值为 0 将获取列表中的第一个 extent。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -4653,7 +4653,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-69. Get DC Region Extent Lists Response Payload**
+<strong>Table 7-69. Get DC Region Extent Lists Response Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -4669,7 +4669,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-69. Get DC Region Extent Lists 响应负载**
+<strong>表 7-69. Get DC Region Extent Lists 响应负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -4682,7 +4682,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 14h | 4 | Reserved (保留) |
 | 18h | Varies | Extent List[ ]: 指定主机的 extent 列表,如表 8-63 所定义。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -4724,7 +4724,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Unsupported
 - Invalid Input
@@ -4740,10 +4740,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 - Immediate Configuration Change
 - Immediate Data Change
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Unsupported (不支持)
 - Invalid Input (无效输入)
@@ -4775,7 +4775,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-70. Initiate Dynamic Capacity Add Request Payload**
+<strong>Table 7-70. Initiate Dynamic Capacity Add Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -4790,7 +4790,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-70. Initiate Dynamic Capacity Add 请求负载**
+<strong>表 7-70. Initiate Dynamic Capacity Add 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -4802,7 +4802,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 1Ch | 4 | Extent Count (Extent 数量): Extent List 中的 extent 数量。仅当 Selection Policy 设置为 Prescriptive 时存在。 |
 | 20h | Varies | Extent List: 要添加的 capacity 的 extent 列表,如表 8-63 所定义。仅当 Selection Policy 设置为 Prescriptive 时存在。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -4853,7 +4853,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Unsupported
 - Invalid Input
@@ -4869,10 +4869,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 - Immediate Configuration Change
 - Immediate Data Change
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Unsupported (不支持)
 - Invalid Input (无效输入)
@@ -4904,7 +4904,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-71. Initiate Dynamic Capacity Release Request Payload**
+<strong>Table 7-71. Initiate Dynamic Capacity Release Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -4919,7 +4919,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-71. Initiate Dynamic Capacity Release 请求负载**
+<strong>表 7-71. Initiate Dynamic Capacity Release 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -4931,7 +4931,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 1Ch | 4 | Extent Count: Extent List 中的 extent 数量。仅当 Removal Policy 设置为 Prescriptive 时存在。 |
 | 20h | Varies | Extent List: 要释放的 capacity 的 extent 列表,如表 8-63 所定义。仅当 Removal Policy 设置为 Prescriptive 时存在。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -4968,7 +4968,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Invalid Input
 - Internal Error
@@ -4980,10 +4980,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 - Configuration Change after CXL Reset
 - Immediate Configuration Change
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Invalid Input (无效输入)
 - Internal Error (内部错误)
@@ -4995,7 +4995,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 - CXL 复位后的配置变更
 - 立即配置变更
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5011,7 +5011,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-72. Dynamic Capacity Add Reference Request Payload**
+<strong>Table 7-72. Dynamic Capacity Add Reference Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5020,13 +5020,13 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-72. Dynamic Capacity Add Reference 请求负载**
+<strong>表 7-72. Dynamic Capacity Add Reference 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
 | 00h | 10h | Tag: 与要保留的内存 capacity 关联的 Tag。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5062,7 +5062,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Invalid Input
 - Internal Error
@@ -5077,7 +5077,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Invalid Input (无效输入)
 - Internal Error (内部错误)
@@ -5105,7 +5105,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-73. Dynamic Capacity Remove Reference Request Payload**
+<strong>Table 7-73. Dynamic Capacity Remove Reference Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5114,13 +5114,13 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-73. Dynamic Capacity Remove Reference 请求负载**
+<strong>表 7-73. Dynamic Capacity Remove Reference 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
 | 00h | 10h | Tag: 与内存 capacity 关联的 Tag。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5155,7 +5155,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Possible Command Return Codes:**
+<strong>Possible Command Return Codes:</strong>
 - Success
 - Invalid Input
 - Internal Error
@@ -5166,7 +5166,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**可能的命令返回码:**
+<strong>可能的命令返回码:</strong>
 - Success (成功)
 - Invalid Input (无效输入)
 - Internal Error (内部错误)
@@ -5174,7 +5174,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 **命令效果:**
 - 无
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5209,7 +5209,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-74. Dynamic Capacity List Tags Request Payload**
+<strong>Table 7-74. Dynamic Capacity List Tags Request Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5219,7 +5219,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-74. Dynamic Capacity List Tags 请求负载**
+<strong>表 7-74. Dynamic Capacity List Tags 请求负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5242,7 +5242,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-75. Dynamic Capacity List Tags Response Payload**
+<strong>Table 7-75. Dynamic Capacity List Tags Response Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5256,7 +5256,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-75. Dynamic Capacity List Tags 响应负载**
+<strong>表 7-75. Dynamic Capacity List Tags 响应负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5267,7 +5267,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 0Dh | 3 | Reserved (保留) |
 | 10h | Varies | Tags List: Dynamic Capacity Tag Information 结构列表。每个条目的格式如表 7-76 所定义。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5283,7 +5283,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-76. Dynamic Capacity Tag Information**
+<strong>Table 7-76. Dynamic Capacity Tag Information</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5293,10 +5293,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 14h | 20h | Reference Bitmap: Each 1 indicates an LD that has accepted the capacity associated with this tag. Bit 0 of the first byte represents LD 0, and bit 7 of the last byte represents LD 255. This field is reserved if the Reference Bitmaps Valid bit is not set in the Dynamic Capacity List Tags Response Payload (see Table 7-75). |
 | 34h | 20h | Pending Reference Bitmap: Each 1 indicates an LD for which the tagged capacity has been added with no host response yet. Bit 0 of the first byte represents LD 0, and bit 7 of the last byte represents LD 255. This field is reserved if the Pending Reference Bitmaps Valid bit is not set in the Dynamic Capacity List Tags Response Payload (see Table 7-75). |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-76. Dynamic Capacity Tag Information (标签信息)**
+<strong>表 7-76. Dynamic Capacity Tag Information (标签信息)</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5306,7 +5306,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 14h | 20h | Reference Bitmap (引用位图): 每个 1 表示一个已接受与此 tag 关联的 capacity 的 LD。第一个字节的 bit 0 表示 LD 0,最后一个字节的 bit 7 表示 LD 255。如果 Dynamic Capacity List Tags 响应负载 (见表 7-75) 中未设置 Reference Bitmaps Valid 位,则此字段保留。 |
 | 34h | 20h | Pending Reference Bitmap (待定引用位图): 每个 1 表示一个已添加 tagged capacity 但尚无主机响应的 LD。第一个字节的 bit 0 表示 LD 0,最后一个字节的 bit 7 表示 LD 255。如果 Dynamic Capacity List Tags 响应负载 (见表 7-75) 中未设置 Pending Reference Bitmaps Valid 位,则此字段保留。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5341,7 +5341,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-77. Physical Switch Events Record Format**
+<strong>Table 7-77. Physical Switch Events Record Format</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5365,10 +5365,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 41h | 2 | Link state flags: See Section 7.6.7.1. |
 | 43h | 3Dh | Reserved |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-77. 物理交换机事件记录格式**
+<strong>表 7-77. 物理交换机事件记录格式</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5392,7 +5392,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 41h | 2 | Link state flags (链路状态标志): 参见 7.6.7.1 节。 |
 | 43h | 3Dh | Reserved (保留) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5427,7 +5427,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-78. Virtual CXL Switch Event Record Format**
+<strong>Table 7-78. Virtual CXL Switch Event Record Format</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5442,10 +5442,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 38h | 2 | Slot Control Register Value: Current Slot Control register value, as defined in PCIe Base Specification. |
 | 3Ah | 46h | Reserved |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-78. 虚拟 CXL 交换机事件记录格式**
+<strong>表 7-78. 虚拟 CXL 交换机事件记录格式</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5460,7 +5460,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 38h | 2 | Slot Control Register Value: 当前 Slot Control 寄存器的值,如 PCIe Base Specification 所定义。 |
 | 3Ah | 46h | Reserved (保留) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5495,7 +5495,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-79. MLD Port Event Records Payload**
+<strong>Table 7-79. MLD Port Event Records Payload</strong>
 
 | Byte Offset | Length in Bytes | Description |
 |---|---|---|
@@ -5506,10 +5506,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 34h | 8 | Error Message: The first 8 bytes of the PCIe error message (ERR_COR, ERR_NONFATAL, or ERR_FATAL) that is received by the switch. |
 | 3Ch | 44h | Reserved |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-79. MLD 端口事件记录负载**
+<strong>表 7-79. MLD 端口事件记录负载</strong>
 
 | 字节偏移 | 长度 (字节) | 描述 |
 |---|---|---|
@@ -5520,7 +5520,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 34h | 8 | Error Message: 交换机接收到的 PCIe 错误消息 (ERR_COR、ERR_NONFATAL 或 ERR_FATAL) 的前 8 个字节。 |
 | 3Ch | 44h | Reserved (保留) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5764,7 +5764,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-80. Differences between LD-FAM and G-FAM (Sheet 1 of 2)**
+<strong>Table 7-80. Differences between LD-FAM and G-FAM (Sheet 1 of 2)</strong>
 
 | Feature or Attribute | LD-FAM | G-FAM |
 |---|---|---|
@@ -5775,10 +5775,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Interleave Ways (IW) | 1/2/4/8/16 plus 3/6/12 | 2–256 in powers of 2 |
 | DC Block Size | Powers of 2, as indicated by Region * Supported Block Size Mask | 64 MB and up in powers of 2 |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-80. LD-FAM 与 G-FAM 之间的差异 (Sheet 1 of 2)**
+<strong>表 7-80. LD-FAM 与 G-FAM 之间的差异 (Sheet 1 of 2)</strong>
 
 | 特性或属性 | LD-FAM | G-FAM |
 |---|---|---|
@@ -5789,7 +5789,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Interleave Ways (IW) | 1/2/4/8/16 加上 3/6/12 | 2-256,以 2 的幂次 |
 | DC Block Size | 2 的幂次,由 Region * Supported Block Size Mask 指示 | 64 MB 及以上,以 2 的幂次 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5805,7 +5805,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-80. Differences between LD-FAM and G-FAM (Sheet 2 of 2)**
+<strong>Table 7-80. Differences between LD-FAM and G-FAM (Sheet 2 of 2)</strong>
 
 | Feature or Attribute | LD-FAM | G-FAM |
 |---|---|---|
@@ -5818,7 +5818,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-80. LD-FAM 与 G-FAM 之间的差异 (Sheet 2 of 2)**
+<strong>表 7-80. LD-FAM 与 G-FAM 之间的差异 (Sheet 2 of 2)</strong>
 
 | 特性或属性 | LD-FAM | G-FAM |
 |---|---|---|
@@ -5896,7 +5896,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-81. Fabric Segment Size Table¹**
+<strong>Table 7-81. Fabric Segment Size Table¹</strong>
 
 | FSegSz[2:0] | Fabric Segment Size | FAST Depth = 256 | FAST Depth = 1K | FAST Depth = 4K | FAST Depth = 16K |
 |---|---|---|---|---|---|
@@ -5914,7 +5914,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-81. Fabric 段大小表¹**
+<strong>表 7-81. Fabric 段大小表¹</strong>
 
 | FSegSz[2:0] | Fabric 段大小 | FAST Depth = 256 | FAST Depth = 1K | FAST Depth = 4K | FAST Depth = 16K |
 |---|---|---|---|---|---|
@@ -5929,7 +5929,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 
 *¹ LDST Segment Size (LSegSz) 使用与 FSegSz 相同的编码。*
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -5945,7 +5945,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-82. Segment Table Intlv[3:0] Field Encoding**
+<strong>Table 7-82. Segment Table Intlv[3:0] Field Encoding</strong>
 
 | Intlv[3:0] | GFD Interleaving Ways |
 |---|---|
@@ -5960,10 +5960,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 8h | 256-way interleaving |
 | 9h – Fh | Reserved |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-82. Segment Table Intlv[3:0] 字段编码**
+<strong>表 7-82. Segment Table Intlv[3:0] 字段编码</strong>
 
 | Intlv[3:0] | GFD Interleaving 通道数 |
 |---|---|
@@ -6006,7 +6006,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-83. Segment Table Gran[3:0] Field Encoding**
+<strong>Table 7-83. Segment Table Gran[3:0] Field Encoding</strong>
 
 | Gran [3:0] | GFD Interleave Granularity |
 |---|---|
@@ -6022,7 +6022,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-83. Segment Table Gran[3:0] 字段编码**
+<strong>表 7-83. Segment Table Gran[3:0] 字段编码</strong>
 
 | Gran [3:0] | GFD Interleave Granularity |
 |---|---|
@@ -6035,7 +6035,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 6h | 16 KB |
 | 7h – Fh | Reserved (保留) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -6592,7 +6592,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-84. PBR Fabric Decoding and Routing, by Message Class**
+<strong>Table 7-84. PBR Fabric Decoding and Routing, by Message Class</strong>
 
 | Message Class | Payload Data | Ordering Rules | Preferred Routing¹ | Decoding and Routing Mechanism |
 |---|---|---|---|---|
@@ -6617,7 +6617,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-84. PBR Fabric 解码和路由 (按消息类别)**
+<strong>表 7-84. PBR Fabric 解码和路由 (按消息类别)</strong>
 
 | 消息类别 | 负载数据 | 排序规则 | 首选路由¹ | 解码和路由机制 |
 |---|---|---|---|---|
@@ -6675,7 +6675,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Mix Setting Table (referenced in 7.7.6.3)**
+<strong>Mix Setting Table (referenced in 7.7.6.3)</strong>
 
 | Mix Setting | % Primary | % Secondary |
 |---|---|---|
@@ -6691,7 +6691,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**Mix 设置表 (7.7.6.3 中引用)**
+<strong>Mix 设置表 (7.7.6.3 中引用)</strong>
 
 | Mix 设置 | % Primary | % Secondary |
 |---|---|---|
@@ -6704,7 +6704,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 6 | 12.5 | 87.5 |
 | 7 | 首选 | 溢出 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -6734,7 +6734,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-85. Optional Architected Dynamic Routing Modes**
+<strong>Table 7-85. Optional Architected Dynamic Routing Modes</strong>
 
 | Mode | Description |
 |---|---|
@@ -6745,7 +6745,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-85. 可选的架构化动态路由模式**
+<strong>表 7-85. 可选的架构化动态路由模式</strong>
 
 | 模式 | 描述 |
 |---|---|
@@ -6753,7 +6753,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Mix with Congestion Avoidance (拥塞避免混合) | 候选列表首先根据配置的 mix 缩小,以选择 primary 或 secondary 组。然后在该组内进行本地拥塞避免选择。当由于流控条件导致所选子集为空时,消息类别应停止。拥塞避免候选选择基于供应商特定的拥塞指标,优先选择不太拥塞的出口端口。例如,拥塞指标可以是出口端口积压的度量,考虑整个交换机中该出口端口的所有排队流量。当 Advanced Congestion Avoidance 模式不合适或不受支持,或者需要固定流量比例分配或首选/溢出行为时,FM 可选择此模式 (如果支持)。 |
 | Advanced Congestion Avoidance (高级拥塞避免) | 在考虑 primary 和 secondary 候选出口端口的同时进行拥塞避免选择,忽略 mix 设置值。具有最小剩余跳数的出口端口应指定为 primary;任何具有较高剩余跳数的合适出口端口应指定为 secondary。候选选择基于供应商特定的指标,通常优先选择不太拥塞的出口端口,尤其是避免那些已经与 primary 流量大量调度的 secondary 候选,无论目标 DPID 如何。示例拥塞指标可以基于积压,但 primary 与 secondary 积压使用不同的权重。在评估 secondary 候选出口端口的拥塞水平时,primary 积压的拥塞指标值应高于 secondary 积压。这不鼓励使用具有高 primary 积压的 secondary 候选端口。在拥塞指标中,通过 DRT 中的物理端口号或通过 Advanced Congestion Avoidance 以外的动态路由模式排队或内部路由的消息应视为 primary 积压。FM 可选择此模式 (如果支持) 用于承载混合最小和非最小流量的路由出口端口。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -6886,7 +6886,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-86. Summary of CacheID Field**
+<strong>Table 7-86. Summary of CacheID Field</strong>
 
 | Msg Class | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
@@ -6897,10 +6897,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | D2H Rsp | No | No | No |
 | D2H DH | No | No | No |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-86. CacheID 字段汇总**
+<strong>表 7-86. CacheID 字段汇总</strong>
 
 | 消息类别 | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
@@ -6927,7 +6927,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-87. Summary of HBR Switch Routing for CXL.cache Message Classes**
+<strong>Table 7-87. Summary of HBR Switch Routing for CXL.cache Message Classes</strong>
 
 | Message Class | Switch Routing |
 |---|---|
@@ -6939,7 +6939,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-87. CXL.cache 消息类别的 HBR 交换机路由汇总**
+<strong>表 7-87. CXL.cache 消息类别的 HBR 交换机路由汇总</strong>
 
 | 消息类别 | 交换机路由 |
 |---|---|
@@ -6948,7 +6948,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Request | 对于 H2D 请求向下游路由到 DSP 的 HBR 交换机路由,每个交换机级别的 USP 从 Cache ID Route Table 查找 PCIe 定义的 PortID。 |
 | D2H Response or Data Header | 对于 D2H 响应或数据头向上游路由到绑定主机的 HBR 交换机路由,到 USP 的 D2H 响应或数据头依赖于每个交换机级别的 DSP 的 vPPB 绑定。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -6964,7 +6964,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-88. Summary of PBR Switch Routing for CXL.cache Message Classes**
+<strong>Table 7-88. Summary of PBR Switch Routing for CXL.cache Message Classes</strong>
 
 | Message Class | Switch Routing |
 |---|---|
@@ -6973,10 +6973,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Request | For PBR switch routing of these messages downstream to the Edge DSP, the Edge USP looks up the DPID from the CacheID Route Table using the CacheID. The USP gets the SPID from its vPPB. For converting to HBR format at the Edge DSP, above an SLD the CacheID is unused, and above an HBR USP the Cache ID is derived from a 16-entry CAM match using the DPID. |
 | D2H Response or Data Header | For PBR switch routing of these messages upstream to the host, Edge DSPs get the DPID from their vPPB. For converting to HBR format at the Edge USP, the CacheID field is not present in the message. |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-88. CXL.cache 消息类别的 PBR 交换机路由汇总**
+<strong>表 7-88. CXL.cache 消息类别的 PBR 交换机路由汇总</strong>
 
 | 消息类别 | 交换机路由 |
 |---|---|
@@ -6985,7 +6985,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Request | 对于这些消息向下游路由到 Edge DSP 的 PBR 交换机路由,Edge USP 使用 CacheID 从 CacheID Route Table 查找 DPID。USP 从其 vPPB 获取 SPID。对于在 Edge DSP 转换为 HBR 格式,SLD 上方的 CacheID 未使用,HBR USP 上方的 Cache ID 通过使用 DPID 的 16-entry CAM 匹配派生。 |
 | D2H Response or Data Header | 对于这些消息向上游路由到主机的 PBR 交换机路由,Edge DSP 从其 vPPB 获取 DPID。对于在 Edge USP 转换为 HBR 格式,消息中不存在 CacheID 字段。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7016,7 +7016,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-89. Summary of LD-ID Field**
+<strong>Table 7-89. Summary of LD-ID Field</strong>
 
 | Msg Class | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
@@ -7027,10 +7027,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp | N/A | In BI-ID | No |
 | M2S BIRsp | N/A | In BI-ID | No |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-89. LD-ID 字段汇总**
+<strong>表 7-89. LD-ID 字段汇总</strong>
 
 | 消息类别 | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
@@ -7057,7 +7057,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-90. Summary of BI-ID Field**
+<strong>Table 7-90. Summary of BI-ID Field</strong>
 
 | Msg Class | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
@@ -7067,14 +7067,14 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-90. BI-ID 字段汇总**
+<strong>表 7-90. BI-ID 字段汇总</strong>
 
 | 消息类别 | 68B HBR | 256B HBR | 256B PBR |
 |---|---|---|---|
 | S2M BISnp | 不适用 | 是 | 否 |
 | M2S BIRsp | 不适用 | 是 | 否 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7109,7 +7109,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-91. Summary of HBR Switch Routing for CXL.mem Message Classes**
+<strong>Table 7-91. Summary of HBR Switch Routing for CXL.mem Message Classes</strong>
 
 | Message Class | Switch Routing |
 |---|---|
@@ -7121,7 +7121,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-91. CXL.mem 消息类别的 HBR 交换机路由汇总**
+<strong>表 7-91. CXL.mem 消息类别的 HBR 交换机路由汇总</strong>
 
 | 消息类别 | 交换机路由 |
 |---|---|
@@ -7130,7 +7130,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp | 对于 S2M BISnp 请求向上游路由到 USP 的 HBR 交换机路由,DSP 依赖于每个交换机级别的 vPPB 绑定。对于紧邻 MLD 上方的 DSP,每个 LD 都有一个 vPPB,响应消息中的 BI-ID 承载标识关联 vPPB 的 LD-ID。然后,DSP 查找与其 vPPB 关联的 BusNum,将 BusNum 放入 BI-ID 中,以便稍后用于将关联的 BIRsp 路由回 DSP。 |
 | M2S BIRsp | 对于 M2S BIRsp 消息向下游路由到紧邻设备上方的 DSP 的 HBR 交换机路由,每个交换机级别的 USP 依赖于承载目标 DSP 的 BusNum 的 BI-ID。然后 HBR 交换机使用 BusNum 路由。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7146,7 +7146,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-92. Summary of PBR Switch Routing for CXL.mem Message Classes**
+<strong>Table 7-92. Summary of PBR Switch Routing for CXL.mem Message Classes</strong>
 
 | Message Class | Switch Routing |
 |---|---|
@@ -7155,10 +7155,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp | For Edge DSP routing of S2M BISnp messages upstream to the Edge USP, the Edge DSP's vPPB contains the DPID for routing the message edge-to-edge. For an Edge DSP immediately above an MLD, there is a vPPB for each LD, and the BI-ID in the BISnp carries an LD-ID that identifies the associated vPPB. The Edge DSP uses its vPPB's PID for the SPID. For an Edge DSP above an HBR USP, the BI-ID contains the BusNum associated with the HDM-DB device. The Edge DSP uses the BusNum to look up the associated SPID from a 256-entry table. At the Edge USP, the USP converts the BISnp to HBR format, copying the SPID value into the BI-ID. |
 | M2S BIRsp | For Edge USP routing of M2S BIRsp messages downstream to the Edge DSP above the HDM-DB device, the Edge USP converts the BIRsp to PBR format, using the BI-ID value as the DPID, and then routes the BIRsp edge-to-edge. For an Edge DSP immediately above an MLD, a 16-entry CAM match using the SPID returns the associated LD-ID, which determines the LD-specific vPPB to use and is also inserted in the BI-ID field of the BIRsp. For an Edge DSP above an HBR switch USP, the DSP converts the BIRsp to HBR format, looking up the target BusNum in a 4k-entry table using the DPID, then copying it to the BI-ID. For a DSP above a GFD, the message remains in PBR format. |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-92. CXL.mem 消息类别的 PBR 交换机路由汇总**
+<strong>表 7-92. CXL.mem 消息类别的 PBR 交换机路由汇总</strong>
 
 | 消息类别 | 交换机路由 |
 |---|---|
@@ -7167,7 +7167,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp | 对于 S2M BISnp 消息向上游路由到 Edge USP 的 Edge DSP 路由,Edge DSP 的 vPPB 包含用于按 Edge-to-Edge 路由消息的 DPID。对于紧邻 MLD 上方的 Edge DSP,每个 LD 都有一个 vPPB,BISnp 中的 BI-ID 承载标识关联 vPPB 的 LD-ID。Edge DSP 使用其 vPPB 的 PID 作为 SPID。对于 HBR USP 上方的 Edge DSP,BI-ID 包含与 HDM-DB 设备关联的 BusNum。Edge DSP 使用 BusNum 从 256-entry 表查找关联的 SPID。在 Edge USP,USP 将 BISnp 转换为 HBR 格式,将 SPID 值复制到 BI-ID 中。 |
 | M2S BIRsp | 对于 M2S BIRsp 消息向下游路由到 HDM-DB 设备上方 Edge DSP 的 Edge USP 路由,Edge USP 将 BIRsp 转换为 PBR 格式,使用 BI-ID 值作为 DPID,然后按 Edge-to-Edge 路由 BIRsp。对于紧邻 MLD 上方的 Edge DSP,使用 SPID 的 16-entry CAM 匹配返回关联的 LD-ID,该 LD-ID 确定要使用的 LD 特定 vPPB,并也插入到 BIRsp 的 BI-ID 字段中。对于 HBR 交换机 USP 上方的 Edge DSP,DSP 将 BIRsp 转换为 HBR 格式,使用 DPID 在 4k-entry 表中查找目标 BusNum,然后将其复制到 BI-ID。对于 GFD 上方的 DSP,消息保持 PBR 格式。 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7214,7 +7214,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-93. HBR Switch Port Processing Table for CXL.io**
+<strong>Table 7-93. HBR Switch Port Processing Table for CXL.io</strong>
 
 | Message Class and Direction | HBR USP below RP or PBR/HBR DSP | HBR DSP Above HBR USP | HBR DSP Above SLD | HBR DSP Above MLD |
 |---|---|---|---|---|
@@ -7224,10 +7224,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Cpl US | PCIe ID routing | PCIe ID routing | LD-ID Prefix identifies vPPB | PCIe ID routing |
 | Cpl DS | PCIe ID routing | PCIe ID routing | PCIe ID routing | LD-ID Prefix ⇐ vPPB context |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-93. CXL.io 的 HBR 交换机端口处理表**
+<strong>表 7-93. CXL.io 的 HBR 交换机端口处理表</strong>
 
 | 消息类别和方向 | HBR USP (RP 或 PBR/HBR DSP 之下) | HBR DSP (HBR USP 之上) | HBR DSP (SLD 之上) | HBR DSP (MLD 之上) |
 |---|---|---|---|---|
@@ -7237,7 +7237,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Cpl US | PCIe ID 路由 | PCIe ID 路由 | LD-ID Prefix 标识 vPPB | PCIe ID 路由 |
 | Cpl DS | PCIe ID 路由 | PCIe ID 路由 | PCIe ID 路由 | LD-ID Prefix ⇐ vPPB context |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7253,7 +7253,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-94. HBR Switch Port Processing Table for CXL.cache**
+<strong>Table 7-94. HBR Switch Port Processing Table for CXL.cache</strong>
 
 | Message Class and Direction | HBR USP below RP or PBR/HBR DSP | HBR DSP Above HBR USP | HBR DSP Above SLD | HBR DSP Above MLD |
 |---|---|---|---|---|
@@ -7262,10 +7262,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Req DS | (similar) | (similar) | (similar) | (similar) |
 | D2H Rsp/DH US | — | — | vPPB binding routing to USP | — |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-94. CXL.cache 的 HBR 交换机端口处理表**
+<strong>表 7-94. CXL.cache 的 HBR 交换机端口处理表</strong>
 
 | 消息类别和方向 | HBR USP (RP 或 PBR/HBR DSP 之下) | HBR DSP (HBR USP 之上) | HBR DSP (SLD 之上) | HBR DSP (MLD 之上) |
 |---|---|---|---|---|
@@ -7274,7 +7274,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Req DS | (类似) | (类似) | (类似) | (类似) |
 | D2H Rsp/DH US | — | — | vPPB binding routing to USP | — |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7290,7 +7290,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-95. HBR Switch Port Processing Table for CXL.mem**
+<strong>Table 7-95. HBR Switch Port Processing Table for CXL.mem</strong>
 
 | Message Class and Direction | HBR USP below RP or PBR/HBR DSP | HBR DSP Above HBR USP | HBR DSP Above SLD | HBR DSP Above MLD |
 |---|---|---|---|---|
@@ -7299,10 +7299,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp US | BI-ID[7:0] contains BusNum; Propagate BI-ID | Propagate BI-ID | vPPB binding routing to USP; Received BI-ID is ignored; BI-ID[7:0] ⇐ BusNum(vPPB) | vPPB binding routing to USP; BI-ID[3:0] contains LD-ID; LD-ID identifies vPPB; BI-ID[7:0] ⇐ BusNum(vPPB) |
 | M2S BIRsp DS | Target BusNum ⇐ BI-ID[7:0]; PCIe BusNum routing to DSP | Propagate BI-ID | Propagate BI-ID (SLD should ignore it) | BI-ID[3:0] ⇐ LD-ID(vPPB) |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-95. CXL.mem 的 HBR 交换机端口处理表**
+<strong>表 7-95. CXL.mem 的 HBR 交换机端口处理表</strong>
 
 | 消息类别和方向 | HBR USP (RP 或 PBR/HBR DSP 之下) | HBR DSP (HBR USP 之上) | HBR DSP (SLD 之上) | HBR DSP (MLD 之上) |
 |---|---|---|---|---|
@@ -7311,7 +7311,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp US | BI-ID[7:0] 包含 BusNum;Propagate BI-ID | Propagate BI-ID | vPPB binding routing to USP;Received BI-ID 被忽略;BI-ID[7:0] ⇐ BusNum(vPPB) | vPPB binding routing to USP;BI-ID[3:0] 包含 LD-ID;LD-ID 标识 vPPB;BI-ID[7:0] ⇐ BusNum(vPPB) |
 | M2S BIRsp DS | Target BusNum ⇐ BI-ID[7:0];PCIe BusNum routing to DSP | Propagate BI-ID | Propagate BI-ID (SLD 应忽略它) | BI-ID[3:0] ⇐ LD-ID(vPPB) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7344,7 +7344,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-96. PBR Switch Port Processing Table for CXL.io (Sheet 1 of 2)**
+<strong>Table 7-96. PBR Switch Port Processing Table for CXL.io (Sheet 1 of 2)</strong>
 
 | Message Class and Direction | Edge USP (Always below an RP) | Host ES FPort with vDSP(s) | Downstream ES FPort with vUSP(s) | Edge DSP: Above HBR Switch USP | Edge DSP: Above SLD | Edge DSP: Above MLD | Edge DSP: Above GFD |
 |---|---|---|---|---|---|---|---|
@@ -7354,10 +7354,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Cpl DS (Excl HDM UIO) | PCIe ID routing to DSP or vDSP | vDSP converts to PBR fmt; FPort xmits to vUSP's FPort | vUSP matches DPID/SPID; vUSP converts to HBR fmt; PCIe ID routing to DSP | PCIe ID routing | PCIe ID routing | LD-ID Prefix ⇐ vPPB.LD-ID | N/A |
 | HDM UIO Req (HDM Decoder case for Direct P2P and Host Requester) | Direct P2P: N/A. Host Requester (DS): HDM Decoder routes to DSP or vDSP | DS: vDSP converts to PBR fmt; FPort xmits to vUSP's FPort. US/P2P: vDSP matches DPID/SPID; vDSP converts to HBR fmt; USP's HDM Decoder routes P2P | DS: vUSP matches DPID/SPID; vUSP converts to HBR fmt; HDM Decoder routes to DSP. US: vUSP converts to PBR fmt; FPort xmits to vDSP's FPort | US/P2P: If above MLD, LD-ID Prefix identifies vPPB; USP/vUSP HDM Decoder routes US or P2P within same switch | DS: Convert to HBR fmt; if above MLD, LD-ID Prefix ⇐ vPPB.LD-ID | (combined) | N/A |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-96. CXL.io 的 PBR 交换机端口处理表 (Sheet 1 of 2)**
+<strong>表 7-96. CXL.io 的 PBR 交换机端口处理表 (Sheet 1 of 2)</strong>
 
 | 消息类别和方向 | Edge USP (始终在 RP 之下) | Host ES FPort (含 vDSP) | Downstream ES FPort (含 vUSP) | Edge DSP: HBR 交换机 USP 之上 | Edge DSP: SLD 之上 | Edge DSP: MLD 之上 | Edge DSP: GFD 之上 |
 |---|---|---|---|---|---|---|---|
@@ -7367,7 +7367,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Cpl DS (排除 HDM UIO) | PCIe ID routing to DSP or vDSP | vDSP converts to PBR fmt;FPort xmits to vUSP's FPort | vUSP matches DPID/SPID;vUSP converts to HBR fmt;PCIe ID routing to DSP | PCIe ID routing | PCIe ID routing | LD-ID Prefix ⇐ vPPB.LD-ID | N/A |
 | HDM UIO Req (HDM Decoder 情况,Direct P2P 和 Host Requester) | Direct P2P: N/A。Host Requester (DS): HDM Decoder routes to DSP or vDSP | DS: vDSP converts to PBR fmt;FPort xmits to vUSP's FPort。US/P2P: vDSP matches DPID/SPID;vDSP converts to HBR fmt;USP's HDM Decoder routes P2P | DS: vUSP matches DPID/SPID;vUSP converts to HBR fmt;HDM Decoder routes to DSP。US: vUSP converts to PBR fmt;FPort xmits to vDSP's FPort | US/P2P: 如果 MLD 之上,LD-ID Prefix 标识 vPPB;USP/vUSP HDM Decoder routes US or P2P within same switch | DS: Convert to HBR fmt;if above MLD, LD-ID Prefix ⇐ vPPB.LD-ID | (合并) | N/A |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7383,7 +7383,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-96. PBR Switch Port Processing Table for CXL.io (Sheet 2 of 2)**
+<strong>Table 7-96. PBR Switch Port Processing Table for CXL.io (Sheet 2 of 2)</strong>
 
 | Message Class and Direction | Edge USP (Always below an RP) | Host ES FPort with vDSP(s) | Downstream ES FPort with vUSP(s) | Edge DSP: Above HBR Switch USP | Edge DSP: Above SLD | Edge DSP: Above MLD | Edge DSP: Above GFD |
 |---|---|---|---|---|---|---|---|
@@ -7391,10 +7391,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | HDM UIO Req (FAST/LDST case for Direct P2P and Host Requester) | Direct P2P: N/A. Host Requester (DS): FAST/LDST converts to PBR and routes Eg2Eg | Route Eg2Eg | Route Eg2Eg | US/P2P: If above MLD, LD-ID Prefix identifies vPPB; FAST/LDST converts to PBR and routes Eg2Eg | DS: Convert to HBR fmt; if above MLD, LD-ID Prefix ⇐ CAM16(SPID) | (combined) | US: N/A; DS: Keep in PBR |
 | HDM UIO Cpl (FAST/LDST case for Direct P2P and Host Requester) | Direct P2P: N/A. Host Requester (US): Convert to HBR | Route Eg2Eg | Route Eg2Eg | US: If above MLD, LD-ID Prefix identifies vPPB; convert to PBR using UIO ID-based Rerouter; route Eg2Eg | DS: Convert to HBR | (combined) | US: Keep in PBR; route Eg2Eg. DS: N/A |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-96. CXL.io 的 PBR 交换机端口处理表 (Sheet 2 of 2)**
+<strong>表 7-96. CXL.io 的 PBR 交换机端口处理表 (Sheet 2 of 2)</strong>
 
 | 消息类别和方向 | Edge USP (始终在 RP 之下) | Host ES FPort (含 vDSP) | Downstream ES FPort (含 vUSP) | Edge DSP: HBR 交换机 USP 之上 | Edge DSP: SLD 之上 | Edge DSP: MLD 之上 | Edge DSP: GFD 之上 |
 |---|---|---|---|---|---|---|---|
@@ -7402,7 +7402,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | HDM UIO Req (FAST/LDST 情况,Direct P2P 和 Host Requester) | Direct P2P: N/A。Host Requester (DS): FAST/LDST converts to PBR and routes Eg2Eg | Route Eg2Eg | Route Eg2Eg | US/P2P: 如果 MLD 之上,LD-ID Prefix 标识 vPPB;FAST/LDST converts to PBR and routes Eg2Eg | DS: Convert to HBR fmt;if above MLD, LD-ID Prefix ⇐ CAM16(SPID) | (合并) | US: N/A;DS: Keep in PBR |
 | HDM UIO Cpl (FAST/LDST 情况,Direct P2P 和 Host Requester) | Direct P2P: N/A。Host Requester (US): Convert to HBR | Route Eg2Eg | Route Eg2Eg | US: 如果 MLD 之上,LD-ID Prefix 标识 vPPB;convert to PBR using UIO ID-based Rerouter;route Eg2Eg | DS: Convert to HBR | (合并) | US: Keep in PBR;route Eg2Eg。DS: N/A |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7418,7 +7418,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-97. PBR Switch Port Processing Table for CXL.cache**
+<strong>Table 7-97. PBR Switch Port Processing Table for CXL.cache</strong>
 
 | Message Class and Direction | Edge USP (Always below an RP) | Host ES FPort with vDSP(s) | Downstream ES FPort with vUSP(s) | Edge DSP: Above HBR Switch USP | Edge DSP: Above SLD | Edge DSP: Above MLD | Edge DSP: Above GFD |
 |---|---|---|---|---|---|---|---|
@@ -7427,10 +7427,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Req DS | Convert to PBR fmt; DPID ⇐ RT(CacheID); SPID ⇐ vPPB.self.PID | Route Eg2Eg | Route Eg2Eg | (combined) | (combined) | (combined) | (combined) |
 | D2H Rsp/DH US | Convert to HBR fmt | Route Eg2Eg | Route Eg2Eg | Convert to PBR fmt; DPID ⇐ vPPB.root.PID | Convert to PBR fmt; DPID ⇐ vPPB.root.PID | (combined) | (combined) |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-97. CXL.cache 的 PBR 交换机端口处理表**
+<strong>表 7-97. CXL.cache 的 PBR 交换机端口处理表</strong>
 
 | 消息类别和方向 | Edge USP (始终在 RP 之下) | Host ES FPort (含 vDSP) | Downstream ES FPort (含 vUSP) | Edge DSP: HBR 交换机 USP 之上 | Edge DSP: SLD 之上 | Edge DSP: MLD 之上 | Edge DSP: GFD 之上 |
 |---|---|---|---|---|---|---|---|
@@ -7439,7 +7439,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | H2D Req DS | Convert to PBR fmt;DPID ⇐ RT(CacheID);SPID ⇐ vPPB.self.PID | Route Eg2Eg | Route Eg2Eg | (合并) | (合并) | (合并) | (合并) |
 | D2H Rsp/DH US | Convert to HBR fmt | Route Eg2Eg | Route Eg2Eg | Convert to PBR fmt;DPID ⇐ vPPB.root.PID | Convert to PBR fmt;DPID ⇐ vPPB.root.PID | (合并) | (合并) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7455,7 +7455,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-98. PBR Switch Port Processing Table for CXL.mem**
+<strong>Table 7-98. PBR Switch Port Processing Table for CXL.mem</strong>
 
 | Message Class and Direction | Edge USP (Always below an RP) | Host ES FPort with vDSP(s) | Downstream ES FPort with vUSP(s) | Edge DSP: Above HBR Switch USP | Edge DSP: Above SLD | Edge DSP: Above MLD | Edge DSP: Above GFD |
 |---|---|---|---|---|---|---|---|
@@ -7465,10 +7465,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp US | Convert to HBR fmt; BI-ID[11:0] ⇐ SPID | Route Eg2Eg | Route Eg2Eg | Convert to PBR fmt; DPID ⇐ vPPB.root.PID; BusNum ⇐ BI-ID[7:0]; SPID ⇐ RAM256(BusNum) | Convert to PBR fmt; DPID ⇐ vPPB.root.PID; SPID ⇐ vPPB.self.PID; BI-ID[3:0] contains LD-ID; LD-ID identifies vPPB | Convert to PBR fmt; DPID ⇐ vPPB.root.PID; SPID ⇐ vPPB.self.PID | Keep in PBR fmt |
 | M2S BIRsp DS | Convert to PBR fmt; DPID ⇐ BI-ID[11:0] | Route Eg2Eg | Route Eg2Eg | Convert to HBR fmt; BusNum ⇐ RAM4k(DPID); BI-ID[7:0] ⇐ BusNum | Convert to HBR fmt; BI-ID is unused | Convert to HBR fmt; LD-ID ⇐ CAM16(SPID); BI-ID[3:0] ⇐ vPPB.LD-ID | Keep in PBR fmt |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-98. CXL.mem 的 PBR 交换机端口处理表**
+<strong>表 7-98. CXL.mem 的 PBR 交换机端口处理表</strong>
 
 | 消息类别和方向 | Edge USP (始终在 RP 之下) | Host ES FPort (含 vDSP) | Downstream ES FPort (含 vUSP) | Edge DSP: HBR 交换机 USP 之上 | Edge DSP: SLD 之上 | Edge DSP: MLD 之上 | Edge DSP: GFD 之上 |
 |---|---|---|---|---|---|---|---|
@@ -7478,7 +7478,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | S2M BISnp US | Convert to HBR fmt;BI-ID[11:0] ⇐ SPID | Route Eg2Eg | Route Eg2Eg | Convert to PBR fmt;DPID ⇐ vPPB.root.PID;BusNum ⇐ BI-ID[7:0];SPID ⇐ RAM256(BusNum) | Convert to PBR fmt;DPID ⇐ vPPB.root.PID;SPID ⇐ vPPB.self.PID;BI-ID[3:0] contains LD-ID;LD-ID identifies vPPB | Convert to PBR fmt;DPID ⇐ vPPB.root.PID;SPID ⇐ vPPB.self.PID | Keep in PBR fmt |
 | M2S BIRsp DS | Convert to PBR fmt;DPID ⇐ BI-ID[11:0] | Route Eg2Eg | Route Eg2Eg | Convert to HBR fmt;BusNum ⇐ RAM4k(DPID);BI-ID[7:0] ⇐ BusNum | Convert to HBR fmt;BI-ID is unused | Convert to HBR fmt;LD-ID ⇐ CAM16(SPID);BI-ID[3:0] ⇐ vPPB.LD-ID | Keep in PBR fmt |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7523,7 +7523,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-99. ISL Type 1 Configuration Space Header**
+<strong>Table 7-99. ISL Type 1 Configuration Space Header</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7532,10 +7532,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Bridge Control Register | ISA Enable | Not Supported | Not Supported | Not Supported |
 | Bridge Control Register | Secondary Bus Reset | Supported | Supported | Supported |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-99. ISL Type 1 配置空间头**
+<strong>表 7-99. ISL Type 1 配置空间头</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7578,7 +7578,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-100. ISL PCIe Configuration Space Header**
+<strong>Table 7-100. ISL PCIe Configuration Space Header</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7596,7 +7596,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-100. ISL PCIe 配置空间头**
+<strong>表 7-100. ISL PCIe 配置空间头</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7611,7 +7611,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Status | Signaled System Error | Supported | Supported | Supported |
 | Status | Detected Parity Error | Supported | Supported | Supported |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7633,7 +7633,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-101. ISL PCIe Capability Structure (Sheet 1 of 3)**
+<strong>Table 7-101. ISL PCIe Capability Structure (Sheet 1 of 3)</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7655,10 +7655,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Control | Flit Mode Disable | 0 | 0 | 0 |
 | Link Control | DRS Signaling Control | Supported | Supported | Not Supported |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-101. ISL PCIe Capability 结构 (Sheet 1 of 3)**
+<strong>表 7-101. ISL PCIe Capability 结构 (Sheet 1 of 3)</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7680,7 +7680,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Control | Flit Mode Disable | 0 | 0 | 0 |
 | Link Control | DRS Signaling Control | Supported | Supported | Not Supported |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7696,7 +7696,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-101. ISL PCIe Capability Structure (Sheet 2 of 3)**
+<strong>Table 7-101. ISL PCIe Capability Structure (Sheet 2 of 3)</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7732,10 +7732,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Control 2 | Compliance SOS | Supported | Read/Write with no effect | Read/Write with no effect |
 | Link Control 2 | Compliance Preset/De-emphasis | Supported | Read/Write with no effect | Read/Write with no effect |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-101. ISL PCIe Capability 结构 (Sheet 2 of 3)**
+<strong>表 7-101. ISL PCIe Capability 结构 (Sheet 2 of 3)</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7771,7 +7771,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Control 2 | Compliance SOS | Supported | Read/Write with no effect | Read/Write with no effect |
 | Link Control 2 | Compliance Preset/De-emphasis | Supported | Read/Write with no effect | Read/Write with no effect |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7787,7 +7787,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-101. ISL PCIe Capability Structure (Sheet 3 of 3)**
+<strong>Table 7-101. ISL PCIe Capability Structure (Sheet 3 of 3)</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7804,10 +7804,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Status 2 | Downstream Component Presence | Supported | Supported | 0 |
 | Link Status 2 | DRS Message Received | Supported | Supported | 0 |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-101. ISL PCIe Capability 结构 (Sheet 3 of 3)**
+<strong>表 7-101. ISL PCIe Capability 结构 (Sheet 3 of 3)</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7824,7 +7824,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Link Status 2 | Downstream Component Presence | Supported | Supported | 0 |
 | Link Status 2 | DRS Message Received | Supported | Supported | 0 |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7858,7 +7858,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-102. ISL Secondary PCIe Extended Capability**
+<strong>Table 7-102. ISL Secondary PCIe Extended Capability</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7869,10 +7869,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Lane Equalization Control | All fields | Supported | Read/Write with no effect | Read/Write with no effect |
 | Data Link Features Capabilities | All fields | Supported | Mirror DSP | Mirror DSP |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-102. ISL Secondary PCIe Extended Capability**
+<strong>表 7-102. ISL Secondary PCIe Extended Capability</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7883,7 +7883,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Lane Equalization Control | All fields | Supported | Read/Write with no effect | Read/Write with no effect |
 | Data Link Features Capabilities | All fields | Supported | Mirror DSP | Mirror DSP |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7917,7 +7917,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-103. ISL Physical Layer 16.0 GT/s Extended Capability**
+<strong>Table 7-103. ISL Physical Layer 16.0 GT/s Extended Capability</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7927,10 +7927,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 16.0 GT/s Second Retimer Data Parity Mismatch Status | Second Retimer Data Parity Mismatch Status | Supported | Mirrors DSP | Mirrors DSP |
 | 16.0 GT/s Lane Equalization Control | Downstream Port 16.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-103. ISL Physical Layer 16.0 GT/s Extended Capability**
+<strong>表 7-103. ISL Physical Layer 16.0 GT/s Extended Capability</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7940,7 +7940,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | 16.0 GT/s Second Retimer Data Parity Mismatch Status | Second Retimer Data Parity Mismatch Status | Supported | Mirrors DSP | Mirrors DSP |
 | 16.0 GT/s Lane Equalization Control | Downstream Port 16.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -7970,7 +7970,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-104. ISL Physical Layer 32.0 GT/s Extended Capability**
+<strong>Table 7-104. ISL Physical Layer 32.0 GT/s Extended Capability</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7982,10 +7982,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Transmitted Modified TS Data 1 | All fields | Supported | Mirrors DSP | Mirrors DSP |
 | 32.0 GT/s Lane Equalization Control | Downstream Port 32.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-104. ISL Physical Layer 32.0 GT/s Extended Capability**
+<strong>表 7-104. ISL Physical Layer 32.0 GT/s Extended Capability</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -7997,7 +7997,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Transmitted Modified TS Data 1 | All fields | Supported | Mirrors DSP | Mirrors DSP |
 | 32.0 GT/s Lane Equalization Control | Downstream Port 32.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -8031,7 +8031,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-105. ISL Physical Layer 64.0 GT/s Extended Capability**
+<strong>Table 7-105. ISL Physical Layer 64.0 GT/s Extended Capability</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -8043,10 +8043,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Transmitted Modified TS Data 1 | All fields | Supported | Mirrors DSP | Mirrors DSP |
 | 64.0 GT/s Lane Equalization Control | Downstream Port 64.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-105. ISL Physical Layer 64.0 GT/s Extended Capability**
+<strong>表 7-105. ISL Physical Layer 64.0 GT/s Extended Capability</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -8058,7 +8058,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | Transmitted Modified TS Data 1 | All fields | Supported | Mirrors DSP | Mirrors DSP |
 | 64.0 GT/s Lane Equalization Control | Downstream Port 64.0 GT/s Transmitter Preset | Supported | Mirrors DSP | Mirrors DSP |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -8092,17 +8092,17 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-106. ISL Lane Margining at the Receiver Extended Capability**
+<strong>Table 7-106. ISL Lane Margining at the Receiver Extended Capability</strong>
 
 | Register | Register Fields | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
 | Margining Port Status Register | All fields | Supported | Mirrors DSP | Mirrors DSP |
 | Margining Lane Control Register | All fields | Supported | Read/Write with no effect | Read/Write with no effect |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-106. ISL Lane Margining at the Receiver Extended Capability**
+<strong>表 7-106. ISL Lane Margining at the Receiver Extended Capability</strong>
 
 | 寄存器 | 寄存器字段 | FM-owned DSP | vDSP | vUSP |
 |---|---|---|---|---|
@@ -8236,7 +8236,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-107. PBR Fabric .io Ordering Table, Non-UIO**
+<strong>Table 7-107. PBR Fabric .io Ordering Table, Non-UIO</strong>
 
 | Row Pass Column? | DSAR Posted Request | DSAR Non-Posted Request (Read Request) | DSAR NP Request with Data | DSAR Completion | USAR Posted Request | USAR Non-Posted Request (Read Request) | USAR NP Request with Data | USAR Completion |
 |---|---|---|---|---|---|---|---|---|
@@ -8252,7 +8252,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 </td>
 <td style="background-color:#e8e8e8">
 
-**表 7-107. PBR Fabric .io 排序表 (非 UIO)**
+<strong>表 7-107. PBR Fabric .io 排序表 (非 UIO)</strong>
 
 | 行通过列? | DSAR Posted Request | DSAR Non-Posted Request (Read Request) | DSAR NP Request with Data | DSAR Completion | USAR Posted Request | USAR Non-Posted Request (Read Request) | USAR NP Request with Data | USAR Completion |
 |---|---|---|---|---|---|---|---|---|
@@ -8265,7 +8265,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | USAR NP Request with data | Yes/No | Yes/No | Yes/No | Yes/No | (合并) | (合并) | (合并) | (合并) |
 | USAR Completion | Yes/No | Yes | Yes | Yes/No | (合并) | (合并) | (合并) | (合并) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
@@ -8281,7 +8281,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 <tr>
 <td>
 
-**Table 7-108. PBR Fabric .io Ordering Table, UIO**
+<strong>Table 7-108. PBR Fabric .io Ordering Table, UIO</strong>
 
 | Row Pass Column? | DSAR UIO PR-FC TLP | DSAR UIO NPR-FC TLP | DSAR UIO Completion | USAR UIO PR-FC TLP | USAR UIO NPR-FC TLP | USAR UIO Completion |
 |---|---|---|---|---|---|---|
@@ -8292,10 +8292,10 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | USAR UIO NPR-FC TLP | Yes/No | Yes/No | Yes/No | (combined) | (combined) | (combined) |
 | USAR UIO Completion | Yes | Yes | Yes/No | (combined) | (combined) | (combined) |
 
-</td>
+</td></td>
 <td style="background-color:#e8e8e8">
 
-**表 7-108. PBR Fabric .io 排序表 (UIO)**
+<strong>表 7-108. PBR Fabric .io 排序表 (UIO)</strong>
 
 | 行通过列? | DSAR UIO PR-FC TLP | DSAR UIO NPR-FC TLP | DSAR UIO Completion | USAR UIO PR-FC TLP | USAR UIO NPR-FC TLP | USAR UIO Completion |
 |---|---|---|---|---|---|---|
@@ -8306,7 +8306,7 @@ _(本目录由本部分正文小节自动汇总 — 见下方章节内容)_
 | USAR UIO NPR-FC TLP | Yes/No | Yes/No | Yes/No | (合并) | (合并) | (合并) |
 | USAR UIO Completion | Yes | Yes | Yes/No | (合并) | (合并) | (合并) |
 
-</td>
+</td></td>
 </tr>
 </tbody>
 </table>
