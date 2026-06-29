@@ -12,11 +12,12 @@
 
 **已完成**: `14 / 14` 章完整
 **总文件**: 1.8 MB MD + 27 MB 原图
-**最近更新**: 2026-06-07 — Ch7 图嵌入统一修复 (Part A/B/C 三件套齐备)
+**最近更新**: 2026-06-29 — 翻译质量审计 + GitHub 排版修复 (ch07 **bold→strong**, 16处精确修复)
 
 ```text
 [██████████████] 100%  (14/14 完整)
 ```
+[![Translation](https://img.shields.io/badge/翻译-14%2F14%20章-brightgreen)](README.md) [![Audit](https://img.shields.io/badge/审计-2026--06--28-blue)](TRANSLATION_AUDIT_REPORT_2026-06-28.md)
 
 ## 📖 章节目录 (Chapters)
 
@@ -130,6 +131,18 @@ CXL_zh/
 ---
 
 ## 📋 Recent Updates (更新日志)
+
+### 2026-06-29 — GitHub 排版修复 + 翻译质量提升完成
+
+**改动** (详见 [`TRANSLATION_IMPROVEMENT_PLAN_2026-06-28.md`](TRANSLATION_IMPROVEMENT_PLAN_2026-06-28.md)):
+- ch07: 106 处 `<td>` 内 `**bold**` → `<strong>bold</strong>`（GitHub HTML 表格内 markdown 不渲染）
+- ch06/ch07/ch08: 清理 4 个空 `<tr>` 行和 1 个 Fail/Fail 空 cell
+- ch07: 补全 3 个章节标题副标题（`### 7.3.1 CXL.io | CXL.io` 等）
+- ch14: 7 处 `poison` → `Poison` 大小写修正（全书统一）
+- ch07: `硬件一致性` → `硬件一致性（coherency）`（术语歧义消除）
+- ch01: `Coh` Glossary 词条加注 `（缓存一致性,CXL.cache/CXL.mem 协议核心概念）`
+
+---
 
 ### 2026-06-07 — Ch01-Ch06 图嵌入统一 + 紧致裁剪规划
 
@@ -402,10 +415,10 @@ H1 章节数                  1           4 (A/B/D/E)
 
 ## ⏭️ 下一步
 
-- [x] 校对与精修 Ch3 (核心协议) + Ch11 (安全) — **2026-06-09 完成**, 0 真问题 (见 Recent Updates)
-- [x] Ch8 "本章目录" 自动汇总 (4 个 Part) — **2026-06-08 完成**
-- [ ] Ch8 紧致 figure crop (重跑 MinerU, 把去水印版升级到 tight crop) — **2026-06-07 部分完成** (21 张)
-- [ ] Ch7/8/10/11/12/14 剩余 ~275 张去水印版 fig_*.png 后续可升级到紧致裁剪 (API 拥堵时不可行)
+- [x] 全 14 章翻译质量审计 + 16 处精确修复 — **2026-06-28/29 完成**
+- [x] ch07 **bold→<strong> GitHub 渲染修复 — **2026-06-29 完成**（106 处）
+- [ ] Ch8 紧致 figure crop (重跑 MinerU) — 需 MINERU_TOKEN，API 空闲时可选执行
+- [ ] Ch7/8/10/11/12/14 剩余 ~275 张去水印版 fig_*.png 升级到 tight crop（API 拥堵时不可行）
 
 ### 2026-06-09 — 全 14 章翻译精修报告 (跨章节术语审计)
 
@@ -466,4 +479,4 @@ H1 章节数                  1           4 (A/B/D/E)
 ---
 
 > 🤖 **Generated with** [Claude Code](https://claude.com/claude-code) · Opus 4.8
-> 📅 2026-06-07
+> 📅 2026-06-29
