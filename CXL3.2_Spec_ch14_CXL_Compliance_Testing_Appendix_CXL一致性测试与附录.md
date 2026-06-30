@@ -2959,7 +2959,7 @@
 <tbody>
 <tr><td>c. Write Compliance mode DOE with the following request:</td><td style="background-color:#e8e8e8">c. 使用以下请求写入 Compliance 模式 DOE：</td></tr>
 <tr><td>Pass Criteria:</td><td style="background-color:#e8e8e8">通过条件：</td></tr>
-<tr><td><tr><td></td>• Receiver (host) logs poisoned received error<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>• Receiver (host) logs poisoned received error</td><td style="background-color:#e8e8e8">• 接收方（主机）记录接收到的 poison 错误</td></tr>
 <tr><td>• CXL.io IDE link state remains secured</td><td style="background-color:#e8e8e8">• CXL.io IDE 链路状态保持为 secured</td></tr>
 <tr><td>Fail Conditions:</td><td style="background-color:#e8e8e8">失败条件：</td></tr>
 <tr><td>• Pass criteria is not met</td><td style="background-color:#e8e8e8">• 未满足通过条件</td></tr>
@@ -3161,7 +3161,7 @@
 <tr><td><b>Test Steps:</b></td><td style="background-color:#e8e8e8"><b>测试步骤：</b></td></tr>
 <tr><td>1. Set up the device for Multiple Write streaming:</td><td style="background-color:#e8e8e8">1. 配置设备为 Multiple Write 流模式：</td></tr>
 <tr><td>a. Write a pattern {64{8'hFF}} to cache-aligned Address A1.</td><td style="background-color:#e8e8e8">a. 向 cache-aligned 地址 A1 写入模式 {64{8'hFF}}。</td></tr>
-<tr><td><tr><td></td>b. Write a Compliance mode DOE to inject poison:<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>b. Write a Compliance mode DOE to inject poison:</td><td style="background-color:#e8e8e8">b. 写入 Compliance 模式 DOE 以注入 poison：</td></tr>
 <tr><td>c. Write Compliance mode DOE with the following request:</td><td style="background-color:#e8e8e8">c. 使用以下请求写入 Compliance 模式 DOE：</td></tr>
 </tbody>
 </table>
@@ -3276,10 +3276,10 @@
 <tr><td><b>Test Steps:</b></td><td style="background-color:#e8e8e8"><b>测试步骤：</b></td></tr>
 <tr><td>1. Set up the device for Multiple Write streaming:</td><td style="background-color:#e8e8e8">1. 配置设备为 Multiple Write 流模式：</td></tr>
 <tr><td>a. Write a pattern {64{8'hFF}} to cache-aligned Address A1.</td><td style="background-color:#e8e8e8">a. 向 cache-aligned 地址 A1 写入模式 {64{8'hFF}}。</td></tr>
-<tr><td><tr><td></td>b. Write a Compliance mode DOE to inject poison viral.<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>b. Write a Compliance mode DOE to inject poison viral.</td><td style="background-color:#e8e8e8">b. 写入 Compliance 模式 DOE 以注入 poison viral，</td></tr>
 <tr><td>c. Write Compliance mode DOE with the following request:</td><td style="background-color:#e8e8e8">c. 使用以下请求写入 Compliance 模式 DOE：</td></tr>
 <tr><td><b>Pass Criteria:</b></td><td style="background-color:#e8e8e8"><b>通过条件：</b></td></tr>
-<tr><td><tr><td></td>• Receiver (host) logs poisoned received error<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>• Receiver (host) logs poisoned received error</td><td style="background-color:#e8e8e8">• 接收方（主机）记录接收到的 poison 错误</td></tr>
 <tr><td>• CXL.io IDE link state remains secured</td><td style="background-color:#e8e8e8">• CXL.io IDE 链路状态保持 secured</td></tr>
 <tr><td><b>Fail Conditions:</b></td><td style="background-color:#e8e8e8"><b>失败条件：</b></td></tr>
 <tr><td>• Pass criteria is not met</td><td style="background-color:#e8e8e8">• 未满足通过条件</td></tr>
@@ -3379,10 +3379,10 @@
 <tr><td><b>Test Steps:</b></td><td style="background-color:#e8e8e8"><b>测试步骤：</b></td></tr>
 <tr><td>1. Set up the device for Multiple Write streaming:</td><td style="background-color:#e8e8e8">1. 配置设备为 Multiple Write 流模式：</td></tr>
 <tr><td>a. Write a pattern {64{8'hFF}} to cache-aligned Address A1.</td><td style="background-color:#e8e8e8">a. 向 cache-aligned 地址 A1 写入模式 {64{8'hFF}}。</td></tr>
-<tr><td><tr><td></td>b. Write a Compliance mode DOE to inject poison viral:<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>b. Write a Compliance mode DOE to inject poison viral:</td><td style="background-color:#e8e8e8">b. 写入 Compliance 模式 DOE 以注入 poison viral：</td></tr>
 <tr><td>c. Write Compliance mode DOE with the following request:</td><td style="background-color:#e8e8e8">c. 使用以下请求写入 Compliance 模式 DOE：</td></tr>
 <tr><td><b>Pass Criteria:</b></td><td style="background-color:#e8e8e8"><b>通过条件：</b></td></tr>
-<tr><td><tr><td></td>• Receiver (host) logs poisoned received error<td style="background-color:#e8e8e8"></td><td style="background-color:#e8e8e8"></td></tr>
+<tr><td>• Receiver (host) logs poisoned received error</td><td style="background-color:#e8e8e8">• 接收方（主机）记录接收到的 poison 错误</td></tr>
 <tr><td>• CXL.cache IDE link state remains secured</td><td style="background-color:#e8e8e8">• CXL.cache IDE 链路状态保持 secured</td></tr>
 <tr><td><b>Fail Conditions:</b></td><td style="background-color:#e8e8e8"><b>失败条件：</b></td></tr>
 <tr><td>• Pass criteria is not met</td><td style="background-color:#e8e8e8">• 未满足通过条件</td></tr>
