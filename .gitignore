@@ -21,3 +21,11 @@ __pycache__/
 # 日志
 *.log
 *.dewatermarked.bak
+
+# MinerU 中间产物 PDF chunk
+*_chunk_*.pdf
+*_20p_*.pdf
+
+# 源规范 PDF（父目录或子目录）
+CXL*Specification*.pdf
+*evalcopy*.pdf

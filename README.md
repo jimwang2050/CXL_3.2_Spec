@@ -478,5 +478,17 @@ H1 章节数                  1           4 (A/B/D/E)
 
 ---
 
+
+---
+
+## ⚖️ 法律声明 (Legal Disclaimer)
+
+- **非官方翻译**: 本项目为社区（个人）提供的非官方中英对照译本，**不替代**原版 CXL® Specification
+- **版权归属**: CXL®、Compute Express Link® 为 CXL Consortium 的注册商标。原版规范版权归 CXL Consortium / PCI-SIG 所有
+- [**LICENSE**](LICENSE): 本译本采用 CC BY-NC-SA 4.0 许可（署名-非商业-相同方式共享）
+- **仅供学习研究**: 本译本仅供个人学习与技术研究使用，**不得用于商业目的**
+- **无担保**: 翻译准确性不作任何保证，技术决策请以原版英文规范为准
+- **如有版权异议**: 请联系 repo owner：[GitHub Issues](https://github.com/jimwang2050/CXL_3.2_Spec/issues)
+
 > 🤖 **Generated with** [Claude Code](https://claude.com/claude-code) · Opus 4.8
-> 📅 2026-06-29
+> 📅 2026-07-01
