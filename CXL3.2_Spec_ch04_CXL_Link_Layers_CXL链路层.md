@@ -2016,6 +2016,11 @@ Standard 256B flit 格式允许在一个 flit 内将 HBR 消息与 PBR 消息交
 </tr>
 </tbody>
 </table>
+> **Figure 4-65.** 256B Packing: G14/H14 PBR Messages ｜ 256B 打包: G14/H14 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0246_1.png" alt="Figure 4-65" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2101,6 +2106,71 @@ trailer 定义为在 header 中设置 TRP 或 BEP 位时包含在携带数据的
 </tr>
 </tbody>
 </table>
+> **Figure 4-41.** Standard 256B Flit ｜ 标准 256B Flit
+>
+> <img src="figures/chapter_04/fig_0231_1.png" alt="Figure 4-41" width="700">
+>
+
+
+> **Figure 4-42.** Latency-Optimized (LOpt) 256B Flit ｜ 延迟优化 (LOpt) 256B Flit
+>
+> <img src="figures/chapter_04/fig_0231_1.png" alt="Figure 4-42" width="700">
+>
+
+
+> **Figure 4-43.** 256B Packing: Slot and Subset Definition ｜ 256B 打包: Slot 与子集定义
+>
+> <img src="figures/chapter_04/fig_0235_1.png" alt="Figure 4-43" width="700">
+>
+
+
+> **Figure 4-44.** 256B Packing: G0/H0/HS0 HBR Messages ｜ 256B 打包: G0/H0/HS0 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0236_1.png" alt="Figure 4-44" width="700">
+>
+
+
+> **Figure 4-45.** 256B Packing: G0/H0 PBR Messages ｜ 256B 打包: G0/H0 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0236_1.png" alt="Figure 4-45" width="700">
+>
+
+
+> **Figure 4-46.** 256B Packing: G1/H1/HS1 HBR Messages ｜ 256B 打包: G1/H1/HS1 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0237_1.png" alt="Figure 4-46" width="700">
+>
+
+
+> **Figure 4-47.** 256B Packing: G1/H1 PBR Messages ｜ 256B 打包: G1/H1 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0237_1.png" alt="Figure 4-47" width="700">
+>
+
+
+> **Figure 4-48.** 256B Packing: G2/H2/HS2 HBR Messages ｜ 256B 打包: G2/H2/HS2 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0238_1.png" alt="Figure 4-48" width="700">
+>
+
+
+> **Figure 4-49.** 256B Packing: G2/H2 PBR Messages ｜ 256B 打包: G2/H2 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0238_1.png" alt="Figure 4-49" width="700">
+>
+
+
+> **Figure 4-50.** 256B Packing: G3/H3/HS3 HBR Messages ｜ 256B 打包: G3/H3/HS3 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0239_1.png" alt="Figure 4-50" width="700">
+>
+
+
+> **Figure 4-51.** 256B Packing: G3/H3 PBR Messages ｜ 256B 打包: G3/H3 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0239_1.png" alt="Figure 4-51" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2126,6 +2196,29 @@ Data and Byte-Enable slots are implicitly known for G-slots based on prior messa
 </tr>
 </tbody>
 </table>
+> **Figure 4-52.** 256B Packing: G4/H4/HS4 HBR Messages ｜ 256B 打包: G4/H4/HS4 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0240_1.png" alt="Figure 4-52" width="700">
+>
+
+
+> **Figure 4-53.** 256B Packing: G4/H4 PBR Messages ｜ 256B 打包: G4/H4 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0240_1.png" alt="Figure 4-53" width="700">
+>
+
+
+> **Figure 4-54.** 256B Packing: G5/H5/HS5 HBR Messages ｜ 256B 打包: G5/H5/HS5 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0241_1.png" alt="Figure 4-54" width="700">
+>
+
+
+> **Figure 4-55.** 256B Packing: G5/H5 PBR Messages ｜ 256B 打包: G5/H5 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0241_1.png" alt="Figure 4-55" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2151,6 +2244,59 @@ trailer 定义为在 header 中设置 TRP 或 BEP 位时包含在携带数据的
 </tr>
 </tbody>
 </table>
+> **Figure 4-56.** 256B Packing: G6/H6/HS6 HBR Messages ｜ 256B 打包: G6/H6/HS6 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0242_1.png" alt="Figure 4-56" width="700">
+>
+
+
+> **Figure 4-57.** 256B Packing: G6/H6 PBR Messages ｜ 256B 打包: G6/H6 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0242_1.png" alt="Figure 4-57" width="700">
+>
+
+
+> **Figure 4-58.** 256B Packing: G7/H7/HS7 HBR Messages ｜ 256B 打包: G7/H7/HS7 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0243_1.png" alt="Figure 4-58" width="700">
+>
+
+
+> **Figure 4-59.** 256B Packing: G7/H7 PBR Messages ｜ 256B 打包: G7/H7 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0243_1.png" alt="Figure 4-59" width="700">
+>
+
+
+> **Figure 4-60.** 256B Packing: G12/H12/HS12 HBR Messages ｜ 256B 打包: G12/H12/HS12 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0244_1.png" alt="Figure 4-60" width="700">
+>
+
+
+> **Figure 4-61.** 256B Packing: G12/H12 PBR Messages ｜ 256B 打包: G12/H12 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0244_1.png" alt="Figure 4-61" width="700">
+>
+
+
+> **Figure 4-62.** 256B Packing: G13/H13/HS13 HBR Messages ｜ 256B 打包: G13/H13/HS13 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0245_1.png" alt="Figure 4-62" width="700">
+>
+
+
+> **Figure 4-63.** 256B Packing: G13/H13 PBR Messages ｜ 256B 打包: G13/H13 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0245_1.png" alt="Figure 4-63" width="700">
+>
+
+
+> **Figure 4-64.** 256B Packing: G14/H14/HS14 HBR Messages ｜ 256B 打包: G14/H14/HS14 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0246_1.png" alt="Figure 4-64" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2200,6 +2346,17 @@ Minimum Credit Return 间隔（见第 4.2.4 节）从每 4 个 flit 改为每 16
 </tr>
 </tbody>
 </table>
+> **Figure 4-66.** 256B Packing: G15/H15/HS15 HBR Messages ｜ 256B 打包: G15/H15/HS15 HBR 消息
+>
+> <img src="figures/chapter_04/fig_0247_1.png" alt="Figure 4-66" width="700">
+>
+
+
+> **Figure 4-67.** 256B Packing: G15/H15 PBR Messages ｜ 256B 打包: G15/H15 PBR 消息
+>
+> <img src="figures/chapter_04/fig_0247_1.png" alt="Figure 4-67" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2238,6 +2395,23 @@ Credit Returned 编码（表 4-19 定义了跨 3 张 sheet 的编码）。CRD[4:
 </tr>
 </tbody>
 </table>
+> **Figure 4-68.** 256B Packing: Implicit Data ｜ 256B 打包: 隐式数据
+>
+> <img src="figures/chapter_04/fig_0248_1.png" alt="Figure 4-68" width="700">
+>
+
+
+> **Figure 4-69.** 256B Packing: Implicit Trailer RwD ｜ 256B 打包: 隐式 Trailer RwD
+>
+> <img src="figures/chapter_04/fig_0248_1.png" alt="Figure 4-69" width="700">
+>
+
+
+> **Figure 4-70.** 256B Packing: Implicit Trailer DRS ｜ 256B 打包: 隐式 Trailer DRS
+>
+> <img src="figures/chapter_04/fig_0248_1.png" alt="Figure 4-70" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2263,6 +2437,29 @@ In 256B Flit mode, control messages are encoded using the H8 format and sometime
 </tr>
 </tbody>
 </table>
+> **Figure 4-71.** 256B Packing: Byte-Enable Trailer for D2H Data ｜ 256B 打包: D2H Data 的 Byte-Enable Trailer
+>
+> <img src="figures/chapter_04/fig_0251_1.png" alt="Figure 4-71" width="700">
+>
+
+
+> **Figure 4-72.** Header Slot Decode Example ｜ Header Slot 解码示例
+>
+> <img src="figures/chapter_04/fig_0251_1.png" alt="Figure 4-72" width="700">
+>
+
+
+> **Figure 4-73.** DRS Trailer Slot Decode Example ｜ DRS Trailer Slot 解码示例
+>
+> <img src="figures/chapter_04/fig_0251_1.png" alt="Figure 4-73" width="700">
+>
+
+
+> **Figure 4-74.** 256B Packing: H8/HS8 Link Layer Control Message Slot Format ｜ 256B 打包: H8/HS8 链路层控制消息 Slot 格式
+>
+> <img src="figures/chapter_04/fig_0259_1.png" alt="Figure 4-74" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2436,6 +2633,11 @@ To avoid starvation, credit return rules ensure that Credits are sent even when 
 </tr>
 </tbody>
 </table>
+> **Figure 4-75.** Viral Error Message Injection Standard 256B Flit ｜ 标准 256B Flit 下 Viral 错误消息注入
+>
+> <img src="figures/chapter_04/fig_0259_1.png" alt="Figure 4-75" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
@@ -2461,6 +2663,11 @@ To get the best latency characteristics, the 256B flit is expected to be sent wi
 </tr>
 </tbody>
 </table>
+> **Figure 4-76.** Viral Error Message Injection LOpt 256B Flit ｜ LOpt 256B Flit 下 Viral 错误消息注入
+>
+> <img src="figures/chapter_04/fig_0259_1.png" alt="Figure 4-76" width="700">
+>
+
 
 [⬆️ 返回目录](#-本章目录)
 
