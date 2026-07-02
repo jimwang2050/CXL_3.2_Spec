@@ -1891,3 +1891,602 @@ DM[00][511:0] = 512'hDF39_B3F3_8977_7074_7D09_52F9_AF5D_B427_F5D6_0370_B640_9499
 [⬆️ 返回目录](#-本章目录)
 
 ---
+
+<a id="sec-4-3"></a>
+
+## 4.3 CXL.cachemem Link Layer 256B Flit Mode | CXL.cachemem 链路层 256B Flit 模式
+
+
+<a id="sec-4-3-1"></a>
+### 4.3.1 Introduction | Introduction
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+This mode of operation builds on PCIe Flit mode, in which the reliability flows are handled in the Physical Layer. The flit definition in the link layer defines the slot boundary, slot packing rules, and the message flow control. The flit overall has fields that are defined in the physical layer and are shown in this chapter; however, details are not defined in this chapter. The concept of "all Data" as defined in 68B Flit mode does not exist in 256B Flit mode.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+此工作模式建立在 PCIe Flit 模式之上，其中可靠性流在物理层中处理。链路层中的 flit 定义确定了 slot 边界、slot 打包规则和消息流控。flit 整体具有在物理层中定义并在本章中展示的字段；但本章不定义这些细节。68B Flit 模式中定义的 "all Data" 概念在 256B Flit 模式中不存在。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-2"></a>
+### 4.3.2 Flit Overview | Flit Overview
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+There are 2 variations of the 256B flit: Standard, and Latency-Optimized (LOpt). The mode of operation must be in sync with the physical layer. The Standard 256B flit supports either standard messages or Port Based Routing (PBR) messages where PBR messages carry additional ID space (DPID and sometimes SPID) to enable more-advanced scaling/routing solutions as described in Chapter 3.0.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+256B flit 有两种变体：Standard（标准）和 Latency-Optimized（LOpt，延迟优化）。工作模式必须与物理层同步。Standard 256B flit 支持标准消息或 Port Based Routing（PBR，基于端口的路由）消息，其中 PBR 消息携带额外的 ID 空间（DPID 和有时 SPID），以实现更高级的扩展/路由解决方案，如第 3 章所述。
+
+</td>
+</tr>
+<tr>
+<td>
+
+Note: 256B flit messages are also referred to as Hierarchy Based Routing (HBR) messages, when comparing to PBR flits/messages. A message default is HBR unless explicitly stated as being PBR.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+注：与 PBR flit/消息相比，256B flit 消息也称为 Hierarchy Based Routing（HBR，基于层级的路由）消息。消息默认为 HBR，除非显式声明为 PBR。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The 256B flit is built from a set of slots and includes one header (H-) slot and seven generic (G-) slots. The header slot is always H8, HS8, H11, or HS11 format and carries message headers with other miscellaneous link layer information. The definition of H- and G-slots includes slot formats: the data and Byte Enable fields are mapped to slots, creating formats G0-G6 and G8 as captured in Table 4-14.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+256B flit 由一组 slot 构建，包括一个 header（H-）slot 和七个 generic（G-）slot。header slot 始终为 H8、HS8、H11 或 HS11 格式，携带消息头及其他链路层杂项信息。H-slot 和 G-slot 的定义包含 slot 格式：数据和 Byte Enable 字段映射到 slot，创建 G0-G6 和 G8 格式，如表 4-14 所示。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The Latency-Optimized (LOpt) 256B flit is an optional mode to improve average latency for CXL.mem use cases. It reduces the flit size from 256B to 128B. Because it reduces the overall number of slots, it does not support the same message density as the Standard flit. PBR messages are not supported in LOpt 256B Flits, so HS-Slot does not apply.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Latency-Optimized（LOpt）256B flit 是一种可选模式，用于改善 CXL.mem 用例的平均延迟。它将 flit 大小从 256B 减小到 128B。由于减少了总 slot 数，其消息密度不如 Standard flit。PBR 消息在 LOpt 256B Flit 中不支持，因此 HS-Slot 不适用。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The LOpt flit format organizes the 256 bytes of the flit into two 128-byte half-flits. An even half-flit consists of 2 bytes of CRC, and 3 G-slots and 1 H-slot. An odd half-flit consists of 2 bytes of CRC and 4 G-slots. The header constraints are no different than that of the Standard flit with the exception that PBR is not supported in LOpt mode.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+LOpt flit 格式将 256 字节的 flit 组织为两个 128 字节的半 flit。偶数半 flit 由 2 字节 CRC 以及 3 个 G-slot 和 1 个 H-slot 组成。奇数半 flit 由 2 字节 CRC 和 4 个 G-slot 组成。header 约束与 Standard flit 无异，唯一例外是 LOpt 模式不支持 PBR。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The Standard 256B flit requires the upper protocol layers to adopt the flit packing rules. The flit definition enables the link layer to support multiple simultaneous messages. Where applicable, the message streams can be interleaved at the slot level with messages from different channels and/or different protocols, i.e., CXL.cache and CXL.mem.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Standard 256B flit 要求上层协议采用 flit 打包规则。flit 定义使链路层能够支持多个同时进行的消息。在适用情况下，消息流可以在 slot 级别与来自不同通道和/或不同协议（即 CXL.cache 和 CXL.mem）的消息交织。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The Standard 256B flit format allows interleaving of HBR messages with PBR messages within a flit. However, there is no ordering relationship between PBR and HBR messages.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Standard 256B flit 格式允许在一个 flit 内将 HBR 消息与 PBR 消息交织。但是，PBR 和 HBR 消息之间没有排序关系。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-3"></a>
+### 4.3.3 Slot Format Definition | Slot Format Definition
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+The slot diagrams in this section capture the detailed bit field placement within the slot. Each Diagram is inclusive of G-slot, H-slot, and HS-slot where a subset is created such that H-slot is a subset of G-slot where messages that extend beyond the 14-byte boundary can use the additional header ("HS-slot" format).
+
+</td>
+<td style="background-color:#e8e8e8">
+
+本节中的 slot 图展示了 slot 内详细的位字段布局。每张图均涵盖 G-slot、H-slot 和 HS-slot，其中创建了子集：H-slot 是 G-slot 的子集，超出 14 字节边界的消息可以使用额外的 header（"HS-slot" 格式）。
+
+</td>
+</tr>
+<tr>
+<td>
+
+Abbreviations for bit field names are used in slot diagrams to allow them to fit into the width of the slot being described. As an example, "TPH" is used for the TLP Processing Hints field of a CXL.io request header. As another example, "TH" is used for the TPH steering tag field in the Completer/Requester ID in a CXL.io completion header.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+slot 图中使用位字段名缩写，以便它们适合所描述 slot 的宽度。例如，"TPH" 用于 CXL.io 请求 header 的 TLP Processing Hints 字段。另一个例子，"TH" 用于 CXL.io 完成 header 中 Completer/Requester ID 的 TPH steering tag 字段。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The following conventions apply: H8 format supports 108 bits of message header. H11 can be used for the messages that need more than 108 bits of header. HS8 format supports 104 bits of message header for PBR messages. HS11 can be used for PBR messages that need more than 104 bits of header.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+以下约定适用：H8 格式支持 108 位的消息 header。H11 可用于需要超过 108 位 header 的消息。HS8 格式支持 PBR 消息的 104 位消息 header。HS11 可用于需要超过 104 位 header 的 PBR 消息。
+
+</td>
+</tr>
+<tr>
+<td>
+
+G-slots are defined with several different formats. G0 carries 128 bits of data, G1 carries 120 bits of data plus an 8-bit Byte Enable, G2 carries 112 bits, G3 carries 128 bits of data and can optionally be interpreted as a Header slot for PBR messages, G4 carries 120 bits of data plus 8-bit Byte Enable and can optionally be interpreted as a Header slot for PBR messages, G6 carries 64 bits of data and can be 1 of 3 types of MDH (Multi-Data-Header) slot. G8 is typically used for the control message slot of the link layer (LLCTRL).
+
+</td>
+<td style="background-color:#e8e8e8">
+
+G-slot 定义了几种不同的格式。G0 携带 128 位数据，G1 携带 120 位数据加 8 位 Byte Enable，G2 携带 112 位，G3 携带 128 位数据且可选择解释为 PBR 消息的 Header slot，G4 携带 120 位数据加 8 位 Byte Enable 且可选择解释为 PBR 消息的 Header slot，G6 携带 64 位数据，可以是 3 种 MDH（Multi-Data-Header）slot 类型之一。G8 通常用于链路层的控制消息 slot（LLCTRL）。
+
+</td>
+</tr>
+<tr>
+<td>
+
+Data and Byte-Enable slots are implicitly known for G-slots based on prior message headers. To simplify decode of the slot format fields, SlotFmt can be used as a quick decode to know if the next 4 G-slots are data slots. Additional G-slots beyond the next 4 may be data and their decode must be based on the prior message headers.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+数据和 Byte-Enable slot 基于先前的消息 header 为 G-slot 隐式确定。为简化 slot 格式字段的解码，SlotFmt 可作为快速解码，用于了解后续 4 个 G-slot 是否为数据 slot。超出后续 4 个以外的 G-slot 可能是数据，其解码必须基于先前的消息 header。
+
+</td>
+</tr>
+<tr>
+<td>
+
+A trailer is defined to be included with data carrying messages when the TRP or BEP bit is set in the header. The trailer size can vary depending on the link's capability. The base functionality requires support of the Byte-Enable use case for trailers. The Extended Metadata (EM) capability, when enabled, extends the trailer to carry meta data for additional use cases including security tags and memory tags. The EM capability is discoverable through the Link Layer Capability register.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+trailer 定义为在 header 中设置 TRP 或 BEP 位时包含在携带数据的消息中。trailer 大小可根据链路能力变化。基本功能要求支持 trailer 的 Byte-Enable 用例。Extended Metadata（EM）能力启用后，扩展 trailer 以携带用于额外用例（包括安全标签和内存标签）的元数据。EM 能力可通过 Link Layer Capability 寄存器发现。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-3-1"></a>
+#### 4.3.3.1 Implicit Data Slot Decode | Implicit Data Slot Decode
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+Data and Byte-Enable slots are implicitly known for G-slots based on prior message headers. To simplify decode of the slot format fields, SlotFmt can be used as a quick decode to know if the next 4 G-slots are data slots. Additional G-slots beyond the next 4 may be data and their decode must be based on the prior message headers.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+数据和 Byte-Enable slot 基于先前的消息 header 为 G-slot 隐式确定。为简化 slot 格式字段的解码，SlotFmt 可作为快速解码，用于了解后续 4 个 G-slot 是否为数据 slot。超出后续 4 个以外的 G-slot 可能是数据，其解码必须基于先前的消息 header。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-3-2"></a>
+#### 4.3.3.2 Trailer Decoder | Trailer Decoder
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+A trailer is defined to be included with data carrying messages when the TRP or BEP bit is set in the header. The trailer size can vary depending on the link's capability. The base functionality requires support of the Byte-Enable use case for trailers. The Extended Metadata (EM) capability, when enabled, extends the trailer to carry meta data for additional use cases including security tags and memory tags. The EM capability is discoverable through the Link Layer Capability register.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+trailer 定义为在 header 中设置 TRP 或 BEP 位时包含在携带数据的消息中。trailer 大小可根据链路能力变化。基本功能要求支持 trailer 的 Byte-Enable 用例。Extended Metadata（EM）能力启用后，扩展 trailer 以携带用于额外用例（包括安全标签和内存标签）的元数据。EM 能力可通过 Link Layer Capability 寄存器发现。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-4"></a>
+### 4.3.4 256B Flit Packing Rules | 256B Flit Packing Rules
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+Rules for 256B flits follow the same basic requirements as 68B flits, in terms of bit order and tightly packed rules. The tightly packed rules apply within groups of up to 4 slots together instead of across the entire flit. The groups are defined as: 0 to 3, 4 to 7, 8 to 11, and 12 to 15. With this grouping, there may be as many as four messages in a single 256B flit from the same channel.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+256B flit 的规则遵循与 68B flit 相同的基本要求，包括位顺序和紧密打包规则。紧密打包规则适用于每组最多 4 个 slot，而非整个 flit。组定义为：0 到 3、4 到 7、8 到 11 和 12 到 15。通过这种分组，单个 256B flit 中来自同一通道的消息最多可以有四个。
+
+</td>
+</tr>
+<tr>
+<td>
+
+Rollover must not cross a 4-slot boundary; this rule ensures that a message payload starts and ends within a single slot group. A header slot may be in the first slot of the flit (Slot 0), or may be in Slot 4, Slot 8, or Slot 12 (subject to the SlotFmt position within each slot group). Multi-Data-Headers use G6 slots. The header plus the number of G6s must fit in the first group that has the H-slot. Data for the first message rolls over. The payload fills the remaining G-slots within the group. Then the data payload fills G-slots 4 to 7 if the header is in slot 0; if the header is in slot 4, data payload fills G-slots 0 to 3 and G-slots 8 to 11, etc.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Rollover 不得跨越 4-slot 边界；此规则确保消息负载在单个 slot 组内开始和结束。header slot 可以位于 flit 的第一个 slot（Slot 0），也可以位于 Slot 4、Slot 8 或 Slot 12（取决于每个 slot 组内的 SlotFmt 位置）。Multi-Data-Headers 使用 G6 slot。header 加上 G6 的数量必须适合具有 H-slot 的第一个组。第一条消息的数据发生 rollover。负载填充组内的其余 G-slot。然后，如果 header 在 slot 0 中，数据负载填充 G-slots 4 到 7；如果 header 在 slot 4 中，数据负载填充 G-slots 0 到 3 和 G-slots 8 到 11，依此类推。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The Minimum Credit Return interval (see Section 4.2.4) is changed from every 4 flits to every 16 flits.If a 256B Flit mode capable link is operating in 68B Flit mode, at the point where the link goes to Polling.Configuration, the link transitions to 256B flit mode. These transition rules are further defined in Chapter 6.0 and Chapter 9.0.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Minimum Credit Return 间隔（见第 4.2.4 节）从每 4 个 flit 改为每 16 个 flit。如果支持 256B Flit 模式的链路在 68B Flit 模式下运行，则在链路进入 Polling.Configuration 时，链路转换到 256B flit 模式。这些转换规则在第 6 章和第 9 章中进一步定义。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+
+<a id="sec-4-3-5"></a>
+### 4.3.5 Credit Return | Credit Return
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+Table 4-19 defines the 2-byte credit return encoding in the 256B flit.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+表 4-19 定义了 256B flit 中的 2 字节 credit 返回编码。
+
+</td>
+</tr>
+<tr>
+<td>
+
+Credit Returned Encoding (Table 4-19 defines the encoding across 3 sheets). The CRD[4:0] field supports multiple encodings: 00h = No credit return; 01h = No Credit Return and the current flit is a Retry.Ack (in applicable conditions); 02h-1Fh = Credit Return Counts. The Protocol and Channel fields identify which protocol (CXL.cache or CXL.mem) and which channel within that protocol the credit applies to. The Credit Count field indicates the number of credits being returned.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Credit Returned 编码（表 4-19 定义了跨 3 张 sheet 的编码）。CRD[4:0] 字段支持多种编码：00h = 无 credit 返回；01h = 无 Credit 返回且当前 flit 为 Retry.Ack（在适用条件下）；02h-1Fh = Credit 返回计数。Protocol 和 Channel 字段标识 credit 适用于哪个协议（CXL.cache 或 CXL.mem）以及该协议内的哪个通道。Credit Count 字段指示正在返回的 credit 数量。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-6"></a>
+### 4.3.6 Link Layer Control Messages | Link Layer Control Messages
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+In 256B Flit mode, control messages are encoded using the H8 format and sometimes using the HS8 format. Figure 4-74 captures the 256B packing for LLCTRL messages. H8 provides 108 bits to be used to encode the control message after accounting for 4-bit slot format. The format uses bits [107:4] of the header for the link layer control message contents. This is defined as having three 4B fields: LLCTRL.Type, LLCTRL.Data1, and LLCTRL.Data2.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+在 256B Flit 模式下，控制消息使用 H8 格式编码，有时使用 HS8 格式。图 4-74 展示了 LLCTRL 消息的 256B 打包。H8 在考虑 4 位 slot 格式后提供 108 位用于编码控制消息。该格式使用 header 的位 [107:4] 作为链路层控制消息内容。这被定义为具有三个 4B 字段：LLCTRL.Type、LLCTRL.Data1 和 LLCTRL.Data2。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-6-1"></a>
+#### 4.3.6.1 Link Layer Initialization | Link Layer Initialization
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+After initial link training (from Link Down), the link layer must send and receive the INIT.Param flit before beginning normal operation. After reaching normal operation, the Link Layer will start by returning all possible credits using the standard credit return encoding.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+初始链路训练（从 Link Down）后，链路层必须在开始正常操作之前发送和接收 INIT.Param flit。达到正常操作后，链路层将通过使用标准 credit 返回编码返回所有可能的 credit 来启动。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The INIT.Param flit is a single H8 slot, with a message type indicating INIT.Param. The INIT.Param message has an INIT.Param identifier bit that identifies whether the initiator is transmitting INIT.Param1 or INIT.Param2. Each link partner sends INIT.Param1; upon receiving INIT.Param1, the receiver transitions to sending INIT.Param2. Once each side has received INIT.Param2 from its link partner, both sides transition to normal link layer operation. The contents of INIT.Param1 and INIT.Param2 are identical with the exception of the identifier bit.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+INIT.Param flit 是单个 H8 slot，消息类型指示 INIT.Param。INIT.Param 消息具有 INIT.Param identifier 位，用于标识发起方发送的是 INIT.Param1 还是 INIT.Param2。每个链路伙伴发送 INIT.Param1；收到 INIT.Param1 后，接收方转换为发送 INIT.Param2。一旦每方收到来自其链路伙伴的 INIT.Param2，双方都转换到正常链路层操作。INIT.Param1 和 INIT.Param2 的内容除 identifier 位外完全相同。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The available credits must be exchanged using the Exchange.Credits message. This message can be exchanged before or after transitioning to INIT.Param2, but must be exchanged before transitioning to normal operation. Any credit count exchanged using the Exchange.Credits message can be entirely replaced once the link reaches normal operation when the first credit return for each channel is received.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+可用 credit 必须使用 Exchange.Credits 消息进行交换。此消息可以在转换到 INIT.Param2 之前或之后交换，但必须在转换到正常操作之前交换。一旦链路达到正常操作且收到每个通道的第一个 credit 返回时，使用 Exchange.Credits 消息交换的任何 credit 计数都可以被完全替换。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-6-2"></a>
+#### 4.3.6.2 Viral Injection and Containment | Viral Injection and Containment
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+The Viral control flit is injected as soon as possible after the viral condition is observed. For cases in which the error that triggers Viral can impact the current flit, the link layer should signal to the physical layer to stop the currently partially sent flit. The link layer then will send an LLCTRL message with the Viral type on the next available flit. It sets the appropriate LD-ID vector information in the Data1 field.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Viral 控制 flit 在观察到 viral 状态后尽快注入。对于触发 Viral 的错误可能影响当前 flit 的情况，链路层应向物理层发出信号以停止当前部分发送的 flit。然后，链路层将在下一个可用 flit 上发送 Viral 类型的 LLCTRL 消息，并在 Data1 字段中设置适当的 LD-ID 矢量信息。
+
+</td>
+</tr>
+<tr>
+<td>
+
+For the case in which the error may have occurred across multiple flits for the same LD-ID that are still in flight, the link layer should also set the bit for "Error Detected in Prior Flit." In 256B Flit mode, the viral notification may piggyback on a Retry.Ack just like in 68B mode. If a protocol flit is not available, then a standalone viral control flit is sent. The equivalent standalone viral message in 68B mode is the LLCRD flit with viral indicator set.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+对于错误可能跨多个仍在传输中的同一 LD-ID 的 flit 发生的情况，链路层还应设置 "Error Detected in Prior Flit" 位。在 256B Flit 模式下，viral 通知可以像在 68B 模式下一样 piggyback 在 Retry.Ack 上。如果协议 flit 不可用，则发送独立的 viral 控制 flit。68B 模式中等效的独立 viral 消息是设置了 viral 指示符的 LLCRD flit。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-6-3"></a>
+#### 4.3.6.3 Late Poison | Late Poison
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+Poison can be injected at a point after the header was sent by injecting an Error Control message with the Poison sub-type. The message includes a payload encoding that indicates the data message offset at which the poison applies. It is possible that any one of up to 8 active data payloads can be targeted for late poison. When a protocol flit has poison in one or more data slots, the link layer for 256B mode indicates which data slots have poison by sending an LLCTRL Poison message in a subsequent flit.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+Poison 可以在 header 发送后通过注入带有 Poison 子类型的 Error Control 消息来注入。该消息包含一个负载编码，指示 poison 应用的数据消息偏移量。最多 8 个活动数据负载中的任何一个都可能成为 late poison 的目标。当协议 flit 在一个或多个数据 slot 中有 poison 时，256B 模式的链路层通过在后续 flit 中发送 LLCTRL Poison 消息来指示哪些数据 slot 有 poison。
+
+</td>
+</tr>
+<tr>
+<td>
+
+The CXL.cachemem link layer for 68B Flit mode uses a different mechanism to indicate poison because there is no Error Control message. In 68B Flit mode, the Protocol-ID (or OPCODE) in the 68B flit is modified to indicate a poison flit. See Section 3.2.4.2 for more details on the CXL.cache poison in 68B Flit mode.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+68B Flit 模式的 CXL.cachemem 链路层使用不同的机制来指示 poison，因为没有 Error Control 消息。在 68B Flit 模式下，68B flit 中的 Protocol-ID（或 OPCODE）被修改以指示 poison flit。有关 68B Flit 模式下 CXL.cache poison 的更多详细信息，请参见第 3.2.4.2 节。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-6-4"></a>
+#### 4.3.6.4 Link Integrity and Data Encryption (IDE) | Link Integrity and Data Encryption (IDE)
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+For the IDE flow, see Chapter 11.0.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+有关 IDE 流程，请参见第 11 章。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-7"></a>
+### 4.3.7 Credit Return Forcing | Credit Return Forcing
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+To avoid starvation, credit return rules ensure that Credits are sent even when there are no protocol messages pending. In 68B Flit mode, this uses a special control message called LLCRD (its algorithm is described in Section 4.2.8.2). For 256B Flit mode, the same underlying algorithm is used, but the mechanism uses the H8 or HS8 link layer control flit for the credit return forcing message. The forced Credit Return encoding for 256B Flit mode is defined in Table 4-19.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+为避免饥饿，credit 返回规则确保即使没有待处理的协议消息，credit 也会被发送。在 68B Flit 模式下，这使用称为 LLCRD 的特殊控制消息（其算法在第 4.2.8.2 节中描述）。对于 256B Flit 模式，使用相同的底层算法，但机制使用 H8 或 HS8 链路层控制 flit 作为 credit 返回强制发送消息。256B Flit 模式的强制 Credit Return 编码在表 4-19 中定义。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-8"></a>
+### 4.3.8 Latency Optimizations | Latency Optimizations
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+To get the best latency characteristics, the 256B flit is expected to be sent with a link layer implementing 64B or 128B pipeline and the Latency-Optimized flit (which is optional). The basic reasoning for these features is self-evident.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+为获得最佳延迟特性，期望使用实现 64B 或 128B 流水线的链路层以及 Latency-Optimized flit（可选）来发送 256B flit。这些特性的基本原理不言而喻。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+<a id="sec-4-3-8-1"></a>
+#### 4.3.8.1 Empty Flit | Empty Flit
+
+<table>
+<thead>
+<tr><th width="50%">🇬🇧 English</th><th width="50%" style="background-color:#e8e8e8">🇨🇳 中文</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+As part of the latency optimizations described in this chapter, the Link Layer needs to include a way to indicate that the current flit does not have messages or CRD information. The definition of Empty in this context is that the entire flit can be dropped without side effects and does not carry any messages or CRD information. The empty flit has a special H8 slot that indicates it is empty. The remaining G-slots may contain data or CRD, but this information is ignored by the receiver.
+
+</td>
+<td style="background-color:#e8e8e8">
+
+作为本章所述延迟优化的一部分，链路层需要包含一种指示当前 flit 没有消息或 CRD 信息的方式。在此上下文中，Empty 的定义是整个 flit 可以被丢弃而不会产生副作用，并且不携带任何消息或 CRD 信息。空 flit 具有特殊的 H8 slot 以指示其为空。其余 G-slot 可能包含数据或 CRD，但接收方忽略此信息。
+
+</td>
+</tr>
+</tbody>
+</table>
+
+[⬆️ 返回目录](#-本章目录)
+
+---
