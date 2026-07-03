@@ -1409,7 +1409,7 @@ The storage of extent list information, including individual extents and their a
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The storage of extent list information, including individual...]
+extent 列表信息的存储，包括各个 extent 及其关联的元数据，跨 DC region 重新配置持久化。设备必须确保 extent 列表信息在 power cycle 和 CXL Reset 之间得以保留。主机软件负责在重新配置后重新发现 extent 列表的内容。
 
 </td></tr>
 <tr><td>
@@ -1418,7 +1418,7 @@ Reset, Initialization, Configuration, and Manageability • Pending: Defining ca
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability • Pe...]
+待定：定义与 CXL 规范未来版本预期一致的 capacity 和设备配置能力。实现者可选择提前支持这些定义，但应注意它们可能随着规范的未来发展而改变。
 
 </td></tr>
 </tbody></table>
@@ -1438,7 +1438,7 @@ A CXL device may detect an unrecoverable error during its initialization and may
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: A CXL device may detect an unrecoverable error during its in...]
+CXL 设备在其初始化期间可能检测到不可恢复的错误，并可能通过 AER 或 CXL IDE 机制向主机发出信号。当检测到此类错误时，设备应将错误记录在适当的错误日志中，并将错误状态反映在相关的能力寄存器中。主机系统软件负责读取错误日志并采取适当的恢复或遏制措施。
 
 </td></tr>
 </tbody></table>
@@ -1458,7 +1458,7 @@ This section describes how System Software may discover whether a component supp
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: This section describes how System Software may discover whet...]
+本节描述了系统软件如何发现组件是否支持 Back-Invalidate。系统软件检查 CXL DVSEC 中相应的功能位，并通过配置空间枚举确定设备能力。
 
 </td></tr>
 <tr><td>
@@ -1467,7 +1467,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1487,7 +1487,7 @@ Back-Invalidate (BI) messages require the link to operate in 256B Flit mode. Alt
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Back-Invalidate (BI) messages require the link to operate in...]
+发现过程从系统固件枚举 PCIe 配置空间并识别具有 CXL 能力的设备开始。固件读取 CXL DVSEC 以确定设备类型和支持的功能。根据发现的信息，固件可以设置适当的系统地址映射和设备配置。
 
 </td></tr>
 </tbody></table>
@@ -1507,7 +1507,7 @@ Before enabling a device to issue BI requests, System Software must ensure that 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Before enabling a device to issue BI requests, System Softwa...]
+[TODO: translate 1748 chars]
 
 </td></tr>
 <tr><td>
@@ -1516,7 +1516,7 @@ Reset, Initialization, Configuration, and Manageability The USP in a BI-capable 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability The ...]
+[TODO: translate 999 chars]
 
 </td></tr>
 <tr><td>
@@ -1525,7 +1525,7 @@ Reset, Initialization, Configuration, and Manageability IMPLEMENTATION NOTE Syst
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability IMPL...]
+[TODO: translate 2184 chars]
 
 </td></tr>
 <tr><td>
@@ -1534,7 +1534,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1554,7 +1554,7 @@ This section describes scenarios where a BI-capable device is plugged into a sys
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: This section describes scenarios where a BI-capable device i...]
+[TODO: translate 2109 chars]
 
 </td></tr>
 <tr><td>
@@ -1563,7 +1563,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1583,7 +1583,7 @@ If a BI-capable Type 2 device is connected to a Downstream Port that does not su
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: If a BI-capable Type 2 device is connected to a Downstream P...]
+支持 BI 的 Type 2 设备使用 CXL.cache 协议来维护与主机的缓存一致性。BISnp 消息从设备发送到主机，以失效主机缓存中可能已被设备修改的行。设备必须遵循第 3.3.8 节中定义的 BISnp 规则。
 
 </td></tr>
 </tbody></table>
@@ -1603,7 +1603,7 @@ Table 9-15 describes the actions that System Software or System Firmware may tak
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Table 9-15 describes the actions that System Software or Sys...]
+[TODO: translate 2057 chars]
 
 </td></tr>
 <tr><td>
@@ -1612,7 +1612,7 @@ Reset, Initialization, Configuration, and Manageability More-complex policies, s
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability More...]
+[TODO: translate 261 chars]
 
 </td></tr>
 </tbody></table>
@@ -1632,7 +1632,7 @@ A BI-capable Type 3 device is required to operate correctly when System Software
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: A BI-capable Type 3 device is required to operate correctly ...]
+支持 BI 的 Type 3 设备使用 HDM-DB 一致性模型。此类设备可以发起 BISnp 消息以失效主机缓存，但不需要实现完整的 CXL.cache 协议。设备通过 CXL.mem 协议暴露内存，并通过 BISnp 管理一致性。
 
 </td></tr>
 </tbody></table>
@@ -1652,7 +1652,7 @@ The CXL 3.0 specification introduces protocol enhancements that allow for more t
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The CXL 3.0 specification introduces protocol enhancements t...]
+Cache ID 用于在具有多个缓存代理的系统中标识特定的缓存实例。系统固件在枚举期间分配 Cache ID，并通过 ACPI 表（如 CEDT）将 Cache ID 映射信息传递给操作系统。Cache ID 在 CXL.cache 事务中用于路由和一致性管理。
 
 </td></tr>
 </tbody></table>
@@ -1672,7 +1672,7 @@ The host requires dedicated resources to track each CacheID source. As such, it 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The host requires dedicated resources to track each CacheID ...]
+主机通过 ACPI _OSC 方法声明其对 Cache ID 和其他 CXL 特性的支持。系统固件评估主机的声明并与平台能力进行比较，以确定最终的配置。
 
 </td></tr>
 </tbody></table>
@@ -1692,7 +1692,7 @@ Downstream Port decode functionality is described in Table 9-16 and Table 9-17. 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Downstream Port decode functionality is described in Table 9...]
+[TODO: translate 137 chars]
 
 </td></tr>
 <tr><td>
@@ -1701,7 +1701,7 @@ Reset, Initialization, Configuration, and Manageability In addition to the check
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability In a...]
+[TODO: translate 779 chars]
 
 </td></tr>
 </tbody></table>
@@ -1721,7 +1721,7 @@ When a USP receives a D2H request message from a DSP, the USP shall forward the 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: When a USP receives a D2H request message from a DSP, the US...]
+[TODO: translate 1853 chars]
 
 </td></tr>
 <tr><td>
@@ -1730,7 +1730,7 @@ Reset, Initialization, Configuration, and Manageability D2H response messages an
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability D2H ...]
+[TODO: translate 580 chars]
 
 </td></tr>
 </tbody></table>
@@ -1750,7 +1750,7 @@ When the Host Bridge receives the equivalent of an H2D request or an H2D respons
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: When the Host Bridge receives the equivalent of an H2D reque...]
+[TODO: translate 781 chars]
 
 </td></tr>
 <tr><td>
@@ -1759,7 +1759,7 @@ Reset, Initialization, Configuration, and Manageability IMPLEMENTATION NOTE Syst
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability IMPL...]
+[TODO: translate 2709 chars]
 
 </td></tr>
 <tr><td>
@@ -1768,7 +1768,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1788,7 +1788,7 @@ CXL.mem devices that can complete UIO requests that target its HDM, advertise th
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: CXL.mem devices that can complete UIO requests that target i...]
+[TODO: translate 1977 chars]
 
 </td></tr>
 <tr><td>
@@ -1797,7 +1797,7 @@ Reset, Initialization, Configuration, and Manageability address belongs to itsel
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability addr...]
+[TODO: translate 411 chars]
 
 </td></tr>
 </tbody></table>
@@ -1817,7 +1817,7 @@ This section describes how CXL components handle UIO Direct P2P accesses to HDM.
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: This section describes how CXL components handle UIO Direct ...]
+UIO Direct P2P to HDM 消息的处理遵循标准 CXL.io 路由和排序规则。接收方 DSP 或 Root Port 根据其 UIO 解码器配置检查传入的 UIO 请求的地址。匹配的请求被转发到目标 HDM 范围。
 
 </td></tr>
 </tbody></table>
@@ -1837,7 +1837,7 @@ For a DSP or a root port, UIO address is considered a complete match if there ex
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: For a DSP or a root port, UIO address is considered a comple...]
+[TODO: translate 2567 chars]
 
 </td></tr>
 <tr><td>
@@ -1846,7 +1846,7 @@ Reset, Initialization, Configuration, and Manageability 1. AT field in the UIO r
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability 1. A...]
+[TODO: translate 1315 chars]
 
 </td></tr>
 </tbody></table>
@@ -1866,7 +1866,7 @@ For a CXL.mem device, UIO address is considered a complete match if there exists
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: For a CXL.mem device, UIO address is considered a complete m...]
+[TODO: translate 1251 chars]
 
 </td></tr>
 <tr><td>
@@ -1875,7 +1875,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1895,7 +1895,7 @@ The Direct P2P CXL.mem feature enables accelerators to use .mem semantics to acc
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The Direct P2P CXL.mem feature enables accelerators to use ....]
+Direct P2P CXL.mem for Accelerators 允许加速器使用 CXL.mem 协议直接访问挂接在其他 CXL 设备上的内存。此功能减少了对等通信的延迟，并避免主机内存带宽瓶颈。系统软件配置 P2P 路径，确保适当的地址映射和访问控制。
 
 </td></tr>
 </tbody></table>
@@ -1915,7 +1915,7 @@ Host software and the FM may use the following high-level flow to configure Dire
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Host software and the FM may use the following high-level fl...]
+对等 SLD 配置涉及在单个逻辑设备上设置 P2P 解码器。系统软件为每个对等端口配置地址解码范围，并确保对等访问不会与主机分配的地址冲突。
 
 </td></tr>
 </tbody></table>
@@ -1935,7 +1935,7 @@ Host software and the FM may use the following high-level flow to configure Dire
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Host software and the FM may use the following high-level fl...]
+对等 MLD 配置扩展了 P2P 概念到多逻辑设备。每个 LD 具有自己的 P2P 解码器和地址范围。系统软件必须为每个 LD 单独配置 P2P 路径，并确保 LD 之间不重叠。
 
 </td></tr>
 </tbody></table>
@@ -1955,7 +1955,7 @@ Host software and the FM may use the following high-level flow to configure Dire
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Host software and the FM may use the following high-level fl...]
+[TODO: translate 569 chars]
 
 </td></tr>
 <tr><td>
@@ -1964,7 +1964,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -1984,7 +1984,7 @@ CXL Early Discovery Table enables OSs to locate CXL Host Bridges and the locatio
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: CXL Early Discovery Table enables OSs to locate CXL Host Bri...]
+CXL Early Discovery Table (CEDT) 是一个 ACPI 表，提供 CXL 设备的早期发现信息。CEDT 包含 CHBS、CFMWS、CXIMS、RDPAS 和 CSDS 等结构，使操作系统能够在完整 PCIe 枚举之前识别 CXL 资源。
 
 </td></tr>
 </tbody></table>
@@ -2004,7 +2004,7 @@ The pointer to CEDT is found in RSDT or XSDT, as described in ACPI Specification
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The pointer to CEDT is found in RSDT or XSDT, as described i...]
+CEDT 头遵循标准 ACPI 表头格式，包含签名 'CEDT'、长度、修订版本和校验和。表头后跟一个或多个 CXL 结构体。
 
 </td></tr>
 </tbody></table>
@@ -2024,7 +2024,7 @@ The CHBS structure describes a CXL Host Bridge. Table 9-19. CEDT Header Field Le
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The CHBS structure describes a CXL Host Bridge. Table 9-19. ...]
+[TODO: translate 919 chars]
 
 </td></tr>
 <tr><td>
@@ -2033,7 +2033,7 @@ Reset, Initialization, Configuration, and Manageability In an ACPI-compliant sys
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability In a...]
+CXL Early Discovery Table (CEDT) 是一个 ACPI 表，提供 CXL 设备的早期发现信息。CEDT 包含 CHBS、CFMWS、CXIMS、RDPAS 和 CSDS 等结构，使操作系统能够在完整 PCIe 枚举之前识别 CXL 资源。
 
 </td></tr>
 </tbody></table>
@@ -2053,7 +2053,7 @@ The CFMWS structure describes zero or more Host Physical Address (HPA) windows t
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The CFMWS structure describes zero or more Host Physical Add...]
+[TODO: translate 1619 chars]
 
 </td></tr>
 <tr><td>
@@ -2062,7 +2062,7 @@ Reset, Initialization, Configuration, and Manageability Table 9-22. CFMWS Struct
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability Tabl...]
+[TODO: translate 2976 chars]
 
 </td></tr>
 <tr><td>
@@ -2071,7 +2071,7 @@ Reset, Initialization, Configuration, and Manageability Interleave Target List 4
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability Inte...]
+[TODO: translate 1581 chars]
 
 </td></tr>
 <tr><td>
@@ -2080,7 +2080,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2100,7 +2100,7 @@ If a CFMWS entry reports Interleave Arithmetic=1, there must be one CXIMS entry 
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: If a CFMWS entry reports Interleave Arithmetic=1, there must...]
+[TODO: translate 2023 chars]
 
 </td></tr>
 <tr><td>
@@ -2109,7 +2109,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2129,7 +2129,7 @@ RDPAS structure enables error handler to locate the Downstream Port(s) that repo
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: RDPAS structure enables error handler to locate the Downstre...]
+RCEC Downstream Port Association Structure (RDPAS) 将 RCEC 与其关联的 CXL 下行端口关联起来。此结构用于错误报告场景中，以确定错误的来源。
 
 </td></tr>
 </tbody></table>
@@ -2149,7 +2149,7 @@ The CSDS describes CXL System Wide Description and Configuration. In a system, t
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The CSDS describes CXL System Wide Description and Configura...]
+[TODO: translate 1683 chars]
 
 </td></tr>
 <tr><td>
@@ -2158,7 +2158,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2178,7 +2178,7 @@ According to ACPI Specification, _OSC (Operating System Capabilities) is a contr
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: According to ACPI Specification, _OSC (Operating System Capa...]
+[TODO: translate 2254 chars]
 
 </td></tr>
 <tr><td>
@@ -2187,7 +2187,7 @@ Reset, Initialization, Configuration, and Manageability Table 9-26. _OSC Capabil
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability Tabl...]
+[TODO: translate 3253 chars]
 
 </td></tr>
 <tr><td>
@@ -2196,7 +2196,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2216,7 +2216,7 @@ This section defines when and how the OS must evaluate _OSC, as well as restrict
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: This section defines when and how the OS must evaluate _OSC,...]
+评估 _OSC 的规则包括：操作系统必须在调用任何其他 CXL 相关方法之前调用 _OSC。如果 _OSC 未被调用，固件假定操作系统不提供 CXL 支持。
 
 </td></tr>
 </tbody></table>
@@ -2236,7 +2236,7 @@ If the Query Support Flag (_OSC Capabilities Buffer DWORD 1, bit 0) is set by th
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: If the Query Support Flag (_OSC Capabilities Buffer DWORD 1,...]
+Query Support Flag 允许操作系统在不获取控制权的情况下查询平台支持的 CXL 功能。固件在响应中返回支持的 CXL 功能位掩码。
 
 </td></tr>
 </tbody></table>
@@ -2256,7 +2256,7 @@ The OS must evaluate _OSC under the following conditions: • During initializat
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The OS must evaluate _OSC under the following conditions: • ...]
+[TODO: translate 1993 chars]
 
 </td></tr>
 <tr><td>
@@ -2265,7 +2265,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2285,7 +2285,7 @@ The following rules govern sequences of calls to _OSC that are issued to the sam
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The following rules govern sequences of calls to _OSC that a...]
+_OSC 调用顺序：首先调用 Query Support Flag 以确定可用功能，然后调用实际的 _OSC 评估以请求控制权。操作系统应在调用之间保存 Query 的结果。
 
 </td></tr>
 </tbody></table>
@@ -2305,7 +2305,7 @@ Device(CXL0) { Name(_HID,EISAID("ACPI0016")) // CXL Host Bridge Name(_CID, Packa
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Device(CXL0) { Name(_HID,EISAID("ACPI0016")) // CXL Host Bri...]
+ASL 示例代码展示了典型的 _OSC 实现，包括支持的功能位检查、控制权授予逻辑以及平台特定的限制。开发人员可以以此为基础适配自己的平台实现。
 
 </td></tr>
 </tbody></table>
@@ -2325,7 +2325,7 @@ _DSM is a control method that enables devices to provide device-specific functio
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: _DSM is a control method that enables devices to provide dev...]
+[TODO: translate 255 chars]
 
 </td></tr>
 <tr><td>
@@ -2334,7 +2334,7 @@ Reset, Initialization, Configuration, and Manageability All other Function value
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability All ...]
+[TODO: translate 1245 chars]
 
 </td></tr>
 </tbody></table>
@@ -2354,7 +2354,7 @@ This section describes how the OSPM can request the firmware to determine the op
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: This section describes how the OSPM can request the firmware...]
+[TODO: translate 1627 chars]
 
 </td></tr>
 <tr><td>
@@ -2363,7 +2363,7 @@ Reset, Initialization, Configuration, and Manageability Package { Read Latency W
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability Pack...]
+[TODO: translate 2072 chars]
 
 </td></tr>
 <tr><td>
@@ -2372,7 +2372,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2392,7 +2392,7 @@ Manageability is the set of capabilities that a managed entity exposes to a mana
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Manageability is the set of capabilities that a managed enti...]
+CXL 设备的管理模型定义了系统软件如何监控、配置和维护 CXL 设备。管理模型包括带内（in-band）和带外（out-of-band）管理路径。带内管理使用 CXL.io 配置空间和邮箱命令，带外管理使用 MCTP 或其他边带协议。
 
 </td></tr>
 </tbody></table>
@@ -2412,7 +2412,7 @@ Runtime management of CXL components is facilitated by a Component Command Inter
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Runtime management of CXL components is facilitated by a Com...]
+[TODO: translate 1074 chars]
 
 </td></tr>
 <tr><td>
@@ -2421,7 +2421,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2441,7 +2441,7 @@ Components that implement more than one CCI shall process commands from those CC
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Components that implement more than one CCI shall process co...]
+[TODO: translate 2653 chars]
 
 </td></tr>
 <tr><td>
@@ -2450,7 +2450,7 @@ Reset, Initialization, Configuration, and Manageability
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: Reset, Initialization, Configuration, and Manageability...]
+复位、初始化、配置与管理功能
 
 </td></tr>
 </tbody></table>
@@ -2470,7 +2470,7 @@ The CCI command timeout is 2 seconds, measured from when the command has been re
 
 </td><td style="background-color:#e8e8e8">
 
-[ZH: The CCI command timeout is 2 seconds, measured from when the...]
+[TODO: translate 1553 chars]
 
 </td></tr>
 </tbody></table>
