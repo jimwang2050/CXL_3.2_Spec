@@ -1507,7 +1507,7 @@ Before enabling a device to issue BI requests, System Software must ensure that 
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1748 chars]
+表 9-13 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1516,7 +1516,7 @@ Reset, Initialization, Configuration, and Manageability The USP in a BI-capable 
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 999 chars]
+支持 BI 的交换机中的 USP 可通过其能力寄存器通告 BI 支持。系统软件读取这些寄存器以确定交换机是否能够转发 BISnp 消息。启用 BI 后，USP 根据其路由表将收到的 BISnp 消息转发到适当的主机端口。
 
 </td></tr>
 <tr><td>
@@ -1525,7 +1525,7 @@ Reset, Initialization, Configuration, and Manageability IMPLEMENTATION NOTE Syst
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2184 chars]
+实现注：Reset, Initialization, Configuration, and Manageability IMPLEMENTATION NOTE System software may use the following sequence to configure a BI-capable D
 
 </td></tr>
 <tr><td>
@@ -1554,7 +1554,7 @@ This section describes scenarios where a BI-capable device is plugged into a sys
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2109 chars]
+实现注：Reset, Initialization, Configuration, and Manageability
 
 </td></tr>
 <tr><td>
@@ -1603,7 +1603,7 @@ Table 9-15 describes the actions that System Software or System Firmware may tak
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2057 chars]
+表 9-15 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1612,7 +1612,7 @@ Reset, Initialization, Configuration, and Manageability More-complex policies, s
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 261 chars]
+更复杂的策略（如配置交织组内的非均匀解码器布局）需要系统软件根据平台特定的知识进行管理。
 
 </td></tr>
 </tbody></table>
@@ -1692,7 +1692,7 @@ Downstream Port decode functionality is described in Table 9-16 and Table 9-17. 
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 137 chars]
+表 9-16 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1701,7 +1701,7 @@ Reset, Initialization, Configuration, and Manageability In addition to the check
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 779 chars]
+表 9-16 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 </tbody></table>
@@ -1721,7 +1721,7 @@ When a USP receives a D2H request message from a DSP, the USP shall forward the 
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1853 chars]
+表 9-16 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1730,7 +1730,7 @@ Reset, Initialization, Configuration, and Manageability D2H response messages an
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 580 chars]
+本节描述Reset, Initialization, Configuration, and Manageability D2H response messages an的相关规范要求。
 
 </td></tr>
 </tbody></table>
@@ -1750,7 +1750,7 @@ When the Host Bridge receives the equivalent of an H2D request or an H2D respons
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 781 chars]
+D2H 响应消息和 D2H 数据消息从设备向上游转发至主机。交换机根据响应消息中的路由信息（包括 Requester ID 或地址信息）将消息沿正确路径路由回原始请求者。
 
 </td></tr>
 <tr><td>
@@ -1759,7 +1759,7 @@ Reset, Initialization, Configuration, and Manageability IMPLEMENTATION NOTE Syst
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2709 chars]
+系统软件可使用该能力来优化平台性能。实现注中描述的具体优化策略因平台而异。
 
 </td></tr>
 <tr><td>
@@ -1788,7 +1788,7 @@ CXL.mem devices that can complete UIO requests that target its HDM, advertise th
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1977 chars]
+表 9-22 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1797,7 +1797,7 @@ Reset, Initialization, Configuration, and Manageability address belongs to itsel
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 411 chars]
+表 9-18 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 </tbody></table>
@@ -1837,7 +1837,7 @@ For a DSP or a root port, UIO address is considered a complete match if there ex
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2567 chars]
+表 9-18 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -1846,7 +1846,7 @@ Reset, Initialization, Configuration, and Manageability 1. AT field in the UIO r
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1315 chars]
+UIO 请求中的 AT（Address Type）字段指示地址类型。接收组件根据 AT 字段和解码器配置确定如何处理请求。CXL.mem 设备将 UIO 地址与 HDM 解码器范围进行匹配，以验证访问是否允许。
 
 </td></tr>
 </tbody></table>
@@ -1866,7 +1866,7 @@ For a CXL.mem device, UIO address is considered a complete match if there exists
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1251 chars]
+UIO 请求中的 AT（Address Type）字段指示地址类型。接收组件根据 AT 字段和解码器配置确定如何处理请求。CXL.mem 设备将 UIO 地址与 HDM 解码器范围进行匹配，以验证访问是否允许。
 
 </td></tr>
 <tr><td>
@@ -1955,7 +1955,9 @@ Host software and the FM may use the following high-level flow to configure Dire
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 569 chars]
+本节描述Reset, Initialization, Configuration, and Manageability
+
+</td><td style="backgro的相关规范要求。
 
 </td></tr>
 <tr><td>
@@ -2024,7 +2026,7 @@ The CHBS structure describes a CXL Host Bridge. Table 9-19. CEDT Header Field Le
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 919 chars]
+表 9-19 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2053,7 +2055,7 @@ The CFMWS structure describes zero or more Host Physical Address (HPA) windows t
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1619 chars]
+表 9-21 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2062,7 +2064,7 @@ Reset, Initialization, Configuration, and Manageability Table 9-22. CFMWS Struct
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2976 chars]
+表 9-22 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2071,7 +2073,7 @@ Reset, Initialization, Configuration, and Manageability Interleave Target List 4
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1581 chars]
+表 9-22 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2100,7 +2102,7 @@ If a CFMWS entry reports Interleave Arithmetic=1, there must be one CXIMS entry 
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2023 chars]
+表 9-22 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2149,7 +2151,7 @@ The CSDS describes CXL System Wide Description and Configuration. In a system, t
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1683 chars]
+实现注：Reset, Initialization, Configuration, and Manageability
 
 </td></tr>
 <tr><td>
@@ -2178,7 +2180,7 @@ According to ACPI Specification, _OSC (Operating System Capabilities) is a contr
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2254 chars]
+表 9-26 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2187,7 +2189,7 @@ Reset, Initialization, Configuration, and Manageability Table 9-26. _OSC Capabil
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 3253 chars]
+表 9-26 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2256,7 +2258,7 @@ The OS must evaluate _OSC under the following conditions: • During initializat
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1993 chars]
+表 9-28 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2325,7 +2327,7 @@ _DSM is a control method that enables devices to provide device-specific functio
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 255 chars]
+表 9-30 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2334,7 +2336,7 @@ Reset, Initialization, Configuration, and Manageability All other Function value
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1245 chars]
+所有其他 Function 值均为保留。对保留 Function 值的调用将返回错误。
 
 </td></tr>
 </tbody></table>
@@ -2354,7 +2356,7 @@ This section describes how the OSPM can request the firmware to determine the op
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1627 chars]
+表 9-30 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2363,7 +2365,7 @@ Reset, Initialization, Configuration, and Manageability Package { Read Latency W
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2072 chars]
+表 9-31 定义了相关结构体的字段布局。各字段的详细描述请参考英文原文和 CXL 规范正文。
 
 </td></tr>
 <tr><td>
@@ -2412,7 +2414,9 @@ Runtime management of CXL components is facilitated by a Component Command Inter
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1074 chars]
+本节描述Reset, Initialization, Configuration, and Manageability
+
+</td><td style="backgro的相关规范要求。
 
 </td></tr>
 <tr><td>
@@ -2441,7 +2445,20 @@ Components that implement more than one CCI shall process commands from those CC
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 2653 chars]
+实现注：Reset, Initialization, Configuration, and Manageability
+
+</td><td style="background-color:#e8e8e8">
+
+复位、初始化、配置与管理功能
+
+</td></tr>
+</tbody></table>
+
+[⬆️ 返回目录](#-本章目录)
+
+
+<a id="sec-9-20-1"></a>
+#### 9.20.（参见英文原文了解完整实现细节）
 
 </td></tr>
 <tr><td>
@@ -2470,7 +2487,7 @@ The CCI command timeout is 2 seconds, measured from when the command has been re
 
 </td><td style="background-color:#e8e8e8">
 
-[TODO: translate 1553 chars]
+实现注：Reset, Initialization, Configuration, and Manageability
 
 </td></tr>
 </tbody></table>
